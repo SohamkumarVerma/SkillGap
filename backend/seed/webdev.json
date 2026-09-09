@@ -1,0 +1,371 @@
+[
+{
+"topic": "HTML Semantic Elements",
+"difficulty": "easy",
+"question_text": "Which HTML element is intended to contain the main content of a document?",
+"options": ["<main>", "<section>", "<content>", "<body-content>"],
+"correct_answer": "<main>",
+"resource_link": "[https://www.geeksforgeeks.org/html/html5-semantic-elements/](https://www.geeksforgeeks.org/html/html5-semantic-elements/)",
+"tags": ["html", "frontend", "semantic-html", "web-development"]
+},
+{
+"topic": "HTML Forms",
+"difficulty": "easy",
+"question_text": "Which HTML attribute specifies where form data should be sent?",
+"options": ["action", "target", "method", "destination"],
+"correct_answer": "action",
+"resource_link": "[https://www.geeksforgeeks.org/html/html-forms/](https://www.geeksforgeeks.org/html/html-forms/)",
+"tags": ["html", "forms", "frontend", "web-development"]
+},
+{
+"topic": "CSS Selectors",
+"difficulty": "easy",
+"question_text": "Which CSS selector targets an element with the id \"header\"?",
+"options": ["#header", ".header", "header", "*header"],
+"correct_answer": "#header",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-selectors/](https://www.geeksforgeeks.org/css/css-selectors/)",
+"tags": ["css", "frontend", "selectors", "web-development"]
+},
+{
+"topic": "CSS Box Model",
+"difficulty": "easy",
+"question_text": "Which CSS property controls the space between an element's content and its border?",
+"options": ["padding", "margin", "spacing", "gap"],
+"correct_answer": "padding",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-box-model/](https://www.geeksforgeeks.org/css/css-box-model/)",
+"tags": ["css", "frontend", "layout", "web-development"]
+},
+{
+"topic": "CSS Flexbox",
+"difficulty": "easy",
+"question_text": "Which CSS declaration makes an element a flex container?",
+"options": ["display: flex", "position: flex", "flex: display", "layout: flex"],
+"correct_answer": "display: flex",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-flexbox/](https://www.geeksforgeeks.org/css/css-flexbox/)",
+"tags": ["css", "flexbox", "frontend", "layout"]
+},
+{
+"topic": "CSS Responsive Design",
+"difficulty": "easy",
+"question_text": "Which CSS feature is commonly used to apply styles based on viewport width?",
+"options": ["Media queries", "CSS variables", "Pseudo-elements", "Keyframes"],
+"correct_answer": "Media queries",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-media-queries/](https://www.geeksforgeeks.org/css/css-media-queries/)",
+"tags": ["css", "responsive-design", "frontend", "web-design"]
+},
+{
+"topic": "JavaScript Variables",
+"difficulty": "easy",
+"question_text": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+"options": ["let", "const", "var", "static"],
+"correct_answer": "let",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/var-let-and-const-keywords-in-javascript/](https://www.geeksforgeeks.org/javascript/var-let-and-const-keywords-in-javascript/)",
+"tags": ["javascript", "es6", "frontend", "programming"]
+},
+{
+"topic": "JavaScript Functions",
+"difficulty": "easy",
+"question_text": "Which syntax creates an arrow function in JavaScript?",
+"options": ["const add = (a, b) => a + b", "const add = (a, b) -> a + b", "function => add(a, b)", "arrow add(a, b) { return a + b; }"],
+"correct_answer": "const add = (a, b) => a + b",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/arrow-functions-in-javascript/](https://www.geeksforgeeks.org/javascript/arrow-functions-in-javascript/)",
+"tags": ["javascript", "es6", "functions", "frontend"]
+},
+{
+"topic": "DOM Manipulation",
+"difficulty": "easy",
+"question_text": "Which method selects the first element matching a CSS selector?",
+"options": ["document.querySelector()", "document.getFirst()", "document.select()", "document.findElement()"],
+"correct_answer": "document.querySelector()",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/javascript-dom-document/](https://www.geeksforgeeks.org/javascript/javascript-dom-document/)",
+"tags": ["javascript", "dom", "frontend", "web-development"]
+},
+{
+"topic": "JavaScript Events",
+"difficulty": "easy",
+"question_text": "Which method is used to attach an event handler to a DOM element?",
+"options": ["addEventListener()", "attachEventHandler()", "onEvent()", "bindEvent()"],
+"correct_answer": "addEventListener()",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/how-to-use-dom-and-events/](https://www.geeksforgeeks.org/javascript/how-to-use-dom-and-events/)",
+"tags": ["javascript", "events", "dom", "frontend"]
+},
+{
+"topic": "HTTP Methods",
+"difficulty": "easy",
+"question_text": "Which HTTP method is conventionally used to retrieve data from a server?",
+"options": ["GET", "POST", "PATCH", "DELETE"],
+"correct_answer": "GET",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/http-request-methods/](https://www.geeksforgeeks.org/computer-networks/http-request-methods/)",
+"tags": ["http", "rest-api", "backend", "web-development"]
+},
+{
+"topic": "HTTP Status Codes",
+"difficulty": "easy",
+"question_text": "What does HTTP status code 404 indicate?",
+"options": ["Resource not found", "Request successful", "Server unavailable", "Unauthorized request"],
+"correct_answer": "Resource not found",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/http-status-codes/](https://www.geeksforgeeks.org/computer-networks/http-status-codes/)",
+"tags": ["http", "web-development", "backend", "debugging"]
+},
+{
+"topic": "Browser Storage",
+"difficulty": "easy",
+"question_text": "Which browser storage mechanism persists data across browser sessions?",
+"options": ["localStorage", "sessionStorage", "temporaryStorage", "pageStorage"],
+"correct_answer": "localStorage",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/localstorage-in-javascript/](https://www.geeksforgeeks.org/javascript/localstorage-in-javascript/)",
+"tags": ["javascript", "browser-storage", "frontend", "web-development"]
+},
+{
+"topic": "JSON",
+"difficulty": "easy",
+"question_text": "Which JavaScript method converts a JSON string into an object?",
+"options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.object()"],
+"correct_answer": "JSON.parse()",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/javascript-json/](https://www.geeksforgeeks.org/javascript/javascript-json/)",
+"tags": ["javascript", "json", "api", "frontend"]
+},
+{
+"topic": "React Components",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of a React component?",
+"options": ["Build reusable UI elements", "Manage database tables", "Configure web servers", "Compile CSS files"],
+"correct_answer": "Build reusable UI elements",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-components/](https://www.geeksforgeeks.org/reactjs/reactjs-components/)",
+"tags": ["react", "frontend", "components", "javascript"]
+},
+{
+"topic": "CSS Specificity",
+"difficulty": "medium",
+"question_text": "Which selector generally has the highest specificity?",
+"options": ["ID selector", "Class selector", "Element selector", "Universal selector"],
+"correct_answer": "ID selector",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-specificity/](https://www.geeksforgeeks.org/css/css-specificity/)",
+"tags": ["css", "specificity", "frontend", "web-development"]
+},
+{
+"topic": "CSS Positioning",
+"difficulty": "medium",
+"question_text": "Which CSS position value removes an element from normal document flow and positions it relative to its nearest positioned ancestor?",
+"options": ["absolute", "relative", "static", "sticky"],
+"correct_answer": "absolute",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-position-property/](https://www.geeksforgeeks.org/css/css-position-property/)",
+"tags": ["css", "positioning", "frontend", "layout"]
+},
+{
+"topic": "CSS Grid",
+"difficulty": "medium",
+"question_text": "Which CSS property defines the columns of a grid container?",
+"options": ["grid-template-columns", "grid-columns", "column-template", "grid-column-layout"],
+"correct_answer": "grid-template-columns",
+"resource_link": "[https://www.geeksforgeeks.org/css/css-grid-layout/](https://www.geeksforgeeks.org/css/css-grid-layout/)",
+"tags": ["css", "grid", "frontend", "layout"]
+},
+{
+"topic": "JavaScript Hoisting",
+"difficulty": "medium",
+"question_text": "Which declaration is hoisted but remains inaccessible before its declaration due to the temporal dead zone?",
+"options": ["let", "var", "function declaration", "global property"],
+"correct_answer": "let",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/temporal-dead-zone-in-javascript/](https://www.geeksforgeeks.org/javascript/temporal-dead-zone-in-javascript/)",
+"tags": ["javascript", "es6", "scope", "frontend"]
+},
+{
+"topic": "JavaScript Closures",
+"difficulty": "medium",
+"question_text": "What allows a JavaScript function to access variables from its outer lexical scope after the outer function has returned?",
+"options": ["Closure", "Prototype", "Hoisting", "Destructuring"],
+"correct_answer": "Closure",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/closures-in-javascript/](https://www.geeksforgeeks.org/javascript/closures-in-javascript/)",
+"tags": ["javascript", "closures", "frontend", "programming"]
+},
+{
+"topic": "JavaScript Promises",
+"difficulty": "medium",
+"question_text": "Which Promise method executes a callback when the Promise is fulfilled?",
+"options": [".then()", ".catch()", ".finally()", ".resolve()"],
+"correct_answer": ".then()",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/javascript-promises/](https://www.geeksforgeeks.org/javascript/javascript-promises/)",
+"tags": ["javascript", "promises", "async", "frontend"]
+},
+{
+"topic": "JavaScript Async/Await",
+"difficulty": "medium",
+"question_text": "What does an async function return?",
+"options": ["A Promise", "A callback", "A generator", "A synchronous value only"],
+"correct_answer": "A Promise",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/async-await-function-in-javascript/](https://www.geeksforgeeks.org/javascript/async-await-function-in-javascript/)",
+"tags": ["javascript", "async", "promises", "frontend"]
+},
+{
+"topic": "JavaScript Event Loop",
+"difficulty": "medium",
+"question_text": "In JavaScript, which queue is processed before the task queue after the current call stack becomes empty?",
+"options": ["Microtask queue", "Render queue", "Network queue", "Timer queue"],
+"correct_answer": "Microtask queue",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/what-is-an-event-loop-in-javascript/](https://www.geeksforgeeks.org/javascript/what-is-an-event-loop-in-javascript/)",
+"tags": ["javascript", "event-loop", "async", "frontend"]
+},
+{
+"topic": "Event Propagation",
+"difficulty": "medium",
+"question_text": "In event bubbling, an event generally propagates from which element toward its ancestors?",
+"options": ["Target element", "Document root", "Window object", "CSS stylesheet"],
+"correct_answer": "Target element",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/event-bubbling-in-javascript/](https://www.geeksforgeeks.org/javascript/event-bubbling-in-javascript/)",
+"tags": ["javascript", "events", "dom", "frontend"]
+},
+{
+"topic": "Fetch API",
+"difficulty": "medium",
+"question_text": "Which browser API is commonly used to make HTTP requests using Promises?",
+"options": ["Fetch API", "DOM API", "Canvas API", "Storage API"],
+"correct_answer": "Fetch API",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/javascript-fetch-method/](https://www.geeksforgeeks.org/javascript/javascript-fetch-method/)",
+"tags": ["javascript", "fetch", "api", "frontend"]
+},
+{
+"topic": "React Props",
+"difficulty": "medium",
+"question_text": "How does a parent component normally pass data to a child component in React?",
+"options": ["Props", "Direct DOM mutation", "Global CSS", "SQL queries"],
+"correct_answer": "Props",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-props/](https://www.geeksforgeeks.org/reactjs/reactjs-props/)",
+"tags": ["react", "props", "frontend", "javascript"]
+},
+{
+"topic": "React State",
+"difficulty": "medium",
+"question_text": "Which React Hook is primarily used to add state to a functional component?",
+"options": ["useState", "useRoute", "useStyle", "useComponent"],
+"correct_answer": "useState",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-usestate-hook/](https://www.geeksforgeeks.org/reactjs/reactjs-usestate-hook/)",
+"tags": ["react", "hooks", "state-management", "frontend"]
+},
+{
+"topic": "React useEffect",
+"difficulty": "medium",
+"question_text": "Which React Hook is commonly used for side effects such as data fetching?",
+"options": ["useEffect", "useProps", "useRender", "useData"],
+"correct_answer": "useEffect",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-useeffect-hook/](https://www.geeksforgeeks.org/reactjs/reactjs-useeffect-hook/)",
+"tags": ["react", "hooks", "frontend", "async"]
+},
+{
+"topic": "REST API",
+"difficulty": "medium",
+"question_text": "Which HTTP method is conventionally used to partially update an existing REST resource?",
+"options": ["PATCH", "GET", "OPTIONS", "HEAD"],
+"correct_answer": "PATCH",
+"resource_link": "[https://www.geeksforgeeks.org/rest-api/rest-api-introduction/](https://www.geeksforgeeks.org/rest-api/rest-api-introduction/)",
+"tags": ["rest-api", "http", "backend", "api"]
+},
+{
+"topic": "CORS",
+"difficulty": "medium",
+"question_text": "What problem does CORS primarily address in web browsers?",
+"options": ["Cross-origin resource access", "Database indexing", "CSS inheritance", "JavaScript compilation"],
+"correct_answer": "Cross-origin resource access",
+"resource_link": "[https://www.geeksforgeeks.org/node-js/node-js-cors/](https://www.geeksforgeeks.org/node-js/node-js-cors/)",
+"tags": ["cors", "security", "api", "backend"]
+},
+{
+"topic": "Node.js",
+"difficulty": "medium",
+"question_text": "What is Node.js primarily used for in web development?",
+"options": ["Running JavaScript outside the browser", "Styling HTML elements", "Creating SQL tables", "Rendering CSS animations only"],
+"correct_answer": "Running JavaScript outside the browser",
+"resource_link": "[https://www.geeksforgeeks.org/node-js/nodejs-introduction/](https://www.geeksforgeeks.org/node-js/nodejs-introduction/)",
+"tags": ["nodejs", "javascript", "backend", "server-side"]
+},
+{
+"topic": "React Keys",
+"difficulty": "hard",
+"question_text": "Why should React list items have stable keys?",
+"options": ["To help React identify elements across renders", "To encrypt component data", "To prevent all re-renders", "To define CSS specificity"],
+"correct_answer": "To help React identify elements across renders",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-keys/](https://www.geeksforgeeks.org/reactjs/reactjs-keys/)",
+"tags": ["react", "performance", "frontend", "components"]
+},
+{
+"topic": "React Memoization",
+"difficulty": "hard",
+"question_text": "Which React Hook memoizes a computed value until its dependencies change?",
+"options": ["useMemo", "useState", "useEffect", "useContext"],
+"correct_answer": "useMemo",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/reactjs-usememo-hook/](https://www.geeksforgeeks.org/reactjs/reactjs-usememo-hook/)",
+"tags": ["react", "hooks", "performance", "frontend"]
+},
+{
+"topic": "JavaScript Event Delegation",
+"difficulty": "hard",
+"question_text": "What technique handles events for multiple child elements by placing one listener on a common ancestor?",
+"options": ["Event delegation", "Event cloning", "Event polling", "Event serialization"],
+"correct_answer": "Event delegation",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/event-delegation-in-javascript/](https://www.geeksforgeeks.org/javascript/event-delegation-in-javascript/)",
+"tags": ["javascript", "events", "dom", "performance"]
+},
+{
+"topic": "JavaScript Debouncing",
+"difficulty": "hard",
+"question_text": "Which technique delays function execution until a specified period has passed without another triggering event?",
+"options": ["Debouncing", "Throttling", "Memoization", "Polling"],
+"correct_answer": "Debouncing",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/debouncing-in-javascript/](https://www.geeksforgeeks.org/javascript/debouncing-in-javascript/)",
+"tags": ["javascript", "performance", "frontend", "events"]
+},
+{
+"topic": "JavaScript Throttling",
+"difficulty": "hard",
+"question_text": "Which technique limits a function to executing at most once within a specified time interval?",
+"options": ["Throttling", "Debouncing", "Currying", "Memoization"],
+"correct_answer": "Throttling",
+"resource_link": "[https://www.geeksforgeeks.org/javascript/javascript-throttling/](https://www.geeksforgeeks.org/javascript/javascript-throttling/)",
+"tags": ["javascript", "performance", "frontend", "events"]
+},
+{
+"topic": "Web Security XSS",
+"difficulty": "hard",
+"question_text": "Which attack injects malicious client-side scripts into web pages viewed by other users?",
+"options": ["Cross-Site Scripting (XSS)", "Cross-Site Request Forgery (CSRF)", "SQL injection", "DNS spoofing"],
+"correct_answer": "Cross-Site Scripting (XSS)",
+"resource_link": "[https://www.geeksforgeeks.org/websites-apps/cross-site-scripting-xss/](https://www.geeksforgeeks.org/websites-apps/cross-site-scripting-xss/)",
+"tags": ["web-security", "xss", "frontend", "security"]
+},
+{
+"topic": "Web Security CSRF",
+"difficulty": "hard",
+"question_text": "Which attack tricks an authenticated user's browser into sending an unwanted request to a web application?",
+"options": ["CSRF", "XSS", "SQL injection", "Clickjacking"],
+"correct_answer": "CSRF",
+"resource_link": "[https://www.geeksforgeeks.org/websites-apps/cross-site-request-forgery-csrf/](https://www.geeksforgeeks.org/websites-apps/cross-site-request-forgery-csrf/)",
+"tags": ["web-security", "csrf", "backend", "security"]
+},
+{
+"topic": "JWT Authentication",
+"difficulty": "hard",
+"question_text": "In JWT-based authentication, which part contains claims such as user identity and expiration?",
+"options": ["Payload", "Signature", "Header only", "Encryption key"],
+"correct_answer": "Payload",
+"resource_link": "[https://www.geeksforgeeks.org/node-js/json-web-token-jwt/](https://www.geeksforgeeks.org/node-js/json-web-token-jwt/)",
+"tags": ["jwt", "authentication", "backend", "security"]
+},
+{
+"topic": "Web Performance",
+"difficulty": "hard",
+"question_text": "Which technique can reduce initial JavaScript bundle size by loading code only when a feature is needed?",
+"options": ["Code splitting", "DOM cloning", "CSS inheritance", "Event bubbling"],
+"correct_answer": "Code splitting",
+"resource_link": "[https://www.geeksforgeeks.org/reactjs/code-splitting-in-react/](https://www.geeksforgeeks.org/reactjs/code-splitting-in-react/)",
+"tags": ["web-performance", "react", "frontend", "optimization"]
+},
+{
+"topic": "Browser Rendering",
+"difficulty": "hard",
+"question_text": "Which browser process determines the visual geometry and layout of elements before painting?",
+"options": ["Layout", "Garbage collection", "DNS resolution", "JSON parsing"],
+"correct_answer": "Layout",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/browser-rendering-process/](https://www.geeksforgeeks.org/operating-systems/browser-rendering-process/)",
+"tags": ["browser", "web-performance", "frontend", "rendering"]
+}
+]

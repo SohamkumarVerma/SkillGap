@@ -1,0 +1,362 @@
+[
+{
+"topic": "Arrays",
+"difficulty": "easy",
+"question_text": "What is the time complexity of accessing an element at a known index in an array?",
+"options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+"correct_answer": "O(1)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/array-data-structure-guide/](https://www.geeksforgeeks.org/dsa/array-data-structure-guide/)",
+"tags": ["arrays", "data-structures", "complexity", "programming"]
+},
+{
+"topic": "Linked Lists",
+"difficulty": "easy",
+"question_text": "Which pointer typically identifies the first node of a linked list?",
+"options": ["Head", "Tail", "Root", "Top"],
+"correct_answer": "Head",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/basic-terminologies-of-linked-list/](https://www.geeksforgeeks.org/dsa/basic-terminologies-of-linked-list/)",
+"tags": ["linked-list", "data-structures", "pointers", "programming"]
+},
+{
+"topic": "Stacks",
+"difficulty": "easy",
+"question_text": "Which principle does a stack follow?",
+"options": ["LIFO", "FIFO", "Priority-first", "Random access"],
+"correct_answer": "LIFO",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/stack-data-structure/](https://www.geeksforgeeks.org/dsa/stack-data-structure/)",
+"tags": ["stack", "data-structures", "lifo", "programming"]
+},
+{
+"topic": "Queues",
+"difficulty": "easy",
+"question_text": "Which principle does a standard queue follow?",
+"options": ["FIFO", "LIFO", "Priority-first", "Random access"],
+"correct_answer": "FIFO",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/queue-data-structure/](https://www.geeksforgeeks.org/dsa/queue-data-structure/)",
+"tags": ["queue", "data-structures", "fifo", "programming"]
+},
+{
+"topic": "Linear Search",
+"difficulty": "easy",
+"question_text": "What is the worst-case time complexity of linear search in an array of n elements?",
+"options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"],
+"correct_answer": "O(n)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/linear-search/](https://www.geeksforgeeks.org/dsa/linear-search/)",
+"tags": ["searching", "arrays", "algorithms", "complexity"]
+},
+{
+"topic": "Binary Search",
+"difficulty": "easy",
+"question_text": "What is the time complexity of binary search on a sorted array?",
+"options": ["O(log n)", "O(n)", "O(1)", "O(n log n)"],
+"correct_answer": "O(log n)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/binary-search/](https://www.geeksforgeeks.org/dsa/binary-search/)",
+"tags": ["binary-search", "searching", "algorithms", "complexity"]
+},
+{
+"topic": "Sorting",
+"difficulty": "easy",
+"question_text": "Which sorting algorithm repeatedly selects the minimum element from the unsorted portion?",
+"options": ["Selection sort", "Merge sort", "Quick sort", "Heap sort"],
+"correct_answer": "Selection sort",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/sorting-algorithms/](https://www.geeksforgeeks.org/dsa/sorting-algorithms/)",
+"tags": ["sorting", "algorithms", "arrays", "programming"]
+},
+{
+"topic": "Bubble Sort",
+"difficulty": "easy",
+"question_text": "What is the worst-case time complexity of standard Bubble Sort?",
+"options": ["O(n²)", "O(n)", "O(log n)", "O(n log n)"],
+"correct_answer": "O(n²)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/bubble-sort/](https://www.geeksforgeeks.org/dsa/bubble-sort/)",
+"tags": ["sorting", "bubble-sort", "algorithms", "complexity"]
+},
+{
+"topic": "Binary Trees",
+"difficulty": "easy",
+"question_text": "What is the maximum number of children a node can have in a binary tree?",
+"options": ["2", "1", "3", "4"],
+"correct_answer": "2",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/](https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/)",
+"tags": ["binary-tree", "trees", "data-structures", "programming"]
+},
+{
+"topic": "Tree Traversal",
+"difficulty": "easy",
+"question_text": "Which traversal visits the root between the left and right subtrees?",
+"options": ["Inorder", "Preorder", "Postorder", "Level order"],
+"correct_answer": "Inorder",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/](https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/)",
+"tags": ["trees", "traversal", "binary-tree", "algorithms"]
+},
+{
+"topic": "Graphs",
+"difficulty": "easy",
+"question_text": "What are the two fundamental components of a graph?",
+"options": ["Vertices and edges", "Roots and leaves", "Keys and values", "Stacks and queues"],
+"correct_answer": "Vertices and edges",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/graph-data-structure/](https://www.geeksforgeeks.org/dsa/graph-data-structure/)",
+"tags": ["graphs", "data-structures", "algorithms", "programming"]
+},
+{
+"topic": "Hashing",
+"difficulty": "easy",
+"question_text": "What is the average-case time complexity of search in a well-designed hash table?",
+"options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+"correct_answer": "O(1)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/introduction-to-hashing-2/](https://www.geeksforgeeks.org/dsa/introduction-to-hashing-2/)",
+"tags": ["hashing", "hash-table", "data-structures", "complexity"]
+},
+{
+"topic": "Heaps",
+"difficulty": "easy",
+"question_text": "Which element is always at the root of a min-heap?",
+"options": ["Minimum element", "Maximum element", "Median element", "Last inserted element"],
+"correct_answer": "Minimum element",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/heap-data-structure/](https://www.geeksforgeeks.org/dsa/heap-data-structure/)",
+"tags": ["heap", "priority-queue", "trees", "data-structures"]
+},
+{
+"topic": "Recursion",
+"difficulty": "easy",
+"question_text": "What prevents a recursive function from calling itself indefinitely?",
+"options": ["Base case", "Loop condition", "Pointer", "Hash function"],
+"correct_answer": "Base case",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/recursion-algorithms/](https://www.geeksforgeeks.org/dsa/recursion-algorithms/)",
+"tags": ["recursion", "algorithms", "problem-solving", "programming"]
+},
+{
+"topic": "Time Complexity",
+"difficulty": "easy",
+"question_text": "Which notation describes the asymptotic upper bound of an algorithm?",
+"options": ["Big O", "Big Theta", "Big Omega", "Little o"],
+"correct_answer": "Big O",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/analysis-of-algorithms-set-3asymptotic-notations/](https://www.geeksforgeeks.org/dsa/analysis-of-algorithms-set-3asymptotic-notations/)",
+"tags": ["complexity", "algorithms", "big-o", "problem-solving"]
+},
+{
+"topic": "Two Pointers",
+"difficulty": "medium",
+"question_text": "The two-pointer technique is most commonly useful when processing which kind of sequence?",
+"options": ["An ordered or structured sequence", "Only a binary tree", "Only a hash table", "Only a directed graph"],
+"correct_answer": "An ordered or structured sequence",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/two-pointers-technique/](https://www.geeksforgeeks.org/dsa/two-pointers-technique/)",
+"tags": ["two-pointers", "arrays", "algorithms", "problem-solving"]
+},
+{
+"topic": "Sliding Window",
+"difficulty": "medium",
+"question_text": "What does the sliding-window technique primarily help avoid in subarray problems?",
+"options": ["Repeated computation over overlapping ranges", "Tree rotations", "Hash collisions", "Graph cycles"],
+"correct_answer": "Repeated computation over overlapping ranges",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/window-sliding-technique/](https://www.geeksforgeeks.org/dsa/window-sliding-technique/)",
+"tags": ["sliding-window", "arrays", "algorithms", "optimization"]
+},
+{
+"topic": "Merge Sort",
+"difficulty": "medium",
+"question_text": "What is the worst-case time complexity of Merge Sort?",
+"options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+"correct_answer": "O(n log n)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/merge-sort/](https://www.geeksforgeeks.org/dsa/merge-sort/)",
+"tags": ["sorting", "merge-sort", "algorithms", "complexity"]
+},
+{
+"topic": "Quick Sort",
+"difficulty": "medium",
+"question_text": "What is the worst-case time complexity of Quick Sort?",
+"options": ["O(n²)", "O(n log n)", "O(n)", "O(log n)"],
+"correct_answer": "O(n²)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/quick-sort-algorithm/](https://www.geeksforgeeks.org/dsa/quick-sort-algorithm/)",
+"tags": ["sorting", "quick-sort", "algorithms", "complexity"]
+},
+{
+"topic": "Stack Applications",
+"difficulty": "medium",
+"question_text": "Which data structure is commonly used to check whether parentheses are balanced?",
+"options": ["Stack", "Queue", "Heap", "Graph"],
+"correct_answer": "Stack",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/](https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/)",
+"tags": ["stack", "parsing", "algorithms", "data-structures"]
+},
+{
+"topic": "Linked List Reversal",
+"difficulty": "medium",
+"question_text": "Which pointers are typically maintained to iteratively reverse a singly linked list?",
+"options": ["Previous, current, and next", "Root, parent, and child", "Front, rear, and middle", "Left, right, and pivot"],
+"correct_answer": "Previous, current, and next",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/](https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/)",
+"tags": ["linked-list", "pointers", "algorithms", "data-structures"]
+},
+{
+"topic": "BFS",
+"difficulty": "medium",
+"question_text": "Which data structure is typically used to implement Breadth-First Search?",
+"options": ["Queue", "Stack", "Heap", "Hash table"],
+"correct_answer": "Queue",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/](https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/)",
+"tags": ["bfs", "graphs", "queue", "algorithms"]
+},
+{
+"topic": "DFS",
+"difficulty": "medium",
+"question_text": "Which data structure naturally supports an iterative Depth-First Search?",
+"options": ["Stack", "Queue", "Heap", "Deque only"],
+"correct_answer": "Stack",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/](https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/)",
+"tags": ["dfs", "graphs", "stack", "algorithms"]
+},
+{
+"topic": "BST",
+"difficulty": "medium",
+"question_text": "In a Binary Search Tree, where are values smaller than a node generally stored?",
+"options": ["Left subtree", "Right subtree", "Parent node", "Root only"],
+"correct_answer": "Left subtree",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/](https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/)",
+"tags": ["bst", "trees", "searching", "data-structures"]
+},
+{
+"topic": "Heap Operations",
+"difficulty": "medium",
+"question_text": "What is the typical time complexity of inserting an element into a binary heap?",
+"options": ["O(log n)", "O(1)", "O(n)", "O(n log n)"],
+"correct_answer": "O(log n)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/heap-data-structure/](https://www.geeksforgeeks.org/dsa/heap-data-structure/)",
+"tags": ["heap", "priority-queue", "complexity", "data-structures"]
+},
+{
+"topic": "Greedy Algorithms",
+"difficulty": "medium",
+"question_text": "What type of choice does a greedy algorithm make at each step?",
+"options": ["Locally optimal choice", "Random choice", "Globally exhaustive choice", "Worst possible choice"],
+"correct_answer": "Locally optimal choice",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/greedy-algorithms/](https://www.geeksforgeeks.org/dsa/greedy-algorithms/)",
+"tags": ["greedy", "algorithms", "optimization", "problem-solving"]
+},
+{
+"topic": "Dynamic Programming",
+"difficulty": "medium",
+"question_text": "Which property means a problem has repeated subproblems that can be reused?",
+"options": ["Overlapping subproblems", "Greedy choice", "Hash collision", "Tree balance"],
+"correct_answer": "Overlapping subproblems",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/](https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)",
+"tags": ["dynamic-programming", "algorithms", "optimization", "problem-solving"]
+},
+{
+"topic": "Topological Sorting",
+"difficulty": "medium",
+"question_text": "A valid topological ordering exists only for which type of directed graph?",
+"options": ["Directed acyclic graph", "Complete graph", "Undirected graph", "Cyclic directed graph"],
+"correct_answer": "Directed acyclic graph",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/topological-sorting/](https://www.geeksforgeeks.org/dsa/topological-sorting/)",
+"tags": ["topological-sort", "graphs", "algorithms", "dag"]
+},
+{
+"topic": "Disjoint Set Union",
+"difficulty": "medium",
+"question_text": "Which two primary operations are supported by the Disjoint Set Union data structure?",
+"options": ["Find and Union", "Push and Pop", "Insert and Delete", "Enqueue and Dequeue"],
+"correct_answer": "Find and Union",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/disjoint-set-data-structures/](https://www.geeksforgeeks.org/dsa/disjoint-set-data-structures/)",
+"tags": ["dsu", "union-find", "graphs", "data-structures"]
+},
+{
+"topic": "Trie",
+"difficulty": "medium",
+"question_text": "Which operation is a major strength of a Trie?",
+"options": ["Prefix search", "Constant-time sorting", "Heap construction", "Graph traversal"],
+"correct_answer": "Prefix search",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/trie-insert-and-search/](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/)",
+"tags": ["trie", "strings", "searching", "data-structures"]
+},
+{
+"topic": "Dijkstra's Algorithm",
+"difficulty": "hard",
+"question_text": "Dijkstra's algorithm is generally used to find shortest paths when edge weights are what?",
+"options": ["Non-negative", "All negative", "Always zero", "Only equal to one"],
+"correct_answer": "Non-negative",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/)",
+"tags": ["dijkstra", "graphs", "shortest-path", "algorithms"]
+},
+{
+"topic": "Floyd-Warshall Algorithm",
+"difficulty": "hard",
+"question_text": "What is the time complexity of the Floyd-Warshall algorithm for a graph with V vertices?",
+"options": ["O(V³)", "O(V²)", "O(V log V)", "O(E log V)"],
+"correct_answer": "O(V³)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/](https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/)",
+"tags": ["floyd-warshall", "graphs", "shortest-path", "dynamic-programming"]
+},
+{
+"topic": "Kruskal's Algorithm",
+"difficulty": "hard",
+"question_text": "Which data structure is commonly used by Kruskal's algorithm to detect cycles while building an MST?",
+"options": ["Disjoint Set Union", "Stack", "Trie", "Binary Search Tree"],
+"correct_answer": "Disjoint Set Union",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/](https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)",
+"tags": ["kruskal", "mst", "dsu", "graphs"]
+},
+{
+"topic": "Prim's Algorithm",
+"difficulty": "hard",
+"question_text": "What does Prim's algorithm construct?",
+"options": ["Minimum spanning tree", "Shortest path tree from every pair", "Topological ordering", "Maximum flow"],
+"correct_answer": "Minimum spanning tree",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/](https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/)",
+"tags": ["prim", "mst", "graphs", "greedy"]
+},
+{
+"topic": "Bellman-Ford Algorithm",
+"difficulty": "hard",
+"question_text": "Which type of edge weight can Bellman-Ford handle that Dijkstra's algorithm cannot generally handle?",
+"options": ["Negative edge weights", "Positive edge weights", "Zero edge weights", "Integer edge weights"],
+"correct_answer": "Negative edge weights",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/](https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/)",
+"tags": ["bellman-ford", "graphs", "shortest-path", "algorithms"]
+},
+{
+"topic": "Dynamic Programming",
+"difficulty": "hard",
+"question_text": "Which two properties commonly indicate that dynamic programming can be applied?",
+"options": ["Overlapping subproblems and optimal substructure", "Sorting and hashing", "Recursion and pointers only", "Graphs and queues"],
+"correct_answer": "Overlapping subproblems and optimal substructure",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/dynamic-programming/](https://www.geeksforgeeks.org/dsa/dynamic-programming/)",
+"tags": ["dynamic-programming", "optimization", "algorithms", "problem-solving"]
+},
+{
+"topic": "Longest Common Subsequence",
+"difficulty": "hard",
+"question_text": "What is the standard dynamic-programming time complexity for LCS of strings of lengths m and n?",
+"options": ["O(mn)", "O(m+n)", "O(log(mn))", "O(m²+n²)"],
+"correct_answer": "O(mn)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/](https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/)",
+"tags": ["dynamic-programming", "lcs", "strings", "algorithms"]
+},
+{
+"topic": "AVL Trees",
+"difficulty": "hard",
+"question_text": "What is the maximum allowed balance-factor magnitude for a node in an AVL tree?",
+"options": ["1", "2", "0 only", "3"],
+"correct_answer": "1",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/avl-tree-data-structure/](https://www.geeksforgeeks.org/dsa/avl-tree-data-structure/)",
+"tags": ["avl-tree", "balanced-trees", "trees", "data-structures"]
+},
+{
+"topic": "Heap Sort",
+"difficulty": "hard",
+"question_text": "What is the worst-case time complexity of Heap Sort?",
+"options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+"correct_answer": "O(n log n)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/heap-sort/](https://www.geeksforgeeks.org/dsa/heap-sort/)",
+"tags": ["heap-sort", "sorting", "algorithms", "complexity"]
+},
+{
+"topic": "Trie Complexity",
+"difficulty": "hard",
+"question_text": "For a Trie, what is the typical time complexity of searching for a string of length L?",
+"options": ["O(L)", "O(log L)", "O(1)", "O(L log L)"],
+"correct_answer": "O(L)",
+"resource_link": "[https://www.geeksforgeeks.org/dsa/trie-insert-and-search/](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/)",
+"tags": ["trie", "strings", "complexity", "data-structures"]
+}
+]

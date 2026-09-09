@@ -1,0 +1,362 @@
+[
+{
+"topic": "Operating Systems",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of an operating system?",
+"options": ["Manage computer hardware and software resources", "Compile source code only", "Create web pages", "Store data permanently"],
+"correct_answer": "Manage computer hardware and software resources",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/operating-systems/](https://www.geeksforgeeks.org/operating-systems/operating-systems/)",
+"tags": ["operating-systems", "os", "system-programming", "computer-science"]
+},
+{
+"topic": "Processes",
+"difficulty": "easy",
+"question_text": "What is a process?",
+"options": ["A program in execution", "A file stored on disk", "A CPU instruction", "A hardware component"],
+"correct_answer": "A program in execution",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/introduction-of-process-management/](https://www.geeksforgeeks.org/operating-systems/introduction-of-process-management/)",
+"tags": ["operating-systems", "processes", "process-management", "systems"]
+},
+{
+"topic": "Threads",
+"difficulty": "easy",
+"question_text": "What is the smallest unit of CPU execution within a process?",
+"options": ["Thread", "Program", "File", "Page"],
+"correct_answer": "Thread",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/threads-and-concurrency/](https://www.geeksforgeeks.org/operating-systems/threads-and-concurrency/)",
+"tags": ["threads", "operating-systems", "concurrency", "systems"]
+},
+{
+"topic": "Computer Networks",
+"difficulty": "easy",
+"question_text": "Which protocol is primarily used to translate domain names into IP addresses?",
+"options": ["DNS", "HTTP", "FTP", "SMTP"],
+"correct_answer": "DNS",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/](https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/)",
+"tags": ["computer-networks", "dns", "networking", "protocols"]
+},
+{
+"topic": "TCP/IP",
+"difficulty": "easy",
+"question_text": "Which protocol provides reliable, connection-oriented data transmission?",
+"options": ["TCP", "UDP", "IP", "ARP"],
+"correct_answer": "TCP",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/](https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/)",
+"tags": ["networking", "tcp", "protocols", "computer-networks"]
+},
+{
+"topic": "Database Management Systems",
+"difficulty": "easy",
+"question_text": "What does DBMS stand for?",
+"options": ["Database Management System", "Data Backup Management Service", "Database Memory System", "Data Management Software"],
+"correct_answer": "Database Management System",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/dbms/](https://www.geeksforgeeks.org/dbms/dbms/)",
+"tags": ["dbms", "databases", "sql", "data-management"]
+},
+{
+"topic": "SQL",
+"difficulty": "easy",
+"question_text": "Which SQL command is used to retrieve data from a table?",
+"options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+"correct_answer": "SELECT",
+"resource_link": "[https://www.geeksforgeeks.org/sql/sql-select-query/](https://www.geeksforgeeks.org/sql/sql-select-query/)",
+"tags": ["sql", "databases", "querying", "backend"]
+},
+{
+"topic": "Primary Keys",
+"difficulty": "easy",
+"question_text": "What is the main purpose of a primary key?",
+"options": ["Uniquely identify each row", "Sort all rows automatically", "Encrypt table data", "Create database backups"],
+"correct_answer": "Uniquely identify each row",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/primary-key-in-dbms/](https://www.geeksforgeeks.org/dbms/primary-key-in-dbms/)",
+"tags": ["dbms", "databases", "sql", "data-modeling"]
+},
+{
+"topic": "OOP",
+"difficulty": "easy",
+"question_text": "Which OOP concept allows a class to acquire properties and methods of another class?",
+"options": ["Inheritance", "Encapsulation", "Abstraction", "Polymorphism"],
+"correct_answer": "Inheritance",
+"resource_link": "[https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)",
+"tags": ["oop", "inheritance", "programming", "software-development"]
+},
+{
+"topic": "OOP Encapsulation",
+"difficulty": "easy",
+"question_text": "Which OOP principle bundles data and methods that operate on that data?",
+"options": ["Encapsulation", "Inheritance", "Compilation", "Recursion"],
+"correct_answer": "Encapsulation",
+"resource_link": "[https://www.geeksforgeeks.org/java/encapsulation-in-java/](https://www.geeksforgeeks.org/java/encapsulation-in-java/)",
+"tags": ["oop", "encapsulation", "programming", "software-development"]
+},
+{
+"topic": "Compiler",
+"difficulty": "easy",
+"question_text": "What does a compiler generally do?",
+"options": ["Translate source code into machine or intermediate code", "Execute hardware instructions manually", "Store database records", "Manage network packets"],
+"correct_answer": "Translate source code into machine or intermediate code",
+"resource_link": "[https://www.geeksforgeeks.org/compiler-design/overview-of-compilers/](https://www.geeksforgeeks.org/compiler-design/overview-of-compilers/)",
+"tags": ["compiler", "programming-languages", "systems", "software-development"]
+},
+{
+"topic": "Data Representation",
+"difficulty": "easy",
+"question_text": "Which number system is directly used to represent data in digital computers?",
+"options": ["Binary", "Decimal", "Roman", "Octal only"],
+"correct_answer": "Binary",
+"resource_link": "[https://www.geeksforgeeks.org/computer-organization-architecture/number-system-and-base-conversions/](https://www.geeksforgeeks.org/computer-organization-architecture/number-system-and-base-conversions/)",
+"tags": ["computer-architecture", "binary", "data-representation", "systems"]
+},
+{
+"topic": "Computer Architecture",
+"difficulty": "easy",
+"question_text": "Which component performs arithmetic and logical operations in a CPU?",
+"options": ["ALU", "RAM", "Cache", "Hard disk"],
+"correct_answer": "ALU",
+"resource_link": "[https://www.geeksforgeeks.org/computer-organization-architecture/arithmetic-logic-unit/](https://www.geeksforgeeks.org/computer-organization-architecture/arithmetic-logic-unit/)",
+"tags": ["computer-architecture", "cpu", "alu", "systems"]
+},
+{
+"topic": "Memory",
+"difficulty": "easy",
+"question_text": "Which type of memory is volatile?",
+"options": ["RAM", "ROM", "SSD", "Hard disk"],
+"correct_answer": "RAM",
+"resource_link": "[https://www.geeksforgeeks.org/computer-organization-architecture/memory-hierarchy-design/](https://www.geeksforgeeks.org/computer-organization-architecture/memory-hierarchy-design/)",
+"tags": ["memory", "computer-architecture", "ram", "systems"]
+},
+{
+"topic": "Software Engineering",
+"difficulty": "easy",
+"question_text": "What is the main goal of software testing?",
+"options": ["Find defects and verify expected behavior", "Increase CPU clock speed", "Replace source code", "Design computer hardware"],
+"correct_answer": "Find defects and verify expected behavior",
+"resource_link": "[https://www.geeksforgeeks.org/software-testing/software-testing/](https://www.geeksforgeeks.org/software-testing/software-testing/)",
+"tags": ["software-testing", "software-engineering", "quality-assurance", "debugging"]
+},
+{
+"topic": "Process Scheduling",
+"difficulty": "medium",
+"question_text": "Which CPU scheduling algorithm assigns each process a fixed time quantum?",
+"options": ["Round Robin", "First Come First Serve", "Shortest Job First", "Priority Scheduling"],
+"correct_answer": "Round Robin",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/round-robin-scheduling-in-operating-system/](https://www.geeksforgeeks.org/operating-systems/round-robin-scheduling-in-operating-system/)",
+"tags": ["operating-systems", "cpu-scheduling", "round-robin", "process-management"]
+},
+{
+"topic": "Deadlocks",
+"difficulty": "medium",
+"question_text": "Which of the following is a necessary condition for deadlock?",
+"options": ["Circular wait", "Unlimited resources", "Preemption of all resources", "No process synchronization"],
+"correct_answer": "Circular wait",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/introduction-of-deadlock-in-operating-system/](https://www.geeksforgeeks.org/operating-systems/introduction-of-deadlock-in-operating-system/)",
+"tags": ["operating-systems", "deadlocks", "concurrency", "systems"]
+},
+{
+"topic": "Virtual Memory",
+"difficulty": "medium",
+"question_text": "What is the primary purpose of virtual memory?",
+"options": ["Allow programs to use an address space larger than physical memory", "Increase CPU clock speed", "Replace the operating system", "Prevent all cache misses"],
+"correct_answer": "Allow programs to use an address space larger than physical memory",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/virtual-memory-in-operating-system/](https://www.geeksforgeeks.org/operating-systems/virtual-memory-in-operating-system/)",
+"tags": ["operating-systems", "virtual-memory", "memory-management", "systems"]
+},
+{
+"topic": "Paging",
+"difficulty": "medium",
+"question_text": "In paging, physical memory is divided into fixed-size units called what?",
+"options": ["Frames", "Segments", "Blocks", "Clusters"],
+"correct_answer": "Frames",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/paging-in-operating-system/](https://www.geeksforgeeks.org/operating-systems/paging-in-operating-system/)",
+"tags": ["operating-systems", "paging", "memory-management", "systems"]
+},
+{
+"topic": "OSI Model",
+"difficulty": "medium",
+"question_text": "Which OSI layer is responsible for routing packets between networks?",
+"options": ["Network layer", "Transport layer", "Data Link layer", "Session layer"],
+"correct_answer": "Network layer",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/osi-model/](https://www.geeksforgeeks.org/computer-networks/osi-model/)",
+"tags": ["networking", "osi", "routing", "computer-networks"]
+},
+{
+"topic": "HTTP",
+"difficulty": "medium",
+"question_text": "Which HTTP status code indicates that a request was successful?",
+"options": ["200", "301", "404", "500"],
+"correct_answer": "200",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/http-status-codes/](https://www.geeksforgeeks.org/computer-networks/http-status-codes/)",
+"tags": ["http", "networking", "web", "protocols"]
+},
+{
+"topic": "IP Addressing",
+"difficulty": "medium",
+"question_text": "How many bits are in an IPv4 address?",
+"options": ["32", "16", "64", "128"],
+"correct_answer": "32",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/](https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/)",
+"tags": ["networking", "ip", "ipv4", "computer-networks"]
+},
+{
+"topic": "Database Normalization",
+"difficulty": "medium",
+"question_text": "What is a primary goal of database normalization?",
+"options": ["Reduce data redundancy and update anomalies", "Increase duplicate data", "Remove all indexes", "Eliminate primary keys"],
+"correct_answer": "Reduce data redundancy and update anomalies",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/normalization-in-dbms/](https://www.geeksforgeeks.org/dbms/normalization-in-dbms/)",
+"tags": ["dbms", "normalization", "databases", "data-modeling"]
+},
+{
+"topic": "SQL Joins",
+"difficulty": "medium",
+"question_text": "Which JOIN returns rows from both tables only when the join condition matches?",
+"options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+"correct_answer": "INNER JOIN",
+"resource_link": "[https://www.geeksforgeeks.org/sql/sql-join-set-1-inner-left-right-and-full-joins/](https://www.geeksforgeeks.org/sql/sql-join-set-1-inner-left-right-and-full-joins/)",
+"tags": ["sql", "joins", "databases", "querying"]
+},
+{
+"topic": "Transactions",
+"difficulty": "medium",
+"question_text": "Which ACID property ensures that a transaction is treated as an indivisible unit?",
+"options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+"correct_answer": "Atomicity",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/acid-properties-in-dbms/](https://www.geeksforgeeks.org/dbms/acid-properties-in-dbms/)",
+"tags": ["dbms", "transactions", "acid", "databases"]
+},
+{
+"topic": "Indexing",
+"difficulty": "medium",
+"question_text": "What is a common purpose of a database index?",
+"options": ["Speed up data retrieval", "Guarantee encryption", "Eliminate all storage requirements", "Prevent transactions"],
+"correct_answer": "Speed up data retrieval",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/indexing-in-databases-set-1/](https://www.geeksforgeeks.org/dbms/indexing-in-databases-set-1/)",
+"tags": ["databases", "indexing", "sql", "performance"]
+},
+{
+"topic": "OOP Polymorphism",
+"difficulty": "medium",
+"question_text": "What does polymorphism allow in object-oriented programming?",
+"options": ["The same interface to represent different underlying implementations", "Only one class in a program", "Objects to exist without methods", "Variables to become databases"],
+"correct_answer": "The same interface to represent different underlying implementations",
+"resource_link": "[https://www.geeksforgeeks.org/java/polymorphism-in-java/](https://www.geeksforgeeks.org/java/polymorphism-in-java/)",
+"tags": ["oop", "polymorphism", "programming", "software-development"]
+},
+{
+"topic": "Exception Handling",
+"difficulty": "medium",
+"question_text": "What is the primary purpose of exception handling?",
+"options": ["Handle runtime errors without abruptly terminating normal program flow", "Increase memory size", "Compile source code faster", "Replace data structures"],
+"correct_answer": "Handle runtime errors without abruptly terminating normal program flow",
+"resource_link": "[https://www.geeksforgeeks.org/java/exceptions-in-java/](https://www.geeksforgeeks.org/java/exceptions-in-java/)",
+"tags": ["exception-handling", "programming", "debugging", "software-development"]
+},
+{
+"topic": "Git",
+"difficulty": "medium",
+"question_text": "Which Git command creates a new commit from staged changes?",
+"options": ["git commit", "git push", "git clone", "git fetch"],
+"correct_answer": "git commit",
+"resource_link": "[https://www.geeksforgeeks.org/git/git-commit/](https://www.geeksforgeeks.org/git/git-commit/)",
+"tags": ["git", "version-control", "software-development", "collaboration"]
+},
+{
+"topic": "REST",
+"difficulty": "medium",
+"question_text": "Which HTTP method is generally used to delete a resource in a REST API?",
+"options": ["DELETE", "GET", "POST", "OPTIONS"],
+"correct_answer": "DELETE",
+"resource_link": "[https://www.geeksforgeeks.org/rest-api/rest-api-introduction/](https://www.geeksforgeeks.org/rest-api/rest-api-introduction/)",
+"tags": ["rest-api", "http", "backend", "api"]
+},
+{
+"topic": "CPU Caching",
+"difficulty": "hard",
+"question_text": "Why is CPU cache faster to access than main memory?",
+"options": ["It is smaller and uses faster memory technology located close to the CPU", "It stores data permanently", "It eliminates CPU instructions", "It is always larger than RAM"],
+"correct_answer": "It is smaller and uses faster memory technology located close to the CPU",
+"resource_link": "[https://www.geeksforgeeks.org/computer-organization-architecture/cache-memory-in-computer-organization/](https://www.geeksforgeeks.org/computer-organization-architecture/cache-memory-in-computer-organization/)",
+"tags": ["computer-architecture", "cache", "cpu", "performance"]
+},
+{
+"topic": "Deadlock Avoidance",
+"difficulty": "hard",
+"question_text": "Which algorithm is commonly used for deadlock avoidance by checking whether resource allocation leaves the system in a safe state?",
+"options": ["Banker's Algorithm", "Round Robin", "PageRank", "Dijkstra's Algorithm"],
+"correct_answer": "Banker's Algorithm",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/bankers-algorithm-in-operating-system-2/](https://www.geeksforgeeks.org/operating-systems/bankers-algorithm-in-operating-system-2/)",
+"tags": ["operating-systems", "deadlocks", "bankers-algorithm", "systems"]
+},
+{
+"topic": "Page Replacement",
+"difficulty": "hard",
+"question_text": "Which page replacement algorithm can exhibit Belady's anomaly?",
+"options": ["FIFO", "LRU", "Optimal", "MRU"],
+"correct_answer": "FIFO",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/beladys-anomaly-in-page-replacement-algorithms/](https://www.geeksforgeeks.org/operating-systems/beladys-anomaly-in-page-replacement-algorithms/)",
+"tags": ["operating-systems", "paging", "memory-management", "algorithms"]
+},
+{
+"topic": "Concurrency",
+"difficulty": "hard",
+"question_text": "What is the main purpose of a mutex?",
+"options": ["Provide mutual exclusion when accessing shared resources", "Increase CPU frequency", "Allocate virtual memory", "Route network packets"],
+"correct_answer": "Provide mutual exclusion when accessing shared resources",
+"resource_link": "[https://www.geeksforgeeks.org/operating-systems/mutex-vs-semaphore/](https://www.geeksforgeeks.org/operating-systems/mutex-vs-semaphore/)",
+"tags": ["concurrency", "operating-systems", "synchronization", "threads"]
+},
+{
+"topic": "Database Isolation",
+"difficulty": "hard",
+"question_text": "Which transaction isolation level prevents dirty reads but may allow non-repeatable reads?",
+"options": ["Read Committed", "Read Uncommitted", "Serializable", "Snapshot only"],
+"correct_answer": "Read Committed",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/transaction-isolation-levels-dbms/](https://www.geeksforgeeks.org/dbms/transaction-isolation-levels-dbms/)",
+"tags": ["dbms", "transactions", "concurrency", "databases"]
+},
+{
+"topic": "Database Concurrency",
+"difficulty": "hard",
+"question_text": "What does a database deadlock occur when two or more transactions do?",
+"options": ["Wait indefinitely for resources held by one another", "Execute without locks", "Commit simultaneously by definition", "Read only immutable data"],
+"correct_answer": "Wait indefinitely for resources held by one another",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/deadlock-in-dbms/](https://www.geeksforgeeks.org/dbms/deadlock-in-dbms/)",
+"tags": ["dbms", "deadlocks", "transactions", "concurrency"]
+},
+{
+"topic": "Compiler Design",
+"difficulty": "hard",
+"question_text": "Which compiler phase converts source code into tokens?",
+"options": ["Lexical analysis", "Syntax analysis", "Semantic analysis", "Code generation"],
+"correct_answer": "Lexical analysis",
+"resource_link": "[https://www.geeksforgeeks.org/compiler-design/lexical-analysis/](https://www.geeksforgeeks.org/compiler-design/lexical-analysis/)",
+"tags": ["compiler", "lexical-analysis", "programming-languages", "systems"]
+},
+{
+"topic": "Compiler Parsing",
+"difficulty": "hard",
+"question_text": "Which compiler phase checks whether tokens follow the grammar of the programming language?",
+"options": ["Syntax analysis", "Lexical analysis", "Code optimization", "Code generation"],
+"correct_answer": "Syntax analysis",
+"resource_link": "[https://www.geeksforgeeks.org/compiler-design/syntax-analysis-in-compiler-design/](https://www.geeksforgeeks.org/compiler-design/syntax-analysis-in-compiler-design/)",
+"tags": ["compiler", "parsing", "syntax-analysis", "programming-languages"]
+},
+{
+"topic": "Computer Networks",
+"difficulty": "hard",
+"question_text": "Which protocol is used by the Transport Layer to provide reliable, ordered delivery with congestion control?",
+"options": ["TCP", "UDP", "IP", "ICMP"],
+"correct_answer": "TCP",
+"resource_link": "[https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/](https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/)",
+"tags": ["networking", "tcp", "transport-layer", "protocols"]
+},
+{
+"topic": "Database Query Optimization",
+"difficulty": "hard",
+"question_text": "Which operation generally benefits most directly from an index on the filtered column?",
+"options": ["SELECT with a selective WHERE condition", "INSERT into every row", "DROP DATABASE", "CREATE a backup file"],
+"correct_answer": "SELECT with a selective WHERE condition",
+"resource_link": "[https://www.geeksforgeeks.org/dbms/indexing-in-databases-set-1/](https://www.geeksforgeeks.org/dbms/indexing-in-databases-set-1/)",
+"tags": ["databases", "indexing", "sql", "query-optimization"]
+}
+]
