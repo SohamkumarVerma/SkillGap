@@ -75,17 +75,16 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
 
               {/* Mark done */}
               <button
-                onClick={() => onMarkDone?.(entry.day)}
-                disabled={done}
-                aria-label={done ? `Day ${entry.day} complete` : `Mark day ${entry.day} as done`}
+                onClick={() => onMarkDone?.(entry.day, !done)}
+                aria-label={done ? `Undo completion for day ${entry.day}` : `Mark day ${entry.day} as done`}
                 className={[
                   "shrink-0 text-xs px-3 py-1.5 rounded-lg border transition-colors",
                   done
-                    ? "border-green-800/60 text-green-700 cursor-default"
+                    ? "border-green-800/60 text-green-400 hover:border-yellow-600 hover:text-yellow-400"
                     : "border-gray-600 text-gray-500 hover:border-green-600 hover:text-green-400",
                 ].join(" ")}
               >
-                {done ? "Done ✓" : "Mark done"}
+                {done ? "Undo" : "Mark done"}
               </button>
             </li>
           );

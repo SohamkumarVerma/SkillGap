@@ -47,10 +47,15 @@ function reducer(state, action) {
     case "SCORED":        return { ...state, loading: false, loadingMsg: "", stage: "scored",
                                    scoreData: action.payload };
     case "ROADMAPPED":    return { ...state, loading: false, loadingMsg: "", stage: "roadmapped",
-                                   roadmapData: action.payload };
+                     roadmapData: action.payload,
+                     completedDays: action.completedDays ?? new Set() };
     case "SET_ACTIVITY":  return { ...state, activity: action.payload };
-    case "MARK_DAY_DONE": return { ...state,
-                                   completedDays: new Set([...state.completedDays, action.day]) };
+    case "SET_DAY_COMPLETED": {
+      const completedDays = new Set(state.completedDays);
+      if (action.completed) completedDays.add(action.day);
+      else completedDays.delete(action.day);
+      return { ...state, completedDays };
+    }
     case "RESET":         return { ...INIT, health: state.health, activity: state.activity };
     default:              return state;
   }
@@ -93,7 +98,10 @@ export default function App() {
       .then((r) => r.json())
       .then((data) => {
         if (data.roadmap && data.roadmap.length > 0) {
-          dispatch({ type: "ROADMAPPED", payload: data });
+          const completedDays = new Set(
+            data.roadmap.filter((entry) => entry.completed).map((entry) => entry.day)
+          );
+          dispatch({ type: "ROADMAPPED", payload: data, completedDays });
         }
       })
       .catch(() => {}); // non-fatal — just stay on idle
@@ -184,16 +192,28 @@ export default function App() {
   }, [scoreData, rankData, health]);
 
   // ── Step 5: mark day done → /daily-activity ───────────────────────────────
-  const handleMarkDone = useCallback(async (day) => {
-    dispatch({ type: "MARK_DAY_DONE", day });
+  const handleMarkDone = useCallback(async (day, completed) => {
     try {
-      await fetch("/api/daily-activity", {
+      const roadmapRes = await fetch(`/api/roadmap/${day}`, {
+        method:  "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({ completed }),
+      });
+      const roadmapData = await roadmapRes.json();
+      if (!roadmapRes.ok) throw new Error(roadmapData.error || "Could not save roadmap progress");
+
+      const activityRes = await fetch("/api/daily-activity", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ tasks_completed: 1 }),
+        body:    JSON.stringify({ tasks_delta: completed ? 1 : -1 }),
       });
+      if (!activityRes.ok) throw new Error("Could not save activity progress");
+
+      dispatch({ type: "SET_DAY_COMPLETED", day, completed });
       fetchActivity();
-    } catch { /* non-fatal */ }
+    } catch (err) {
+      dispatch({ type: "ERROR", payload: err.message });
+    }
   }, [fetchActivity]);
 
   // ── "Start New Roadmap" — clears DB roadmap then resets UI ───────────────
