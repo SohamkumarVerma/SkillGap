@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS roadmap (
   topic          TEXT,
   description    TEXT,
   resource_link  TEXT,
+  tasks          TEXT,    -- JSON array of { description, resource_link }
   completed      BOOLEAN  DEFAULT 0,
   created_at     DATETIME DEFAULT CURRENT_TIMESTAMP
 );

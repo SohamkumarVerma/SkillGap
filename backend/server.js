@@ -24,14 +24,22 @@ app.use("/api/daily-activity",   require("./routes/daily-activity"));
 // ── GET /api/roadmap — restore dashboard on page reload ───────────────────────
 app.get("/api/roadmap", (_req, res) => {
   const rows = db
-    .prepare("SELECT day_number AS day, topic, description, resource_link, completed FROM roadmap ORDER BY day_number")
-    .all();
+    .prepare(
+      `SELECT day_number AS day, topic, description, resource_link, tasks, completed
+       FROM roadmap ORDER BY day_number`
+    )
+    .all()
+    .map((r) => ({
+      ...r,
+      // Parse the tasks JSON; fall back to a single-task array using the
+      // legacy resource_link column so old rows still render correctly.
+      tasks: (() => {
+        try { return r.tasks ? JSON.parse(r.tasks) : null; } catch { return null; }
+      })() ?? [{ description: r.description ?? "", resource_link: r.resource_link }],
+    }));
+
   if (rows.length === 0) return res.json({ roadmap: [] });
-  res.json({
-    source:  "restored",
-    days:    rows.length,
-    roadmap: rows,
-  });
+  res.json({ source: "restored", days: rows.length, roadmap: rows });
 });
 
 // ── PATCH /api/roadmap/:day — persist completion for a roadmap day ───────────

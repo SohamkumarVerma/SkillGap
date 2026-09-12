@@ -15,6 +15,7 @@ import SkillsResult   from "./components/SkillsResult";
 import PriorityList   from "./components/PriorityList";
 import TestView       from "./components/TestView";
 import ScoreBreakdown from "./components/ScoreBreakdown";
+import RoadmapConfig  from "./components/RoadmapConfig";
 import Dashboard      from "./components/Dashboard";
 import Spinner        from "./components/Spinner";
 
@@ -46,6 +47,7 @@ function reducer(state, action) {
                                    testData: action.payload };
     case "SCORED":        return { ...state, loading: false, loadingMsg: "", stage: "scored",
                                    scoreData: action.payload };
+    case "CONFIGURING":   return { ...state, loading: false, loadingMsg: "", stage: "configuring" };
     case "ROADMAPPED":    return { ...state, loading: false, loadingMsg: "", stage: "roadmapped",
                      roadmapData: action.payload,
                      completedDays: action.completedDays ?? new Set() };
@@ -63,8 +65,8 @@ function reducer(state, action) {
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
-const STAGE_LABELS = ["Priorities", "Test", "Score", "Dashboard"];
-const STAGE_KEYS   = ["ranked", "testing", "scored", "roadmapped"];
+const STAGE_LABELS = ["Priorities", "Test", "Score", "Configure", "Dashboard"];
+const STAGE_KEYS   = ["ranked", "testing", "scored", "configuring", "roadmapped"];
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
@@ -168,20 +170,30 @@ export default function App() {
     }
   }, []);
 
-  // ── Step 4: generate roadmap ──────────────────────────────────────────────
-  const handleGenerateRoadmap = useCallback(async () => {
+  // ── Step 4: move to config screen after scoring ──────────────────────────
+  const handleGoToConfig = useCallback(() => {
+    dispatch({ type: "CONFIGURING" });
+  }, []);
+
+  // ── Step 5: generate roadmap with user-chosen days + tasks_per_day ────────
+  const handleGenerateRoadmap = useCallback(async ({ days, tasks_per_day }) => {
     const ollamaRunning = health?.ollama === "running";
     dispatch({
       type: "LOADING",
       msg: ollamaRunning
-        ? "Generating AI roadmap via Ollama… (this can take 30–60 s)"
-        : "Building your roadmap from the question bank…",
+        ? `Generating AI roadmap via Ollama… (${days} days, ${tasks_per_day} task/day — may take 30–60 s)`
+        : `Building your ${days}-day roadmap…`,
     });
     try {
       const res = await fetch("/api/generate-roadmap", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ topics: scoreData.topics, ranked: rankData?.ranked ?? [], days: 7 }),
+        body:    JSON.stringify({
+          topics: scoreData.topics,
+          ranked: rankData?.ranked ?? [],
+          days,
+          tasks_per_day,
+        }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Roadmap generation failed");
@@ -335,13 +347,26 @@ export default function App() {
               onRetake={() => dispatch({ type: "RESET" })}
             />
             <button
-              onClick={handleGenerateRoadmap}
+              onClick={handleGoToConfig}
               className="primary-action"
             >
-              {health?.ollama === "running"
-                ? "Generate AI Study Roadmap →"
-                : "Generate Study Roadmap →"}
+              Customise &amp; Generate Roadmap →
             </button>
+          </section>
+        )}
+
+        {/* ════ STAGE: configuring ════ */}
+        {!loading && stage === "configuring" && (
+          <section className="space-y-5">
+            <p className="section-kicker">Step 05 · Configure</p>
+            <h2 className="section-heading">Shape your study plan.</h2>
+            <div className="surface p-6">
+              <RoadmapConfig
+                onGenerate={handleGenerateRoadmap}
+                disabled={loading}
+                ollamaReady={health?.ollama === "running"}
+              />
+            </div>
           </section>
         )}
 

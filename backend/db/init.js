@@ -28,6 +28,14 @@ function initDb() {
   const schema = fs.readFileSync(SCHEMA_PATH, "utf8");
   db.exec(schema);
 
+  // ── Migrations — add columns that didn't exist in earlier versions ─────────
+  // SQLite has no IF NOT EXISTS for ALTER TABLE, so we check pragma table_info.
+  const roadmapCols = db.pragma("table_info(roadmap)").map((c) => c.name);
+  if (!roadmapCols.includes("tasks")) {
+    db.exec("ALTER TABLE roadmap ADD COLUMN tasks TEXT");
+    console.log("[db] Migration applied: roadmap.tasks column added");
+  }
+
   console.log(`[db] SQLite ready → ${DB_PATH}`);
   return db;
 }
