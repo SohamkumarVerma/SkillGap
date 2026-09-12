@@ -66,7 +66,7 @@ const KEYWORDS = [
   { canonical: "algorithms",        variants: ["algorithm"] },
   { canonical: "arrays",            variants: ["array"] },
   { canonical: "linked-list",       variants: ["linked list", "linked-list"] },
-  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp)\s+stack|stack\s+(?:overflow|trace|frame|developer|engineer)/i },
+  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp)(?:\s+|-)stack|stack\s+(?:overflow|trace|frame|developer|engineer)/i },
   { canonical: "queue",             variants: ["queue"] },
   { canonical: "trees",             variants: ["tree "] },
   { canonical: "binary-tree",       variants: ["binary tree", "bst", "avl tree", "avl-tree"] },

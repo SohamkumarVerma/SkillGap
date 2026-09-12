@@ -319,11 +319,12 @@ router.post("/", async (req, res) => {
     }
   }
 
-  // Combine: ALL weak entries first, then filler up to `days` total
-  // This guarantees a 0%-score topic is never dropped in favour of an untested one
+  // Combine weak entries first, then use remaining slots for ranked fillers.
+  // This guarantees the roadmap cap is respected while weak topics always win.
+  const selectedWeakEntries = weakEntries.slice(0, days);
   const combinedEntries = [
-    ...weakEntries,
-    ...fillEntries.slice(0, Math.max(0, days - weakEntries.length)),
+    ...selectedWeakEntries,
+    ...fillEntries.slice(0, Math.max(0, days - selectedWeakEntries.length)),
   ];
 
   const weakTopics = combinedEntries.map((e) => e.tag);

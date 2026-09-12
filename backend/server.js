@@ -24,7 +24,7 @@ app.use("/api/daily-activity",   require("./routes/daily-activity"));
 // ── GET /api/roadmap — restore dashboard on page reload ───────────────────────
 app.get("/api/roadmap", (_req, res) => {
   const rows = db
-    .prepare("SELECT day_number AS day, topic, description, resource_link FROM roadmap ORDER BY day_number")
+    .prepare("SELECT day_number AS day, topic, description, resource_link, completed FROM roadmap ORDER BY day_number")
     .all();
   if (rows.length === 0) return res.json({ roadmap: [] });
   res.json({
@@ -32,6 +32,26 @@ app.get("/api/roadmap", (_req, res) => {
     days:    rows.length,
     roadmap: rows,
   });
+});
+
+// ── PATCH /api/roadmap/:day — persist completion for a roadmap day ───────────
+app.patch("/api/roadmap/:day", (req, res) => {
+  const day = Number.parseInt(req.params.day, 10);
+  const completed = req.body?.completed === true ? 1 : 0;
+
+  if (!Number.isInteger(day) || day < 1) {
+    return res.status(400).json({ error: "Day must be a positive integer." });
+  }
+
+  const result = db
+    .prepare("UPDATE roadmap SET completed = ? WHERE day_number = ?")
+    .run(completed, day);
+
+  if (result.changes === 0) {
+    return res.status(404).json({ error: `Roadmap day ${day} not found.` });
+  }
+
+  res.json({ day, completed: Boolean(completed) });
 });
 
 // ── DELETE /api/roadmap — wipe roadmap so user can start fresh ────────────────
