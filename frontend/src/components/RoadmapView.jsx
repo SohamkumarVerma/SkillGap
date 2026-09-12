@@ -18,7 +18,7 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
   const badge = SOURCE_BADGE[source] ?? SOURCE_BADGE.fallback;
 
   return (
-    <div className="w-full space-y-3">
+    <div className="roadmap-view w-full space-y-3">
       {/* Header */}
       <div className="flex items-center justify-between px-1">
         <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-widest">
@@ -37,17 +37,17 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
             <li
               key={entry.day}
               className={[
-                "rounded-xl border transition-colors p-4 flex gap-3 items-start",
+                "roadmap-card rounded-xl border transition-colors p-4 flex gap-3 items-start",
                 done
-                  ? "border-green-800/60 bg-green-950/30"
-                  : "border-gray-700/60 bg-gray-800/60",
+                  ? "is-complete"
+                  : "",
               ].join(" ")}
             >
               {/* Day badge */}
               <div
                 className={[
-                  "shrink-0 w-9 h-9 rounded-lg flex items-center justify-center font-bold text-xs",
-                  done ? "bg-green-700 text-white" : "bg-gray-700 text-gray-400",
+                  "day-badge shrink-0 w-9 h-9 rounded-lg flex items-center justify-center font-bold text-xs",
+                  done ? "is-complete" : "",
                 ].join(" ")}
                 aria-label={`Day ${entry.day}`}
               >
@@ -56,7 +56,7 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
 
               {/* Content */}
               <div className="flex-1 min-w-0 space-y-1">
-                <span className="font-mono text-sm text-indigo-300 font-semibold">
+                <span className="roadmap-topic font-mono text-sm font-semibold">
                   {entry.topic}
                 </span>
                 <p className="text-sm text-gray-300 leading-relaxed">{entry.description}</p>

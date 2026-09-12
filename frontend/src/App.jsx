@@ -226,40 +226,35 @@ export default function App() {
 
   // ── Render ────────────────────────────────────────────────────────────────
   return (
-    <div className="min-h-screen bg-gray-950 text-white">
-      <div className="max-w-2xl mx-auto px-4 py-10 flex flex-col gap-8">
+    <div className="app-shell">
+      <div className="app-container">
 
         {/* ── Header ── */}
-        <header className="text-center space-y-1">
-          <h1 className="text-4xl font-bold tracking-tight">
-            SkillGap <span className="text-indigo-400">Prep Roadmap</span>
-          </h1>
-          <p className="text-xs text-gray-600">
-            Fully offline · powered by{" "}
-            <span className={
-              health?.ollama === "running" ? "text-green-500" : "text-gray-600"
-            }>
-              {health?.ollama === "running" ? "Ollama ✓" : "Ollama (not detected — fallback active)"}
-            </span>
-          </p>
+        <header className="app-header">
+          <div className="brand-lockup">
+            <div className="brand-mark" aria-hidden>SG</div>
+            <div>
+              <h1 className="brand-title">SkillGap <span>Prep</span></h1>
+              <p className="brand-subtitle">Turn a job description into a focused study plan.</p>
+            </div>
+          </div>
+          <div className="system-status">
+            <span className={health?.ollama === "running" ? "status-dot is-online" : "status-dot"} />
+            {health?.ollama === "running" ? "Local AI ready" : "Curated mode"}
+          </div>
         </header>
 
         {/* ── Stage breadcrumb ── */}
         {stage !== "idle" && (
-          <nav aria-label="Progress" className="flex items-center justify-center gap-2 text-xs">
+          <nav aria-label="Progress" className="stage-nav">
             {STAGE_LABELS.map((label, i) => {
               const currentIdx = STAGE_KEYS.indexOf(stage);
               const done   = currentIdx > i;
               const active = currentIdx === i;
               return (
-                <span key={label} className="flex items-center gap-2">
-                  {i > 0 && <span className="text-gray-700">›</span>}
-                  <span className={
-                    active ? "text-indigo-400 font-semibold" :
-                    done   ? "text-gray-500 line-through" : "text-gray-700"
-                  }>
+                <span key={label} className={`stage-item ${active ? "is-active" : done ? "is-done" : ""}`}>
+                  <span className="stage-number">{done ? "✓" : i + 1}</span>
                     {label}
-                  </span>
                 </span>
               );
             })}
@@ -268,9 +263,7 @@ export default function App() {
 
         {/* ── Global error ── */}
         {error && (
-          <div role="alert"
-               className="bg-red-950 border border-red-800 rounded-xl px-4 py-3
-                          text-red-300 text-sm flex items-start gap-2">
+          <div role="alert" className="error-banner px-4 py-3 text-sm flex items-start gap-2">
             <span className="shrink-0 mt-0.5">✗</span>
             <span>{error}</span>
           </div>
@@ -278,55 +271,52 @@ export default function App() {
 
         {/* ── Global loading overlay ── */}
         {loading && (
-          <div className="flex flex-col items-center gap-3 py-4">
+          <div className="surface flex flex-col items-center gap-3 py-8">
             <Spinner />
             {loadingMsg && (
-              <p className="text-indigo-300 text-sm text-center">{loadingMsg}</p>
+              <p className="text-blue-700 text-sm text-center">{loadingMsg}</p>
             )}
           </div>
         )}
 
         {/* ════ STAGE: idle / ranked ════ */}
         {!loading && (stage === "idle" || stage === "ranked") && (
-          <>
-            <section>
-              <h2 className="text-base font-semibold text-gray-300 mb-4 text-center">
-                Upload a Job Description
-              </h2>
-              <JDUpload onResult={handleUpload} />
+          <div className="content-stack">
+            <section className="surface p-6 sm:p-8">
+              <p className="section-kicker">Step 01 · Diagnose</p>
+              <h2 className="section-heading">Start with the role you want.</h2>
+              <JDUpload
+                onResult={handleUpload}
+                onClear={() => dispatch({ type: "RESET" })}
+              />
             </section>
 
             {uploadData && <SkillsResult result={uploadData} />}
 
             {rankData && (
               <>
-                <section>
-                  <h2 className="text-base font-semibold text-gray-300 mb-3 text-center">
-                    Study Priority Ranking
-                  </h2>
+                <section className="surface p-6 sm:p-8">
+                  <p className="section-kicker">Step 02 · Focus</p>
+                  <h2 className="section-heading">Your highest-impact topics.</h2>
                   <PriorityList data={rankData} />
                 </section>
 
                 <button
                   onClick={handleGenerateTest}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500
-                             rounded-2xl font-semibold text-sm transition-colors
-                             shadow-lg shadow-indigo-900/30"
+                  className="primary-action"
                 >
-                  Start Test →
+                  Continue to knowledge test <span aria-hidden>→</span>
                 </button>
               </>
             )}
-          </>
+          </div>
         )}
 
         {/* ════ STAGE: testing ════ */}
         {!loading && stage === "testing" && testData && (
           <section>
-            <h2 className="text-base font-semibold text-gray-300 mb-4 text-center">
-              Knowledge Test —{" "}
-              <span className="text-indigo-400">{testData.total_questions} questions</span>
-            </h2>
+            <p className="section-kicker">Step 03 · Measure</p>
+            <h2 className="section-heading">Find the gaps worth closing.</h2>
             <TestView
               testData={testData}
               onSubmit={handleSubmit}
@@ -338,18 +328,15 @@ export default function App() {
         {/* ════ STAGE: scored ════ */}
         {!loading && stage === "scored" && scoreData && (
           <section className="space-y-5">
-            <h2 className="text-base font-semibold text-gray-300 text-center">
-              Results
-            </h2>
+            <p className="section-kicker">Step 04 · Build</p>
+            <h2 className="section-heading">Your learning priorities are ready.</h2>
             <ScoreBreakdown
               scoreData={scoreData}
               onRetake={() => dispatch({ type: "RESET" })}
             />
             <button
               onClick={handleGenerateRoadmap}
-              className="w-full py-3 bg-indigo-600 hover:bg-indigo-500
-                         rounded-2xl font-semibold text-sm transition-colors
-                         shadow-lg shadow-indigo-900/30"
+              className="primary-action"
             >
               {health?.ollama === "running"
                 ? "Generate AI Study Roadmap →"

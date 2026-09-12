@@ -13,7 +13,7 @@ export default function TestQuestion({ question, index, total, selected, onAnswe
   const { id, topic, difficulty, question_text, options } = question;
 
   return (
-    <div className="bg-gray-800 rounded-2xl p-6 space-y-4">
+    <div className="question-card bg-gray-800 rounded-2xl p-6 space-y-4">
       {/* Header row */}
       <div className="flex items-center justify-between gap-2 flex-wrap">
         <span className="text-xs text-gray-500">
@@ -47,8 +47,8 @@ export default function TestQuestion({ question, index, total, selected, onAnswe
                   className={[
                     "flex items-center gap-3 rounded-xl px-4 py-3 cursor-pointer transition-colors border",
                     isSelected
-                      ? "border-indigo-500 bg-indigo-950 text-indigo-200"
-                      : "border-gray-700 hover:border-gray-500 hover:bg-gray-700/50 text-gray-300",
+                      ? "is-selected"
+                      : "",
                   ].join(" ")}
                 >
                   <input
