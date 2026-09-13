@@ -58,16 +58,16 @@ export default function ActivityHeatmap({ activity = [] }) {
   return (
     <div className="w-full space-y-3">
       {/* Stats row */}
-      <div className="flex gap-6 text-sm">
-        <div className="text-center">
+      <div className="activity-stats flex gap-6 text-sm">
+        <div className="stat-tile text-center">
           <p className="text-2xl font-bold text-indigo-400">{streak}</p>
           <p className="text-xs text-gray-500">day streak</p>
         </div>
-        <div className="text-center">
+        <div className="stat-tile text-center">
           <p className="text-2xl font-bold text-gray-300">{activeDays}</p>
           <p className="text-xs text-gray-500">active days</p>
         </div>
-        <div className="text-center">
+        <div className="stat-tile text-center">
           <p className="text-2xl font-bold text-gray-300">{totalTasks}</p>
           <p className="text-xs text-gray-500">tasks done</p>
         </div>
@@ -103,7 +103,7 @@ export default function ActivityHeatmap({ activity = [] }) {
           <svg key={cls} width="11" height="11" aria-hidden>
             <rect
               width="11" height="11" rx="2"
-              className={`react-calendar-heatmap ${cls}`}
+              className={cls}
             />
           </svg>
         ))}

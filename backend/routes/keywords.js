@@ -10,6 +10,8 @@
  *                (lowercased, order matters: longer/more-specific first)
  */
 
+const { getSeedKeywords } = require("../seed/loader");
+
 const KEYWORDS = [
   // ── Frontend / HTML / CSS ──────────────────────────────────────────────────
   { canonical: "html",              variants: ["html"] },
@@ -25,7 +27,7 @@ const KEYWORDS = [
   // ── JavaScript ────────────────────────────────────────────────────────────
   { canonical: "javascript",        variants: ["javascript", "js "] },
   { canonical: "es6",               variants: ["es6", "es2015", "ecmascript"] },
-  { canonical: "closures",          variants: ["closure"] },
+  { canonical: "closures",          variants: ["closure"], excludePattern: /timing\s+closure/i },
   { canonical: "promises",          variants: ["promise"] },
   { canonical: "async",             variants: ["async/await", "async ", "await"] },
   { canonical: "event-loop",        variants: ["event loop", "event-loop"] },
@@ -66,7 +68,7 @@ const KEYWORDS = [
   { canonical: "algorithms",        variants: ["algorithm"] },
   { canonical: "arrays",            variants: ["array"] },
   { canonical: "linked-list",       variants: ["linked list", "linked-list"] },
-  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp)\s+stack|stack\s+(?:overflow|trace|frame|developer|engineer)/i },
+  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp)(?:\s+|-)stack|stack\s+(?:overflow|trace|frame|developer|engineer)/i },
   { canonical: "queue",             variants: ["queue"] },
   { canonical: "trees",             variants: ["tree "] },
   { canonical: "binary-tree",       variants: ["binary tree", "bst", "avl tree", "avl-tree"] },
@@ -146,5 +148,26 @@ const KEYWORDS = [
   { canonical: "systems",           variants: ["system design", "distributed system", "microservice"] },
   { canonical: "security",          variants: ["security", "encryption", "cryptography", "https"] },
 ];
+
+// Every question bank contributes its tags, so adding a JSON file also adds
+// its job-description vocabulary without another route change.
+const keywordByCanonical = new Map(KEYWORDS.map((entry) => [entry.canonical, entry]));
+for (const tag of getSeedKeywords()) {
+  const canonical = tag.trim();
+  if (!canonical) continue;
+
+  const variants = [canonical.toLowerCase()];
+  const spaced = canonical.toLowerCase().replace(/[-_]+/g, " ");
+  if (spaced !== variants[0]) variants.push(spaced);
+
+  const existing = keywordByCanonical.get(canonical);
+  if (existing) {
+    existing.variants = [...new Set([...existing.variants, ...variants])];
+  } else {
+    const entry = { canonical, variants, wordBoundary: true };
+    keywordByCanonical.set(canonical, entry);
+    KEYWORDS.push(entry);
+  }
+}
 
 module.exports = KEYWORDS;

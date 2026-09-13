@@ -1,0 +1,371 @@
+[
+{
+"topic": "CPU Design",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of a CPU?",
+"options": ["Execute instructions and process data", "Store files permanently", "Provide network connectivity", "Generate display graphics only"],
+"correct_answer": "Execute instructions and process data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CPU+architecture](https://www.geeksforgeeks.org/?s=CPU+architecture)",
+"tags": ["cpu", "processor", "computer-architecture", "hardware"]
+},
+{
+"topic": "CPU Datapath",
+"difficulty": "easy",
+"question_text": "Which component of a CPU performs arithmetic and logical operations?",
+"options": ["ALU", "Control Unit", "Program Counter", "Register File"],
+"correct_answer": "ALU",
+"resource_link": "[https://www.geeksforgeeks.org/?s=arithmetic+logic+unit](https://www.geeksforgeeks.org/?s=arithmetic+logic+unit)",
+"tags": ["cpu", "alu", "datapath", "digital-logic"]
+},
+{
+"topic": "CPU Registers",
+"difficulty": "easy",
+"question_text": "What is the purpose of CPU registers?",
+"options": ["Provide fast temporary storage inside the CPU", "Store files permanently", "Connect the CPU to the internet", "Generate electrical power"],
+"correct_answer": "Provide fast temporary storage inside the CPU",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cpu+registers](https://www.geeksforgeeks.org/?s=cpu+registers)",
+"tags": ["cpu", "registers", "datapath", "computer-architecture"]
+},
+{
+"topic": "Program Counter",
+"difficulty": "easy",
+"question_text": "What does the Program Counter (PC) normally contain?",
+"options": ["The address of the next instruction", "The current ALU result", "The current stack data", "The CPU clock frequency"],
+"correct_answer": "The address of the next instruction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=program+counter+cpu](https://www.geeksforgeeks.org/?s=program+counter+cpu)",
+"tags": ["cpu", "program-counter", "registers", "instruction-set"]
+},
+{
+"topic": "Instruction Register",
+"difficulty": "easy",
+"question_text": "What does the Instruction Register (IR) hold?",
+"options": ["The instruction currently being processed", "The address of the next program", "The entire main memory", "The CPU temperature"],
+"correct_answer": "The instruction currently being processed",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+register](https://www.geeksforgeeks.org/?s=instruction+register)",
+"tags": ["cpu", "instruction-register", "datapath", "processor"]
+},
+{
+"topic": "CPU Control Unit",
+"difficulty": "easy",
+"question_text": "What is the main role of the CPU control unit?",
+"options": ["Generate control signals that coordinate CPU operations", "Perform all arithmetic operations", "Store programs permanently", "Provide network communication"],
+"correct_answer": "Generate control signals that coordinate CPU operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=control+unit+cpu](https://www.geeksforgeeks.org/?s=control+unit+cpu)",
+"tags": ["cpu", "control-unit", "datapath", "digital-logic"]
+},
+{
+"topic": "Instruction Cycle",
+"difficulty": "easy",
+"question_text": "Which sequence best represents the basic instruction cycle?",
+"options": ["Fetch, decode, execute", "Compile, link, boot", "Read, write, delete", "Input, store, shutdown"],
+"correct_answer": "Fetch, decode, execute",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+cycle+fetch+decode+execute](https://www.geeksforgeeks.org/?s=instruction+cycle+fetch+decode+execute)",
+"tags": ["cpu", "instruction-cycle", "fetch", "execute"]
+},
+{
+"topic": "CPU Datapath",
+"difficulty": "easy",
+"question_text": "What is a datapath in a CPU?",
+"options": ["The collection of components that manipulate and transfer data", "A network route between computers", "A storage partition", "A software debugging tool"],
+"correct_answer": "The collection of components that manipulate and transfer data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cpu+datapath](https://www.geeksforgeeks.org/?s=cpu+datapath)",
+"tags": ["cpu", "datapath", "alu", "registers"]
+},
+{
+"topic": "CPU Design",
+"difficulty": "easy",
+"question_text": "What does ISA stand for?",
+"options": ["Instruction Set Architecture", "Internal Storage Architecture", "Integrated System Application", "Instruction Storage Array"],
+"correct_answer": "Instruction Set Architecture",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+set+architecture](https://www.geeksforgeeks.org/?s=instruction+set+architecture)",
+"tags": ["cpu", "isa", "instruction-set", "architecture"]
+},
+{
+"topic": "CPU Clock",
+"difficulty": "easy",
+"question_text": "What does the CPU clock provide?",
+"options": ["Timing signals that synchronize processor operations", "Permanent data storage", "Network packets", "Arithmetic results"],
+"correct_answer": "Timing signals that synchronize processor operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CPU+clock](https://www.geeksforgeeks.org/?s=CPU+clock)",
+"tags": ["cpu", "clock", "timing", "digital-logic"]
+},
+{
+"topic": "CPU Design",
+"difficulty": "easy",
+"question_text": "Which component temporarily stores operands and results during CPU execution?",
+"options": ["Registers", "Hard disk", "Network interface", "Power supply"],
+"correct_answer": "Registers",
+"resource_link": "[https://www.geeksforgeeks.org/?s=registers+computer+architecture](https://www.geeksforgeeks.org/?s=registers+computer+architecture)",
+"tags": ["cpu", "registers", "datapath", "hardware"]
+},
+{
+"topic": "Instruction Formats",
+"difficulty": "easy",
+"question_text": "Which part of an instruction specifies the operation to be performed?",
+"options": ["Opcode", "Operand", "Address bus", "Clock signal"],
+"correct_answer": "Opcode",
+"resource_link": "[https://www.geeksforgeeks.org/?s=opcode+instruction](https://www.geeksforgeeks.org/?s=opcode+instruction)",
+"tags": ["cpu", "opcode", "instruction-set", "assembly"]
+},
+{
+"topic": "CPU Buses",
+"difficulty": "easy",
+"question_text": "Which bus carries data between CPU components and memory?",
+"options": ["Data bus", "Address bus", "Control bus", "Power bus"],
+"correct_answer": "Data bus",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+bus+address+bus+control+bus](https://www.geeksforgeeks.org/?s=data+bus+address+bus+control+bus)",
+"tags": ["cpu", "data-bus", "memory", "hardware"]
+},
+{
+"topic": "CPU Architecture",
+"difficulty": "easy",
+"question_text": "Which architecture separates instruction memory and data memory?",
+"options": ["Harvard architecture", "Von Neumann architecture", "Stack architecture", "Distributed architecture"],
+"correct_answer": "Harvard architecture",
+"resource_link": "[https://www.geeksforgeeks.org/?s=harvard+architecture+von+neumann](https://www.geeksforgeeks.org/?s=harvard+architecture+von+neumann)",
+"tags": ["cpu", "harvard", "architecture", "memory"]
+},
+{
+"topic": "CPU Architecture",
+"difficulty": "easy",
+"question_text": "In a basic Von Neumann architecture, instructions and data are stored in:",
+"options": ["The same memory system", "Two completely independent memories only", "CPU registers only", "The ALU"],
+"correct_answer": "The same memory system",
+"resource_link": "[https://www.geeksforgeeks.org/?s=von+neumann+architecture](https://www.geeksforgeeks.org/?s=von+neumann+architecture)",
+"tags": ["cpu", "von-neumann", "architecture", "memory"]
+},
+{
+"topic": "Single-Cycle CPU",
+"difficulty": "medium",
+"question_text": "In a single-cycle CPU, an instruction is completed in:",
+"options": ["One clock cycle", "Exactly two clock cycles", "One instruction per second", "An unpredictable number of cycles"],
+"correct_answer": "One clock cycle",
+"resource_link": "[https://www.geeksforgeeks.org/?s=single+cycle+processor](https://www.geeksforgeeks.org/?s=single+cycle+processor)",
+"tags": ["cpu", "single-cycle", "datapath", "architecture"]
+},
+{
+"topic": "CPU Control",
+"difficulty": "medium",
+"question_text": "What is a control signal used for in a CPU datapath?",
+"options": ["Select or enable specific hardware operations", "Store a complete program", "Increase RAM capacity", "Transmit internet packets"],
+"correct_answer": "Select or enable specific hardware operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=control+signals+datapath](https://www.geeksforgeeks.org/?s=control+signals+datapath)",
+"tags": ["cpu", "control-signals", "datapath", "digital-logic"]
+},
+{
+"topic": "Multiplexers in CPU Design",
+"difficulty": "medium",
+"question_text": "Why are multiplexers commonly used in CPU datapaths?",
+"options": ["To select one of multiple possible data inputs", "To permanently store instructions", "To perform network routing", "To generate machine code"],
+"correct_answer": "To select one of multiple possible data inputs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=multiplexer+digital+logic](https://www.geeksforgeeks.org/?s=multiplexer+digital+logic)",
+"tags": ["cpu", "multiplexer", "datapath", "digital-logic"]
+},
+{
+"topic": "Register File",
+"difficulty": "medium",
+"question_text": "What is a register file?",
+"options": ["A collection of CPU registers that can be accessed by instructions", "A file stored on a hard drive", "A cache replacement algorithm", "A compiler output file"],
+"correct_answer": "A collection of CPU registers that can be accessed by instructions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=register+file+computer+architecture](https://www.geeksforgeeks.org/?s=register+file+computer+architecture)",
+"tags": ["cpu", "register-file", "datapath", "architecture"]
+},
+{
+"topic": "ALU Design",
+"difficulty": "medium",
+"question_text": "Which operation is typically performed by an ALU?",
+"options": ["Addition", "Instruction fetching from an external network", "Disk formatting", "Process scheduling"],
+"correct_answer": "Addition",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ALU+arithmetic+logic+unit](https://www.geeksforgeeks.org/?s=ALU+arithmetic+logic+unit)",
+"tags": ["cpu", "alu", "arithmetic", "datapath"]
+},
+{
+"topic": "Control Unit Design",
+"difficulty": "medium",
+"question_text": "Which type of control unit generates control signals using combinational logic?",
+"options": ["Hardwired control unit", "Database controller", "Memory controller only", "Software scheduler"],
+"correct_answer": "Hardwired control unit",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hardwired+control+unit](https://www.geeksforgeeks.org/?s=hardwired+control+unit)",
+"tags": ["cpu", "hardwired-control", "control-unit", "digital-logic"]
+},
+{
+"topic": "Control Unit Design",
+"difficulty": "medium",
+"question_text": "What is a key characteristic of a microprogrammed control unit?",
+"options": ["Control signals are generated using microinstructions", "It contains no control logic", "It cannot execute instructions", "It operates without a clock"],
+"correct_answer": "Control signals are generated using microinstructions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microprogrammed+control+unit](https://www.geeksforgeeks.org/?s=microprogrammed+control+unit)",
+"tags": ["cpu", "microprogramming", "control-unit", "architecture"]
+},
+{
+"topic": "CPU Datapath",
+"difficulty": "medium",
+"question_text": "What is the purpose of a sign extender in a CPU?",
+"options": ["Extend a smaller signed value to a larger width while preserving its value", "Increase clock frequency", "Convert instructions into machine code", "Store cache lines"],
+"correct_answer": "Extend a smaller signed value to a larger width while preserving its value",
+"resource_link": "[https://www.geeksforgeeks.org/?s=sign+extension+computer+architecture](https://www.geeksforgeeks.org/?s=sign+extension+computer+architecture)",
+"tags": ["cpu", "sign-extension", "datapath", "instruction-set"]
+},
+{
+"topic": "CPU Datapath",
+"difficulty": "medium",
+"question_text": "What is the purpose of an instruction decoder?",
+"options": ["Interpret the opcode and generate or assist in generating appropriate control signals", "Store the entire program", "Perform floating-point arithmetic only", "Manage network connections"],
+"correct_answer": "Interpret the opcode and generate or assist in generating appropriate control signals",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+decoder+cpu](https://www.geeksforgeeks.org/?s=instruction+decoder+cpu)",
+"tags": ["cpu", "instruction-decoder", "control-unit", "opcode"]
+},
+{
+"topic": "CPU Pipelining",
+"difficulty": "medium",
+"question_text": "What is the main benefit of instruction pipelining?",
+"options": ["Increase instruction throughput by overlapping execution stages", "Make every instruction execute in zero time", "Increase storage capacity", "Eliminate the need for registers"],
+"correct_answer": "Increase instruction throughput by overlapping execution stages",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+pipelining](https://www.geeksforgeeks.org/?s=instruction+pipelining)",
+"tags": ["cpu", "pipelining", "throughput", "performance"]
+},
+{
+"topic": "CPU Performance",
+"difficulty": "medium",
+"question_text": "What does CPI represent in processor performance analysis?",
+"options": ["Average clock cycles per instruction", "Cache pages per instruction", "Clock power index", "Compiler performance interface"],
+"correct_answer": "Average clock cycles per instruction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cycles+per+instruction+CPI](https://www.geeksforgeeks.org/?s=cycles+per+instruction+CPI)",
+"tags": ["cpu", "cpi", "performance", "architecture"]
+},
+{
+"topic": "CPU Performance",
+"difficulty": "medium",
+"question_text": "Which factor directly affects CPU execution time according to the basic CPU performance equation?",
+"options": ["Instruction count, CPI, and clock cycle time", "Only RAM capacity", "Only disk speed", "Only network bandwidth"],
+"correct_answer": "Instruction count, CPI, and clock cycle time",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CPU+performance+equation](https://www.geeksforgeeks.org/?s=CPU+performance+equation)",
+"tags": ["cpu", "performance", "cpi", "clock"]
+},
+{
+"topic": "CPU Architecture",
+"difficulty": "medium",
+"question_text": "What is the main difference between RISC and CISC instruction sets?",
+"options": ["RISC generally uses simpler instructions, while CISC generally supports more complex instructions", "RISC has no registers", "CISC cannot use memory", "They are identical by definition"],
+"correct_answer": "RISC generally uses simpler instructions, while CISC generally supports more complex instructions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=RISC+vs+CISC](https://www.geeksforgeeks.org/?s=RISC+vs+CISC)",
+"tags": ["cpu", "risc", "cisc", "instruction-set"]
+},
+{
+"topic": "Pipeline Hazards",
+"difficulty": "medium",
+"question_text": "Which hazard occurs when two pipeline stages require the same hardware resource at the same time?",
+"options": ["Structural hazard", "Data hazard", "Control hazard", "Memory hazard"],
+"correct_answer": "Structural hazard",
+"resource_link": "[https://www.geeksforgeeks.org/?s=structural+hazard+pipelining](https://www.geeksforgeeks.org/?s=structural+hazard+pipelining)",
+"tags": ["cpu", "pipeline-hazards", "structural-hazard", "pipelining"]
+},
+{
+"topic": "CPU Pipelining",
+"difficulty": "medium",
+"question_text": "What is a pipeline stall?",
+"options": ["A delay inserted into the pipeline to resolve a condition that prevents normal execution", "A permanent CPU shutdown", "A cache replacement policy", "A type of instruction encoding"],
+"correct_answer": "A delay inserted into the pipeline to resolve a condition that prevents normal execution",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pipeline+stall](https://www.geeksforgeeks.org/?s=pipeline+stall)",
+"tags": ["cpu", "pipeline-stall", "pipelining", "performance"]
+},
+{
+"topic": "CPU Design",
+"difficulty": "hard",
+"question_text": "Which pipeline hazard occurs when the outcome of a branch determines which instruction should be fetched next?",
+"options": ["Control hazard", "Data hazard", "Structural hazard", "Register hazard"],
+"correct_answer": "Control hazard",
+"resource_link": "[https://www.geeksforgeeks.org/?s=control+hazard+pipelining](https://www.geeksforgeeks.org/?s=control+hazard+pipelining)",
+"tags": ["cpu", "control-hazard", "pipelining", "branch"]
+},
+{
+"topic": "Data Hazards",
+"difficulty": "hard",
+"question_text": "Which dependency is a Read After Write (RAW) hazard?",
+"options": ["An instruction reads a value before an earlier instruction has written it", "An instruction writes a value before reading it", "Two instructions write the same value simultaneously", "Two instructions access unrelated registers"],
+"correct_answer": "An instruction reads a value before an earlier instruction has written it",
+"resource_link": "[https://www.geeksforgeeks.org/?s=RAW+data+hazard](https://www.geeksforgeeks.org/?s=RAW+data+hazard)",
+"tags": ["cpu", "raw-hazard", "data-dependency", "pipelining"]
+},
+{
+"topic": "Data Forwarding",
+"difficulty": "hard",
+"question_text": "What is forwarding used for in a pipelined CPU?",
+"options": ["Send a computed result directly to a dependent instruction without waiting for normal register write-back", "Increase RAM size", "Predict branch outcomes", "Replace the instruction decoder"],
+"correct_answer": "Send a computed result directly to a dependent instruction without waiting for normal register write-back",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+forwarding+pipelining](https://www.geeksforgeeks.org/?s=data+forwarding+pipelining)",
+"tags": ["cpu", "forwarding", "data-hazard", "pipelining"]
+},
+{
+"topic": "Branch Prediction",
+"difficulty": "hard",
+"question_text": "What is the purpose of branch prediction?",
+"options": ["Predict branch behavior so instruction fetching can continue with fewer control stalls", "Calculate arithmetic results", "Increase register capacity", "Translate virtual addresses"],
+"correct_answer": "Predict branch behavior so instruction fetching can continue with fewer control stalls",
+"resource_link": "[https://www.geeksforgeeks.org/?s=branch+prediction](https://www.geeksforgeeks.org/?s=branch+prediction)",
+"tags": ["cpu", "branch-prediction", "control-hazard", "performance"]
+},
+{
+"topic": "Superscalar Architecture",
+"difficulty": "hard",
+"question_text": "What characterizes a superscalar processor?",
+"options": ["It can issue multiple instructions in a clock cycle using multiple execution resources", "It executes exactly one instruction every clock cycle", "It contains no registers", "It cannot use pipelining"],
+"correct_answer": "It can issue multiple instructions in a clock cycle using multiple execution resources",
+"resource_link": "[https://www.geeksforgeeks.org/?s=superscalar+processor](https://www.geeksforgeeks.org/?s=superscalar+processor)",
+"tags": ["cpu", "superscalar", "instruction-level-parallelism", "performance"]
+},
+{
+"topic": "Out-of-Order Execution",
+"difficulty": "hard",
+"question_text": "What is out-of-order execution?",
+"options": ["Executing independent instructions when their operands and resources are ready rather than strictly following program order", "Executing instructions only in reverse order", "Running instructions without a control unit", "Executing only branch instructions"],
+"correct_answer": "Executing independent instructions when their operands and resources are ready rather than strictly following program order",
+"resource_link": "[https://www.geeksforgeeks.org/?s=out+of+order+execution](https://www.geeksforgeeks.org/?s=out+of+order+execution)",
+"tags": ["cpu", "out-of-order", "instruction-level-parallelism", "performance"]
+},
+{
+"topic": "Cache in CPU Design",
+"difficulty": "hard",
+"question_text": "Why is cache memory important in CPU design?",
+"options": ["It reduces average memory access latency by keeping frequently needed data closer to the CPU", "It permanently stores all user files", "It replaces the ALU", "It eliminates the need for registers"],
+"correct_answer": "It reduces average memory access latency by keeping frequently needed data closer to the CPU",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cache+memory+computer+architecture](https://www.geeksforgeeks.org/?s=cache+memory+computer+architecture)",
+"tags": ["cpu", "cache", "memory-hierarchy", "performance"]
+},
+{
+"topic": "Virtual Memory",
+"difficulty": "hard",
+"question_text": "What is the primary role of an MMU in a modern CPU?",
+"options": ["Translate virtual addresses to physical addresses and enforce memory protection", "Perform floating-point arithmetic", "Predict branches", "Decode network packets"],
+"correct_answer": "Translate virtual addresses to physical addresses and enforce memory protection",
+"resource_link": "[https://www.geeksforgeeks.org/?s=memory+management+unit+MMU](https://www.geeksforgeeks.org/?s=memory+management+unit+MMU)",
+"tags": ["cpu", "mmu", "virtual-memory", "memory-management"]
+},
+{
+"topic": "CPU Microarchitecture",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of register renaming in an out-of-order CPU?",
+"options": ["Reduce false dependencies caused by reuse of architectural registers", "Increase physical memory capacity", "Decode branch instructions", "Replace cache memory"],
+"correct_answer": "Reduce false dependencies caused by reuse of architectural registers",
+"resource_link": "[https://www.geeksforgeeks.org/?s=register+renaming+computer+architecture](https://www.geeksforgeeks.org/?s=register+renaming+computer+architecture)",
+"tags": ["cpu", "register-renaming", "out-of-order", "microarchitecture"]
+},
+{
+"topic": "CPU Design",
+"difficulty": "hard",
+"question_text": "What is a critical path in a synchronous CPU circuit?",
+"options": ["The longest combinational path that limits the minimum clock period", "The path used to boot the operating system", "The route between CPU and internet", "The path used to store files"],
+"correct_answer": "The longest combinational path that limits the minimum clock period",
+"resource_link": "[https://www.geeksforgeeks.org/?s=critical+path+digital+logic](https://www.geeksforgeeks.org/?s=critical+path+digital+logic)",
+"tags": ["cpu", "critical-path", "timing", "digital-logic"]
+},
+{
+"topic": "CPU Design",
+"difficulty": "hard",
+"question_text": "What is clock skew in a synchronous digital system?",
+"options": ["A difference in the arrival time of a clock signal at different circuit elements", "A difference between two instruction opcodes", "A CPU cache miss", "A memory addressing mode"],
+"correct_answer": "A difference in the arrival time of a clock signal at different circuit elements",
+"resource_link": "[https://www.geeksforgeeks.org/?s=clock+skew](https://www.geeksforgeeks.org/?s=clock+skew)",
+"tags": ["cpu", "clock-skew", "timing", "digital-design"]
+}
+]

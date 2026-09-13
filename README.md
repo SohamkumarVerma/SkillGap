@@ -26,8 +26,15 @@ chmod +x start.sh
 
 The script will:
 1. Install `node_modules` in both `frontend/` and `backend/` if missing
-2. Start the Express backend on **port 5000**
-3. Start the Vite dev server on **port 3000** and open your browser
+2. Import every JSON question bank in `backend/seed/` into SQLite (safe to repeat)
+3. Start the Express backend on **port 5000**
+4. Start the Vite dev server on **port 3000** and open your browser
+
+Question banks are data-driven: each JSON file contributes its questions and
+tags automatically. Tags become job-description keywords, and matching tags
+are then used by the existing test and roadmap generation routes. The backend
+also imports newly added banks when it starts, even if the database file already
+exists.
 
 ## Project Structure
 

@@ -1,0 +1,362 @@
+[
+{
+"topic": "GPU Architecture",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of a GPU?",
+"options": ["Perform highly parallel computations", "Manage files on disk", "Control network routing", "Replace system RAM"],
+"correct_answer": "Perform highly parallel computations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+architecture](https://www.geeksforgeeks.org/?s=GPU+architecture)",
+"tags": ["gpu", "parallel-computing", "computer-architecture", "hardware"]
+},
+{
+"topic": "GPU Architecture",
+"difficulty": "easy",
+"question_text": "What is a major architectural difference between a typical CPU and GPU?",
+"options": ["GPUs generally contain many more parallel execution resources", "GPUs cannot perform arithmetic", "CPUs cannot execute programs", "GPUs do not use memory"],
+"correct_answer": "GPUs generally contain many more parallel execution resources",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CPU+vs+GPU](https://www.geeksforgeeks.org/?s=CPU+vs+GPU)",
+"tags": ["gpu", "cpu", "parallel-computing", "architecture"]
+},
+{
+"topic": "GPU Parallelism",
+"difficulty": "easy",
+"question_text": "GPUs are particularly well suited for which type of workload?",
+"options": ["Highly parallel workloads", "Strictly sequential workloads only", "File system management", "Operating system booting"],
+"correct_answer": "Highly parallel workloads",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+parallel+processing](https://www.geeksforgeeks.org/?s=GPU+parallel+processing)",
+"tags": ["gpu", "parallelism", "compute", "hardware"]
+},
+{
+"topic": "GPU Compute Units",
+"difficulty": "easy",
+"question_text": "What is a GPU streaming multiprocessor generally responsible for?",
+"options": ["Executing groups of GPU threads and managing their resources", "Storing files permanently", "Replacing the CPU entirely", "Managing Ethernet cables"],
+"correct_answer": "Executing groups of GPU threads and managing their resources",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+streaming+multiprocessor](https://www.geeksforgeeks.org/?s=GPU+streaming+multiprocessor)",
+"tags": ["gpu", "sm", "compute", "parallelism"]
+},
+{
+"topic": "GPU Threads",
+"difficulty": "easy",
+"question_text": "What is a GPU thread?",
+"options": ["An individual execution instance of a GPU kernel", "A physical memory chip", "A display connector", "A CPU cache line"],
+"correct_answer": "An individual execution instance of a GPU kernel",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+threads+CUDA](https://www.geeksforgeeks.org/?s=GPU+threads+CUDA)",
+"tags": ["gpu", "threads", "cuda", "parallel-computing"]
+},
+{
+"topic": "GPU Kernels",
+"difficulty": "easy",
+"question_text": "What is a GPU kernel?",
+"options": ["A function executed by many GPU threads in parallel", "The physical center of a GPU chip", "A type of GPU memory", "A cooling component"],
+"correct_answer": "A function executed by many GPU threads in parallel",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+kernel](https://www.geeksforgeeks.org/?s=CUDA+kernel)",
+"tags": ["gpu", "kernel", "cuda", "parallel-computing"]
+},
+{
+"topic": "CUDA",
+"difficulty": "easy",
+"question_text": "What is CUDA?",
+"options": ["A parallel computing platform and programming model for NVIDIA GPUs", "A type of GPU memory", "A display protocol", "A CPU instruction set"],
+"correct_answer": "A parallel computing platform and programming model for NVIDIA GPUs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA](https://www.geeksforgeeks.org/?s=CUDA)",
+"tags": ["gpu", "cuda", "nvidia", "parallel-computing"]
+},
+{
+"topic": "GPU Memory",
+"difficulty": "easy",
+"question_text": "What is VRAM primarily used for?",
+"options": ["Store graphics data and other data accessed by the GPU", "Store the operating system permanently", "Replace CPU registers", "Provide network connectivity"],
+"correct_answer": "Store graphics data and other data accessed by the GPU",
+"resource_link": "[https://www.geeksforgeeks.org/?s=VRAM+GPU+memory](https://www.geeksforgeeks.org/?s=VRAM+GPU+memory)",
+"tags": ["gpu", "vram", "memory", "graphics"]
+},
+{
+"topic": "GPU Graphics Pipeline",
+"difficulty": "easy",
+"question_text": "Which stage of a traditional graphics pipeline converts geometric primitives into fragments?",
+"options": ["Rasterization", "Compilation", "Linking", "Booting"],
+"correct_answer": "Rasterization",
+"resource_link": "[https://www.geeksforgeeks.org/?s=graphics+rasterization](https://www.geeksforgeeks.org/?s=graphics+rasterization)",
+"tags": ["gpu", "rasterization", "graphics", "rendering"]
+},
+{
+"topic": "GPU Shaders",
+"difficulty": "easy",
+"question_text": "What is a shader?",
+"options": ["A program executed on the GPU to perform graphics or compute operations", "A GPU cooling device", "A type of RAM", "A display cable"],
+"correct_answer": "A program executed on the GPU to perform graphics or compute operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=shader+GPU](https://www.geeksforgeeks.org/?s=shader+GPU)",
+"tags": ["gpu", "shaders", "graphics", "rendering"]
+},
+{
+"topic": "GPU Graphics Pipeline",
+"difficulty": "easy",
+"question_text": "What does a vertex shader primarily operate on?",
+"options": ["Vertices", "Entire operating systems", "Hard-disk sectors", "Network packets"],
+"correct_answer": "Vertices",
+"resource_link": "[https://www.geeksforgeeks.org/?s=vertex+shader](https://www.geeksforgeeks.org/?s=vertex+shader)",
+"tags": ["gpu", "vertex-shader", "graphics", "rendering"]
+},
+{
+"topic": "GPU Graphics Pipeline",
+"difficulty": "easy",
+"question_text": "What does a fragment shader primarily determine?",
+"options": ["The color and other properties of fragments or pixels", "CPU instruction addresses", "Hard-drive partitions", "Network routing tables"],
+"correct_answer": "The color and other properties of fragments or pixels",
+"resource_link": "[https://www.geeksforgeeks.org/?s=fragment+shader](https://www.geeksforgeeks.org/?s=fragment+shader)",
+"tags": ["gpu", "fragment-shader", "graphics", "rendering"]
+},
+{
+"topic": "GPU APIs",
+"difficulty": "easy",
+"question_text": "Which of the following is a graphics API commonly used to communicate with GPUs?",
+"options": ["Vulkan", "SQL", "HTTP", "SMTP"],
+"correct_answer": "Vulkan",
+"resource_link": "[https://www.geeksforgeeks.org/?s=Vulkan+API](https://www.geeksforgeeks.org/?s=Vulkan+API)",
+"tags": ["gpu", "vulkan", "graphics-api", "rendering"]
+},
+{
+"topic": "GPU APIs",
+"difficulty": "easy",
+"question_text": "What is OpenGL primarily used for?",
+"options": ["Rendering 2D and 3D graphics", "Managing relational databases", "Compiling operating systems", "Encrypting files"],
+"correct_answer": "Rendering 2D and 3D graphics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=OpenGL](https://www.geeksforgeeks.org/?s=OpenGL)",
+"tags": ["gpu", "opengl", "graphics", "rendering"]
+},
+{
+"topic": "GPU Compute",
+"difficulty": "easy",
+"question_text": "What is GPGPU computing?",
+"options": ["Using GPUs for general-purpose computations beyond graphics", "Using CPUs only for graphics", "Using RAM as a GPU", "Using GPUs only for displaying images"],
+"correct_answer": "Using GPUs for general-purpose computations beyond graphics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPGPU](https://www.geeksforgeeks.org/?s=GPGPU)",
+"tags": ["gpu", "gpgpu", "compute", "parallelism"]
+},
+{
+"topic": "GPU Thread Hierarchy",
+"difficulty": "medium",
+"question_text": "In CUDA, what is a thread block?",
+"options": ["A group of threads that can cooperate and share certain resources", "A physical memory module", "A GPU cooling unit", "A single CPU instruction"],
+"correct_answer": "A group of threads that can cooperate and share certain resources",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+thread+block](https://www.geeksforgeeks.org/?s=CUDA+thread+block)",
+"tags": ["gpu", "cuda", "thread-block", "parallelism"]
+},
+{
+"topic": "GPU Thread Hierarchy",
+"difficulty": "medium",
+"question_text": "In CUDA, what is a grid?",
+"options": ["The collection of thread blocks launched for a kernel", "A single GPU register", "A memory cache line", "A display resolution"],
+"correct_answer": "The collection of thread blocks launched for a kernel",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+grid+thread+block](https://www.geeksforgeeks.org/?s=CUDA+grid+thread+block)",
+"tags": ["gpu", "cuda", "grid", "parallelism"]
+},
+{
+"topic": "GPU Memory Hierarchy",
+"difficulty": "medium",
+"question_text": "Which type of GPU memory is typically private to an individual thread?",
+"options": ["Local memory", "Global memory", "Constant memory", "Texture memory"],
+"correct_answer": "Local memory",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+memory+types](https://www.geeksforgeeks.org/?s=CUDA+memory+types)",
+"tags": ["gpu", "memory-hierarchy", "cuda", "local-memory"]
+},
+{
+"topic": "GPU Memory Hierarchy",
+"difficulty": "medium",
+"question_text": "Which GPU memory is typically accessible by threads across the device and has relatively high capacity?",
+"options": ["Global memory", "Register memory", "Local register only", "Instruction register"],
+"correct_answer": "Global memory",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+global+memory](https://www.geeksforgeeks.org/?s=CUDA+global+memory)",
+"tags": ["gpu", "global-memory", "cuda", "memory"]
+},
+{
+"topic": "GPU Shared Memory",
+"difficulty": "medium",
+"question_text": "What is shared memory in CUDA primarily used for?",
+"options": ["Fast data sharing among threads in the same block", "Permanent storage of programs", "Communication between unrelated computers", "Replacing VRAM"],
+"correct_answer": "Fast data sharing among threads in the same block",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+shared+memory](https://www.geeksforgeeks.org/?s=CUDA+shared+memory)",
+"tags": ["gpu", "shared-memory", "cuda", "optimization"]
+},
+{
+"topic": "GPU Registers",
+"difficulty": "medium",
+"question_text": "Why are GPU registers important for performance?",
+"options": ["They provide very fast storage for values used by individual threads", "They provide permanent file storage", "They replace the display controller", "They increase network bandwidth"],
+"correct_answer": "They provide very fast storage for values used by individual threads",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+registers](https://www.geeksforgeeks.org/?s=GPU+registers)",
+"tags": ["gpu", "registers", "memory", "performance"]
+},
+{
+"topic": "GPU Memory Coalescing",
+"difficulty": "medium",
+"question_text": "What is coalesced memory access in GPU programming?",
+"options": ["Efficiently combining nearby thread memory accesses into fewer memory transactions", "Copying all GPU memory to the CPU", "Encrypting global memory", "Disabling memory caching"],
+"correct_answer": "Efficiently combining nearby thread memory accesses into fewer memory transactions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=coalesced+memory+access+GPU](https://www.geeksforgeeks.org/?s=coalesced+memory+access+GPU)",
+"tags": ["gpu", "memory-coalescing", "cuda", "optimization"]
+},
+{
+"topic": "GPU Execution Model",
+"difficulty": "medium",
+"question_text": "What does SIMT stand for?",
+"options": ["Single Instruction, Multiple Threads", "Single Input, Multiple Transfers", "Sequential Instruction, Multiple Tasks", "Shared Instruction, Memory Transfer"],
+"correct_answer": "Single Instruction, Multiple Threads",
+"resource_link": "[https://www.geeksforgeeks.org/?s=SIMT+GPU](https://www.geeksforgeeks.org/?s=SIMT+GPU)",
+"tags": ["gpu", "simt", "parallelism", "architecture"]
+},
+{
+"topic": "GPU Warps",
+"difficulty": "medium",
+"question_text": "What is a warp in NVIDIA CUDA terminology?",
+"options": ["A group of threads scheduled and executed together", "A GPU memory chip", "A graphics API", "A CPU cache"],
+"correct_answer": "A group of threads scheduled and executed together",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+warp](https://www.geeksforgeeks.org/?s=CUDA+warp)",
+"tags": ["gpu", "warp", "cuda", "simt"]
+},
+{
+"topic": "GPU Performance",
+"difficulty": "medium",
+"question_text": "What is GPU occupancy?",
+"options": ["The ratio of active warps to the maximum supported active warps on a compute unit", "The percentage of VRAM that is permanently reserved", "The GPU temperature", "The number of display outputs"],
+"correct_answer": "The ratio of active warps to the maximum supported active warps on a compute unit",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+occupancy](https://www.geeksforgeeks.org/?s=GPU+occupancy)",
+"tags": ["gpu", "occupancy", "performance", "cuda"]
+},
+{
+"topic": "GPU Parallel Algorithms",
+"difficulty": "medium",
+"question_text": "Why is matrix multiplication well suited to GPU execution?",
+"options": ["Many matrix elements can be computed independently in parallel", "It requires only sequential execution", "It cannot use floating-point arithmetic", "It requires no memory access"],
+"correct_answer": "Many matrix elements can be computed independently in parallel",
+"resource_link": "[https://www.geeksforgeeks.org/?s=matrix+multiplication+GPU](https://www.geeksforgeeks.org/?s=matrix+multiplication+GPU)",
+"tags": ["gpu", "matrix-multiplication", "parallelism", "compute"]
+},
+{
+"topic": "GPU Rendering",
+"difficulty": "medium",
+"question_text": "What is a framebuffer?",
+"options": ["A memory region containing data used to represent an image for display", "A CPU instruction queue", "A network buffer only", "A GPU power regulator"],
+"correct_answer": "A memory region containing data used to represent an image for display",
+"resource_link": "[https://www.geeksforgeeks.org/?s=framebuffer+computer+graphics](https://www.geeksforgeeks.org/?s=framebuffer+computer+graphics)",
+"tags": ["gpu", "framebuffer", "graphics", "rendering"]
+},
+{
+"topic": "GPU Rendering",
+"difficulty": "medium",
+"question_text": "What is depth buffering used for in 3D graphics?",
+"options": ["Determine which surfaces are visible based on depth", "Increase GPU clock speed", "Store shader source code permanently", "Compress network traffic"],
+"correct_answer": "Determine which surfaces are visible based on depth",
+"resource_link": "[https://www.geeksforgeeks.org/?s=depth+buffer+graphics](https://www.geeksforgeeks.org/?s=depth+buffer+graphics)",
+"tags": ["gpu", "depth-buffer", "3d-graphics", "rendering"]
+},
+{
+"topic": "GPU Rasterization",
+"difficulty": "medium",
+"question_text": "What is rasterization?",
+"options": ["Converting geometric primitives into fragments or pixels for rendering", "Converting source code into machine code", "Compressing textures", "Managing GPU power"],
+"correct_answer": "Converting geometric primitives into fragments or pixels for rendering",
+"resource_link": "[https://www.geeksforgeeks.org/?s=rasterization+computer+graphics](https://www.geeksforgeeks.org/?s=rasterization+computer+graphics)",
+"tags": ["gpu", "rasterization", "graphics", "rendering"]
+},
+{
+"topic": "GPU Texture Processing",
+"difficulty": "medium",
+"question_text": "What is texture mapping used for?",
+"options": ["Apply image or texture data to surfaces in a rendered scene", "Increase CPU register count", "Manage GPU interrupts", "Store executable programs"],
+"correct_answer": "Apply image or texture data to surfaces in a rendered scene",
+"resource_link": "[https://www.geeksforgeeks.org/?s=texture+mapping+computer+graphics](https://www.geeksforgeeks.org/?s=texture+mapping+computer+graphics)",
+"tags": ["gpu", "texture-mapping", "graphics", "rendering"]
+},
+{
+"topic": "GPU Memory Architecture",
+"difficulty": "hard",
+"question_text": "What is a GPU memory bank conflict?",
+"options": ["When threads in a warp access different addresses that map to the same shared-memory bank", "When VRAM becomes completely full", "When a GPU loses power", "When two shaders have the same name"],
+"correct_answer": "When threads in a warp access different addresses that map to the same shared-memory bank",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+shared+memory+bank+conflict](https://www.geeksforgeeks.org/?s=CUDA+shared+memory+bank+conflict)",
+"tags": ["gpu", "bank-conflict", "shared-memory", "cuda"]
+},
+{
+"topic": "GPU Execution",
+"difficulty": "hard",
+"question_text": "What is warp divergence?",
+"options": ["When threads in the same warp take different control-flow paths", "When GPU memory is disconnected", "When all threads execute identical instructions", "When a GPU changes its display resolution"],
+"correct_answer": "When threads in the same warp take different control-flow paths",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CUDA+warp+divergence](https://www.geeksforgeeks.org/?s=CUDA+warp+divergence)",
+"tags": ["gpu", "warp-divergence", "cuda", "parallelism"]
+},
+{
+"topic": "GPU Performance",
+"difficulty": "hard",
+"question_text": "Why can excessive register usage reduce GPU occupancy?",
+"options": ["More registers per thread can limit how many threads or warps fit on a compute unit", "Registers are stored only on the CPU", "Registers increase VRAM capacity", "Registers disable GPU parallelism"],
+"correct_answer": "More registers per thread can limit how many threads or warps fit on a compute unit",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+register+usage+occupancy](https://www.geeksforgeeks.org/?s=GPU+register+usage+occupancy)",
+"tags": ["gpu", "registers", "occupancy", "optimization"]
+},
+{
+"topic": "GPU Architecture",
+"difficulty": "hard",
+"question_text": "What is the main purpose of a GPU's memory hierarchy?",
+"options": ["Provide different storage levels that balance latency, capacity, bandwidth, and access patterns", "Make every memory access identical", "Eliminate the need for computation", "Store only display settings"],
+"correct_answer": "Provide different storage levels that balance latency, capacity, bandwidth, and access patterns",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+memory+hierarchy](https://www.geeksforgeeks.org/?s=GPU+memory+hierarchy)",
+"tags": ["gpu", "memory-hierarchy", "architecture", "performance"]
+},
+{
+"topic": "GPU Compute Architecture",
+"difficulty": "hard",
+"question_text": "What is a tensor core primarily designed to accelerate?",
+"options": ["Matrix and tensor operations used heavily in machine learning", "Disk operations", "Network routing", "CPU branch prediction"],
+"correct_answer": "Matrix and tensor operations used heavily in machine learning",
+"resource_link": "[https://www.geeksforgeeks.org/?s=tensor+cores+GPU](https://www.geeksforgeeks.org/?s=tensor+cores+GPU)",
+"tags": ["gpu", "tensor-cores", "machine-learning", "accelerators"]
+},
+{
+"topic": "GPU Architecture",
+"difficulty": "hard",
+"question_text": "What is the primary difference between a GPU execution unit and a CPU core?",
+"options": ["GPU execution resources are generally optimized for high throughput across many parallel threads", "GPU execution units cannot perform arithmetic", "CPU cores cannot execute instructions", "They always have identical architectures"],
+"correct_answer": "GPU execution resources are generally optimized for high throughput across many parallel threads",
+"resource_link": "[https://www.geeksforgeeks.org/?s=CPU+GPU+architecture+difference](https://www.geeksforgeeks.org/?s=CPU+GPU+architecture+difference)",
+"tags": ["gpu", "cpu", "execution-units", "parallelism"]
+},
+{
+"topic": "GPU Interconnects",
+"difficulty": "hard",
+"question_text": "Why are high-bandwidth GPU interconnects important in multi-GPU systems?",
+"options": ["They enable faster communication and data exchange between GPUs", "They increase monitor resolution directly", "They replace GPU memory", "They eliminate the need for kernels"],
+"correct_answer": "They enable faster communication and data exchange between GPUs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+interconnect+NVLink](https://www.geeksforgeeks.org/?s=GPU+interconnect+NVLink)",
+"tags": ["gpu", "interconnect", "multi-gpu", "bandwidth"]
+},
+{
+"topic": "GPU Ray Tracing",
+"difficulty": "hard",
+"question_text": "What is the purpose of hardware ray-tracing acceleration in modern GPUs?",
+"options": ["Accelerate calculations for ray-object intersections and related ray-tracing operations", "Increase CPU cache size", "Replace rasterization in every workload", "Store textures permanently"],
+"correct_answer": "Accelerate calculations for ray-object intersections and related ray-tracing operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ray+tracing+GPU](https://www.geeksforgeeks.org/?s=ray+tracing+GPU)",
+"tags": ["gpu", "ray-tracing", "graphics", "hardware-acceleration"]
+},
+{
+"topic": "GPU Scheduling",
+"difficulty": "hard",
+"question_text": "What is the role of a GPU warp scheduler?",
+"options": ["Select eligible warps for execution on available execution resources", "Allocate files on disk", "Compile the operating system", "Control monitor brightness"],
+"correct_answer": "Select eligible warps for execution on available execution resources",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+warp+scheduler](https://www.geeksforgeeks.org/?s=GPU+warp+scheduler)",
+"tags": ["gpu", "warp-scheduler", "scheduling", "microarchitecture"]
+},
+{
+"topic": "GPU Architecture",
+"difficulty": "hard",
+"question_text": "What does GPU throughput measure?",
+"options": ["The amount of computation or work the GPU can complete per unit of time", "The physical size of the GPU", "The number of installed displays", "The amount of disk space available"],
+"correct_answer": "The amount of computation or work the GPU can complete per unit of time",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPU+throughput](https://www.geeksforgeeks.org/?s=GPU+throughput)",
+"tags": ["gpu", "throughput", "performance", "architecture"]
+}
+]

@@ -1,0 +1,53 @@
+# Job Description — Chemical Engineer
+
+**Job Title:** Chemical Engineer
+**Experience:** 0–3 years
+**Location:** Pune, Maharashtra / On-site
+**Employment Type:** Full-time
+
+### About the Role
+
+We are looking for a **Chemical Engineer** to support the design, optimization, and operation of chemical manufacturing processes. The ideal candidate should have a strong understanding of chemical engineering fundamentals, process safety, equipment design, and process optimization.
+
+### Key Responsibilities
+
+* Design, analyze, and optimize chemical manufacturing processes.
+* Monitor production processes and identify opportunities to improve efficiency, quality, and yield.
+* Perform **material and energy balances** for process operations.
+* Analyze process data and troubleshoot operational problems.
+* Assist in the design and selection of process equipment.
+* Develop and review **Process Flow Diagrams (PFDs)** and Piping and Instrumentation Diagrams (P&IDs).
+* Support process scale-up and implementation of new processes.
+* Monitor key process parameters and ensure compliance with operating specifications.
+* Conduct process safety assessments and participate in hazard analysis.
+* Collaborate with production, maintenance, quality, and R&D teams.
+* Prepare technical reports, process documentation, and operating procedures.
+* Ensure processes comply with environmental, health, safety, and regulatory requirements.
+
+### Required Qualifications
+
+* Bachelor's degree in **Chemical Engineering** or a related field.
+* Strong understanding of chemical engineering fundamentals.
+* Knowledge of **thermodynamics, fluid mechanics, heat transfer, and mass transfer**.
+* Understanding of chemical reaction engineering and process control.
+* Ability to perform material and energy balances.
+* Familiarity with process equipment such as reactors, heat exchangers, pumps, compressors, and distillation columns.
+* Strong analytical and problem-solving skills.
+* Good technical communication and documentation skills.
+
+### Preferred Skills
+
+* Experience with **Aspen Plus or Aspen HYSYS**.
+* Knowledge of process simulation and process optimization.
+* Familiarity with **PFDs and P&IDs**.
+* Understanding of **HAZOP, HAZID, and process safety management**.
+* Knowledge of instrumentation and process control systems.
+* Familiarity with statistical process control and data analysis.
+* Understanding of chemical plant utilities and energy management.
+* Knowledge of environmental regulations and waste management.
+* Experience with Excel, MATLAB, Python, or other engineering analysis tools.
+* Familiarity with GMP/ISO standards is a plus.
+
+### Key Skills / Keywords
+
+**Chemical Engineering, Process Engineering, Process Design, Process Optimization, Thermodynamics, Fluid Mechanics, Heat Transfer, Mass Transfer, Reaction Engineering, Process Control, Aspen Plus, Aspen HYSYS, PFD, P&ID, Process Safety, HAZOP, Material Balance, Energy Balance, Plant Operations, Process Simulation**

@@ -1,0 +1,344 @@
+[
+{
+"topic": "Photo Editing Fundamentals",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of photo editing?",
+"options": ["Enhance, correct, or manipulate an image", "Increase camera sensor size", "Change the physical lens", "Increase storage capacity"],
+"correct_answer": "Enhance, correct, or manipulate an image",
+"resource_link": "[https://www.geeksforgeeks.org/?s=photo+editing](https://www.geeksforgeeks.org/?s=photo+editing)",
+"tags": ["photo editing", "image editing", "retouching", "photography"]
+},
+{
+"topic": "Image Resolution",
+"difficulty": "easy",
+"question_text": "What does image resolution primarily describe?",
+"options": ["The number of pixels in an image", "The image file name", "The camera battery level", "The number of editing layers"],
+"correct_answer": "The number of pixels in an image",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+resolution](https://www.geeksforgeeks.org/?s=image+resolution)",
+"tags": ["resolution", "pixels", "image editing", "digital imaging"]
+},
+{
+"topic": "Image Cropping",
+"difficulty": "easy",
+"question_text": "What is cropping used for?",
+"options": ["Removing unwanted areas from an image", "Increasing sensor size", "Adding audio", "Changing file permissions"],
+"correct_answer": "Removing unwanted areas from an image",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+cropping](https://www.geeksforgeeks.org/?s=image+cropping)",
+"tags": ["cropping", "composition", "photo editing", "image editing"]
+},
+{
+"topic": "Image Brightness",
+"difficulty": "easy",
+"question_text": "What does brightness adjustment primarily change?",
+"options": ["The overall lightness or darkness of an image", "The image dimensions only", "The number of pixels", "The file extension"],
+"correct_answer": "The overall lightness or darkness of an image",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+brightness](https://www.geeksforgeeks.org/?s=image+brightness)",
+"tags": ["brightness", "exposure", "photo editing", "color correction"]
+},
+{
+"topic": "Image Contrast",
+"difficulty": "easy",
+"question_text": "What does contrast control in an image?",
+"options": ["The difference between light and dark areas", "The image file size only", "The number of layers", "The camera focal length"],
+"correct_answer": "The difference between light and dark areas",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+contrast](https://www.geeksforgeeks.org/?s=image+contrast)",
+"tags": ["contrast", "tonal adjustment", "photo editing", "color correction"]
+},
+{
+"topic": "Image Saturation",
+"difficulty": "easy",
+"question_text": "What does increasing saturation generally do?",
+"options": ["Makes colors appear more intense", "Makes the image sharper only", "Reduces image resolution", "Removes all shadows"],
+"correct_answer": "Makes colors appear more intense",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+saturation](https://www.geeksforgeeks.org/?s=image+saturation)",
+"tags": ["saturation", "color", "photo editing", "color grading"]
+},
+{
+"topic": "Image Hue",
+"difficulty": "easy",
+"question_text": "What does hue represent?",
+"options": ["The basic color family of a color", "The brightness of an image", "The image resolution", "The file size"],
+"correct_answer": "The basic color family of a color",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hue+color+image+processing](https://www.geeksforgeeks.org/?s=hue+color+image+processing)",
+"tags": ["hue", "color", "photo editing", "color grading"]
+},
+{
+"topic": "Image Layers",
+"difficulty": "easy",
+"question_text": "What is the main benefit of using layers in image editing?",
+"options": ["They allow elements to be edited independently", "They increase camera resolution", "They eliminate image files", "They automatically correct colors"],
+"correct_answer": "They allow elements to be edited independently",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+layers](https://www.geeksforgeeks.org/?s=image+layers)",
+"tags": ["layers", "non destructive editing", "photo editing", "retouching"]
+},
+{
+"topic": "Image Masks",
+"difficulty": "easy",
+"question_text": "What is an image mask commonly used for?",
+"options": ["Controlling which areas of a layer are visible", "Increasing image resolution", "Changing the camera lens", "Compressing audio"],
+"correct_answer": "Controlling which areas of a layer are visible",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+masking](https://www.geeksforgeeks.org/?s=image+masking)",
+"tags": ["masks", "layers", "photo editing", "compositing"]
+},
+{
+"topic": "Image Formats",
+"difficulty": "easy",
+"question_text": "Which format commonly supports transparency?",
+"options": ["PNG", "JPEG", "MP3", "WAV"],
+"correct_answer": "PNG",
+"resource_link": "[https://www.geeksforgeeks.org/?s=png+image+format](https://www.geeksforgeeks.org/?s=png+image+format)",
+"tags": ["png", "image formats", "transparency", "photo editing"]
+},
+{
+"topic": "JPEG Compression",
+"difficulty": "easy",
+"question_text": "JPEG is primarily associated with which type of compression?",
+"options": ["Lossy compression", "Lossless compression only", "Audio compression", "Text compression"],
+"correct_answer": "Lossy compression",
+"resource_link": "[https://www.geeksforgeeks.org/?s=jpeg+compression](https://www.geeksforgeeks.org/?s=jpeg+compression)",
+"tags": ["jpeg", "compression", "image formats", "photo editing"]
+},
+{
+"topic": "RAW Images",
+"difficulty": "easy",
+"question_text": "What is a major advantage of editing RAW photographs?",
+"options": ["They retain substantial sensor data for post-processing", "They always have smaller file sizes than JPEG", "They contain no color information", "They cannot be edited"],
+"correct_answer": "They retain substantial sensor data for post-processing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=raw+image+format](https://www.geeksforgeeks.org/?s=raw+image+format)",
+"tags": ["raw", "photography", "photo editing", "post processing"]
+},
+{
+"topic": "White Balance",
+"difficulty": "easy",
+"question_text": "What does white balance correction primarily control?",
+"options": ["The color cast caused by different lighting conditions", "Image resolution", "File size", "Layer count"],
+"correct_answer": "The color cast caused by different lighting conditions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=white+balance+image](https://www.geeksforgeeks.org/?s=white+balance+image)",
+"tags": ["white balance", "color correction", "photography", "photo editing"]
+},
+{
+"topic": "Sharpening",
+"difficulty": "easy",
+"question_text": "What is sharpening primarily intended to enhance?",
+"options": ["Perceived edge detail and crispness", "Image dimensions", "File storage capacity", "Color temperature"],
+"correct_answer": "Perceived edge detail and crispness",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+sharpening](https://www.geeksforgeeks.org/?s=image+sharpening)",
+"tags": ["sharpening", "image enhancement", "photo editing", "retouching"]
+},
+{
+"topic": "Noise Reduction",
+"difficulty": "easy",
+"question_text": "What is noise reduction used for?",
+"options": ["Reducing unwanted random variations in image pixels", "Increasing image noise", "Changing image dimensions", "Adding layers automatically"],
+"correct_answer": "Reducing unwanted random variations in image pixels",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+noise+reduction](https://www.geeksforgeeks.org/?s=image+noise+reduction)",
+"tags": ["noise reduction", "image enhancement", "photo editing", "retouching"]
+},
+{
+"topic": "Curves Adjustment",
+"difficulty": "medium",
+"question_text": "What is the Curves tool commonly used to adjust?",
+"options": ["Tonal values across different brightness ranges", "Image file names", "Camera battery levels", "Layer file locations"],
+"correct_answer": "Tonal values across different brightness ranges",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+curves+adjustment](https://www.geeksforgeeks.org/?s=image+curves+adjustment)",
+"tags": ["curves", "tonal adjustment", "color correction", "photo editing"]
+},
+{
+"topic": "Levels Adjustment",
+"difficulty": "medium",
+"question_text": "What do Levels adjustments commonly control?",
+"options": ["Black point, white point, and midtones", "Camera shutter hardware", "Image file permissions", "Number of layers"],
+"correct_answer": "Black point, white point, and midtones",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+levels+adjustment](https://www.geeksforgeeks.org/?s=image+levels+adjustment)",
+"tags": ["levels", "tonal adjustment", "color correction", "photo editing"]
+},
+{
+"topic": "Histogram",
+"difficulty": "medium",
+"question_text": "What does an image histogram show?",
+"options": ["The distribution of pixel brightness or color values", "The image's file path", "The number of editing layers", "The camera's focal length"],
+"correct_answer": "The distribution of pixel brightness or color values",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+histogram](https://www.geeksforgeeks.org/?s=image+histogram)",
+"tags": ["histogram", "exposure", "color correction", "photo editing"]
+},
+{
+"topic": "Non-Destructive Editing",
+"difficulty": "medium",
+"question_text": "What is a key advantage of non-destructive editing?",
+"options": ["Edits can be changed or removed without permanently altering the original image", "It always reduces image resolution", "It prevents using layers", "It removes all metadata"],
+"correct_answer": "Edits can be changed or removed without permanently altering the original image",
+"resource_link": "[https://www.geeksforgeeks.org/?s=non+destructive+image+editing](https://www.geeksforgeeks.org/?s=non+destructive+image+editing)",
+"tags": ["non destructive editing", "workflow", "photo editing", "retouching"]
+},
+{
+"topic": "Selective Color Adjustment",
+"difficulty": "medium",
+"question_text": "What is selective color adjustment useful for?",
+"options": ["Changing specific color ranges without equally affecting all colors", "Changing image resolution", "Removing all shadows", "Increasing file size"],
+"correct_answer": "Changing specific color ranges without equally affecting all colors",
+"resource_link": "[https://www.geeksforgeeks.org/?s=selective+color+image+editing](https://www.geeksforgeeks.org/?s=selective+color+image+editing)",
+"tags": ["selective color", "color correction", "color grading", "photo editing"]
+},
+{
+"topic": "Color Temperature",
+"difficulty": "medium",
+"question_text": "Increasing color temperature generally makes an image appear:",
+"options": ["Warmer", "Cooler", "Sharper", "Darker only"],
+"correct_answer": "Warmer",
+"resource_link": "[https://www.geeksforgeeks.org/?s=color+temperature+photography](https://www.geeksforgeeks.org/?s=color+temperature+photography)",
+"tags": ["color temperature", "white balance", "color grading", "photography"]
+},
+{
+"topic": "Tint Adjustment",
+"difficulty": "medium",
+"question_text": "Tint adjustment primarily controls the balance between which color directions?",
+"options": ["Green and magenta", "Red and blue only", "Black and white only", "Yellow and orange only"],
+"correct_answer": "Green and magenta",
+"resource_link": "[https://www.geeksforgeeks.org/?s=tint+white+balance](https://www.geeksforgeeks.org/?s=tint+white+balance)",
+"tags": ["tint", "white balance", "color correction", "photo editing"]
+},
+{
+"topic": "Color Grading",
+"difficulty": "medium",
+"question_text": "What is the primary purpose of color grading?",
+"options": ["Create a desired visual style, mood, or aesthetic", "Increase image resolution", "Repair a damaged camera sensor", "Reduce file names"],
+"correct_answer": "Create a desired visual style, mood, or aesthetic",
+"resource_link": "[https://www.geeksforgeeks.org/?s=color+grading](https://www.geeksforgeeks.org/?s=color+grading)",
+"tags": ["color grading", "visual style", "color", "post production"]
+},
+{
+"topic": "Color Correction",
+"difficulty": "medium",
+"question_text": "What is color correction primarily intended to achieve?",
+"options": ["Accurate and consistent color and exposure", "A completely different artistic style", "Higher camera resolution", "Smaller sensor size"],
+"correct_answer": "Accurate and consistent color and exposure",
+"resource_link": "[https://www.geeksforgeeks.org/?s=color+correction](https://www.geeksforgeeks.org/?s=color+correction)",
+"tags": ["color correction", "exposure", "color", "post production"]
+},
+{
+"topic": "HSL Editing",
+"difficulty": "medium",
+"question_text": "What does HSL stand for in color editing?",
+"options": ["Hue, Saturation, Lightness", "Highlight, Shadow, Luminance", "Hue, Sharpness, Level", "Highlight, Saturation, Light"],
+"correct_answer": "Hue, Saturation, Lightness",
+"resource_link": "[https://www.geeksforgeeks.org/?s=HSL+color+model](https://www.geeksforgeeks.org/?s=HSL+color+model)",
+"tags": ["hsl", "color grading", "color correction", "photo editing"]
+},
+{
+"topic": "Color Harmony",
+"difficulty": "medium",
+"question_text": "What is complementary color harmony based on?",
+"options": ["Colors positioned opposite each other on the color wheel", "Using only grayscale", "Using identical colors", "Removing all saturation"],
+"correct_answer": "Colors positioned opposite each other on the color wheel",
+"resource_link": "[https://www.geeksforgeeks.org/?s=complementary+colors+color+wheel](https://www.geeksforgeeks.org/?s=complementary+colors+color+wheel)",
+"tags": ["color harmony", "color theory", "color grading", "design"]
+},
+{
+"topic": "Selective Editing",
+"difficulty": "medium",
+"question_text": "What is a selection tool primarily used for?",
+"options": ["Isolating a specific region for editing", "Increasing camera resolution", "Changing image file extensions", "Recording audio"],
+"correct_answer": "Isolating a specific region for editing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+selection+tools](https://www.geeksforgeeks.org/?s=image+selection+tools)",
+"tags": ["selection", "masking", "photo editing", "retouching"]
+},
+{
+"topic": "Retouching",
+"difficulty": "medium",
+"question_text": "What is the main purpose of a healing tool in photo retouching?",
+"options": ["Remove unwanted imperfections while blending with surrounding pixels", "Increase image resolution", "Change the camera lens", "Create video transitions"],
+"correct_answer": "Remove unwanted imperfections while blending with surrounding pixels",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+healing+retouching](https://www.geeksforgeeks.org/?s=image+healing+retouching)",
+"tags": ["retouching", "healing", "photo editing", "image enhancement"]
+},
+{
+"topic": "Layer Blending Modes",
+"difficulty": "hard",
+"question_text": "What do blending modes determine?",
+"options": ["How pixels from one layer interact with pixels on another layer", "The camera's shutter speed", "The image resolution", "The number of pixels in a sensor"],
+"correct_answer": "How pixels from one layer interact with pixels on another layer",
+"resource_link": "[https://www.geeksforgeeks.org/?s=image+blending+modes](https://www.geeksforgeeks.org/?s=image+blending+modes)",
+"tags": ["blending modes", "layers", "compositing", "photo editing"]
+},
+{
+"topic": "Curves Color Grading",
+"difficulty": "hard",
+"question_text": "What happens when an individual RGB channel is adjusted using Curves?",
+"options": ["The selected color channel can be altered independently across tonal ranges", "Only image dimensions change", "The file format is automatically converted", "All layers are deleted"],
+"correct_answer": "The selected color channel can be altered independently across tonal ranges",
+"resource_link": "[https://www.geeksforgeeks.org/?s=rgb+curves+color+correction](https://www.geeksforgeeks.org/?s=rgb+curves+color+correction)",
+"tags": ["curves", "rgb", "color grading", "color correction"]
+},
+{
+"topic": "Color Spaces",
+"difficulty": "hard",
+"question_text": "Why are color spaces important in digital image editing?",
+"options": ["They define how colors are represented and interpreted", "They determine camera battery capacity", "They control the number of editing layers", "They eliminate image compression"],
+"correct_answer": "They define how colors are represented and interpreted",
+"resource_link": "[https://www.geeksforgeeks.org/?s=color+spaces+digital+images](https://www.geeksforgeeks.org/?s=color+spaces+digital+images)",
+"tags": ["color space", "color management", "photo editing", "digital imaging"]
+},
+{
+"topic": "sRGB",
+"difficulty": "hard",
+"question_text": "Why is sRGB widely used for images intended for the web?",
+"options": ["It provides a widely supported standard color space", "It always provides the widest possible gamut", "It prevents all image compression", "It stores only grayscale data"],
+"correct_answer": "It provides a widely supported standard color space",
+"resource_link": "[https://www.geeksforgeeks.org/?s=sRGB+color+space](https://www.geeksforgeeks.org/?s=sRGB+color+space)",
+"tags": ["srgb", "color management", "web", "photo editing"]
+},
+{
+"topic": "Adobe RGB",
+"difficulty": "hard",
+"question_text": "Compared with sRGB, Adobe RGB generally provides:",
+"options": ["A wider color gamut in certain green and cyan regions", "Only grayscale information", "Lower color precision by definition", "No support for color images"],
+"correct_answer": "A wider color gamut in certain green and cyan regions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=Adobe+RGB+color+space](https://www.geeksforgeeks.org/?s=Adobe+RGB+color+space)",
+"tags": ["adobe rgb", "color gamut", "color management", "photography"]
+},
+{
+"topic": "Color Gamut",
+"difficulty": "hard",
+"question_text": "What does color gamut refer to?",
+"options": ["The range of colors that a device or color space can represent", "The number of pixels in an image", "The image's storage size", "The number of editing layers"],
+"correct_answer": "The range of colors that a device or color space can represent",
+"resource_link": "[https://www.geeksforgeeks.org/?s=color+gamut](https://www.geeksforgeeks.org/?s=color+gamut)",
+"tags": ["color gamut", "color management", "color grading", "digital imaging"]
+},
+{
+"topic": "Luminance and Chroma",
+"difficulty": "hard",
+"question_text": "What does luminance primarily describe in an image?",
+"options": ["Perceived brightness information", "The file format", "The number of layers", "The camera's focal length"],
+"correct_answer": "Perceived brightness information",
+"resource_link": "[https://www.geeksforgeeks.org/?s=luminance+chrominance+image](https://www.geeksforgeeks.org/?s=luminance+chrominance+image)",
+"tags": ["luminance", "chroma", "color grading", "image processing"]
+},
+{
+"topic": "Tone Mapping",
+"difficulty": "hard",
+"question_text": "What is tone mapping commonly used for?",
+"options": ["Mapping a high dynamic range into a displayable or printable range", "Increasing the number of camera pixels", "Removing all color information", "Changing image file names"],
+"correct_answer": "Mapping a high dynamic range into a displayable or printable range",
+"resource_link": "[https://www.geeksforgeeks.org/?s=tone+mapping+image](https://www.geeksforgeeks.org/?s=tone+mapping+image)",
+"tags": ["tone mapping", "hdr", "dynamic range", "color grading"]
+},
+{
+"topic": "Color Calibration",
+"difficulty": "hard",
+"question_text": "Why is monitor calibration important for professional color work?",
+"options": ["It helps ensure displayed colors are more accurate and consistent", "It increases image resolution", "It removes the need for color spaces", "It prevents all compression"],
+"correct_answer": "It helps ensure displayed colors are more accurate and consistent",
+"resource_link": "[https://www.geeksforgeeks.org/?s=monitor+color+calibration](https://www.geeksforgeeks.org/?s=monitor+color+calibration)",
+"tags": ["color calibration", "color management", "photo editing", "color grading"]
+},
+{
+"topic": "RAW Dynamic Range",
+"difficulty": "hard",
+"question_text": "Why can RAW files provide greater flexibility when recovering exposure?",
+"options": ["They retain more sensor information before final image processing", "They always contain unlimited brightness", "They contain no compression whatsoever in every camera", "They automatically correct every exposure error"],
+"correct_answer": "They retain more sensor information before final image processing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=raw+image+dynamic+range](https://www.geeksforgeeks.org/?s=raw+image+dynamic+range)",
+"tags": ["raw", "dynamic range", "exposure", "photo editing"]
+}
+]

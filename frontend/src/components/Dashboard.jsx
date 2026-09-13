@@ -5,7 +5,7 @@
  * Props:
  *   roadmapData    — from /api/generate-roadmap
  *   completedDays  — Set<number>
- *   onMarkDone     — async (day) => void  (already calls /daily-activity in App)
+ *   onTaskToggle   — async (day, taskIndex, completed) => void
  *   activity       — array from GET /api/daily-activity
  *   onReset        — () => void
  */
@@ -16,27 +16,29 @@ import ActivityHeatmap from "./ActivityHeatmap";
 export default function Dashboard({
   roadmapData,
   completedDays,
-  onMarkDone,
+  onTaskToggle,
   activity,
   onReset,
 }) {
   return (
-    <div className="w-full max-w-2xl mx-auto space-y-10">
+    <div className="dashboard-view w-full max-w-2xl mx-auto space-y-10">
 
       {/* ── Activity heatmap ── */}
       <section>
-        <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">
-          Activity
+        <p className="section-kicker">Your momentum</p>
+        <h2 className="section-heading">
+          Consistency compounds.
         </h2>
         <ActivityHeatmap activity={activity} />
       </section>
 
       {/* ── Roadmap list ── */}
       <section>
+        <p className="section-kicker">Your plan</p>
         <RoadmapView
           roadmapData={roadmapData}
           completedDays={completedDays}
-          onMarkDone={onMarkDone}
+          onTaskToggle={onTaskToggle}
         />
       </section>
 

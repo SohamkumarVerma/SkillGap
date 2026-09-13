@@ -1,20 +1,25 @@
 /* react-calendar-heatmap dark theme overrides */
 
 /* Base cell — empty day */
+.color-empty,
 .react-calendar-heatmap .color-empty {
   fill: #1f2937; /* gray-800 */
 }
 
 /* Activity levels — map to indigo shades */
+.color-scale-1,
 .react-calendar-heatmap .color-scale-1 {
   fill: #312e81; /* indigo-900 */
 }
+.color-scale-2,
 .react-calendar-heatmap .color-scale-2 {
   fill: #4338ca; /* indigo-700 */
 }
+.color-scale-3,
 .react-calendar-heatmap .color-scale-3 {
   fill: #6366f1; /* indigo-500 */
 }
+.color-scale-4,
 .react-calendar-heatmap .color-scale-4 {
   fill: #a5b4fc; /* indigo-300 */
 }

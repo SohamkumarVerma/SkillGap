@@ -1,0 +1,389 @@
+[
+{
+"topic": "Banking Fundamentals",
+"difficulty": "easy",
+"question_text": "What is the primary function of a commercial bank?",
+"options": ["Accepting deposits and providing loans", "Manufacturing goods", "Setting stock prices", "Collecting income tax"],
+"correct_answer": "Accepting deposits and providing loans",
+"resource_link": "[https://www.geeksforgeeks.org/?s=functions+of+commercial+banks](https://www.geeksforgeeks.org/?s=functions+of+commercial+banks)",
+"tags": ["banking", "commercial-banking", "finance", "financial-services"]
+},
+{
+"topic": "Banking Fundamentals",
+"difficulty": "easy",
+"question_text": "What is a bank deposit?",
+"options": ["Money placed with a bank for safekeeping or investment", "A loan taken from a bank", "A government tax", "A stock market investment only"],
+"correct_answer": "Money placed with a bank for safekeeping or investment",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bank+deposits+types](https://www.geeksforgeeks.org/?s=bank+deposits+types)",
+"tags": ["banking", "deposits", "finance", "financial-services"]
+},
+{
+"topic": "Bank Accounts",
+"difficulty": "easy",
+"question_text": "Which bank account is primarily designed for frequent business transactions?",
+"options": ["Current account", "Fixed deposit account", "Recurring deposit account", "Savings account only"],
+"correct_answer": "Current account",
+"resource_link": "[https://www.geeksforgeeks.org/?s=current+account+banking](https://www.geeksforgeeks.org/?s=current+account+banking)",
+"tags": ["banking", "current-account", "business-banking", "finance"]
+},
+{
+"topic": "Bank Accounts",
+"difficulty": "easy",
+"question_text": "Which account generally allows individuals to save money while earning interest?",
+"options": ["Savings account", "Current account", "Loan account", "Cash credit account"],
+"correct_answer": "Savings account",
+"resource_link": "[https://www.geeksforgeeks.org/?s=savings+account+banking](https://www.geeksforgeeks.org/?s=savings+account+banking)",
+"tags": ["banking", "savings", "deposits", "personal-finance"]
+},
+{
+"topic": "Loans and Credit",
+"difficulty": "easy",
+"question_text": "What is a loan?",
+"options": ["Money borrowed with an obligation to repay", "Money deposited into a bank", "A type of insurance policy", "A government grant"],
+"correct_answer": "Money borrowed with an obligation to repay",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bank+loan+types](https://www.geeksforgeeks.org/?s=bank+loan+types)",
+"tags": ["banking", "loans", "credit", "finance"]
+},
+{
+"topic": "Interest Rates",
+"difficulty": "easy",
+"question_text": "What is interest on a loan?",
+"options": ["The cost paid for borrowing money", "The principal amount borrowed", "A bank's operating expense", "A type of deposit"],
+"correct_answer": "The cost paid for borrowing money",
+"resource_link": "[https://www.geeksforgeeks.org/?s=interest+rate+banking](https://www.geeksforgeeks.org/?s=interest+rate+banking)",
+"tags": ["banking", "interest-rates", "loans", "finance"]
+},
+{
+"topic": "Central Banking",
+"difficulty": "easy",
+"question_text": "Which institution is India's central bank?",
+"options": ["Reserve Bank of India", "State Bank of India", "SEBI", "NABARD"],
+"correct_answer": "Reserve Bank of India",
+"resource_link": "[https://www.geeksforgeeks.org/?s=reserve+bank+of+india+rbi](https://www.geeksforgeeks.org/?s=reserve+bank+of+india+rbi)",
+"tags": ["banking", "rbi", "central-bank", "india"]
+},
+{
+"topic": "Monetary Policy",
+"difficulty": "easy",
+"question_text": "What is monetary policy primarily concerned with?",
+"options": ["Managing money supply and interest rates", "Managing company recruitment", "Setting corporate salaries", "Managing product inventories"],
+"correct_answer": "Managing money supply and interest rates",
+"resource_link": "[https://www.geeksforgeeks.org/?s=monetary+policy](https://www.geeksforgeeks.org/?s=monetary+policy)",
+"tags": ["banking", "monetary-policy", "rbi", "macroeconomics"]
+},
+{
+"topic": "Banking Regulation",
+"difficulty": "easy",
+"question_text": "What does KYC stand for in banking?",
+"options": ["Know Your Customer", "Keep Your Cash", "Know Your Credit", "Key Yield Calculation"],
+"correct_answer": "Know Your Customer",
+"resource_link": "[https://www.geeksforgeeks.org/?s=know+your+customer+kyc](https://www.geeksforgeeks.org/?s=know+your+customer+kyc)",
+"tags": ["banking", "kyc", "compliance", "financial-services"]
+},
+{
+"topic": "Digital Banking",
+"difficulty": "easy",
+"question_text": "What is digital banking?",
+"options": ["Providing banking services through digital channels", "Printing physical currency", "Trading only in physical shares", "Managing cash without technology"],
+"correct_answer": "Providing banking services through digital channels",
+"resource_link": "[https://www.geeksforgeeks.org/?s=digital+banking](https://www.geeksforgeeks.org/?s=digital+banking)",
+"tags": ["banking", "digital-banking", "fintech", "financial-services"]
+},
+{
+"topic": "Electronic Payments",
+"difficulty": "easy",
+"question_text": "What does UPI stand for?",
+"options": ["Unified Payments Interface", "Universal Payment Investment", "Unified Processing Instrument", "User Payment Interface"],
+"correct_answer": "Unified Payments Interface",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unified+payments+interface+upi](https://www.geeksforgeeks.org/?s=unified+payments+interface+upi)",
+"tags": ["banking", "upi", "digital-payments", "fintech"]
+},
+{
+"topic": "Credit Cards",
+"difficulty": "easy",
+"question_text": "What is a credit card primarily used for?",
+"options": ["Making purchases using a line of credit", "Receiving only salary payments", "Opening a fixed deposit", "Buying government bonds automatically"],
+"correct_answer": "Making purchases using a line of credit",
+"resource_link": "[https://www.geeksforgeeks.org/?s=credit+card+banking](https://www.geeksforgeeks.org/?s=credit+card+banking)",
+"tags": ["banking", "credit-cards", "consumer-finance", "credit"]
+},
+{
+"topic": "Financial Inclusion",
+"difficulty": "easy",
+"question_text": "What is financial inclusion?",
+"options": ["Providing affordable access to useful financial services", "Restricting banking services to large companies", "Increasing bank charges", "Eliminating digital payments"],
+"correct_answer": "Providing affordable access to useful financial services",
+"resource_link": "[https://www.geeksforgeeks.org/?s=financial+inclusion](https://www.geeksforgeeks.org/?s=financial+inclusion)",
+"tags": ["banking", "financial-inclusion", "finance", "financial-services"]
+},
+{
+"topic": "Insurance",
+"difficulty": "easy",
+"question_text": "What is the main purpose of insurance?",
+"options": ["Transfer financial risk in exchange for a premium", "Guarantee investment profits", "Eliminate all financial losses", "Provide interest-free loans"],
+"correct_answer": "Transfer financial risk in exchange for a premium",
+"resource_link": "[https://www.geeksforgeeks.org/?s=insurance+basics](https://www.geeksforgeeks.org/?s=insurance+basics)",
+"tags": ["insurance", "risk-management", "finance", "financial-services"]
+},
+{
+"topic": "Financial Markets",
+"difficulty": "easy",
+"question_text": "What is a stock exchange?",
+"options": ["A marketplace for buying and selling securities", "A bank branch", "A government taxation office", "An insurance company"],
+"correct_answer": "A marketplace for buying and selling securities",
+"resource_link": "[https://www.geeksforgeeks.org/?s=stock+exchange](https://www.geeksforgeeks.org/?s=stock+exchange)",
+"tags": ["banking", "financial-markets", "stocks", "securities"]
+},
+{
+"topic": "Banking Regulation",
+"difficulty": "medium",
+"question_text": "What is the primary purpose of maintaining bank reserves?",
+"options": ["Help banks meet withdrawal and liquidity requirements", "Guarantee every investment profit", "Eliminate all loans", "Increase stock prices"],
+"correct_answer": "Help banks meet withdrawal and liquidity requirements",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bank+reserve+requirements](https://www.geeksforgeeks.org/?s=bank+reserve+requirements)",
+"tags": ["banking", "reserves", "liquidity", "banking-regulation"]
+},
+{
+"topic": "Monetary Policy",
+"difficulty": "medium",
+"question_text": "What is the likely effect of raising the policy interest rate?",
+"options": ["Borrowing generally becomes more expensive", "Borrowing becomes free", "Savings automatically disappear", "Inflation must immediately become zero"],
+"correct_answer": "Borrowing generally becomes more expensive",
+"resource_link": "[https://www.geeksforgeeks.org/?s=repo+rate+monetary+policy](https://www.geeksforgeeks.org/?s=repo+rate+monetary+policy)",
+"tags": ["banking", "interest-rates", "monetary-policy", "rbi"]
+},
+{
+"topic": "Repo Rate",
+"difficulty": "medium",
+"question_text": "What is the repo rate?",
+"options": ["The rate at which the central bank lends to commercial banks against eligible securities", "The rate banks pay customers on savings accounts", "The rate charged on credit cards only", "The rate of corporate income tax"],
+"correct_answer": "The rate at which the central bank lends to commercial banks against eligible securities",
+"resource_link": "[https://www.geeksforgeeks.org/?s=repo+rate](https://www.geeksforgeeks.org/?s=repo+rate)",
+"tags": ["banking", "repo-rate", "rbi", "monetary-policy"]
+},
+{
+"topic": "Reverse Repo Rate",
+"difficulty": "medium",
+"question_text": "What is the basic purpose of a reverse repo operation?",
+"options": ["Allow the central bank to absorb liquidity from banks", "Provide unlimited loans to consumers", "Increase government tax revenue", "Issue corporate shares"],
+"correct_answer": "Allow the central bank to absorb liquidity from banks",
+"resource_link": "[https://www.geeksforgeeks.org/?s=reverse+repo+rate](https://www.geeksforgeeks.org/?s=reverse+repo+rate)",
+"tags": ["banking", "reverse-repo", "rbi", "liquidity"]
+},
+{
+"topic": "Credit Risk",
+"difficulty": "medium",
+"question_text": "What is credit risk?",
+"options": ["The risk that a borrower fails to meet repayment obligations", "The risk of a website going offline", "The risk of currency printing", "The risk of physical theft only"],
+"correct_answer": "The risk that a borrower fails to meet repayment obligations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=credit+risk](https://www.geeksforgeeks.org/?s=credit+risk)",
+"tags": ["banking", "credit-risk", "risk-management", "loans"]
+},
+{
+"topic": "Non-Performing Assets",
+"difficulty": "medium",
+"question_text": "What does NPA generally refer to in banking?",
+"options": ["A loan or advance that has stopped generating expected income for the bank", "A new payment application", "A government bond", "A profitable savings account"],
+"correct_answer": "A loan or advance that has stopped generating expected income for the bank",
+"resource_link": "[https://www.geeksforgeeks.org/?s=non+performing+assets+npa](https://www.geeksforgeeks.org/?s=non+performing+assets+npa)",
+"tags": ["banking", "npa", "credit-risk", "loans"]
+},
+{
+"topic": "Capital Adequacy",
+"difficulty": "medium",
+"question_text": "What does the Capital Adequacy Ratio primarily measure?",
+"options": ["A bank's capital relative to its risk-weighted assets", "A bank's total deposits only", "A bank's employee count", "A bank's number of branches"],
+"correct_answer": "A bank's capital relative to its risk-weighted assets",
+"resource_link": "[https://www.geeksforgeeks.org/?s=capital+adequacy+ratio+car](https://www.geeksforgeeks.org/?s=capital+adequacy+ratio+car)",
+"tags": ["banking", "capital-adequacy", "risk-management", "banking-regulation"]
+},
+{
+"topic": "Liquidity Risk",
+"difficulty": "medium",
+"question_text": "What is liquidity risk for a bank?",
+"options": ["The risk of being unable to meet obligations when they become due", "The risk of a borrower paying early", "The risk of earning too much interest", "The risk of having too many customers"],
+"correct_answer": "The risk of being unable to meet obligations when they become due",
+"resource_link": "[https://www.geeksforgeeks.org/?s=liquidity+risk+banking](https://www.geeksforgeeks.org/?s=liquidity+risk+banking)",
+"tags": ["banking", "liquidity-risk", "risk-management", "finance"]
+},
+{
+"topic": "Net Interest Margin",
+"difficulty": "medium",
+"question_text": "What does Net Interest Margin primarily measure?",
+"options": ["The difference between interest income and interest expense relative to earning assets", "Total bank deposits", "Total number of loans", "The bank's share price"],
+"correct_answer": "The difference between interest income and interest expense relative to earning assets",
+"resource_link": "[https://www.geeksforgeeks.org/?s=net+interest+margin+nIm](https://www.geeksforgeeks.org/?s=net+interest+margin+nIm)",
+"tags": ["banking", "net-interest-margin", "profitability", "financial-analysis"]
+},
+{
+"topic": "Banking Profitability",
+"difficulty": "medium",
+"question_text": "Which ratio measures a bank's profit relative to its total assets?",
+"options": ["Return on Assets", "Debt-to-Equity Ratio", "Current Ratio", "Inventory Turnover Ratio"],
+"correct_answer": "Return on Assets",
+"resource_link": "[https://www.geeksforgeeks.org/?s=return+on+assets+roa](https://www.geeksforgeeks.org/?s=return+on+assets+roa)",
+"tags": ["banking", "roa", "profitability", "financial-analysis"]
+},
+{
+"topic": "Anti-Money Laundering",
+"difficulty": "medium",
+"question_text": "What is the primary objective of anti-money laundering controls?",
+"options": ["Detect and prevent the use of financial systems for illicit funds", "Increase loan interest rates", "Maximize stock returns", "Reduce employee turnover"],
+"correct_answer": "Detect and prevent the use of financial systems for illicit funds",
+"resource_link": "[https://www.geeksforgeeks.org/?s=anti+money+laundering+aml](https://www.geeksforgeeks.org/?s=anti+money+laundering+aml)",
+"tags": ["banking", "aml", "compliance", "risk-management"]
+},
+{
+"topic": "Payment Systems",
+"difficulty": "medium",
+"question_text": "Which payment system is commonly used in India for real-time interbank fund transfers?",
+"options": ["IMPS", "GDP", "CPI", "NPA"],
+"correct_answer": "IMPS",
+"resource_link": "[https://www.geeksforgeeks.org/?s=imps+payment+system](https://www.geeksforgeeks.org/?s=imps+payment+system)",
+"tags": ["banking", "imps", "payments", "digital-banking"]
+},
+{
+"topic": "Financial Statements",
+"difficulty": "medium",
+"question_text": "Which financial statement shows a company's assets, liabilities, and equity at a point in time?",
+"options": ["Balance Sheet", "Income Statement", "Cash Flow Statement", "Trial Balance only"],
+"correct_answer": "Balance Sheet",
+"resource_link": "[https://www.geeksforgeeks.org/?s=balance+sheet+accounting](https://www.geeksforgeeks.org/?s=balance+sheet+accounting)",
+"tags": ["banking", "financial-statements", "accounting", "finance"]
+},
+{
+"topic": "Cash Flow",
+"difficulty": "medium",
+"question_text": "Which activity includes cash received from customers for goods or services?",
+"options": ["Operating activity", "Financing activity", "Investing activity", "Non-cash activity"],
+"correct_answer": "Operating activity",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cash+flow+statement+operating+activities](https://www.geeksforgeeks.org/?s=cash+flow+statement+operating+activities)",
+"tags": ["banking", "cash-flow", "financial-statements", "finance"]
+},
+{
+"topic": "Credit Scoring",
+"difficulty": "medium",
+"question_text": "What is the main purpose of a credit score?",
+"options": ["Estimate a borrower's creditworthiness", "Determine a company's stock price", "Calculate GDP", "Measure inflation directly"],
+"correct_answer": "Estimate a borrower's creditworthiness",
+"resource_link": "[https://www.geeksforgeeks.org/?s=credit+score+creditworthiness](https://www.geeksforgeeks.org/?s=credit+score+creditworthiness)",
+"tags": ["banking", "credit-score", "credit-risk", "lending"]
+},
+{
+"topic": "Financial Markets",
+"difficulty": "medium",
+"question_text": "What is the primary market?",
+"options": ["The market where new securities are issued", "The market where only used securities are traded", "The market for bank deposits", "The market for insurance claims"],
+"correct_answer": "The market where new securities are issued",
+"resource_link": "[https://www.geeksforgeeks.org/?s=primary+market+secondary+market](https://www.geeksforgeeks.org/?s=primary+market+secondary+market)",
+"tags": ["banking", "financial-markets", "primary-market", "securities"]
+},
+{
+"topic": "Financial Markets",
+"difficulty": "hard",
+"question_text": "What is the main difference between a bank's interest income and interest expense?",
+"options": ["It represents the bank's net interest income before considering other factors", "It represents total customer deposits", "It represents the bank's market capitalization", "It represents total tax revenue"],
+"correct_answer": "It represents the bank's net interest income before considering other factors",
+"resource_link": "[https://www.geeksforgeeks.org/?s=net+interest+income+bank](https://www.geeksforgeeks.org/?s=net+interest+income+bank)",
+"tags": ["banking", "net-interest-income", "profitability", "financial-analysis"]
+},
+{
+"topic": "Credit Risk",
+"difficulty": "hard",
+"question_text": "In credit risk analysis, what does Probability of Default represent?",
+"options": ["The likelihood that a borrower will fail to meet contractual obligations", "The amount recovered after default", "The total loan balance", "The bank's operating profit"],
+"correct_answer": "The likelihood that a borrower will fail to meet contractual obligations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=probability+of+default+credit+risk](https://www.geeksforgeeks.org/?s=probability+of+default+credit+risk)",
+"tags": ["banking", "credit-risk", "probability-of-default", "risk-management"]
+},
+{
+"topic": "Credit Risk",
+"difficulty": "hard",
+"question_text": "In credit risk, what does Loss Given Default represent?",
+"options": ["The proportion of exposure expected to be lost if default occurs", "The probability that default occurs", "The original loan amount", "The annual interest rate"],
+"correct_answer": "The proportion of exposure expected to be lost if default occurs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=loss+given+default+lgd](https://www.geeksforgeeks.org/?s=loss+given+default+lgd)",
+"tags": ["banking", "credit-risk", "lgd", "risk-management"]
+},
+{
+"topic": "Credit Risk",
+"difficulty": "hard",
+"question_text": "Which expression is commonly used to estimate expected credit loss?",
+"options": ["PD × LGD × EAD", "PD + LGD + EAD", "PD × Interest Rate", "LGD ÷ EAD"],
+"correct_answer": "PD × LGD × EAD",
+"resource_link": "[https://www.geeksforgeeks.org/?s=expected+loss+credit+risk+PD+LGD+EAD](https://www.geeksforgeeks.org/?s=expected+loss+credit+risk+PD+LGD+EAD)",
+"tags": ["banking", "credit-risk", "expected-loss", "risk-management"]
+},
+{
+"topic": "Capital Adequacy",
+"difficulty": "hard",
+"question_text": "Why are assets assigned different risk weights when calculating capital adequacy?",
+"options": ["Different assets carry different levels of credit risk", "All assets have identical risk", "To calculate employee salaries", "To determine customer deposits"],
+"correct_answer": "Different assets carry different levels of credit risk",
+"resource_link": "[https://www.geeksforgeeks.org/?s=risk+weighted+assets+banking](https://www.geeksforgeeks.org/?s=risk+weighted+assets+banking)",
+"tags": ["banking", "risk-weighted-assets", "capital-adequacy", "basel"]
+},
+{
+"topic": "Basel Framework",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of the Basel framework?",
+"options": ["Strengthen banks' capital and risk-management practices", "Set retail product prices", "Control stock exchanges directly", "Determine corporate income tax"],
+"correct_answer": "Strengthen banks' capital and risk-management practices",
+"resource_link": "[https://www.geeksforgeeks.org/?s=basel+norms+banking](https://www.geeksforgeeks.org/?s=basel+norms+banking)",
+"tags": ["banking", "basel", "capital-adequacy", "risk-management"]
+},
+{
+"topic": "Interest Rate Risk",
+"difficulty": "hard",
+"question_text": "What is interest rate risk in banking?",
+"options": ["The risk that changes in interest rates negatively affect earnings or economic value", "The risk that customers forget passwords", "The risk of currency theft only", "The risk of excessive deposits only"],
+"correct_answer": "The risk that changes in interest rates negatively affect earnings or economic value",
+"resource_link": "[https://www.geeksforgeeks.org/?s=interest+rate+risk+banking](https://www.geeksforgeeks.org/?s=interest+rate+risk+banking)",
+"tags": ["banking", "interest-rate-risk", "risk-management", "finance"]
+},
+{
+"topic": "Foreign Exchange",
+"difficulty": "hard",
+"question_text": "What is foreign exchange risk?",
+"options": ["The risk of financial loss caused by changes in currency exchange rates", "The risk of a borrower defaulting", "The risk of a bank run", "The risk of changing interest rates only"],
+"correct_answer": "The risk of financial loss caused by changes in currency exchange rates",
+"resource_link": "[https://www.geeksforgeeks.org/?s=foreign+exchange+risk](https://www.geeksforgeeks.org/?s=foreign+exchange+risk)",
+"tags": ["banking", "forex", "currency-risk", "risk-management"]
+},
+{
+"topic": "Asset-Liability Management",
+"difficulty": "hard",
+"question_text": "What is the main objective of asset-liability management in banking?",
+"options": ["Manage mismatches between assets and liabilities to control financial risks", "Maximize the number of bank branches", "Eliminate all customer deposits", "Set government tax rates"],
+"correct_answer": "Manage mismatches between assets and liabilities to control financial risks",
+"resource_link": "[https://www.geeksforgeeks.org/?s=asset+liability+management+banking](https://www.geeksforgeeks.org/?s=asset+liability+management+banking)",
+"tags": ["banking", "asset-liability-management", "risk-management", "finance"]
+},
+{
+"topic": "Banking Profitability",
+"difficulty": "hard",
+"question_text": "Which combination best explains a bank's return on equity?",
+"options": ["Net income relative to shareholders' equity", "Interest expense relative to deposits", "Loans relative to branches", "Revenue relative to customers only"],
+"correct_answer": "Net income relative to shareholders' equity",
+"resource_link": "[https://www.geeksforgeeks.org/?s=return+on+equity+roe](https://www.geeksforgeeks.org/?s=return+on+equity+roe)",
+"tags": ["banking", "roe", "profitability", "financial-analysis"]
+},
+{
+"topic": "Bank Runs",
+"difficulty": "hard",
+"question_text": "Why can a bank run create a liquidity crisis even for a bank with valuable long-term assets?",
+"options": ["Depositors may demand cash faster than assets can be converted without significant loss", "Long-term assets are always worthless", "Banks cannot hold deposits", "Interest rates become permanently zero"],
+"correct_answer": "Depositors may demand cash faster than assets can be converted without significant loss",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bank+run+banking+crisis](https://www.geeksforgeeks.org/?s=bank+run+banking+crisis)",
+"tags": ["banking", "bank-runs", "liquidity", "financial-risk"]
+},
+{
+"topic": "Financial Regulation",
+"difficulty": "hard",
+"question_text": "What is moral hazard in banking?",
+"options": ["Taking greater risks because the decision-maker expects protection from some consequences", "A bank having insufficient employees", "A customer making a cash deposit", "A fall in market demand"],
+"correct_answer": "Taking greater risks because the decision-maker expects protection from some consequences",
+"resource_link": "[https://www.geeksforgeeks.org/?s=moral+hazard+banking](https://www.geeksforgeeks.org/?s=moral+hazard+banking)",
+"tags": ["banking", "moral-hazard", "risk-management", "financial-regulation"]
+}
+]

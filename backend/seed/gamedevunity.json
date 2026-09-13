@@ -1,0 +1,353 @@
+[
+{
+"topic": "Unity Fundamentals",
+"difficulty": "easy",
+"question_text": "What is Unity primarily used for?",
+"options": ["Game and interactive application development", "Database management", "Operating system development", "Web server hosting"],
+"correct_answer": "Game and interactive application development",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+game+engine](https://www.geeksforgeeks.org/?s=unity+game+engine)",
+"tags": ["unity", "game development", "game engine", "interactive applications"]
+},
+{
+"topic": "Unity GameObjects",
+"difficulty": "easy",
+"question_text": "What is a GameObject in Unity?",
+"options": ["A base object used to represent entities in a scene", "A C# compiler", "A texture format", "A project folder"],
+"correct_answer": "A base object used to represent entities in a scene",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+gameobject](https://www.geeksforgeeks.org/?s=unity+gameobject)",
+"tags": ["gameobject", "unity", "game development", "scene"]
+},
+{
+"topic": "Unity Components",
+"difficulty": "easy",
+"question_text": "How is functionality typically added to a GameObject in Unity?",
+"options": ["By attaching Components", "By creating separate operating systems", "By changing the file extension", "By modifying the GPU firmware"],
+"correct_answer": "By attaching Components",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+components](https://www.geeksforgeeks.org/?s=unity+components)",
+"tags": ["components", "gameobject", "unity", "game architecture"]
+},
+{
+"topic": "Unity Transform",
+"difficulty": "easy",
+"question_text": "Which Unity component stores an object's position, rotation, and scale?",
+"options": ["Transform", "Renderer", "Collider", "AudioSource"],
+"correct_answer": "Transform",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+transform](https://www.geeksforgeeks.org/?s=unity+transform)",
+"tags": ["transform", "unity", "3d", "game development"]
+},
+{
+"topic": "Unity Scenes",
+"difficulty": "easy",
+"question_text": "What does a Unity Scene generally represent?",
+"options": ["A game level or environment", "A C# namespace", "A texture compression algorithm", "A shader instruction"],
+"correct_answer": "A game level or environment",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+scenes](https://www.geeksforgeeks.org/?s=unity+scenes)",
+"tags": ["scenes", "level design", "unity", "game development"]
+},
+{
+"topic": "Unity Prefabs",
+"difficulty": "easy",
+"question_text": "What is a Prefab in Unity?",
+"options": ["A reusable GameObject template", "A shader compiler", "A physics engine", "A C# interface"],
+"correct_answer": "A reusable GameObject template",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+prefab](https://www.geeksforgeeks.org/?s=unity+prefab)",
+"tags": ["prefabs", "gameobject", "unity", "game architecture"]
+},
+{
+"topic": "Unity MonoBehaviour",
+"difficulty": "easy",
+"question_text": "Which class is commonly inherited by Unity C# scripts that interact with GameObjects?",
+"options": ["MonoBehaviour", "String", "Thread", "Console"],
+"correct_answer": "MonoBehaviour",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+monobehaviour](https://www.geeksforgeeks.org/?s=unity+monobehaviour)",
+"tags": ["monobehaviour", "csharp", "scripting", "unity"]
+},
+{
+"topic": "Unity Start Method",
+"difficulty": "easy",
+"question_text": "When is the Start method normally called on an enabled MonoBehaviour?",
+"options": ["Before the first frame update", "After every frame", "Only when the application closes", "Only after a collision"],
+"correct_answer": "Before the first frame update",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+start+method](https://www.geeksforgeeks.org/?s=unity+start+method)",
+"tags": ["start", "lifecycle", "csharp", "unity"]
+},
+{
+"topic": "Unity Update Method",
+"difficulty": "easy",
+"question_text": "What is the Update method primarily used for?",
+"options": ["Frame-by-frame gameplay logic", "Saving project files", "Importing textures", "Building the Unity editor"],
+"correct_answer": "Frame-by-frame gameplay logic",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+update+method](https://www.geeksforgeeks.org/?s=unity+update+method)",
+"tags": ["update", "game loop", "scripting", "unity"]
+},
+{
+"topic": "Unity Rigidbody",
+"difficulty": "easy",
+"question_text": "Which component enables GameObjects to participate in Unity's physics simulation?",
+"options": ["Rigidbody", "Transform", "Canvas", "Light"],
+"correct_answer": "Rigidbody",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+rigidbody](https://www.geeksforgeeks.org/?s=unity+rigidbody)",
+"tags": ["rigidbody", "physics", "unity", "gameplay"]
+},
+{
+"topic": "Unity Colliders",
+"difficulty": "easy",
+"question_text": "What is the purpose of a Collider component?",
+"options": ["Define the shape used for collision detection", "Render textures", "Play audio", "Control UI layouts"],
+"correct_answer": "Define the shape used for collision detection",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+collider](https://www.geeksforgeeks.org/?s=unity+collider)",
+"tags": ["collider", "collision", "physics", "unity"]
+},
+{
+"topic": "Unity Materials",
+"difficulty": "easy",
+"question_text": "What does a Material primarily control?",
+"options": ["The visual appearance of a rendered object", "Player input", "Physics simulation time", "Scene loading"],
+"correct_answer": "The visual appearance of a rendered object",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+materials](https://www.geeksforgeeks.org/?s=unity+materials)",
+"tags": ["materials", "rendering", "graphics", "unity"]
+},
+{
+"topic": "Unity UI",
+"difficulty": "easy",
+"question_text": "Which Unity UI element is commonly used to display text?",
+"options": ["Text", "Rigidbody", "Collider", "Light"],
+"correct_answer": "Text",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+ui+text](https://www.geeksforgeeks.org/?s=unity+ui+text)",
+"tags": ["ui", "text", "unity", "game interface"]
+},
+{
+"topic": "Unity Input",
+"difficulty": "easy",
+"question_text": "What is Unity's input system used for?",
+"options": ["Reading player controls and input actions", "Rendering shadows", "Compressing textures", "Building meshes"],
+"correct_answer": "Reading player controls and input actions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+input+system](https://www.geeksforgeeks.org/?s=unity+input+system)",
+"tags": ["input", "controls", "gameplay", "unity"]
+},
+{
+"topic": "Unity Asset Management",
+"difficulty": "easy",
+"question_text": "Which folder conventionally contains project assets in Unity?",
+"options": ["Assets", "System32", "Bin", "Drivers"],
+"correct_answer": "Assets",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+assets+folder](https://www.geeksforgeeks.org/?s=unity+assets+folder)",
+"tags": ["assets", "project structure", "unity", "game development"]
+},
+{
+"topic": "Unity FixedUpdate",
+"difficulty": "medium",
+"question_text": "Which Unity method is generally preferred for physics-related updates?",
+"options": ["FixedUpdate", "Update", "Start", "OnGUI"],
+"correct_answer": "FixedUpdate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+fixedupdate](https://www.geeksforgeeks.org/?s=unity+fixedupdate)",
+"tags": ["fixedupdate", "physics", "game loop", "unity"]
+},
+{
+"topic": "Unity Time.deltaTime",
+"difficulty": "medium",
+"question_text": "Why is Time.deltaTime commonly used when moving objects in Update?",
+"options": ["To make movement less dependent on frame rate", "To increase texture quality", "To disable physics", "To load scenes faster"],
+"correct_answer": "To make movement less dependent on frame rate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+deltaTime](https://www.geeksforgeeks.org/?s=unity+deltaTime)",
+"tags": ["deltatime", "game loop", "movement", "unity"]
+},
+{
+"topic": "Unity Coroutines",
+"difficulty": "medium",
+"question_text": "What is a Unity Coroutine useful for?",
+"options": ["Executing a sequence of operations over multiple frames", "Creating a new CPU core", "Compiling C# into machine code", "Replacing all GameObjects"],
+"correct_answer": "Executing a sequence of operations over multiple frames",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+coroutines](https://www.geeksforgeeks.org/?s=unity+coroutines)",
+"tags": ["coroutines", "csharp", "gameplay", "unity"]
+},
+{
+"topic": "Unity ScriptableObjects",
+"difficulty": "medium",
+"question_text": "What are ScriptableObjects commonly useful for?",
+"options": ["Storing reusable data independently of GameObjects", "Rendering 3D meshes", "Replacing the physics engine", "Handling GPU drivers"],
+"correct_answer": "Storing reusable data independently of GameObjects",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+scriptableobject](https://www.geeksforgeeks.org/?s=unity+scriptableobject)",
+"tags": ["scriptableobject", "data management", "architecture", "unity"]
+},
+{
+"topic": "Unity Physics",
+"difficulty": "medium",
+"question_text": "Which method is commonly called when a Collider enters another Collider in a physics collision?",
+"options": ["OnCollisionEnter", "OnStartGame", "OnRenderObjectOnly", "OnSceneLoad"],
+"correct_answer": "OnCollisionEnter",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+oncollisionenter](https://www.geeksforgeeks.org/?s=unity+oncollisionenter)",
+"tags": ["collision", "physics", "events", "unity"]
+},
+{
+"topic": "Unity Triggers",
+"difficulty": "medium",
+"question_text": "Which method is commonly used when another Collider enters a trigger?",
+"options": ["OnTriggerEnter", "OnPhysicsStart", "OnObjectRender", "OnTriggerBuild"],
+"correct_answer": "OnTriggerEnter",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+ontriggerenter](https://www.geeksforgeeks.org/?s=unity+ontriggerenter)",
+"tags": ["triggers", "collision", "physics", "unity"]
+},
+{
+"topic": "Unity Raycasting",
+"difficulty": "medium",
+"question_text": "What is a Raycast commonly used for?",
+"options": ["Detecting objects along a ray in the game world", "Generating audio files", "Compressing textures", "Creating C# classes"],
+"correct_answer": "Detecting objects along a ray in the game world",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+raycast](https://www.geeksforgeeks.org/?s=unity+raycast)",
+"tags": ["raycast", "physics", "collision", "unity"]
+},
+{
+"topic": "Unity Animation",
+"difficulty": "medium",
+"question_text": "What is an Animator Controller used for?",
+"options": ["Managing animation states and transitions", "Managing database connections", "Compiling shaders", "Loading textures"],
+"correct_answer": "Managing animation states and transitions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+animator+controller](https://www.geeksforgeeks.org/?s=unity+animator+controller)",
+"tags": ["animation", "animator", "state machine", "unity"]
+},
+{
+"topic": "Unity NavMesh",
+"difficulty": "medium",
+"question_text": "What is a NavMesh primarily used for?",
+"options": ["Supporting pathfinding for AI agents", "Rendering materials", "Playing music", "Managing UI buttons"],
+"correct_answer": "Supporting pathfinding for AI agents",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+navmesh](https://www.geeksforgeeks.org/?s=unity+navmesh)",
+"tags": ["navmesh", "ai", "pathfinding", "unity"]
+},
+{
+"topic": "Unity Prefab Variants",
+"difficulty": "medium",
+"question_text": "What is a Prefab Variant useful for?",
+"options": ["Creating a modified version of an existing Prefab while retaining its relationship to the base", "Converting a scene into a texture", "Compiling shaders", "Changing the C# language"],
+"correct_answer": "Creating a modified version of an existing Prefab while retaining its relationship to the base",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+prefab+variants](https://www.geeksforgeeks.org/?s=unity+prefab+variants)",
+"tags": ["prefabs", "prefab variants", "game architecture", "unity"]
+},
+{
+"topic": "Unity Scene Management",
+"difficulty": "medium",
+"question_text": "What is the purpose of loading a scene additively?",
+"options": ["Load another scene without automatically unloading the current scene", "Delete all GameObjects", "Restart the operating system", "Disable rendering"],
+"correct_answer": "Load another scene without automatically unloading the current scene",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+loadscene+additive](https://www.geeksforgeeks.org/?s=unity+loadscene+additive)",
+"tags": ["scene management", "level streaming", "unity", "game development"]
+},
+{
+"topic": "Unity Object Pooling",
+"difficulty": "medium",
+"question_text": "What problem does object pooling primarily help reduce?",
+"options": ["Frequent object creation and destruction overhead", "Texture resolution", "Network encryption", "Shader compilation correctness"],
+"correct_answer": "Frequent object creation and destruction overhead",
+"resource_link": "[https://www.geeksforgeeks.org/?s=object+pooling+game+development](https://www.geeksforgeeks.org/?s=object+pooling+game+development)",
+"tags": ["object pooling", "optimization", "performance", "unity"]
+},
+{
+"topic": "Unity Physics Layers",
+"difficulty": "medium",
+"question_text": "What is the purpose of Unity's Layer Collision Matrix?",
+"options": ["Control which layers can interact through physics collisions", "Control texture compression", "Set animation frame rates", "Manage C# namespaces"],
+"correct_answer": "Control which layers can interact through physics collisions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+layer+collision+matrix](https://www.geeksforgeeks.org/?s=unity+layer+collision+matrix)",
+"tags": ["collision", "layers", "physics", "unity"]
+},
+{
+"topic": "Unity Events",
+"difficulty": "medium",
+"question_text": "What is UnityEvent commonly used for?",
+"options": ["Connecting events to callback methods", "Rendering 3D models", "Managing GPU memory", "Compiling scenes"],
+"correct_answer": "Connecting events to callback methods",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unityevent+unity](https://www.geeksforgeeks.org/?s=unityevent+unity)",
+"tags": ["events", "unityevent", "scripting", "unity"]
+},
+{
+"topic": "Unity Prefab Workflow",
+"difficulty": "medium",
+"question_text": "Why are Prefabs useful when creating many similar enemies?",
+"options": ["A common template can be reused and updated consistently", "They eliminate the need for scripts", "They automatically create AI algorithms", "They prevent all collisions"],
+"correct_answer": "A common template can be reused and updated consistently",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+prefabs+workflow](https://www.geeksforgeeks.org/?s=unity+prefabs+workflow)",
+"tags": ["prefabs", "reusability", "game architecture", "unity"]
+},
+{
+"topic": "Unity Garbage Collection",
+"difficulty": "hard",
+"question_text": "Why can frequent managed-memory allocations cause performance problems in Unity?",
+"options": ["They can trigger garbage collection and cause frame-time spikes", "They increase monitor resolution", "They disable all physics", "They automatically reduce polygon count"],
+"correct_answer": "They can trigger garbage collection and cause frame-time spikes",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+garbage+collection](https://www.geeksforgeeks.org/?s=unity+garbage+collection)",
+"tags": ["garbage collection", "memory management", "optimization", "unity"]
+},
+{
+"topic": "Unity Rendering Optimization",
+"difficulty": "hard",
+"question_text": "What is GPU instancing primarily used for?",
+"options": ["Efficiently rendering many instances of the same mesh and material", "Running C# code on the CPU", "Synchronizing multiplayer state", "Loading audio clips"],
+"correct_answer": "Efficiently rendering many instances of the same mesh and material",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+gpu+instancing](https://www.geeksforgeeks.org/?s=unity+gpu+instancing)",
+"tags": ["gpu instancing", "rendering", "optimization", "graphics"]
+},
+{
+"topic": "Unity Draw Calls",
+"difficulty": "hard",
+"question_text": "Why are excessive draw calls a concern for game performance?",
+"options": ["They can increase CPU overhead involved in issuing rendering commands", "They always reduce RAM usage", "They disable physics calculations", "They increase network bandwidth automatically"],
+"correct_answer": "They can increase CPU overhead involved in issuing rendering commands",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+draw+calls+optimization](https://www.geeksforgeeks.org/?s=unity+draw+calls+optimization)",
+"tags": ["draw calls", "rendering", "optimization", "performance"]
+},
+{
+"topic": "Unity Batching",
+"difficulty": "hard",
+"question_text": "What is the goal of static batching?",
+"options": ["Combine suitable static geometry to reduce rendering overhead", "Combine C# scripts into one file", "Merge audio tracks", "Synchronize multiplayer clients"],
+"correct_answer": "Combine suitable static geometry to reduce rendering overhead",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+static+batching](https://www.geeksforgeeks.org/?s=unity+static+batching)",
+"tags": ["static batching", "rendering", "optimization", "unity"]
+},
+{
+"topic": "Unity Profiler",
+"difficulty": "hard",
+"question_text": "What is the Unity Profiler primarily used for?",
+"options": ["Identifying performance bottlenecks in areas such as CPU, GPU, memory, and rendering", "Creating 3D models", "Writing shaders automatically", "Publishing games to stores"],
+"correct_answer": "Identifying performance bottlenecks in areas such as CPU, GPU, memory, and rendering",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+profiler](https://www.geeksforgeeks.org/?s=unity+profiler)",
+"tags": ["profiler", "performance", "optimization", "unity"]
+},
+{
+"topic": "Unity Addressables",
+"difficulty": "hard",
+"question_text": "What problem does Unity Addressables primarily help solve?",
+"options": ["Efficiently managing and loading assets asynchronously", "Writing C# syntax", "Simulating rigid bodies", "Creating animation curves"],
+"correct_answer": "Efficiently managing and loading assets asynchronously",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+addressables](https://www.geeksforgeeks.org/?s=unity+addressables)",
+"tags": ["addressables", "asset management", "async", "unity"]
+},
+{
+"topic": "Unity Multiplayer",
+"difficulty": "hard",
+"question_text": "What is server authority in multiplayer game architecture?",
+"options": ["The server is responsible for validating authoritative game state", "Every client can freely change shared state", "The GPU controls the network", "The renderer validates player actions"],
+"correct_answer": "The server is responsible for validating authoritative game state",
+"resource_link": "[https://www.geeksforgeeks.org/?s=server+authoritative+multiplayer+games](https://www.geeksforgeeks.org/?s=server+authoritative+multiplayer+games)",
+"tags": ["multiplayer", "networking", "server authority", "game development"]
+},
+{
+"topic": "Unity Network Prediction",
+"difficulty": "hard",
+"question_text": "Why is client-side prediction used in multiplayer games?",
+"options": ["To make local actions feel responsive despite network latency", "To eliminate the need for servers", "To improve texture quality", "To increase polygon count"],
+"correct_answer": "To make local actions feel responsive despite network latency",
+"resource_link": "[https://www.geeksforgeeks.org/?s=client+side+prediction+multiplayer+games](https://www.geeksforgeeks.org/?s=client+side+prediction+multiplayer+games)",
+"tags": ["multiplayer", "networking", "prediction", "latency"]
+},
+{
+"topic": "Unity Job System",
+"difficulty": "hard",
+"question_text": "What is Unity's Job System designed to facilitate?",
+"options": ["Running suitable workloads efficiently across multiple CPU cores", "Rendering only on the GPU", "Creating textures automatically", "Replacing all MonoBehaviours"],
+"correct_answer": "Running suitable workloads efficiently across multiple CPU cores",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unity+job+system](https://www.geeksforgeeks.org/?s=unity+job+system)",
+"tags": ["job system", "multithreading", "performance", "unity"]
+}
+]

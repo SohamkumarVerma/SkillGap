@@ -1,0 +1,362 @@
+[
+{
+"topic": "Machine Learning Fundamentals",
+"difficulty": "easy",
+"question_text": "What is the primary goal of supervised learning?",
+"options": ["Learn a mapping from inputs to labeled outputs", "Find patterns without any data", "Compress files", "Manage operating system processes"],
+"correct_answer": "Learn a mapping from inputs to labeled outputs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=supervised+learning](https://www.geeksforgeeks.org/?s=supervised+learning)",
+"tags": ["machine-learning", "supervised-learning", "ml", "ai"]
+},
+{
+"topic": "Machine Learning Fundamentals",
+"difficulty": "easy",
+"question_text": "Which type of learning uses data without predefined labels?",
+"options": ["Unsupervised learning", "Supervised learning", "Reinforcement learning", "Transfer learning"],
+"correct_answer": "Unsupervised learning",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unsupervised+learning](https://www.geeksforgeeks.org/?s=unsupervised+learning)",
+"tags": ["machine-learning", "unsupervised-learning", "ml", "ai"]
+},
+{
+"topic": "Regression",
+"difficulty": "easy",
+"question_text": "Which machine learning task predicts a continuous numerical value?",
+"options": ["Regression", "Classification", "Clustering", "Association"],
+"correct_answer": "Regression",
+"resource_link": "[https://www.geeksforgeeks.org/?s=regression+machine+learning](https://www.geeksforgeeks.org/?s=regression+machine+learning)",
+"tags": ["machine-learning", "regression", "supervised-learning", "prediction"]
+},
+{
+"topic": "Classification",
+"difficulty": "easy",
+"question_text": "Which machine learning task predicts a discrete class or category?",
+"options": ["Classification", "Regression", "Dimensionality reduction", "Clustering"],
+"correct_answer": "Classification",
+"resource_link": "[https://www.geeksforgeeks.org/?s=classification+machine+learning](https://www.geeksforgeeks.org/?s=classification+machine+learning)",
+"tags": ["machine-learning", "classification", "supervised-learning", "prediction"]
+},
+{
+"topic": "Linear Regression",
+"difficulty": "easy",
+"question_text": "What does linear regression attempt to model?",
+"options": ["A linear relationship between input features and a continuous target", "Only categorical relationships", "Only image pixels", "A sequence of database queries"],
+"correct_answer": "A linear relationship between input features and a continuous target",
+"resource_link": "[https://www.geeksforgeeks.org/?s=linear+regression](https://www.geeksforgeeks.org/?s=linear+regression)",
+"tags": ["machine-learning", "linear-regression", "regression", "modeling"]
+},
+{
+"topic": "Logistic Regression",
+"difficulty": "easy",
+"question_text": "Logistic regression is commonly used for:",
+"options": ["Classification", "Sorting arrays", "Database indexing", "Image compression"],
+"correct_answer": "Classification",
+"resource_link": "[https://www.geeksforgeeks.org/?s=logistic+regression](https://www.geeksforgeeks.org/?s=logistic+regression)",
+"tags": ["machine-learning", "logistic-regression", "classification", "prediction"]
+},
+{
+"topic": "Decision Trees",
+"difficulty": "easy",
+"question_text": "What structure does a decision tree use to make predictions?",
+"options": ["A hierarchy of feature-based decisions", "A hash table only", "A linked list only", "A database transaction log"],
+"correct_answer": "A hierarchy of feature-based decisions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=decision+tree+machine+learning](https://www.geeksforgeeks.org/?s=decision+tree+machine+learning)",
+"tags": ["machine-learning", "decision-trees", "classification", "algorithms"]
+},
+{
+"topic": "Clustering",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of clustering?",
+"options": ["Group similar data points together", "Predict a labeled target", "Compile source code", "Encrypt data"],
+"correct_answer": "Group similar data points together",
+"resource_link": "[https://www.geeksforgeeks.org/?s=clustering+machine+learning](https://www.geeksforgeeks.org/?s=clustering+machine+learning)",
+"tags": ["machine-learning", "clustering", "unsupervised-learning", "data-analysis"]
+},
+{
+"topic": "K-Means",
+"difficulty": "easy",
+"question_text": "What does K represent in K-Means clustering?",
+"options": ["Number of clusters", "Number of features only", "Number of training epochs", "Learning rate"],
+"correct_answer": "Number of clusters",
+"resource_link": "[https://www.geeksforgeeks.org/?s=k+means+clustering](https://www.geeksforgeeks.org/?s=k+means+clustering)",
+"tags": ["machine-learning", "k-means", "clustering", "unsupervised-learning"]
+},
+{
+"topic": "Model Evaluation",
+"difficulty": "easy",
+"question_text": "Which metric measures the proportion of predictions that are correct?",
+"options": ["Accuracy", "Recall", "Mean squared error", "R-squared only"],
+"correct_answer": "Accuracy",
+"resource_link": "[https://www.geeksforgeeks.org/?s=accuracy+precision+recall+machine+learning](https://www.geeksforgeeks.org/?s=accuracy+precision+recall+machine+learning)",
+"tags": ["machine-learning", "accuracy", "model-evaluation", "classification"]
+},
+{
+"topic": "Model Evaluation",
+"difficulty": "easy",
+"question_text": "Which dataset is typically used to evaluate a trained machine learning model on unseen data?",
+"options": ["Test set", "Training set only", "Source-code set", "Feature-name set"],
+"correct_answer": "Test set",
+"resource_link": "[https://www.geeksforgeeks.org/?s=train+test+split+machine+learning](https://www.geeksforgeeks.org/?s=train+test+split+machine+learning)",
+"tags": ["machine-learning", "model-evaluation", "test-set", "validation"]
+},
+{
+"topic": "Feature Engineering",
+"difficulty": "easy",
+"question_text": "What is feature engineering?",
+"options": ["Creating or transforming input variables to improve model performance", "Deleting all training data", "Writing operating system drivers", "Deploying a database"],
+"correct_answer": "Creating or transforming input variables to improve model performance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=feature+engineering+machine+learning](https://www.geeksforgeeks.org/?s=feature+engineering+machine+learning)",
+"tags": ["machine-learning", "feature-engineering", "data-preprocessing", "ml"]
+},
+{
+"topic": "Data Preprocessing",
+"difficulty": "easy",
+"question_text": "Why is feature scaling often used in machine learning?",
+"options": ["To put features on comparable numerical scales", "To increase the number of labels", "To remove the target variable", "To convert models into databases"],
+"correct_answer": "To put features on comparable numerical scales",
+"resource_link": "[https://www.geeksforgeeks.org/?s=feature+scaling+machine+learning](https://www.geeksforgeeks.org/?s=feature+scaling+machine+learning)",
+"tags": ["machine-learning", "preprocessing", "feature-scaling", "data"]
+},
+{
+"topic": "Python for Machine Learning",
+"difficulty": "easy",
+"question_text": "Which Python library is widely used for numerical array and matrix operations in machine learning?",
+"options": ["NumPy", "Flask", "Django", "BeautifulSoup"],
+"correct_answer": "NumPy",
+"resource_link": "[https://www.geeksforgeeks.org/?s=numpy+python](https://www.geeksforgeeks.org/?s=numpy+python)",
+"tags": ["machine-learning", "python", "numpy", "data-science"]
+},
+{
+"topic": "Python for Machine Learning",
+"difficulty": "easy",
+"question_text": "Which Python library is widely used for tabular data manipulation and analysis?",
+"options": ["Pandas", "PyGame", "Tkinter", "Requests"],
+"correct_answer": "Pandas",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pandas+python](https://www.geeksforgeeks.org/?s=pandas+python)",
+"tags": ["machine-learning", "python", "pandas", "data-science"]
+},
+{
+"topic": "Overfitting",
+"difficulty": "medium",
+"question_text": "What is overfitting?",
+"options": ["When a model performs well on training data but poorly on unseen data", "When a model cannot learn from training data", "When all features are removed", "When the dataset contains no labels"],
+"correct_answer": "When a model performs well on training data but poorly on unseen data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=overfitting+machine+learning](https://www.geeksforgeeks.org/?s=overfitting+machine+learning)",
+"tags": ["machine-learning", "overfitting", "generalization", "model-evaluation"]
+},
+{
+"topic": "Underfitting",
+"difficulty": "medium",
+"question_text": "What is underfitting?",
+"options": ["When a model is too simple to capture important patterns in the data", "When a model memorizes the training data", "When test data is larger than training data", "When features are normalized"],
+"correct_answer": "When a model is too simple to capture important patterns in the data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=underfitting+machine+learning](https://www.geeksforgeeks.org/?s=underfitting+machine+learning)",
+"tags": ["machine-learning", "underfitting", "generalization", "model-evaluation"]
+},
+{
+"topic": "Bias Variance",
+"difficulty": "medium",
+"question_text": "A model with very high variance is more likely to:",
+"options": ["Overfit the training data", "Underfit consistently", "Ignore the training data", "Have no parameters"],
+"correct_answer": "Overfit the training data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bias+variance+tradeoff](https://www.geeksforgeeks.org/?s=bias+variance+tradeoff)",
+"tags": ["machine-learning", "bias-variance", "overfitting", "generalization"]
+},
+{
+"topic": "Cross Validation",
+"difficulty": "medium",
+"question_text": "What is the main purpose of k-fold cross-validation?",
+"options": ["Estimate model performance across multiple train-validation splits", "Increase the number of classes", "Remove all outliers", "Replace feature engineering"],
+"correct_answer": "Estimate model performance across multiple train-validation splits",
+"resource_link": "[https://www.geeksforgeeks.org/?s=k+fold+cross+validation](https://www.geeksforgeeks.org/?s=k+fold+cross+validation)",
+"tags": ["machine-learning", "cross-validation", "model-evaluation", "validation"]
+},
+{
+"topic": "Regularization",
+"difficulty": "medium",
+"question_text": "What is the main purpose of regularization in machine learning?",
+"options": ["Reduce overfitting by penalizing model complexity", "Increase training error intentionally without purpose", "Remove the target variable", "Increase the number of classes"],
+"correct_answer": "Reduce overfitting by penalizing model complexity",
+"resource_link": "[https://www.geeksforgeeks.org/?s=regularization+machine+learning](https://www.geeksforgeeks.org/?s=regularization+machine+learning)",
+"tags": ["machine-learning", "regularization", "overfitting", "modeling"]
+},
+{
+"topic": "Model Evaluation",
+"difficulty": "medium",
+"question_text": "Precision is the proportion of predicted positive samples that are actually:",
+"options": ["Positive", "Negative", "Unlabeled", "Missing"],
+"correct_answer": "Positive",
+"resource_link": "[https://www.geeksforgeeks.org/?s=precision+recall+machine+learning](https://www.geeksforgeeks.org/?s=precision+recall+machine+learning)",
+"tags": ["machine-learning", "precision", "classification", "model-evaluation"]
+},
+{
+"topic": "Model Evaluation",
+"difficulty": "medium",
+"question_text": "Recall is the proportion of actual positive samples that are correctly:",
+"options": ["Identified as positive", "Identified as negative", "Removed from the dataset", "Converted into features"],
+"correct_answer": "Identified as positive",
+"resource_link": "[https://www.geeksforgeeks.org/?s=precision+recall+machine+learning](https://www.geeksforgeeks.org/?s=precision+recall+machine+learning)",
+"tags": ["machine-learning", "recall", "classification", "model-evaluation"]
+},
+{
+"topic": "Confusion Matrix",
+"difficulty": "medium",
+"question_text": "In a binary classification problem, a false positive occurs when:",
+"options": ["A negative instance is predicted as positive", "A positive instance is predicted as positive", "A positive instance is predicted as negative", "A negative instance is predicted as negative"],
+"correct_answer": "A negative instance is predicted as positive",
+"resource_link": "[https://www.geeksforgeeks.org/?s=confusion+matrix+machine+learning](https://www.geeksforgeeks.org/?s=confusion+matrix+machine+learning)",
+"tags": ["machine-learning", "confusion-matrix", "classification", "evaluation"]
+},
+{
+"topic": "Gradient Descent",
+"difficulty": "medium",
+"question_text": "What is the main purpose of gradient descent?",
+"options": ["Minimize a loss or cost function", "Increase the number of features", "Create labels automatically", "Split a dataset into files"],
+"correct_answer": "Minimize a loss or cost function",
+"resource_link": "[https://www.geeksforgeeks.org/?s=gradient+descent+machine+learning](https://www.geeksforgeeks.org/?s=gradient+descent+machine+learning)",
+"tags": ["machine-learning", "gradient-descent", "optimization", "training"]
+},
+{
+"topic": "Machine Learning Optimization",
+"difficulty": "medium",
+"question_text": "What does the learning rate control during gradient descent?",
+"options": ["The size of parameter updates", "The number of classes", "The number of input features", "The test-set size"],
+"correct_answer": "The size of parameter updates",
+"resource_link": "[https://www.geeksforgeeks.org/?s=learning+rate+gradient+descent](https://www.geeksforgeeks.org/?s=learning+rate+gradient+descent)",
+"tags": ["machine-learning", "optimization", "learning-rate", "training"]
+},
+{
+"topic": "Ensemble Learning",
+"difficulty": "medium",
+"question_text": "What is the main idea behind ensemble learning?",
+"options": ["Combine predictions from multiple models to improve performance", "Use only one feature", "Remove all training examples", "Avoid model evaluation"],
+"correct_answer": "Combine predictions from multiple models to improve performance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ensemble+learning](https://www.geeksforgeeks.org/?s=ensemble+learning)",
+"tags": ["machine-learning", "ensemble", "modeling", "prediction"]
+},
+{
+"topic": "Random Forest",
+"difficulty": "medium",
+"question_text": "A Random Forest is primarily an ensemble of:",
+"options": ["Decision trees", "Neural networks only", "Linear equations only", "Support vectors only"],
+"correct_answer": "Decision trees",
+"resource_link": "[https://www.geeksforgeeks.org/?s=random+forest+machine+learning](https://www.geeksforgeeks.org/?s=random+forest+machine+learning)",
+"tags": ["machine-learning", "random-forest", "ensemble", "decision-trees"]
+},
+{
+"topic": "Support Vector Machines",
+"difficulty": "medium",
+"question_text": "What does a Support Vector Machine attempt to find for classification?",
+"options": ["A decision boundary with a large margin between classes", "A database schema", "A sorting order", "A network routing table"],
+"correct_answer": "A decision boundary with a large margin between classes",
+"resource_link": "[https://www.geeksforgeeks.org/?s=support+vector+machine](https://www.geeksforgeeks.org/?s=support+vector+machine)",
+"tags": ["machine-learning", "svm", "classification", "supervised-learning"]
+},
+{
+"topic": "Principal Component Analysis",
+"difficulty": "medium",
+"question_text": "What is a common purpose of Principal Component Analysis (PCA)?",
+"options": ["Reduce dimensionality while retaining important variation", "Increase the number of dimensions", "Generate class labels", "Train a database server"],
+"correct_answer": "Reduce dimensionality while retaining important variation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=principal+component+analysis+PCA](https://www.geeksforgeeks.org/?s=principal+component+analysis+PCA)",
+"tags": ["machine-learning", "pca", "dimensionality-reduction", "data-science"]
+},
+{
+"topic": "Missing Data",
+"difficulty": "medium",
+"question_text": "Which technique can be used to handle missing numerical values?",
+"options": ["Imputation", "Compilation", "Encryption", "Indexing"],
+"correct_answer": "Imputation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=missing+data+imputation+machine+learning](https://www.geeksforgeeks.org/?s=missing+data+imputation+machine+learning)",
+"tags": ["machine-learning", "data-preprocessing", "imputation", "data-cleaning"]
+},
+{
+"topic": "Neural Networks",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of an activation function in a neural network?",
+"options": ["Introduce non-linearity into the model", "Store the training dataset", "Normalize the operating system", "Remove all model parameters"],
+"correct_answer": "Introduce non-linearity into the model",
+"resource_link": "[https://www.geeksforgeeks.org/?s=activation+function+neural+network](https://www.geeksforgeeks.org/?s=activation+function+neural+network)",
+"tags": ["machine-learning", "neural-networks", "deep-learning", "activation"]
+},
+{
+"topic": "Backpropagation",
+"difficulty": "hard",
+"question_text": "What is the main purpose of backpropagation in neural network training?",
+"options": ["Compute gradients of the loss with respect to model parameters", "Generate test data", "Remove all hidden layers", "Encrypt model weights"],
+"correct_answer": "Compute gradients of the loss with respect to model parameters",
+"resource_link": "[https://www.geeksforgeeks.org/?s=backpropagation+neural+network](https://www.geeksforgeeks.org/?s=backpropagation+neural+network)",
+"tags": ["machine-learning", "backpropagation", "deep-learning", "optimization"]
+},
+{
+"topic": "Convolutional Neural Networks",
+"difficulty": "hard",
+"question_text": "Why are convolutional neural networks particularly effective for image-related tasks?",
+"options": ["They can learn local spatial patterns using convolutional filters", "They require every image pixel to be manually labeled", "They cannot process numerical data", "They eliminate the need for training"],
+"correct_answer": "They can learn local spatial patterns using convolutional filters",
+"resource_link": "[https://www.geeksforgeeks.org/?s=convolutional+neural+network](https://www.geeksforgeeks.org/?s=convolutional+neural+network)",
+"tags": ["machine-learning", "cnn", "deep-learning", "computer-vision"]
+},
+{
+"topic": "Recurrent Neural Networks",
+"difficulty": "hard",
+"question_text": "What characteristic of recurrent neural networks makes them useful for sequential data?",
+"options": ["They maintain information from previous sequence steps", "They only accept images", "They have no trainable parameters", "They require sorted numerical data"],
+"correct_answer": "They maintain information from previous sequence steps",
+"resource_link": "[https://www.geeksforgeeks.org/?s=recurrent+neural+network](https://www.geeksforgeeks.org/?s=recurrent+neural+network)",
+"tags": ["machine-learning", "rnn", "deep-learning", "sequence-models"]
+},
+{
+"topic": "Natural Language Processing",
+"difficulty": "hard",
+"question_text": "What is the purpose of tokenization in natural language processing?",
+"options": ["Split text into smaller units such as words or subwords", "Convert text directly into images", "Remove all numerical data", "Train a database index"],
+"correct_answer": "Split text into smaller units such as words or subwords",
+"resource_link": "[https://www.geeksforgeeks.org/?s=tokenization+NLP](https://www.geeksforgeeks.org/?s=tokenization+NLP)",
+"tags": ["machine-learning", "nlp", "tokenization", "deep-learning"]
+},
+{
+"topic": "Model Deployment",
+"difficulty": "hard",
+"question_text": "What is model serving in an ML production system?",
+"options": ["Making a trained model available to generate predictions for applications", "Training a model without data", "Deleting the model after training", "Manually labeling every prediction"],
+"correct_answer": "Making a trained model available to generate predictions for applications",
+"resource_link": "[https://www.geeksforgeeks.org/?s=machine+learning+model+deployment](https://www.geeksforgeeks.org/?s=machine+learning+model+deployment)",
+"tags": ["machine-learning", "model-serving", "deployment", "mlops"]
+},
+{
+"topic": "MLOps",
+"difficulty": "hard",
+"question_text": "What is a key purpose of MLOps?",
+"options": ["Operationalize and maintain machine learning systems reliably in production", "Replace machine learning with manual analysis", "Only increase model size", "Only collect training labels"],
+"correct_answer": "Operationalize and maintain machine learning systems reliably in production",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mlops](https://www.geeksforgeeks.org/?s=mlops)",
+"tags": ["machine-learning", "mlops", "deployment", "production"]
+},
+{
+"topic": "Data Leakage",
+"difficulty": "hard",
+"question_text": "What is data leakage in machine learning?",
+"options": ["When information unavailable at prediction time improperly influences model training", "When a dataset is stored on disk", "When a model has too few parameters", "When training takes too long"],
+"correct_answer": "When information unavailable at prediction time improperly influences model training",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+leakage+machine+learning](https://www.geeksforgeeks.org/?s=data+leakage+machine+learning)",
+"tags": ["machine-learning", "data-leakage", "model-evaluation", "mlops"]
+},
+{
+"topic": "Hyperparameter Tuning",
+"difficulty": "hard",
+"question_text": "Which of the following is a hyperparameter that is typically selected before training a neural network?",
+"options": ["Learning rate", "Individual learned weight", "Prediction output", "Test-set label"],
+"correct_answer": "Learning rate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hyperparameter+tuning+machine+learning](https://www.geeksforgeeks.org/?s=hyperparameter+tuning+machine+learning)",
+"tags": ["machine-learning", "hyperparameters", "optimization", "deep-learning"]
+},
+{
+"topic": "Imbalanced Classification",
+"difficulty": "hard",
+"question_text": "Why can accuracy be misleading for a highly imbalanced classification dataset?",
+"options": ["A model can achieve high accuracy by mostly predicting the majority class", "Accuracy cannot be calculated for classification", "Accuracy always equals recall", "Accuracy ignores all predictions"],
+"correct_answer": "A model can achieve high accuracy by mostly predicting the majority class",
+"resource_link": "[https://www.geeksforgeeks.org/?s=imbalanced+classification+machine+learning](https://www.geeksforgeeks.org/?s=imbalanced+classification+machine+learning)",
+"tags": ["machine-learning", "imbalanced-data", "classification", "model-evaluation"]
+}
+]

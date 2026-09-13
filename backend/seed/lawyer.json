@@ -1,0 +1,353 @@
+[
+{
+"topic": "Legal Profession",
+"difficulty": "easy",
+"question_text": "What is the primary role of a lawyer?",
+"options": ["Provide legal advice and represent clients within the law", "Pass laws in Parliament", "Issue criminal judgments", "Command the police force"],
+"correct_answer": "Provide legal advice and represent clients within the law",
+"resource_link": "[https://www.geeksforgeeks.org/?s=legal+profession+lawyer](https://www.geeksforgeeks.org/?s=legal+profession+lawyer)",
+"tags": ["lawyer", "legal practice", "legal advice", "advocacy"]
+},
+{
+"topic": "Indian Legal System",
+"difficulty": "easy",
+"question_text": "Which is the highest court in India?",
+"options": ["Supreme Court of India", "High Court", "District Court", "Sessions Court"],
+"correct_answer": "Supreme Court of India",
+"resource_link": "[https://www.geeksforgeeks.org/?s=supreme+court+of+india](https://www.geeksforgeeks.org/?s=supreme+court+of+india)",
+"tags": ["supreme court", "judiciary", "indian law", "courts"]
+},
+{
+"topic": "Constitutional Law",
+"difficulty": "easy",
+"question_text": "What is the Constitution of India primarily concerned with?",
+"options": ["Establishing the framework of government and fundamental legal principles", "Only regulating private contracts", "Only defining criminal offences", "Only managing businesses"],
+"correct_answer": "Establishing the framework of government and fundamental legal principles",
+"resource_link": "[https://www.geeksforgeeks.org/?s=constitution+of+india](https://www.geeksforgeeks.org/?s=constitution+of+india)",
+"tags": ["constitution", "constitutional law", "fundamental rights", "india"]
+},
+{
+"topic": "Fundamental Rights",
+"difficulty": "easy",
+"question_text": "Fundamental Rights in India are primarily contained in which part of the Constitution?",
+"options": ["Part III", "Part I", "Part V", "Part IX"],
+"correct_answer": "Part III",
+"resource_link": "[https://www.geeksforgeeks.org/?s=fundamental+rights+india](https://www.geeksforgeeks.org/?s=fundamental+rights+india)",
+"tags": ["fundamental rights", "constitution", "constitutional law", "india"]
+},
+{
+"topic": "Criminal Law",
+"difficulty": "easy",
+"question_text": "Which law replaced the Indian Penal Code, 1860 from 2024?",
+"options": ["Bharatiya Nyaya Sanhita, 2023", "Bharatiya Nagarik Suraksha Sanhita, 2023", "Bharatiya Sakshya Adhiniyam, 2023", "Code of Civil Procedure, 1908"],
+"correct_answer": "Bharatiya Nyaya Sanhita, 2023",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bharatiya+nyaya+sanhita](https://www.geeksforgeeks.org/?s=bharatiya+nyaya+sanhita)",
+"tags": ["bns", "criminal law", "indian law", "lawyer"]
+},
+{
+"topic": "Criminal Procedure",
+"difficulty": "easy",
+"question_text": "Which law replaced the Code of Criminal Procedure, 1973 from 2024?",
+"options": ["Bharatiya Nagarik Suraksha Sanhita, 2023", "Bharatiya Nyaya Sanhita, 2023", "Bharatiya Sakshya Adhiniyam, 2023", "Indian Contract Act, 1872"],
+"correct_answer": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bharatiya+nagarik+suraksha+sanhita](https://www.geeksforgeeks.org/?s=bharatiya+nagarik+suraksha+sanhita)",
+"tags": ["bnss", "criminal procedure", "criminal law", "lawyer"]
+},
+{
+"topic": "Law of Evidence",
+"difficulty": "easy",
+"question_text": "Which law replaced the Indian Evidence Act, 1872 from 2024?",
+"options": ["Bharatiya Sakshya Adhiniyam, 2023", "Bharatiya Nyaya Sanhita, 2023", "Bharatiya Nagarik Suraksha Sanhita, 2023", "Companies Act, 2013"],
+"correct_answer": "Bharatiya Sakshya Adhiniyam, 2023",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bharatiya+sakshya+adhiniyam](https://www.geeksforgeeks.org/?s=bharatiya+sakshya+adhiniyam)",
+"tags": ["bsa", "evidence law", "indian law", "lawyer"]
+},
+{
+"topic": "Civil Law",
+"difficulty": "easy",
+"question_text": "A civil case generally concerns disputes involving:",
+"options": ["Private rights and obligations", "Only criminal punishment", "Only constitutional amendments", "Only police recruitment"],
+"correct_answer": "Private rights and obligations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=civil+law+india](https://www.geeksforgeeks.org/?s=civil+law+india)",
+"tags": ["civil law", "civil litigation", "legal dispute", "lawyer"]
+},
+{
+"topic": "Criminal Law",
+"difficulty": "easy",
+"question_text": "What is the main purpose of criminal law?",
+"options": ["Define offences and prescribe legal consequences for them", "Regulate only private contracts", "Issue academic degrees", "Manage banking transactions only"],
+"correct_answer": "Define offences and prescribe legal consequences for them",
+"resource_link": "[https://www.geeksforgeeks.org/?s=criminal+law+india](https://www.geeksforgeeks.org/?s=criminal+law+india)",
+"tags": ["criminal law", "offences", "legal system", "lawyer"]
+},
+{
+"topic": "Contract Law",
+"difficulty": "easy",
+"question_text": "What is a contract in general legal terms?",
+"options": ["An agreement enforceable by law", "Any informal conversation", "A court judgment", "A police report"],
+"correct_answer": "An agreement enforceable by law",
+"resource_link": "[https://www.geeksforgeeks.org/?s=contract+law+india](https://www.geeksforgeeks.org/?s=contract+law+india)",
+"tags": ["contract law", "agreement", "legal contract", "lawyer"]
+},
+{
+"topic": "Legal Research",
+"difficulty": "easy",
+"question_text": "Why do lawyers conduct legal research?",
+"options": ["To identify relevant laws, precedents, and legal principles", "To issue court judgments", "To arrest suspects", "To create police records"],
+"correct_answer": "To identify relevant laws, precedents, and legal principles",
+"resource_link": "[https://www.geeksforgeeks.org/?s=legal+research](https://www.geeksforgeeks.org/?s=legal+research)",
+"tags": ["legal research", "case law", "lawyer", "legal analysis"]
+},
+{
+"topic": "Case Law",
+"difficulty": "easy",
+"question_text": "What is a legal precedent?",
+"options": ["A previous judicial decision that may guide later cases", "A police complaint", "A private contract", "A legislative election"],
+"correct_answer": "A previous judicial decision that may guide later cases",
+"resource_link": "[https://www.geeksforgeeks.org/?s=legal+precedent+case+law](https://www.geeksforgeeks.org/?s=legal+precedent+case+law)",
+"tags": ["precedent", "case law", "judicial decisions", "lawyer"]
+},
+{
+"topic": "Legal Drafting",
+"difficulty": "easy",
+"question_text": "What is legal drafting?",
+"options": ["Preparing legal documents using appropriate legal language and structure", "Conducting police patrols", "Issuing judicial verdicts", "Passing legislation"],
+"correct_answer": "Preparing legal documents using appropriate legal language and structure",
+"resource_link": "[https://www.geeksforgeeks.org/?s=legal+drafting](https://www.geeksforgeeks.org/?s=legal+drafting)",
+"tags": ["legal drafting", "legal documents", "lawyer", "documentation"]
+},
+{
+"topic": "Court Representation",
+"difficulty": "easy",
+"question_text": "What does advocacy generally involve?",
+"options": ["Presenting a client's legal position before a court or tribunal", "Passing laws as a legislator", "Investigating every crime personally", "Issuing government notifications"],
+"correct_answer": "Presenting a client's legal position before a court or tribunal",
+"resource_link": "[https://www.geeksforgeeks.org/?s=advocacy+lawyer](https://www.geeksforgeeks.org/?s=advocacy+lawyer)",
+"tags": ["advocacy", "litigation", "court representation", "lawyer"]
+},
+{
+"topic": "Burden of Proof",
+"difficulty": "medium",
+"question_text": "In a criminal trial, who generally bears the burden of proving the accused's guilt?",
+"options": ["The prosecution", "The judge", "The court clerk", "The accused in every case"],
+"correct_answer": "The prosecution",
+"resource_link": "[https://www.geeksforgeeks.org/?s=burden+of+proof+criminal+law](https://www.geeksforgeeks.org/?s=burden+of+proof+criminal+law)",
+"tags": ["burden of proof", "criminal trial", "prosecution", "evidence"]
+},
+{
+"topic": "Standard of Proof",
+"difficulty": "medium",
+"question_text": "What standard of proof is generally associated with criminal convictions?",
+"options": ["Beyond reasonable doubt", "Preponderance of probability only", "Absolute mathematical certainty", "No evidence required"],
+"correct_answer": "Beyond reasonable doubt",
+"resource_link": "[https://www.geeksforgeeks.org/?s=beyond+reasonable+doubt](https://www.geeksforgeeks.org/?s=beyond+reasonable+doubt)",
+"tags": ["standard of proof", "criminal law", "trial", "evidence"]
+},
+{
+"topic": "Civil Standard of Proof",
+"difficulty": "medium",
+"question_text": "Which standard is commonly associated with proof in civil cases?",
+"options": ["Preponderance of probabilities", "Beyond all possible doubt", "Absolute certainty", "No burden of proof"],
+"correct_answer": "Preponderance of probabilities",
+"resource_link": "[https://www.geeksforgeeks.org/?s=preponderance+of+probabilities+civil+law](https://www.geeksforgeeks.org/?s=preponderance+of+probabilities+civil+law)",
+"tags": ["civil law", "standard of proof", "evidence", "litigation"]
+},
+{
+"topic": "Bail",
+"difficulty": "medium",
+"question_text": "What is the basic purpose of bail?",
+"options": ["Allow an accused person to remain out of custody subject to legal conditions", "Declare the accused guilty", "End the criminal case automatically", "Replace the trial"],
+"correct_answer": "Allow an accused person to remain out of custody subject to legal conditions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bail+criminal+law+india](https://www.geeksforgeeks.org/?s=bail+criminal+law+india)",
+"tags": ["bail", "criminal procedure", "criminal law", "lawyer"]
+},
+{
+"topic": "Writ Jurisdiction",
+"difficulty": "medium",
+"question_text": "Which writ is commonly used to challenge unlawful detention?",
+"options": ["Habeas Corpus", "Mandamus", "Certiorari", "Quo Warranto"],
+"correct_answer": "Habeas Corpus",
+"resource_link": "[https://www.geeksforgeeks.org/?s=habeas+corpus+writ+india](https://www.geeksforgeeks.org/?s=habeas+corpus+writ+india)",
+"tags": ["habeas corpus", "writ", "constitutional law", "rights"]
+},
+{
+"topic": "Writs",
+"difficulty": "medium",
+"question_text": "What is the general purpose of a writ of Mandamus?",
+"options": ["Direct a public authority to perform a legal duty", "Release a detained person", "Challenge a private contract", "Determine ownership of property automatically"],
+"correct_answer": "Direct a public authority to perform a legal duty",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mandamus+writ+india](https://www.geeksforgeeks.org/?s=mandamus+writ+india)",
+"tags": ["mandamus", "writ", "constitutional law", "judicial review"]
+},
+{
+"topic": "Judicial Review",
+"difficulty": "medium",
+"question_text": "What is judicial review?",
+"options": ["The power of courts to examine the legality or constitutionality of governmental action", "The process of police investigation", "A method of drafting contracts", "The election of judges"],
+"correct_answer": "The power of courts to examine the legality or constitutionality of governmental action",
+"resource_link": "[https://www.geeksforgeeks.org/?s=judicial+review+india](https://www.geeksforgeeks.org/?s=judicial+review+india)",
+"tags": ["judicial review", "constitutional law", "courts", "lawyer"]
+},
+{
+"topic": "Alternative Dispute Resolution",
+"difficulty": "medium",
+"question_text": "What is mediation?",
+"options": ["A process where a neutral third party helps disputing parties reach a settlement", "A criminal punishment", "A judicial conviction", "A police interrogation technique"],
+"correct_answer": "A process where a neutral third party helps disputing parties reach a settlement",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mediation+alternative+dispute+resolution](https://www.geeksforgeeks.org/?s=mediation+alternative+dispute+resolution)",
+"tags": ["mediation", "adr", "dispute resolution", "lawyer"]
+},
+{
+"topic": "Arbitration",
+"difficulty": "medium",
+"question_text": "What is arbitration?",
+"options": ["A dispute resolution process in which an arbitrator decides the dispute according to the applicable agreement and law", "A police investigation", "A legislative procedure", "A criminal arrest"],
+"correct_answer": "A dispute resolution process in which an arbitrator decides the dispute according to the applicable agreement and law",
+"resource_link": "[https://www.geeksforgeeks.org/?s=arbitration+india](https://www.geeksforgeeks.org/?s=arbitration+india)",
+"tags": ["arbitration", "adr", "dispute resolution", "contracts"]
+},
+{
+"topic": "Intellectual Property",
+"difficulty": "medium",
+"question_text": "Which form of intellectual property primarily protects an original literary, artistic, or software work?",
+"options": ["Copyright", "Patent", "Trademark", "Trade secret only"],
+"correct_answer": "Copyright",
+"resource_link": "[https://www.geeksforgeeks.org/?s=copyright+intellectual+property](https://www.geeksforgeeks.org/?s=copyright+intellectual+property)",
+"tags": ["copyright", "intellectual property", "ip law", "lawyer"]
+},
+{
+"topic": "Patent Law",
+"difficulty": "medium",
+"question_text": "What does a patent generally protect?",
+"options": ["A qualifying invention that satisfies applicable patent requirements", "A company's logo only", "A person's name only", "Every idea automatically"],
+"correct_answer": "A qualifying invention that satisfies applicable patent requirements",
+"resource_link": "[https://www.geeksforgeeks.org/?s=patent+law+india](https://www.geeksforgeeks.org/?s=patent+law+india)",
+"tags": ["patent", "intellectual property", "invention", "ip law"]
+},
+{
+"topic": "Trademark Law",
+"difficulty": "medium",
+"question_text": "What is a trademark primarily used to protect?",
+"options": ["A distinctive sign identifying goods or services", "The physical design of every invention", "Court judgments", "Criminal evidence"],
+"correct_answer": "A distinctive sign identifying goods or services",
+"resource_link": "[https://www.geeksforgeeks.org/?s=trademark+law+india](https://www.geeksforgeeks.org/?s=trademark+law+india)",
+"tags": ["trademark", "brand protection", "intellectual property", "ip law"]
+},
+{
+"topic": "Legal Ethics",
+"difficulty": "medium",
+"question_text": "Why is confidentiality important in the lawyer-client relationship?",
+"options": ["It protects confidential client information subject to applicable legal and professional rules", "It allows lawyers to conceal every crime", "It eliminates the need for evidence", "It prevents courts from hearing cases"],
+"correct_answer": "It protects confidential client information subject to applicable legal and professional rules",
+"resource_link": "[https://www.geeksforgeeks.org/?s=lawyer+client+confidentiality+legal+ethics](https://www.geeksforgeeks.org/?s=lawyer+client+confidentiality+legal+ethics)",
+"tags": ["legal ethics", "confidentiality", "lawyer", "professional conduct"]
+},
+{
+"topic": "Legal Notice",
+"difficulty": "medium",
+"question_text": "What is the purpose of a legal notice?",
+"options": ["Formally communicate a legal claim, demand, or intended action before further proceedings where appropriate", "Automatically obtain a court judgment", "Arrest the recipient", "Replace all contracts"],
+"correct_answer": "Formally communicate a legal claim, demand, or intended action before further proceedings where appropriate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=legal+notice+india](https://www.geeksforgeeks.org/?s=legal+notice+india)",
+"tags": ["legal notice", "legal drafting", "litigation", "lawyer"]
+},
+{
+"topic": "Legal Pleadings",
+"difficulty": "medium",
+"question_text": "What are pleadings in civil litigation?",
+"options": ["Formal statements of the parties' claims and defences filed before the court", "Police patrol reports", "Court judgments", "Private conversations between lawyers"],
+"correct_answer": "Formal statements of the parties' claims and defences filed before the court",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pleadings+civil+procedure](https://www.geeksforgeeks.org/?s=pleadings+civil+procedure)",
+"tags": ["pleadings", "civil litigation", "civil procedure", "lawyer"]
+},
+{
+"topic": "Cross Examination",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of cross-examination?",
+"options": ["Test the credibility, accuracy, and reliability of a witness's testimony", "Allow the judge to write legislation", "Automatically convict the witness", "Replace documentary evidence"],
+"correct_answer": "Test the credibility, accuracy, and reliability of a witness's testimony",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cross+examination+law](https://www.geeksforgeeks.org/?s=cross+examination+law)",
+"tags": ["cross examination", "witness", "trial advocacy", "evidence"]
+},
+{
+"topic": "Legal Interpretation",
+"difficulty": "hard",
+"question_text": "What is the basic objective of statutory interpretation?",
+"options": ["Determine the meaning and application of legislative provisions", "Create new criminal offences without legislation", "Replace the Constitution", "Conduct police investigations"],
+"correct_answer": "Determine the meaning and application of legislative provisions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=statutory+interpretation](https://www.geeksforgeeks.org/?s=statutory+interpretation)",
+"tags": ["statutory interpretation", "legal analysis", "legislation", "lawyer"]
+},
+{
+"topic": "Ratio Decidendi",
+"difficulty": "hard",
+"question_text": "What does ratio decidendi refer to?",
+"options": ["The legal principle or reasoning necessary for a judicial decision", "Every statement made by a witness", "The court's filing fee", "The lawyer's personal opinion"],
+"correct_answer": "The legal principle or reasoning necessary for a judicial decision",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ratio+decidendi](https://www.geeksforgeeks.org/?s=ratio+decidendi)",
+"tags": ["ratio decidendi", "precedent", "case law", "legal analysis"]
+},
+{
+"topic": "Obiter Dicta",
+"difficulty": "hard",
+"question_text": "What are obiter dicta?",
+"options": ["Judicial observations made in a case that are not essential to the decision", "The binding facts of every case", "A type of criminal charge", "A formal police report"],
+"correct_answer": "Judicial observations made in a case that are not essential to the decision",
+"resource_link": "[https://www.geeksforgeeks.org/?s=obiter+dicta](https://www.geeksforgeeks.org/?s=obiter+dicta)",
+"tags": ["obiter dicta", "precedent", "case law", "legal analysis"]
+},
+{
+"topic": "Doctrine of Stare Decisis",
+"difficulty": "hard",
+"question_text": "What does stare decisis generally mean?",
+"options": ["Following established judicial precedents when applicable", "Ignoring all previous decisions", "Allowing police to create laws", "Avoiding written judgments"],
+"correct_answer": "Following established judicial precedents when applicable",
+"resource_link": "[https://www.geeksforgeeks.org/?s=stare+decisis](https://www.geeksforgeeks.org/?s=stare+decisis)",
+"tags": ["stare decisis", "precedent", "case law", "judiciary"]
+},
+{
+"topic": "Constitutional Remedies",
+"difficulty": "hard",
+"question_text": "Which Article of the Indian Constitution gives individuals the right to move the Supreme Court for enforcement of Fundamental Rights?",
+"options": ["Article 32", "Article 14", "Article 19", "Article 21"],
+"correct_answer": "Article 32",
+"resource_link": "[https://www.geeksforgeeks.org/?s=article+32+indian+constitution](https://www.geeksforgeeks.org/?s=article+32+indian+constitution)",
+"tags": ["article 32", "fundamental rights", "constitutional remedies", "supreme court"]
+},
+{
+"topic": "Natural Justice",
+"difficulty": "hard",
+"question_text": "Which principle of natural justice requires that a person affected by a decision should generally be given an opportunity to be heard?",
+"options": ["Audi alteram partem", "Nemo judex in causa sua", "Res judicata", "Stare decisis"],
+"correct_answer": "Audi alteram partem",
+"resource_link": "[https://www.geeksforgeeks.org/?s=principles+of+natural+justice](https://www.geeksforgeeks.org/?s=principles+of+natural+justice)",
+"tags": ["natural justice", "audi alteram partem", "administrative law", "legal principles"]
+},
+{
+"topic": "Conflict of Interest",
+"difficulty": "hard",
+"question_text": "What is a conflict of interest for a lawyer?",
+"options": ["A situation where competing interests may materially affect the lawyer's ability to represent a client appropriately", "Any disagreement between lawyer and judge", "A disagreement about court fees only", "A situation where a case has multiple witnesses"],
+"correct_answer": "A situation where competing interests may materially affect the lawyer's ability to represent a client appropriately",
+"resource_link": "[https://www.geeksforgeeks.org/?s=lawyer+conflict+of+interest](https://www.geeksforgeeks.org/?s=lawyer+conflict+of+interest)",
+"tags": ["conflict of interest", "legal ethics", "professional conduct", "lawyer"]
+},
+{
+"topic": "Legal Liability",
+"difficulty": "hard",
+"question_text": "What is vicarious liability generally concerned with?",
+"options": ["Holding one person legally responsible for certain acts of another based on a recognized relationship", "Punishing every person near a crime scene", "Automatically imposing criminal liability on witnesses", "Replacing all contractual obligations"],
+"correct_answer": "Holding one person legally responsible for certain acts of another based on a recognized relationship",
+"resource_link": "[https://www.geeksforgeeks.org/?s=vicarious+liability](https://www.geeksforgeeks.org/?s=vicarious+liability)",
+"tags": ["vicarious liability", "tort law", "legal liability", "lawyer"]
+},
+{
+"topic": "Limitation Law",
+"difficulty": "hard",
+"question_text": "What is the general purpose of limitation periods in law?",
+"options": ["Set time limits within which certain legal proceedings must be initiated", "Guarantee that every case will be successful", "Prevent courts from hearing criminal cases", "Automatically settle every dispute"],
+"correct_answer": "Set time limits within which certain legal proceedings must be initiated",
+"resource_link": "[https://www.geeksforgeeks.org/?s=limitation+act+india](https://www.geeksforgeeks.org/?s=limitation+act+india)",
+"tags": ["limitation", "civil procedure", "litigation", "legal practice"]
+}
+]

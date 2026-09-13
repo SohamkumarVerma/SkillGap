@@ -1,0 +1,362 @@
+[
+{
+"topic": "Aerospace Engineering Fundamentals",
+"difficulty": "easy",
+"question_text": "What are the two major branches of aerospace engineering?",
+"options": ["Aeronautical and astronautical engineering", "Mechanical and civil engineering", "Electrical and chemical engineering", "Marine and automotive engineering"],
+"correct_answer": "Aeronautical and astronautical engineering",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aerospace+engineering](https://www.geeksforgeeks.org/?s=aerospace+engineering)",
+"tags": ["aerospace", "aeronautical", "astronautical", "engineering"]
+},
+{
+"topic": "Aerodynamics",
+"difficulty": "easy",
+"question_text": "Aerodynamics primarily studies the motion of:",
+"options": ["Air and its interaction with solid bodies", "Electric current", "Liquid metals only", "Sound inside solids only"],
+"correct_answer": "Air and its interaction with solid bodies",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aerodynamics](https://www.geeksforgeeks.org/?s=aerodynamics)",
+"tags": ["aerospace", "aerodynamics", "fluid-mechanics", "airflow"]
+},
+{
+"topic": "Four Fundamental Forces of Flight",
+"difficulty": "easy",
+"question_text": "Which force acts opposite to the weight of an aircraft during level flight?",
+"options": ["Lift", "Drag", "Thrust", "Friction"],
+"correct_answer": "Lift",
+"resource_link": "[https://www.geeksforgeeks.org/?s=forces+of+flight+lift+drag+thrust](https://www.geeksforgeeks.org/?s=forces+of+flight+lift+drag+thrust)",
+"tags": ["aerospace", "flight", "lift", "aerodynamics"]
+},
+{
+"topic": "Aircraft Lift",
+"difficulty": "easy",
+"question_text": "Lift on an aircraft wing acts approximately:",
+"options": ["Perpendicular to the relative airflow", "Parallel to the relative airflow", "Only vertically downward", "Only horizontally backward"],
+"correct_answer": "Perpendicular to the relative airflow",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+lift](https://www.geeksforgeeks.org/?s=aircraft+lift)",
+"tags": ["aerospace", "lift", "wing", "aerodynamics"]
+},
+{
+"topic": "Aircraft Drag",
+"difficulty": "easy",
+"question_text": "Drag is the aerodynamic force that generally acts:",
+"options": ["Opposite to the direction of motion", "In the direction of motion", "Vertically upward", "Vertically downward"],
+"correct_answer": "Opposite to the direction of motion",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+drag](https://www.geeksforgeeks.org/?s=aircraft+drag)",
+"tags": ["aerospace", "drag", "aerodynamics", "flight"]
+},
+{
+"topic": "Thrust",
+"difficulty": "easy",
+"question_text": "Thrust is the force that primarily:",
+"options": ["Propels an aircraft forward", "Pulls an aircraft downward", "Opposes lift", "Reduces aircraft mass"],
+"correct_answer": "Propels an aircraft forward",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+thrust](https://www.geeksforgeeks.org/?s=aircraft+thrust)",
+"tags": ["aerospace", "thrust", "propulsion", "flight"]
+},
+{
+"topic": "Weight",
+"difficulty": "easy",
+"question_text": "The weight of an aircraft acts approximately:",
+"options": ["Toward the center of Earth", "Away from Earth", "Along the wing", "Opposite to drag"],
+"correct_answer": "Toward the center of Earth",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+weight+force](https://www.geeksforgeeks.org/?s=aircraft+weight+force)",
+"tags": ["aerospace", "flight", "weight", "mechanics"]
+},
+{
+"topic": "Airfoil",
+"difficulty": "easy",
+"question_text": "An airfoil is a shape designed primarily to:",
+"options": ["Generate aerodynamic forces efficiently", "Store fuel only", "Reduce electrical resistance", "Generate combustion"],
+"correct_answer": "Generate aerodynamic forces efficiently",
+"resource_link": "[https://www.geeksforgeeks.org/?s=airfoil+aerodynamics](https://www.geeksforgeeks.org/?s=airfoil+aerodynamics)",
+"tags": ["aerospace", "airfoil", "aerodynamics", "wing"]
+},
+{
+"topic": "Angle of Attack",
+"difficulty": "easy",
+"question_text": "The angle of attack is the angle between an airfoil's chord line and the:",
+"options": ["Relative wind", "Vertical axis only", "Ground", "Fuselage center of mass"],
+"correct_answer": "Relative wind",
+"resource_link": "[https://www.geeksforgeeks.org/?s=angle+of+attack](https://www.geeksforgeeks.org/?s=angle+of+attack)",
+"tags": ["aerospace", "angle-of-attack", "aerodynamics", "flight"]
+},
+{
+"topic": "Aircraft Stability",
+"difficulty": "easy",
+"question_text": "Which aircraft axis runs approximately from nose to tail?",
+"options": ["Longitudinal axis", "Lateral axis", "Vertical axis", "Radial axis"],
+"correct_answer": "Longitudinal axis",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+axes+longitudinal+lateral+vertical](https://www.geeksforgeeks.org/?s=aircraft+axes+longitudinal+lateral+vertical)",
+"tags": ["aerospace", "aircraft-stability", "flight", "mechanics"]
+},
+{
+"topic": "Aircraft Control Surfaces",
+"difficulty": "easy",
+"question_text": "Which primary control surface controls roll?",
+"options": ["Aileron", "Elevator", "Rudder", "Flap"],
+"correct_answer": "Aileron",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+control+surfaces](https://www.geeksforgeeks.org/?s=aircraft+control+surfaces)",
+"tags": ["aerospace", "control-surfaces", "flight-control", "aircraft"]
+},
+{
+"topic": "Aircraft Control Surfaces",
+"difficulty": "easy",
+"question_text": "Which control surface primarily controls yaw?",
+"options": ["Rudder", "Aileron", "Elevator", "Spoiler"],
+"correct_answer": "Rudder",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+control+surfaces](https://www.geeksforgeeks.org/?s=aircraft+control+surfaces)",
+"tags": ["aerospace", "rudder", "yaw", "flight-control"]
+},
+{
+"topic": "Aircraft Control Surfaces",
+"difficulty": "easy",
+"question_text": "Which control surface primarily controls pitch?",
+"options": ["Elevator", "Rudder", "Aileron", "Spoiler"],
+"correct_answer": "Elevator",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+control+surfaces](https://www.geeksforgeeks.org/?s=aircraft+control+surfaces)",
+"tags": ["aerospace", "elevator", "pitch", "flight-control"]
+},
+{
+"topic": "Rocket Propulsion",
+"difficulty": "easy",
+"question_text": "A rocket can operate in space because it:",
+"options": ["Carries propellant and does not require atmospheric oxygen", "Requires surrounding air for combustion", "Uses wings to generate thrust", "Uses atmospheric pressure as its only energy source"],
+"correct_answer": "Carries propellant and does not require atmospheric oxygen",
+"resource_link": "[https://www.geeksforgeeks.org/?s=rocket+propulsion](https://www.geeksforgeeks.org/?s=rocket+propulsion)",
+"tags": ["aerospace", "rockets", "propulsion", "space"]
+},
+{
+"topic": "Newton's Laws in Aerospace",
+"difficulty": "easy",
+"question_text": "Rocket propulsion is most directly explained by which Newton's law?",
+"options": ["Newton's first law", "Newton's second law", "Newton's third law", "Law of universal gravitation"],
+"correct_answer": "Newton's third law",
+"resource_link": "[https://www.geeksforgeeks.org/?s=newtons+laws+rocket+propulsion](https://www.geeksforgeeks.org/?s=newtons+laws+rocket+propulsion)",
+"tags": ["aerospace", "rockets", "newtons-laws", "propulsion"]
+},
+{
+"topic": "Bernoulli Principle",
+"difficulty": "medium",
+"question_text": "For steady incompressible flow along a streamline, an increase in fluid velocity is generally associated with a decrease in static pressure when other terms remain comparable.",
+"options": ["True", "False", "Only in vacuum", "Only for solids"],
+"correct_answer": "True",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bernoulli+principle](https://www.geeksforgeeks.org/?s=bernoulli+principle)",
+"tags": ["aerospace", "aerodynamics", "bernoulli", "fluid-mechanics"]
+},
+{
+"topic": "Continuity Equation",
+"difficulty": "medium",
+"question_text": "For steady incompressible flow through a varying-area passage, which relation represents mass conservation?",
+"options": ["A1V1 = A2V2", "P1V1 = P2V2", "T1V1 = T2V2", "A1/P1 = A2/P2"],
+"correct_answer": "A1V1 = A2V2",
+"resource_link": "[https://www.geeksforgeeks.org/?s=continuity+equation+fluid+mechanics](https://www.geeksforgeeks.org/?s=continuity+equation+fluid+mechanics)",
+"tags": ["aerospace", "fluid-mechanics", "continuity", "airflow"]
+},
+{
+"topic": "Reynolds Number",
+"difficulty": "medium",
+"question_text": "Reynolds number is primarily used to characterize the relative importance of:",
+"options": ["Inertial and viscous forces", "Lift and weight", "Thrust and gravity", "Heat and radiation"],
+"correct_answer": "Inertial and viscous forces",
+"resource_link": "[https://www.geeksforgeeks.org/?s=reynolds+number](https://www.geeksforgeeks.org/?s=reynolds+number)",
+"tags": ["aerospace", "fluid-mechanics", "reynolds-number", "aerodynamics"]
+},
+{
+"topic": "Mach Number",
+"difficulty": "medium",
+"question_text": "Mach number is defined as the ratio of an object's speed to the:",
+"options": ["Speed of sound in the surrounding medium", "Speed of light", "Escape velocity", "Wind speed at sea level"],
+"correct_answer": "Speed of sound in the surrounding medium",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mach+number](https://www.geeksforgeeks.org/?s=mach+number)",
+"tags": ["aerospace", "mach-number", "compressible-flow", "flight"]
+},
+{
+"topic": "Compressible Flow",
+"difficulty": "medium",
+"question_text": "Compressibility effects become particularly important in aerodynamic flows as Mach number approaches:",
+"options": ["Very low values only", "Transonic speeds", "Zero", "Exactly 0.01 only"],
+"correct_answer": "Transonic speeds",
+"resource_link": "[https://www.geeksforgeeks.org/?s=compressible+flow+mach+number](https://www.geeksforgeeks.org/?s=compressible+flow+mach+number)",
+"tags": ["aerospace", "compressible-flow", "mach-number", "aerodynamics"]
+},
+{
+"topic": "Boundary Layer",
+"difficulty": "medium",
+"question_text": "The boundary layer is the region near a solid surface where:",
+"options": ["Viscous effects are important", "Gravity becomes zero", "Pressure is always zero", "Temperature is always constant"],
+"correct_answer": "Viscous effects are important",
+"resource_link": "[https://www.geeksforgeeks.org/?s=boundary+layer+fluid+mechanics](https://www.geeksforgeeks.org/?s=boundary+layer+fluid+mechanics)",
+"tags": ["aerospace", "boundary-layer", "aerodynamics", "fluid-mechanics"]
+},
+{
+"topic": "Laminar and Turbulent Flow",
+"difficulty": "medium",
+"question_text": "Compared with laminar flow, turbulent flow generally has:",
+"options": ["Greater mixing and fluctuations", "No velocity fluctuations", "Zero viscous effects", "Perfectly parallel layers"],
+"correct_answer": "Greater mixing and fluctuations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=laminar+turbulent+flow](https://www.geeksforgeeks.org/?s=laminar+turbulent+flow)",
+"tags": ["aerospace", "fluid-mechanics", "turbulence", "flow"]
+},
+{
+"topic": "Lift Coefficient",
+"difficulty": "medium",
+"question_text": "The lift coefficient is a dimensionless quantity used to represent:",
+"options": ["Aerodynamic lift relative to dynamic pressure and reference area", "Aircraft mass", "Engine fuel consumption only", "Wing temperature"],
+"correct_answer": "Aerodynamic lift relative to dynamic pressure and reference area",
+"resource_link": "[https://www.geeksforgeeks.org/?s=lift+coefficient+aerodynamics](https://www.geeksforgeeks.org/?s=lift+coefficient+aerodynamics)",
+"tags": ["aerospace", "lift", "aerodynamics", "coefficients"]
+},
+{
+"topic": "Drag Coefficient",
+"difficulty": "medium",
+"question_text": "The drag coefficient is a dimensionless measure associated with:",
+"options": ["Aerodynamic drag", "Aircraft weight only", "Engine temperature only", "Fuel density only"],
+"correct_answer": "Aerodynamic drag",
+"resource_link": "[https://www.geeksforgeeks.org/?s=drag+coefficient+aerodynamics](https://www.geeksforgeeks.org/?s=drag+coefficient+aerodynamics)",
+"tags": ["aerospace", "drag", "aerodynamics", "coefficients"]
+},
+{
+"topic": "Jet Engines",
+"difficulty": "medium",
+"question_text": "Which component of a typical turbojet compresses the incoming air before combustion?",
+"options": ["Compressor", "Turbine", "Nozzle", "Afterburner"],
+"correct_answer": "Compressor",
+"resource_link": "[https://www.geeksforgeeks.org/?s=turbojet+engine+components](https://www.geeksforgeeks.org/?s=turbojet+engine+components)",
+"tags": ["aerospace", "jet-engines", "propulsion", "turbomachinery"]
+},
+{
+"topic": "Gas Turbine Engines",
+"difficulty": "medium",
+"question_text": "In a gas turbine engine, the turbine extracts energy primarily from:",
+"options": ["Hot expanding gases", "Cold incoming air only", "Fuel before combustion", "External electrical power"],
+"correct_answer": "Hot expanding gases",
+"resource_link": "[https://www.geeksforgeeks.org/?s=gas+turbine+engine](https://www.geeksforgeeks.org/?s=gas+turbine+engine)",
+"tags": ["aerospace", "gas-turbine", "propulsion", "turbomachinery"]
+},
+{
+"topic": "Propellers",
+"difficulty": "medium",
+"question_text": "An aircraft propeller primarily converts engine shaft power into:",
+"options": ["Thrust", "Electrical resistance", "Lift on the fuselage", "Heat only"],
+"correct_answer": "Thrust",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+propeller](https://www.geeksforgeeks.org/?s=aircraft+propeller)",
+"tags": ["aerospace", "propellers", "propulsion", "aircraft"]
+},
+{
+"topic": "Rocket Propulsion",
+"difficulty": "medium",
+"question_text": "Specific impulse is commonly used as a measure of rocket:",
+"options": ["Propellant efficiency", "Wing loading", "Structural mass only", "Landing gear strength"],
+"correct_answer": "Propellant efficiency",
+"resource_link": "[https://www.geeksforgeeks.org/?s=rocket+specific+impulse](https://www.geeksforgeeks.org/?s=rocket+specific+impulse)",
+"tags": ["aerospace", "rockets", "specific-impulse", "propulsion"]
+},
+{
+"topic": "Orbital Mechanics",
+"difficulty": "medium",
+"question_text": "A spacecraft in a stable circular orbit around a planet has its orbital speed determined primarily by the planet's mass and:",
+"options": ["Orbital radius", "Paint color", "Solar panel area only", "Communication frequency"],
+"correct_answer": "Orbital radius",
+"resource_link": "[https://www.geeksforgeeks.org/?s=orbital+velocity+satellite](https://www.geeksforgeeks.org/?s=orbital+velocity+satellite)",
+"tags": ["aerospace", "orbital-mechanics", "spacecraft", "satellites"]
+},
+{
+"topic": "Escape Velocity",
+"difficulty": "hard",
+"question_text": "Escape velocity from a celestial body is the minimum speed required to:",
+"options": ["Escape its gravitational influence without further propulsion", "Enter a circular orbit at any altitude", "Remain stationary above the surface", "Increase atmospheric pressure"],
+"correct_answer": "Escape its gravitational influence without further propulsion",
+"resource_link": "[https://www.geeksforgeeks.org/?s=escape+velocity](https://www.geeksforgeeks.org/?s=escape+velocity)",
+"tags": ["aerospace", "orbital-mechanics", "escape-velocity", "space"]
+},
+{
+"topic": "Rocket Equation",
+"difficulty": "hard",
+"question_text": "The Tsiolkovsky rocket equation relates a rocket's change in velocity primarily to exhaust velocity and:",
+"options": ["Mass ratio", "Wing area", "Atmospheric humidity", "Landing gear mass only"],
+"correct_answer": "Mass ratio",
+"resource_link": "[https://www.geeksforgeeks.org/?s=rocket+equation+tsiolkovsky](https://www.geeksforgeeks.org/?s=rocket+equation+tsiolkovsky)",
+"tags": ["aerospace", "rockets", "rocket-equation", "propulsion"]
+},
+{
+"topic": "Rocket Staging",
+"difficulty": "hard",
+"question_text": "The primary advantage of multistage rockets is that they:",
+"options": ["Discard empty structural mass during flight", "Eliminate the need for propellant", "Always operate without gravity", "Remove the need for engines"],
+"correct_answer": "Discard empty structural mass during flight",
+"resource_link": "[https://www.geeksforgeeks.org/?s=multistage+rocket](https://www.geeksforgeeks.org/?s=multistage+rocket)",
+"tags": ["aerospace", "rockets", "staging", "spaceflight"]
+},
+{
+"topic": "Aerodynamic Stall",
+"difficulty": "hard",
+"question_text": "An aerodynamic stall occurs when an airfoil exceeds its critical:",
+"options": ["Angle of attack", "Mach number of zero", "Fuel pressure", "Engine temperature"],
+"correct_answer": "Angle of attack",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+aerodynamic+stall](https://www.geeksforgeeks.org/?s=aircraft+aerodynamic+stall)",
+"tags": ["aerospace", "stall", "angle-of-attack", "aerodynamics"]
+},
+{
+"topic": "Aspect Ratio",
+"difficulty": "hard",
+"question_text": "For a rectangular wing, aspect ratio is the ratio of:",
+"options": ["Wingspan squared to wing area", "Wing area to aircraft mass", "Chord to thickness", "Lift to drag"],
+"correct_answer": "Wingspan squared to wing area",
+"resource_link": "[https://www.geeksforgeeks.org/?s=wing+aspect+ratio](https://www.geeksforgeeks.org/?s=wing+aspect+ratio)",
+"tags": ["aerospace", "wing-design", "aspect-ratio", "aerodynamics"]
+},
+{
+"topic": "Induced Drag",
+"difficulty": "hard",
+"question_text": "Induced drag is primarily associated with the generation of:",
+"options": ["Lift", "Thrust", "Weight", "Fuel"],
+"correct_answer": "Lift",
+"resource_link": "[https://www.geeksforgeeks.org/?s=induced+drag+lift](https://www.geeksforgeeks.org/?s=induced+drag+lift)",
+"tags": ["aerospace", "drag", "lift", "wing-design"]
+},
+{
+"topic": "Winglets",
+"difficulty": "hard",
+"question_text": "Winglets primarily reduce:",
+"options": ["Induced drag caused by wingtip vortices", "Aircraft weight", "Engine temperature", "Fuel density"],
+"correct_answer": "Induced drag caused by wingtip vortices",
+"resource_link": "[https://www.geeksforgeeks.org/?s=winglets+induced+drag](https://www.geeksforgeeks.org/?s=winglets+induced+drag)",
+"tags": ["aerospace", "winglets", "induced-drag", "aerodynamics"]
+},
+{
+"topic": "Supersonic Flow",
+"difficulty": "hard",
+"question_text": "A shock wave in supersonic flow is associated with a sudden change in:",
+"options": ["Pressure, temperature and density", "Aircraft paint color only", "Mass of the aircraft", "Gravity"],
+"correct_answer": "Pressure, temperature and density",
+"resource_link": "[https://www.geeksforgeeks.org/?s=supersonic+shock+wave](https://www.geeksforgeeks.org/?s=supersonic+shock+wave)",
+"tags": ["aerospace", "supersonic", "shock-waves", "compressible-flow"]
+},
+{
+"topic": "Turbofan Engines",
+"difficulty": "hard",
+"question_text": "Compared with a pure turbojet, a high-bypass turbofan generally achieves better fuel efficiency at typical subsonic transport speeds because it:",
+"options": ["Accelerates a larger mass of air by a smaller velocity increase", "Uses no compressor", "Does not produce thrust", "Operates without combustion"],
+"correct_answer": "Accelerates a larger mass of air by a smaller velocity increase",
+"resource_link": "[https://www.geeksforgeeks.org/?s=turbofan+engine](https://www.geeksforgeeks.org/?s=turbofan+engine)",
+"tags": ["aerospace", "turbofan", "jet-engines", "propulsion"]
+},
+{
+"topic": "Aircraft Structural Design",
+"difficulty": "hard",
+"question_text": "The primary purpose of aircraft structural design is to provide sufficient strength and stiffness while:",
+"options": ["Minimizing structural weight", "Maximizing empty weight", "Eliminating all flexibility", "Increasing drag"],
+"correct_answer": "Minimizing structural weight",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aircraft+structures](https://www.geeksforgeeks.org/?s=aircraft+structures)",
+"tags": ["aerospace", "aircraft-structures", "structural-design", "lightweight"]
+},
+{
+"topic": "Composite Materials",
+"difficulty": "hard",
+"question_text": "A major advantage of fiber-reinforced composite materials in aerospace applications is their:",
+"options": ["High strength-to-weight ratio", "Very high density", "Poor fatigue resistance", "Inability to tailor properties"],
+"correct_answer": "High strength-to-weight ratio",
+"resource_link": "[https://www.geeksforgeeks.org/?s=composite+materials+aerospace](https://www.geeksforgeeks.org/?s=composite+materials+aerospace)",
+"tags": ["aerospace", "composites", "materials", "lightweight"]
+}
+]
