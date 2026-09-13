@@ -41,16 +41,13 @@ function extractKeywords(text) {
   const lower = text.toLowerCase();
   const results = [];
 
-  for (const { canonical, variants, excludePattern, wordBoundary = true } of KEYWORDS) {
+  for (const { canonical, variants, excludePattern } of KEYWORDS) {
     let freq = 0;
 
     for (const variant of variants) {
       // Build a regex: escape special regex chars, then count all occurrences
       const escaped = variant.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      const pattern = wordBoundary
-        ? `(?<![a-z0-9])${escaped}(?![a-z0-9])`
-        : escaped;
-      const re = new RegExp(pattern, "gi");
+      const re = new RegExp(escaped, "gi");
       const matches = lower.match(re);
       if (matches) freq += matches.length;
     }

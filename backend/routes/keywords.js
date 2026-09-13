@@ -8,9 +8,8 @@
  *   canonical  – the display name / key returned to the client
  *   variants   – all substrings that should match this keyword in JD text
  *                (lowercased, order matters: longer/more-specific first)
+ *   excludePattern – optional RegExp; matches that overlap this are subtracted
  */
-
-const { getSeedKeywords } = require("../seed/loader");
 
 const KEYWORDS = [
   // ── Frontend / HTML / CSS ──────────────────────────────────────────────────
@@ -68,7 +67,7 @@ const KEYWORDS = [
   { canonical: "algorithms",        variants: ["algorithm"] },
   { canonical: "arrays",            variants: ["array"] },
   { canonical: "linked-list",       variants: ["linked list", "linked-list"] },
-  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp)(?:\s+|-)stack|stack\s+(?:overflow|trace|frame|developer|engineer)/i },
+  { canonical: "stack",             variants: ["stack"], excludePattern: /(?:full|tech|front|back|mean|mern|lamp|across\s+the|our|modern|current|the\s+whole|software|open)(?:\s+|-)stack|stack\s+(?:overflow|trace|frame|developer|engineer|includes|of\s+choice)|(?:full|tech|front|back)-stack/i },
   { canonical: "queue",             variants: ["queue"] },
   { canonical: "trees",             variants: ["tree "] },
   { canonical: "binary-tree",       variants: ["binary tree", "bst", "avl tree", "avl-tree"] },
@@ -147,27 +146,150 @@ const KEYWORDS = [
   { canonical: "computer-architecture", variants: ["computer architecture", "cpu design", "instruction set"] },
   { canonical: "systems",           variants: ["system design", "distributed system", "microservice"] },
   { canonical: "security",          variants: ["security", "encryption", "cryptography", "https"] },
+
+  // ── Aerospace Engineering ─────────────────────────────────────────────────
+  { canonical: "aerospace",                   variants: ["aerospace engineering", "aeronautical engineering", "aerospace systems engineering"] },
+  { canonical: "aerodynamics",                variants: ["aerodynamics", "aerodynamic analysis", "aerodynamic performance"] },
+  { canonical: "fluid-mechanics",             variants: ["computational fluid dynamics", "cfd analysis", "cfd simulation", "fluid mechanics", "fluid flow"] },
+  { canonical: "flight-control",              variants: ["flight dynamics", "flight control", "aircraft dynamics", "flight controls"] },
+  { canonical: "aircraft",                    variants: ["aircraft design", "airframe design", "aircraft configuration"] },
+  { canonical: "propulsion",                  variants: ["propulsion systems", "aircraft propulsion", "aerospace propulsion", "rocket propulsion"] },
+  { canonical: "jet-engines",                 variants: ["jet engine", "turbofan engine", "turbojet engine", "gas turbine"] },
+  { canonical: "rockets",                     variants: ["rocket engine", "liquid rocket engine", "solid rocket motor", "rocket propulsion"] },
+  { canonical: "orbital-mechanics",           variants: ["orbital mechanics", "orbit mechanics", "spacecraft trajectory"] },
+  { canonical: "spacecraft",                  variants: ["spacecraft systems", "spacecraft system", "spacecraft subsystems"] },
+  { canonical: "structural-design",           variants: ["finite element analysis", "fea analysis", "aerospace structural", "aircraft structural"] },
+  { canonical: "aeronautical",                variants: ["catia", "catia v5", "ansys fluent", "fluent cfd", "matlab simulink"] },
+  { canonical: "aircraft-stability",          variants: ["aerospace safety", "flight safety", "aircraft safety", "aircraft stability"] },
+
+  // ── Chemical Engineering ──────────────────────────────────────────────────
+  { canonical: "chemical-engineering",        variants: ["chemical engineering", "chemical process engineering"] },
+  { canonical: "process-engineering",         variants: ["process engineering", "process development", "process design"] },
+  { canonical: "process-control",             variants: ["process control", "chemical process control", "pid control", "pid controller"] },
+  { canonical: "process",                     variants: ["process simulation", "chemical process simulation", "aspen plus", "aspenplus", "hysys", "process modeling"] },
+  { canonical: "heat-transfer",               variants: ["heat transfer", "heat exchanger", "thermal design"] },
+  { canonical: "mass-transfer",               variants: ["mass transfer", "separation processes", "separation operations"] },
+  { canonical: "thermodynamics",              variants: ["chemical thermodynamics", "engineering thermodynamics", "process thermodynamics"] },
+  { canonical: "reaction-engineering",        variants: ["reaction engineering", "chemical reaction engineering", "reactor design", "reactor engineering"] },
+  { canonical: "distillation",                variants: ["distillation", "distillation column", "distillation design"] },
+  { canonical: "process-safety",              variants: ["process safety", "hazop", "hazard and operability", "industrial safety"] },
+  { canonical: "process-optimization",        variants: ["process optimization", "chemical process optimization"] },
+
+  // ── CPU Design ─────────────────────────────────────────────────────────────
+  { canonical: "cpu",                         variants: ["cpu design", "processor design", "microprocessor design"] },
+  { canonical: "microarchitecture",           variants: ["microarchitecture", "cpu microarchitecture", "processor microarchitecture"] },
+  { canonical: "isa",                         variants: ["instruction set architecture", "isa design", "instruction set"] },
+  { canonical: "pipelining",                  variants: ["instruction pipeline", "cpu pipeline", "processor pipeline", "pipelined processor"] },
+  { canonical: "out-of-order",                variants: ["out-of-order execution", "out of order execution", "ooo execution"] },
+  { canonical: "branch-prediction",           variants: ["branch prediction", "branch predictor"] },
+  { canonical: "memory-hierarchy",            variants: ["memory hierarchy", "processor memory hierarchy", "cache hierarchy"] },
+  { canonical: "superscalar",                 variants: ["superscalar architecture", "superscalar processor", "superscalar design"] },
+  { canonical: "rtl",                         variants: ["rtl design", "rtl coding", "register transfer level", "rtl implementation"] },
+  { canonical: "verilog",                     variants: ["verilog", "verilog hdl", "verilog hardware description language"] },
+  { canonical: "systemverilog",               variants: ["systemverilog", "system verilog", "systemverilog rtl", "systemverilog hdl", "systemverilog verification"] },
+  { canonical: "verification",                variants: ["cpu verification", "processor verification", "functional verification", "rtl verification", "formal verification", "formal hardware verification"] },
+  { canonical: "timing",                      variants: ["timing closure", "cpu timing closure", "processor timing closure", "timing analysis"] },
+
+  // ── Electrical Engineering ────────────────────────────────────────────────
+  { canonical: "electrical",                  variants: ["electrical engineering", "electrical systems engineering"] },
+  { canonical: "power-systems",               variants: ["power systems", "electrical power systems", "power system engineering"] },
+  { canonical: "power-electronics",           variants: ["power electronics", "power converter design"] },
+  { canonical: "circuits",                    variants: ["circuit analysis", "electrical circuit analysis", "circuit simulation", "rlc circuit"] },
+  { canonical: "analog",                      variants: ["analog circuits", "analogue circuits", "analog circuit design", "op-amp"] },
+  { canonical: "digital",                     variants: ["digital circuits", "digital circuit design", "digital logic circuits"] },
+  { canonical: "control-systems",             variants: ["control systems", "control system engineering", "feedback control", "pid control"] },
+  { canonical: "machines",                    variants: ["electrical machines", "electric machines", "induction motor", "synchronous motor"] },
+  { canonical: "drives",                      variants: ["motor drives", "motor control", "electric motor drives"] },
+  { canonical: "transformers",                variants: ["power transformers", "transformer design", "electrical transformers"] },
+  { canonical: "protection",                  variants: ["power system protection", "protective relaying", "switchgear", "circuit breakers"] },
+  { canonical: "plc",                         variants: ["plc", "programmable logic controller", "plc programming"] },
+  { canonical: "scada",                       variants: ["scada", "scada systems", "supervisory control and data acquisition"] },
+  { canonical: "automation",                  variants: ["industrial automation", "electrical automation", "industrial control"] },
+  { canonical: "power",                       variants: ["power quality", "power distribution", "power factor", "electrical power"] },
+
+  // ── Game Dev (Unity) ───────────────────────────────────────────────────────
+  { canonical: "unity",                       variants: ["unity engine", "unity3d", "unity 3d", "unity game"] },
+  { canonical: "csharp",                      variants: ["unity c#", "c# unity", "c# game development", "c# scripting"] },
+  { canonical: "monobehaviour",               variants: ["monobehaviour", "mono behaviour"] },
+  { canonical: "prefabs",                     variants: ["unity prefabs", "prefab system", "prefab workflow", "prefab variants"] },
+  { canonical: "scriptableobject",            variants: ["scriptable objects", "unity scriptableobject", "scriptable object pattern"] },
+  { canonical: "addressables",               variants: ["unity addressables", "addressables system"] },
+  { canonical: "animation",                  variants: ["unity animation", "unity animator", "animation system", "animation blueprint"] },
+  { canonical: "physics",                    variants: ["unity physics", "rigidbody", "unity physics engine", "physics simulation"] },
+  { canonical: "ui",                         variants: ["unity ui", "unity ui toolkit", "canvas ui", "hud", "umg"] },
+  { canonical: "shaders",                    variants: ["unity shaders", "shader graph", "universal render pipeline", "high definition render pipeline", "urp", "hdrp"] },
+  { canonical: "multiplayer",               variants: ["unity netcode", "unity multiplayer", "netcode for gameobjects", "unreal multiplayer"] },
+  { canonical: "optimization",              variants: ["unity optimization", "unity profiling", "unity performance", "unreal optimization", "game optimization"] },
+  { canonical: "game development",          variants: ["unity game development", "unity gameplay programming", "game developer", "unreal game development"] },
+
+  // ── Game Dev (Unreal) ──────────────────────────────────────────────────────
+  { canonical: "unreal engine",              variants: ["unreal engine", "unreal engine 5", "ue5", "ue4"] },
+  { canonical: "blueprints",                 variants: ["unreal blueprints", "blueprint visual scripting", "visual scripting unreal"] },
+  { canonical: "gameplay framework",         variants: ["unreal gameplay framework", "ue gameplay framework", "gameplay programming"] },
+  { canonical: "actors",                     variants: ["unreal actor", "ue actor", "actor component"] },
+  { canonical: "lumen",                      variants: ["unreal lumen", "lumen global illumination"] },
+  { canonical: "nanite",                     variants: ["unreal nanite", "nanite virtualized geometry"] },
+  { canonical: "replication",               variants: ["unreal replication", "actor replication", "network replication"] },
+
+  // ── GPU Design ─────────────────────────────────────────────────────────────
+  { canonical: "gpu",                         variants: ["gpu design", "graphics processor design", "gpu architecture", "gpu computing"] },
+  { canonical: "cuda",                        variants: ["cuda", "cuda programming", "nvidia cuda", "cuda kernels"] },
+  { canonical: "parallel-computing",          variants: ["parallel computing", "parallel processing", "massively parallel"] },
+  { canonical: "memory-coalescing",           variants: ["memory coalescing", "coalesced memory access"] },
+  { canonical: "tensor-cores",               variants: ["tensor cores", "tensor core architecture", "nvidia tensor cores"] },
+  { canonical: "ray-tracing",               variants: ["ray tracing hardware", "hardware ray tracing", "ray tracing acceleration", "ray tracing"] },
+  { canonical: "vulkan",                     variants: ["vulkan", "vulkan api", "vulkan graphics api"] },
+  { canonical: "opengl",                     variants: ["opengl", "opengl api", "opengl graphics programming"] },
+  { canonical: "directx",                    variants: ["directx", "directx 12", "direct3d"] },
+  { canonical: "opencl",                     variants: ["opencl", "opencl programming", "opencl kernels"] },
+  { canonical: "warp",                       variants: ["warp divergence", "warp scheduler", "gpu warp", "simt"] },
+  { canonical: "gpgpu",                      variants: ["gpgpu", "general purpose gpu", "gpu accelerated computing"] },
+
+  // ── Microprocessors & Controllers ─────────────────────────────────────────
+  { canonical: "microprocessor",             variants: ["microprocessors", "microprocessor architecture", "microprocessor programming", "microprocessor design"] },
+  { canonical: "microcontroller",            variants: ["microcontrollers", "microcontroller development", "microcontroller programming", "embedded microcontroller"] },
+  { canonical: "embedded-systems",           variants: ["embedded systems", "embedded system development", "embedded software development"] },
+  { canonical: "embedded",                   variants: ["embedded c", "embedded c programming", "embedded c++", "bare metal programming", "bare-metal embedded", "firmware development"] },
+  { canonical: "rtos",                       variants: ["rtos", "real-time operating system", "embedded rtos", "freertos"] },
+  { canonical: "uart",                       variants: ["uart", "uart communication", "serial uart"] },
+  { canonical: "spi",                        variants: ["spi", "spi communication", "serial peripheral interface"] },
+  { canonical: "i2c",                        variants: ["i2c", "i2c communication", "inter-integrated circuit"] },
+  { canonical: "interrupts",                variants: ["interrupt handling", "interrupt programming", "microcontroller interrupts", "interrupt latency"] },
+  { canonical: "timers",                     variants: ["microcontroller timers", "timer peripherals", "hardware timers"] },
+  { canonical: "pwm",                        variants: ["pwm", "pulse width modulation", "pwm microcontroller"] },
+  { canonical: "gpio",                       variants: ["gpio", "general purpose io", "digital io"] },
+  { canonical: "real-time",                  variants: ["real-time systems", "real-time embedded", "real time programming"] },
+
+  // ── ML Engineering ────────────────────────────────────────────────────────
+  { canonical: "machine-learning",           variants: ["machine learning", "ml engineering", "machine learning engineer", "machine learning development"] },
+  { canonical: "deep-learning",              variants: ["deep learning", "deep learning models", "deep neural networks"] },
+  { canonical: "neural-networks",            variants: ["neural networks", "neural network architecture", "cnn", "rnn"] },
+  { canonical: "python",                     variants: ["pytorch", "torch", "tensorflow", "scikit-learn", "scikit learn", "sklearn", "numpy", "pandas", "python machine learning"] },
+  { canonical: "mlops",                      variants: ["mlops", "machine learning operations", "ml operations", "mlflow", "kubeflow"] },
+  { canonical: "model-serving",              variants: ["model serving", "model deployment", "ml inference serving", "ml model deployment"] },
+  { canonical: "feature-engineering",        variants: ["feature engineering", "feature scaling", "data preprocessing"] },
+  { canonical: "training",                   variants: ["model training", "ml training pipelines", "model evaluation", "training pipeline"] },
+  { canonical: "ml",                         variants: ["ml pipelines", "machine learning pipelines", "ml pipeline", "ml workflow"] },
+  { canonical: "nlp",                        variants: ["nlp", "natural language processing", "hugging face", "huggingface", "transformer models"] },
+  { canonical: "computer-vision",            variants: ["computer vision", "image classification", "object detection"] },
+
+  // ── VLSI ──────────────────────────────────────────────────────────────────
+  { canonical: "vlsi",                        variants: ["vlsi", "very large scale integration", "vlsi design"] },
+  { canonical: "asic",                        variants: ["asic design", "asic development", "application specific integrated circuit"] },
+  { canonical: "floorplanning",               variants: ["floorplanning", "floor planning", "asic floorplanning"] },
+  { canonical: "placement",                   variants: ["place and route", "placement and routing", "pnr", "physical placement"] },
+  { canonical: "vlsi-routing",               variants: ["signal routing", "asic routing", "metal routing"] },
+  { canonical: "sta",                         variants: ["static timing analysis", "sta analysis", "timing analysis", "setup time", "hold time"] },
+  { canonical: "cts",                         variants: ["clock tree synthesis", "clock tree design", "clock distribution"] },
+  { canonical: "synthesis",                   variants: ["logic synthesis", "rtl synthesis", "logic synthesis tools"] },
+  { canonical: "physical design",             variants: ["physical design", "asic physical design", "physical implementation"] },
+  { canonical: "timing closure",              variants: ["timing closure", "vlsi timing closure", "asic timing closure"] },
+  { canonical: "power integrity",             variants: ["power integrity", "vlsi power analysis", "ir drop", "power integrity analysis"] },
+  { canonical: "standard cells",             variants: ["standard cell library", "standard-cell library", "standard cell characterization", "standard cells"] },
+  { canonical: "digital design",             variants: ["digital ic design", "digital integrated circuit design", "digital design"] },
+  { canonical: "drc",                        variants: ["drc", "design rule check", "drc verification"] },
+  { canonical: "lvs",                        variants: ["lvs", "layout versus schematic"] },
+  { canonical: "cmos",                       variants: ["cmos design", "cmos technology", "cmos circuits"] },
 ];
-
-// Every question bank contributes its tags, so adding a JSON file also adds
-// its job-description vocabulary without another route change.
-const keywordByCanonical = new Map(KEYWORDS.map((entry) => [entry.canonical, entry]));
-for (const tag of getSeedKeywords()) {
-  const canonical = tag.trim();
-  if (!canonical) continue;
-
-  const variants = [canonical.toLowerCase()];
-  const spaced = canonical.toLowerCase().replace(/[-_]+/g, " ");
-  if (spaced !== variants[0]) variants.push(spaced);
-
-  const existing = keywordByCanonical.get(canonical);
-  if (existing) {
-    existing.variants = [...new Set([...existing.variants, ...variants])];
-  } else {
-    const entry = { canonical, variants, wordBoundary: true };
-    keywordByCanonical.set(canonical, entry);
-    KEYWORDS.push(entry);
-  }
-}
 
 module.exports = KEYWORDS;

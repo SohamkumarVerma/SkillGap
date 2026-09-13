@@ -1,370 +1,781 @@
 [
-{
-"topic": "VLSI Fundamentals",
-"difficulty": "easy",
-"question_text": "What does VLSI stand for?",
-"options": ["Very Large Scale Integration", "Variable Logic System Integration", "Very Low Scale Integration", "Virtual Large System Interface"],
-"correct_answer": "Very Large Scale Integration",
-"resource_link": "[https://www.geeksforgeeks.org/vlsi-design-vlsi/](https://www.geeksforgeeks.org/vlsi-design-vlsi/)",
-"tags": ["vlsi", "ic design", "semiconductor", "digital electronics"]
-},
-{
-"topic": "Integrated Circuits",
-"difficulty": "easy",
-"question_text": "What is the primary purpose of an integrated circuit (IC)?",
-"options": ["To integrate multiple electronic components on a single chip", "To increase mechanical strength", "To store physical documents", "To replace all power supplies"],
-"correct_answer": "To integrate multiple electronic components on a single chip",
-"resource_link": "[https://www.geeksforgeeks.org/integrated-circuit/](https://www.geeksforgeeks.org/integrated-circuit/)",
-"tags": ["ic design", "electronics", "semiconductor", "vlsi"]
-},
-{
-"topic": "MOSFET",
-"difficulty": "easy",
-"question_text": "Which terminal controls the channel of a MOSFET?",
-"options": ["Gate", "Source", "Drain", "Body"],
-"correct_answer": "Gate",
-"resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
-"tags": ["mosfet", "transistors", "semiconductor", "vlsi"]
-},
-{
-"topic": "CMOS Technology",
-"difficulty": "easy",
-"question_text": "CMOS primarily uses which two types of MOSFETs?",
-"options": ["NMOS and PMOS", "BJT and JFET", "LED and photodiode", "SCR and TRIAC"],
-"correct_answer": "NMOS and PMOS",
-"resource_link": "[https://www.geeksforgeeks.org/cmos/](https://www.geeksforgeeks.org/cmos/)",
-"tags": ["cmos", "nmos", "pmos", "vlsi"]
-},
-{
-"topic": "CMOS Logic",
-"difficulty": "easy",
-"question_text": "Why is CMOS logic known for low static power consumption?",
-"options": ["Ideally, it draws negligible DC current in steady states", "It does not use transistors", "It operates only with analog signals", "It always uses zero voltage"],
-"correct_answer": "Ideally, it draws negligible DC current in steady states",
-"resource_link": "[https://www.geeksforgeeks.org/cmos/](https://www.geeksforgeeks.org/cmos/)",
-"tags": ["cmos", "power", "digital logic", "vlsi"]
-},
-{
-"topic": "NMOS Logic",
-"difficulty": "easy",
-"question_text": "In an NMOS transistor, which terminal is typically connected to the lower potential in a basic switching configuration?",
-"options": ["Source", "Gate", "Drain", "Substrate only"],
-"correct_answer": "Source",
-"resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
-"tags": ["nmos", "mosfet", "transistors", "digital design"]
-},
-{
-"topic": "PMOS Logic",
-"difficulty": "easy",
-"question_text": "A PMOS transistor is generally turned ON when its gate voltage is:",
-"options": ["Low relative to its source", "High relative to its source", "Equal to ground only", "Always floating"],
-"correct_answer": "Low relative to its source",
-"resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
-"tags": ["pmos", "mosfet", "transistors", "digital design"]
-},
-{
-"topic": "CMOS Inverter",
-"difficulty": "easy",
-"question_text": "How many MOSFETs are typically used in a basic CMOS inverter?",
-"options": ["2", "1", "3", "4"],
-"correct_answer": "2",
-"resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
-"tags": ["cmos", "inverter", "logic gates", "vlsi"]
-},
-{
-"topic": "CMOS Inverter",
-"difficulty": "easy",
-"question_text": "In a CMOS inverter, when the input is LOW, which transistor conducts?",
-"options": ["PMOS", "NMOS", "Both equally", "Neither"],
-"correct_answer": "PMOS",
-"resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
-"tags": ["cmos", "inverter", "pmos", "nmos"]
-},
-{
-"topic": "CMOS Inverter",
-"difficulty": "easy",
-"question_text": "In a CMOS inverter, when the input is HIGH, which transistor conducts?",
-"options": ["NMOS", "PMOS", "Both equally", "Neither"],
-"correct_answer": "NMOS",
-"resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
-"tags": ["cmos", "inverter", "nmos", "digital design"]
-},
-{
-"topic": "VLSI Design Flow",
-"difficulty": "easy",
-"question_text": "Which stage converts an RTL description into a gate-level netlist?",
-"options": ["Logic synthesis", "Floorplanning", "Routing", "Fabrication"],
-"correct_answer": "Logic synthesis",
-"resource_link": "[https://www.geeksforgeeks.org/logic-synthesis-in-vlsi/](https://www.geeksforgeeks.org/logic-synthesis-in-vlsi/)",
-"tags": ["rtl", "synthesis", "vlsi", "digital design"]
-},
-{
-"topic": "RTL Design",
-"difficulty": "easy",
-"question_text": "What does RTL stand for in digital design?",
-"options": ["Register Transfer Level", "Real-Time Logic", "Reduced Transistor Logic", "Register Timing Language"],
-"correct_answer": "Register Transfer Level",
-"resource_link": "[https://www.geeksforgeeks.org/register-transfer-level-rtl/](https://www.geeksforgeeks.org/register-transfer-level-rtl/)",
-"tags": ["rtl", "verilog", "digital design", "vlsi"]
-},
-{
-"topic": "VLSI Fabrication",
-"difficulty": "easy",
-"question_text": "What is lithography primarily used for in semiconductor fabrication?",
-"options": ["Transferring circuit patterns onto a wafer", "Cooling the processor", "Testing software", "Packaging cables"],
-"correct_answer": "Transferring circuit patterns onto a wafer",
-"resource_link": "[https://www.geeksforgeeks.org/semiconductor-fabrication-process/](https://www.geeksforgeeks.org/semiconductor-fabrication-process/)",
-"tags": ["fabrication", "lithography", "semiconductor", "vlsi"]
-},
-{
-"topic": "VLSI Design Verification",
-"difficulty": "easy",
-"question_text": "What is the main goal of functional verification in VLSI?",
-"options": ["Ensure the design behaves according to its specification", "Increase wafer thickness", "Reduce package size only", "Replace synthesis"],
-"correct_answer": "Ensure the design behaves according to its specification",
-"resource_link": "[https://www.geeksforgeeks.org/verification-and-validation/](https://www.geeksforgeeks.org/verification-and-validation/)",
-"tags": ["verification", "rtl", "digital design", "vlsi"]
-},
-{
-"topic": "VLSI Packaging",
-"difficulty": "easy",
-"question_text": "What is the primary purpose of IC packaging?",
-"options": ["Protect the chip and provide electrical connections", "Create transistor logic", "Perform logic synthesis", "Generate HDL code"],
-"correct_answer": "Protect the chip and provide electrical connections",
-"resource_link": "[https://www.geeksforgeeks.org/semiconductor-packaging/](https://www.geeksforgeeks.org/semiconductor-packaging/)",
-"tags": ["packaging", "ic design", "semiconductor", "hardware"]
-},
-{
-"topic": "CMOS Power Consumption",
-"difficulty": "medium",
-"question_text": "Which component of CMOS power consumption is directly related to charging and discharging capacitances?",
-"options": ["Dynamic power", "Leakage power", "Static bias power", "Packaging power"],
-"correct_answer": "Dynamic power",
-"resource_link": "[https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/](https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/)",
-"tags": ["cmos", "power", "low power", "vlsi"]
-},
-{
-"topic": "CMOS Power Consumption",
-"difficulty": "medium",
-"question_text": "Dynamic power in CMOS is approximately proportional to which factor?",
-"options": ["C × V² × f", "C × V × f²", "C² × V × f", "V² / (C × f)"],
-"correct_answer": "C × V² × f",
-"resource_link": "[https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/](https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/)",
-"tags": ["power", "cmos", "low power", "digital design"]
-},
-{
-"topic": "CMOS Noise Margin",
-"difficulty": "medium",
-"question_text": "What does noise margin indicate in a digital circuit?",
-"options": ["Tolerance to unwanted noise without causing a logic error", "Maximum clock frequency only", "Total transistor count", "Chip manufacturing cost"],
-"correct_answer": "Tolerance to unwanted noise without causing a logic error",
-"resource_link": "[https://www.geeksforgeeks.org/noise-margin-in-digital-electronics/](https://www.geeksforgeeks.org/noise-margin-in-digital-electronics/)",
-"tags": ["noise margin", "cmos", "digital logic", "vlsi"]
-},
-{
-"topic": "Propagation Delay",
-"difficulty": "medium",
-"question_text": "Propagation delay is the time required for:",
-"options": ["A change at the input to produce a corresponding change at the output", "Fabrication to complete", "A transistor to be manufactured", "Power to reach the package"],
-"correct_answer": "A change at the input to produce a corresponding change at the output",
-"resource_link": "[https://www.geeksforgeeks.org/propagation-delay-in-digital-electronics/](https://www.geeksforgeeks.org/propagation-delay-in-digital-electronics/)",
-"tags": ["timing", "propagation delay", "digital design", "vlsi"]
-},
-{
-"topic": "Setup and Hold Time",
-"difficulty": "medium",
-"question_text": "Setup time is the minimum time data must be stable before which event?",
-"options": ["The active clock edge", "Power-up", "Reset release only", "Routing completion"],
-"correct_answer": "The active clock edge",
-"resource_link": "[https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/](https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/)",
-"tags": ["timing", "setup time", "flip-flop", "vlsi"]
-},
-{
-"topic": "Setup and Hold Time",
-"difficulty": "medium",
-"question_text": "Hold time is the minimum time data must remain stable after which event?",
-"options": ["The active clock edge", "Synthesis", "Power-up", "Input reset"],
-"correct_answer": "The active clock edge",
-"resource_link": "[https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/](https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/)",
-"tags": ["timing", "hold time", "flip-flop", "vlsi"]
-},
-{
-"topic": "Static Timing Analysis",
-"difficulty": "medium",
-"question_text": "What is the main purpose of Static Timing Analysis (STA)?",
-"options": ["Verify timing constraints without simulating every input pattern", "Synthesize HDL code", "Fabricate the chip", "Draw circuit schematics only"],
-"correct_answer": "Verify timing constraints without simulating every input pattern",
-"resource_link": "[https://www.geeksforgeeks.org/static-timing-analysis/](https://www.geeksforgeeks.org/static-timing-analysis/)",
-"tags": ["sta", "timing", "verification", "vlsi"]
-},
-{
-"topic": "VLSI Floorplanning",
-"difficulty": "medium",
-"question_text": "What is the primary objective of floorplanning?",
-"options": ["Determine the placement of major blocks on the chip", "Convert RTL to gates", "Verify transistor operation", "Program the processor"],
-"correct_answer": "Determine the placement of major blocks on the chip",
-"resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
-"tags": ["floorplanning", "physical design", "vlsi", "asic"]
-},
-{
-"topic": "VLSI Placement",
-"difficulty": "medium",
-"question_text": "What does placement determine in physical design?",
-"options": ["Locations of standard cells and other circuit elements", "HDL syntax", "Transistor doping concentration only", "Testbench inputs"],
-"correct_answer": "Locations of standard cells and other circuit elements",
-"resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
-"tags": ["placement", "physical design", "asic", "vlsi"]
-},
-{
-"topic": "VLSI Routing",
-"difficulty": "medium",
-"question_text": "What is the main purpose of routing in VLSI physical design?",
-"options": ["Create physical connections between placed components", "Choose programming languages", "Define transistor types", "Generate software tests"],
-"correct_answer": "Create physical connections between placed components",
-"resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
-"tags": ["routing", "physical design", "asic", "vlsi"]
-},
-{
-"topic": "Standard Cells",
-"difficulty": "medium",
-"question_text": "What is a standard-cell library primarily used for?",
-"options": ["Providing pre-designed logic cells for chip implementation", "Storing application data", "Managing operating-system processes", "Programming microcontrollers"],
-"correct_answer": "Providing pre-designed logic cells for chip implementation",
-"resource_link": "[https://www.geeksforgeeks.org/standard-cell-design-in-vlsi/](https://www.geeksforgeeks.org/standard-cell-design-in-vlsi/)",
-"tags": ["standard cells", "asic", "physical design", "vlsi"]
-},
-{
-"topic": "ASIC and FPGA",
-"difficulty": "medium",
-"question_text": "Which statement best describes an ASIC?",
-"options": ["A chip designed for a specific application", "A general-purpose programmable computer", "A software-only simulation", "A standard operating system"],
-"correct_answer": "A chip designed for a specific application",
-"resource_link": "[https://www.geeksforgeeks.org/asic-vs-fpga/](https://www.geeksforgeeks.org/asic-vs-fpga/)",
-"tags": ["asic", "fpga", "digital design", "vlsi"]
-},
-{
-"topic": "ASIC and FPGA",
-"difficulty": "medium",
-"question_text": "What is a major advantage of FPGA over ASIC during development?",
-"options": ["It can be reprogrammed after manufacturing", "It always has lower power consumption", "It requires no hardware resources", "It cannot implement digital logic"],
-"correct_answer": "It can be reprogrammed after manufacturing",
-"resource_link": "[https://www.geeksforgeeks.org/asic-vs-fpga/](https://www.geeksforgeeks.org/asic-vs-fpga/)",
-"tags": ["fpga", "asic", "programmable logic", "digital design"]
-},
-{
-"topic": "Latch and Flip-Flop",
-"difficulty": "medium",
-"question_text": "What is the key difference between a latch and an edge-triggered flip-flop?",
-"options": ["A latch is level-sensitive while a flip-flop is edge-triggered", "A latch stores analog data while a flip-flop stores digital data", "A latch has no output", "A flip-flop cannot store state"],
-"correct_answer": "A latch is level-sensitive while a flip-flop is edge-triggered",
-"resource_link": "[https://www.geeksforgeeks.org/latches-in-digital-logic/](https://www.geeksforgeeks.org/latches-in-digital-logic/)",
-"tags": ["flip-flop", "latch", "sequential logic", "vlsi"]
-},
-{
-"topic": "Clock Tree Synthesis",
-"difficulty": "medium",
-"question_text": "What is the primary goal of Clock Tree Synthesis (CTS)?",
-"options": ["Distribute the clock signal to sequential elements with controlled skew", "Reduce the number of logic gates", "Convert RTL to Verilog", "Perform wafer fabrication"],
-"correct_answer": "Distribute the clock signal to sequential elements with controlled skew",
-"resource_link": "[https://www.geeksforgeeks.org/clock-tree-synthesis/](https://www.geeksforgeeks.org/clock-tree-synthesis/)",
-"tags": ["clock", "cts", "timing", "physical design"]
-},
-{
-"topic": "Clock Skew",
-"difficulty": "medium",
-"question_text": "What is clock skew?",
-"options": ["The difference in clock arrival times at different sequential elements", "The difference between supply voltages", "The delay through a combinational gate only", "The number of clock cycles in a program"],
-"correct_answer": "The difference in clock arrival times at different sequential elements",
-"resource_link": "[https://www.geeksforgeeks.org/clock-skew-in-digital-circuits/](https://www.geeksforgeeks.org/clock-skew-in-digital-circuits/)",
-"tags": ["clock", "skew", "timing", "vlsi"]
-},
-{
-"topic": "VLSI Design Rules",
-"difficulty": "hard",
-"question_text": "What is the main purpose of Design Rule Checking (DRC)?",
-"options": ["Verify that the physical layout satisfies manufacturing design rules", "Verify software functionality", "Generate RTL code", "Measure CPU instruction latency"],
-"correct_answer": "Verify that the physical layout satisfies manufacturing design rules",
-"resource_link": "[https://www.geeksforgeeks.org/design-rule-checking-drc-in-vlsi/](https://www.geeksforgeeks.org/design-rule-checking-drc-in-vlsi/)",
-"tags": ["drc", "physical design", "verification", "vlsi"]
-},
-{
-"topic": "Layout Versus Schematic",
-"difficulty": "hard",
-"question_text": "What does Layout Versus Schematic (LVS) primarily verify?",
-"options": ["That the extracted layout connectivity matches the intended schematic", "That clock frequency is maximum", "That software meets requirements", "That all cells have equal area"],
-"correct_answer": "That the extracted layout connectivity matches the intended schematic",
-"resource_link": "[https://www.geeksforgeeks.org/layout-versus-schematic-lvs/](https://www.geeksforgeeks.org/layout-versus-schematic-lvs/)",
-"tags": ["lvs", "verification", "physical design", "vlsi"]
-},
-{
-"topic": "Timing Closure",
-"difficulty": "hard",
-"question_text": "What does timing closure mean in VLSI design?",
-"options": ["Meeting all required timing constraints of the design", "Completing transistor fabrication", "Finishing HDL coding", "Reducing every gate to one transistor"],
-"correct_answer": "Meeting all required timing constraints of the design",
-"resource_link": "[https://www.geeksforgeeks.org/timing-closure-in-vlsi/](https://www.geeksforgeeks.org/timing-closure-in-vlsi/)",
-"tags": ["timing closure", "sta", "physical design", "vlsi"]
-},
-{
-"topic": "Clock Domain Crossing",
-"difficulty": "hard",
-"question_text": "Why can transferring a signal between unrelated clock domains cause metastability?",
-"options": ["The receiving flip-flop may sample the signal near its active clock edge", "The clocks always have identical frequencies", "The signal becomes permanently analog", "Routing automatically removes all timing constraints"],
-"correct_answer": "The receiving flip-flop may sample the signal near its active clock edge",
-"resource_link": "[https://www.geeksforgeeks.org/clock-domain-crossing-cdc/](https://www.geeksforgeeks.org/clock-domain-crossing-cdc/)",
-"tags": ["cdc", "metastability", "timing", "rtl"]
-},
-{
-"topic": "Power Gating",
-"difficulty": "hard",
-"question_text": "What is power gating primarily used for in low-power VLSI?",
-"options": ["Reducing leakage power by disconnecting power from inactive blocks", "Increasing transistor leakage", "Increasing clock skew", "Replacing logic synthesis"],
-"correct_answer": "Reducing leakage power by disconnecting power from inactive blocks",
-"resource_link": "[https://www.geeksforgeeks.org/power-gating-in-vlsi/](https://www.geeksforgeeks.org/power-gating-in-vlsi/)",
-"tags": ["power gating", "low power", "cmos", "vlsi"]
-},
-{
-"topic": "Multi-Threshold CMOS",
-"difficulty": "hard",
-"question_text": "What is a common purpose of using high-threshold-voltage transistors in low-power CMOS design?",
-"options": ["Reduce leakage current", "Increase leakage current", "Eliminate all dynamic power", "Increase chip area to maximum"],
-"correct_answer": "Reduce leakage current",
-"resource_link": "[https://www.geeksforgeeks.org/multi-threshold-cmos-mtcmos/](https://www.geeksforgeeks.org/multi-threshold-cmos-mtcmos/)",
-"tags": ["mtcmos", "low power", "threshold voltage", "cmos"]
-},
-{
-"topic": "Signal Integrity",
-"difficulty": "hard",
-"question_text": "Which phenomenon can cause unwanted voltage fluctuations on high-speed interconnects?",
-"options": ["Crosstalk", "Logic synthesis", "Floorplanning", "Transistor counting"],
-"correct_answer": "Crosstalk",
-"resource_link": "[https://www.geeksforgeeks.org/crosstalk-in-vlsi/](https://www.geeksforgeeks.org/crosstalk-in-vlsi/)",
-"tags": ["crosstalk", "signal integrity", "physical design", "vlsi"]
-},
-{
-"topic": "IR Drop",
-"difficulty": "hard",
-"question_text": "What does IR drop refer to in VLSI power networks?",
-"options": ["Voltage drop caused by current flowing through resistance", "Increase in clock frequency", "Reduction in transistor count", "Change in HDL syntax"],
-"correct_answer": "Voltage drop caused by current flowing through resistance",
-"resource_link": "[https://www.geeksforgeeks.org/ir-drop-in-vlsi/](https://www.geeksforgeeks.org/ir-drop-in-vlsi/)",
-"tags": ["ir drop", "power integrity", "physical design", "vlsi"]
-},
-{
-"topic": "Electromigration",
-"difficulty": "hard",
-"question_text": "What is electromigration in integrated circuits?",
-"options": ["Movement of metal atoms caused by high current density", "Movement of software instructions", "Charging of a capacitor during switching", "Clock signal synchronization"],
-"correct_answer": "Movement of metal atoms caused by high current density",
-"resource_link": "[https://www.geeksforgeeks.org/electromigration-in-vlsi/](https://www.geeksforgeeks.org/electromigration-in-vlsi/)",
-"tags": ["electromigration", "reliability", "physical design", "vlsi"]
-},
-{
-"topic": "Logical Effort",
-"difficulty": "hard",
-"question_text": "What is the main use of logical effort in digital circuit design?",
-"options": ["Estimate and optimize the delay of logic paths", "Determine wafer doping concentration", "Verify software requirements", "Choose an operating system"],
-"resource_link": "[https://www.geeksforgeeks.org/logical-effort-in-vlsi/](https://www.geeksforgeeks.org/logical-effort-in-vlsi/)",
-"tags": ["logical effort", "timing", "optimization", "digital design"]
-}
+  {
+    "topic": "VLSI Fundamentals",
+    "difficulty": "easy",
+    "question_text": "What does VLSI stand for?",
+    "options": [
+      "Very Large Scale Integration",
+      "Variable Logic System Integration",
+      "Very Low Scale Integration",
+      "Virtual Large System Interface"
+    ],
+    "correct_answer": "Very Large Scale Integration",
+    "resource_link": "[https://www.geeksforgeeks.org/vlsi-design-vlsi/](https://www.geeksforgeeks.org/vlsi-design-vlsi/)",
+    "tags": [
+      "vlsi",
+      "ic design",
+      "semiconductor",
+      "digital electronics"
+    ]
+  },
+  {
+    "topic": "Integrated Circuits",
+    "difficulty": "easy",
+    "question_text": "What is the primary purpose of an integrated circuit (IC)?",
+    "options": [
+      "To integrate multiple electronic components on a single chip",
+      "To increase mechanical strength",
+      "To store physical documents",
+      "To replace all power supplies"
+    ],
+    "correct_answer": "To integrate multiple electronic components on a single chip",
+    "resource_link": "[https://www.geeksforgeeks.org/integrated-circuit/](https://www.geeksforgeeks.org/integrated-circuit/)",
+    "tags": [
+      "ic design",
+      "electronics",
+      "semiconductor",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "MOSFET",
+    "difficulty": "easy",
+    "question_text": "Which terminal controls the channel of a MOSFET?",
+    "options": [
+      "Gate",
+      "Source",
+      "Drain",
+      "Body"
+    ],
+    "correct_answer": "Gate",
+    "resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
+    "tags": [
+      "mosfet",
+      "transistors",
+      "semiconductor",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "CMOS Technology",
+    "difficulty": "easy",
+    "question_text": "CMOS primarily uses which two types of MOSFETs?",
+    "options": [
+      "NMOS and PMOS",
+      "BJT and JFET",
+      "LED and photodiode",
+      "SCR and TRIAC"
+    ],
+    "correct_answer": "NMOS and PMOS",
+    "resource_link": "[https://www.geeksforgeeks.org/cmos/](https://www.geeksforgeeks.org/cmos/)",
+    "tags": [
+      "cmos",
+      "nmos",
+      "pmos",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "CMOS Logic",
+    "difficulty": "easy",
+    "question_text": "Why is CMOS logic known for low static power consumption?",
+    "options": [
+      "Ideally, it draws negligible DC current in steady states",
+      "It does not use transistors",
+      "It operates only with analog signals",
+      "It always uses zero voltage"
+    ],
+    "correct_answer": "Ideally, it draws negligible DC current in steady states",
+    "resource_link": "[https://www.geeksforgeeks.org/cmos/](https://www.geeksforgeeks.org/cmos/)",
+    "tags": [
+      "cmos",
+      "power",
+      "digital logic",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "NMOS Logic",
+    "difficulty": "easy",
+    "question_text": "In an NMOS transistor, which terminal is typically connected to the lower potential in a basic switching configuration?",
+    "options": [
+      "Source",
+      "Gate",
+      "Drain",
+      "Substrate only"
+    ],
+    "correct_answer": "Source",
+    "resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
+    "tags": [
+      "nmos",
+      "mosfet",
+      "transistors",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "PMOS Logic",
+    "difficulty": "easy",
+    "question_text": "A PMOS transistor is generally turned ON when its gate voltage is:",
+    "options": [
+      "Low relative to its source",
+      "High relative to its source",
+      "Equal to ground only",
+      "Always floating"
+    ],
+    "correct_answer": "Low relative to its source",
+    "resource_link": "[https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/](https://www.geeksforgeeks.org/mosfet-metal-oxide-semiconductor-field-effect-transistor/)",
+    "tags": [
+      "pmos",
+      "mosfet",
+      "transistors",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "CMOS Inverter",
+    "difficulty": "easy",
+    "question_text": "How many MOSFETs are typically used in a basic CMOS inverter?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2",
+    "resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
+    "tags": [
+      "cmos",
+      "inverter",
+      "logic gates",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "CMOS Inverter",
+    "difficulty": "easy",
+    "question_text": "In a CMOS inverter, when the input is LOW, which transistor conducts?",
+    "options": [
+      "PMOS",
+      "NMOS",
+      "Both equally",
+      "Neither"
+    ],
+    "correct_answer": "PMOS",
+    "resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
+    "tags": [
+      "cmos",
+      "inverter",
+      "pmos",
+      "nmos"
+    ]
+  },
+  {
+    "topic": "CMOS Inverter",
+    "difficulty": "easy",
+    "question_text": "In a CMOS inverter, when the input is HIGH, which transistor conducts?",
+    "options": [
+      "NMOS",
+      "PMOS",
+      "Both equally",
+      "Neither"
+    ],
+    "correct_answer": "NMOS",
+    "resource_link": "[https://www.geeksforgeeks.org/cmos-inverter/](https://www.geeksforgeeks.org/cmos-inverter/)",
+    "tags": [
+      "cmos",
+      "inverter",
+      "nmos",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "VLSI Design Flow",
+    "difficulty": "easy",
+    "question_text": "Which stage converts an RTL description into a gate-level netlist?",
+    "options": [
+      "Logic synthesis",
+      "Floorplanning",
+      "Routing",
+      "Fabrication"
+    ],
+    "correct_answer": "Logic synthesis",
+    "resource_link": "[https://www.geeksforgeeks.org/logic-synthesis-in-vlsi/](https://www.geeksforgeeks.org/logic-synthesis-in-vlsi/)",
+    "tags": [
+      "rtl",
+      "synthesis",
+      "vlsi",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "RTL Design",
+    "difficulty": "easy",
+    "question_text": "What does RTL stand for in digital design?",
+    "options": [
+      "Register Transfer Level",
+      "Real-Time Logic",
+      "Reduced Transistor Logic",
+      "Register Timing Language"
+    ],
+    "correct_answer": "Register Transfer Level",
+    "resource_link": "[https://www.geeksforgeeks.org/register-transfer-level-rtl/](https://www.geeksforgeeks.org/register-transfer-level-rtl/)",
+    "tags": [
+      "rtl",
+      "verilog",
+      "digital design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Fabrication",
+    "difficulty": "easy",
+    "question_text": "What is lithography primarily used for in semiconductor fabrication?",
+    "options": [
+      "Transferring circuit patterns onto a wafer",
+      "Cooling the processor",
+      "Testing software",
+      "Packaging cables"
+    ],
+    "correct_answer": "Transferring circuit patterns onto a wafer",
+    "resource_link": "[https://www.geeksforgeeks.org/semiconductor-fabrication-process/](https://www.geeksforgeeks.org/semiconductor-fabrication-process/)",
+    "tags": [
+      "fabrication",
+      "lithography",
+      "semiconductor",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Design Verification",
+    "difficulty": "easy",
+    "question_text": "What is the main goal of functional verification in VLSI?",
+    "options": [
+      "Ensure the design behaves according to its specification",
+      "Increase wafer thickness",
+      "Reduce package size only",
+      "Replace synthesis"
+    ],
+    "correct_answer": "Ensure the design behaves according to its specification",
+    "resource_link": "[https://www.geeksforgeeks.org/verification-and-validation/](https://www.geeksforgeeks.org/verification-and-validation/)",
+    "tags": [
+      "verification",
+      "rtl",
+      "digital design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Packaging",
+    "difficulty": "easy",
+    "question_text": "What is the primary purpose of IC packaging?",
+    "options": [
+      "Protect the chip and provide electrical connections",
+      "Create transistor logic",
+      "Perform logic synthesis",
+      "Generate HDL code"
+    ],
+    "correct_answer": "Protect the chip and provide electrical connections",
+    "resource_link": "[https://www.geeksforgeeks.org/semiconductor-packaging/](https://www.geeksforgeeks.org/semiconductor-packaging/)",
+    "tags": [
+      "packaging",
+      "ic design",
+      "semiconductor",
+      "hardware"
+    ]
+  },
+  {
+    "topic": "CMOS Power Consumption",
+    "difficulty": "medium",
+    "question_text": "Which component of CMOS power consumption is directly related to charging and discharging capacitances?",
+    "options": [
+      "Dynamic power",
+      "Leakage power",
+      "Static bias power",
+      "Packaging power"
+    ],
+    "correct_answer": "Dynamic power",
+    "resource_link": "[https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/](https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/)",
+    "tags": [
+      "cmos",
+      "power",
+      "low power",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "CMOS Power Consumption",
+    "difficulty": "medium",
+    "question_text": "Dynamic power in CMOS is approximately proportional to which factor?",
+    "options": [
+      "C × V² × f",
+      "C × V × f²",
+      "C² × V × f",
+      "V² / (C × f)"
+    ],
+    "correct_answer": "C × V² × f",
+    "resource_link": "[https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/](https://www.geeksforgeeks.org/dynamic-power-consumption-in-cmos/)",
+    "tags": [
+      "power",
+      "cmos",
+      "low power",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "CMOS Noise Margin",
+    "difficulty": "medium",
+    "question_text": "What does noise margin indicate in a digital circuit?",
+    "options": [
+      "Tolerance to unwanted noise without causing a logic error",
+      "Maximum clock frequency only",
+      "Total transistor count",
+      "Chip manufacturing cost"
+    ],
+    "correct_answer": "Tolerance to unwanted noise without causing a logic error",
+    "resource_link": "[https://www.geeksforgeeks.org/noise-margin-in-digital-electronics/](https://www.geeksforgeeks.org/noise-margin-in-digital-electronics/)",
+    "tags": [
+      "noise margin",
+      "cmos",
+      "digital logic",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Propagation Delay",
+    "difficulty": "medium",
+    "question_text": "Propagation delay is the time required for:",
+    "options": [
+      "A change at the input to produce a corresponding change at the output",
+      "Fabrication to complete",
+      "A transistor to be manufactured",
+      "Power to reach the package"
+    ],
+    "correct_answer": "A change at the input to produce a corresponding change at the output",
+    "resource_link": "[https://www.geeksforgeeks.org/propagation-delay-in-digital-electronics/](https://www.geeksforgeeks.org/propagation-delay-in-digital-electronics/)",
+    "tags": [
+      "timing",
+      "propagation delay",
+      "digital design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Setup and Hold Time",
+    "difficulty": "medium",
+    "question_text": "Setup time is the minimum time data must be stable before which event?",
+    "options": [
+      "The active clock edge",
+      "Power-up",
+      "Reset release only",
+      "Routing completion"
+    ],
+    "correct_answer": "The active clock edge",
+    "resource_link": "[https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/](https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/)",
+    "tags": [
+      "timing",
+      "setup time",
+      "flip-flop",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Setup and Hold Time",
+    "difficulty": "medium",
+    "question_text": "Hold time is the minimum time data must remain stable after which event?",
+    "options": [
+      "The active clock edge",
+      "Synthesis",
+      "Power-up",
+      "Input reset"
+    ],
+    "correct_answer": "The active clock edge",
+    "resource_link": "[https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/](https://www.geeksforgeeks.org/setup-and-hold-time-in-digital-electronics/)",
+    "tags": [
+      "timing",
+      "hold time",
+      "flip-flop",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Static Timing Analysis",
+    "difficulty": "medium",
+    "question_text": "What is the main purpose of Static Timing Analysis (STA)?",
+    "options": [
+      "Verify timing constraints without simulating every input pattern",
+      "Synthesize HDL code",
+      "Fabricate the chip",
+      "Draw circuit schematics only"
+    ],
+    "correct_answer": "Verify timing constraints without simulating every input pattern",
+    "resource_link": "[https://www.geeksforgeeks.org/static-timing-analysis/](https://www.geeksforgeeks.org/static-timing-analysis/)",
+    "tags": [
+      "sta",
+      "timing",
+      "verification",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Floorplanning",
+    "difficulty": "medium",
+    "question_text": "What is the primary objective of floorplanning?",
+    "options": [
+      "Determine the placement of major blocks on the chip",
+      "Convert RTL to gates",
+      "Verify transistor operation",
+      "Program the processor"
+    ],
+    "correct_answer": "Determine the placement of major blocks on the chip",
+    "resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
+    "tags": [
+      "floorplanning",
+      "physical design",
+      "vlsi",
+      "asic"
+    ]
+  },
+  {
+    "topic": "VLSI Placement",
+    "difficulty": "medium",
+    "question_text": "What does placement determine in physical design?",
+    "options": [
+      "Locations of standard cells and other circuit elements",
+      "HDL syntax",
+      "Transistor doping concentration only",
+      "Testbench inputs"
+    ],
+    "correct_answer": "Locations of standard cells and other circuit elements",
+    "resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
+    "tags": [
+      "placement",
+      "physical design",
+      "asic",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Routing",
+    "difficulty": "medium",
+    "question_text": "What is the main purpose of routing in VLSI physical design?",
+    "options": [
+      "Create physical connections between placed components",
+      "Choose programming languages",
+      "Define transistor types",
+      "Generate software tests"
+    ],
+    "correct_answer": "Create physical connections between placed components",
+    "resource_link": "[https://www.geeksforgeeks.org/vlsi-design-flow/](https://www.geeksforgeeks.org/vlsi-design-flow/)",
+    "tags": [
+      "routing",
+      "physical design",
+      "asic",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Standard Cells",
+    "difficulty": "medium",
+    "question_text": "What is a standard-cell library primarily used for?",
+    "options": [
+      "Providing pre-designed logic cells for chip implementation",
+      "Storing application data",
+      "Managing operating-system processes",
+      "Programming microcontrollers"
+    ],
+    "correct_answer": "Providing pre-designed logic cells for chip implementation",
+    "resource_link": "[https://www.geeksforgeeks.org/standard-cell-design-in-vlsi/](https://www.geeksforgeeks.org/standard-cell-design-in-vlsi/)",
+    "tags": [
+      "standard cells",
+      "asic",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "ASIC and FPGA",
+    "difficulty": "medium",
+    "question_text": "Which statement best describes an ASIC?",
+    "options": [
+      "A chip designed for a specific application",
+      "A general-purpose programmable computer",
+      "A software-only simulation",
+      "A standard operating system"
+    ],
+    "correct_answer": "A chip designed for a specific application",
+    "resource_link": "[https://www.geeksforgeeks.org/asic-vs-fpga/](https://www.geeksforgeeks.org/asic-vs-fpga/)",
+    "tags": [
+      "asic",
+      "fpga",
+      "digital design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "ASIC and FPGA",
+    "difficulty": "medium",
+    "question_text": "What is a major advantage of FPGA over ASIC during development?",
+    "options": [
+      "It can be reprogrammed after manufacturing",
+      "It always has lower power consumption",
+      "It requires no hardware resources",
+      "It cannot implement digital logic"
+    ],
+    "correct_answer": "It can be reprogrammed after manufacturing",
+    "resource_link": "[https://www.geeksforgeeks.org/asic-vs-fpga/](https://www.geeksforgeeks.org/asic-vs-fpga/)",
+    "tags": [
+      "fpga",
+      "asic",
+      "programmable logic",
+      "digital design"
+    ]
+  },
+  {
+    "topic": "Latch and Flip-Flop",
+    "difficulty": "medium",
+    "question_text": "What is the key difference between a latch and an edge-triggered flip-flop?",
+    "options": [
+      "A latch is level-sensitive while a flip-flop is edge-triggered",
+      "A latch stores analog data while a flip-flop stores digital data",
+      "A latch has no output",
+      "A flip-flop cannot store state"
+    ],
+    "correct_answer": "A latch is level-sensitive while a flip-flop is edge-triggered",
+    "resource_link": "[https://www.geeksforgeeks.org/latches-in-digital-logic/](https://www.geeksforgeeks.org/latches-in-digital-logic/)",
+    "tags": [
+      "flip-flop",
+      "latch",
+      "sequential logic",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Clock Tree Synthesis",
+    "difficulty": "medium",
+    "question_text": "What is the primary goal of Clock Tree Synthesis (CTS)?",
+    "options": [
+      "Distribute the clock signal to sequential elements with controlled skew",
+      "Reduce the number of logic gates",
+      "Convert RTL to Verilog",
+      "Perform wafer fabrication"
+    ],
+    "correct_answer": "Distribute the clock signal to sequential elements with controlled skew",
+    "resource_link": "[https://www.geeksforgeeks.org/clock-tree-synthesis/](https://www.geeksforgeeks.org/clock-tree-synthesis/)",
+    "tags": [
+      "clock",
+      "cts",
+      "timing",
+      "physical design"
+    ]
+  },
+  {
+    "topic": "Clock Skew",
+    "difficulty": "medium",
+    "question_text": "What is clock skew?",
+    "options": [
+      "The difference in clock arrival times at different sequential elements",
+      "The difference between supply voltages",
+      "The delay through a combinational gate only",
+      "The number of clock cycles in a program"
+    ],
+    "correct_answer": "The difference in clock arrival times at different sequential elements",
+    "resource_link": "[https://www.geeksforgeeks.org/clock-skew-in-digital-circuits/](https://www.geeksforgeeks.org/clock-skew-in-digital-circuits/)",
+    "tags": [
+      "clock",
+      "skew",
+      "timing",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "VLSI Design Rules",
+    "difficulty": "hard",
+    "question_text": "What is the main purpose of Design Rule Checking (DRC)?",
+    "options": [
+      "Verify that the physical layout satisfies manufacturing design rules",
+      "Verify software functionality",
+      "Generate RTL code",
+      "Measure CPU instruction latency"
+    ],
+    "correct_answer": "Verify that the physical layout satisfies manufacturing design rules",
+    "resource_link": "[https://www.geeksforgeeks.org/design-rule-checking-drc-in-vlsi/](https://www.geeksforgeeks.org/design-rule-checking-drc-in-vlsi/)",
+    "tags": [
+      "drc",
+      "physical design",
+      "verification",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Layout Versus Schematic",
+    "difficulty": "hard",
+    "question_text": "What does Layout Versus Schematic (LVS) primarily verify?",
+    "options": [
+      "That the extracted layout connectivity matches the intended schematic",
+      "That clock frequency is maximum",
+      "That software meets requirements",
+      "That all cells have equal area"
+    ],
+    "correct_answer": "That the extracted layout connectivity matches the intended schematic",
+    "resource_link": "[https://www.geeksforgeeks.org/layout-versus-schematic-lvs/](https://www.geeksforgeeks.org/layout-versus-schematic-lvs/)",
+    "tags": [
+      "lvs",
+      "verification",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Timing Closure",
+    "difficulty": "hard",
+    "question_text": "What does timing closure mean in VLSI design?",
+    "options": [
+      "Meeting all required timing constraints of the design",
+      "Completing transistor fabrication",
+      "Finishing HDL coding",
+      "Reducing every gate to one transistor"
+    ],
+    "correct_answer": "Meeting all required timing constraints of the design",
+    "resource_link": "[https://www.geeksforgeeks.org/timing-closure-in-vlsi/](https://www.geeksforgeeks.org/timing-closure-in-vlsi/)",
+    "tags": [
+      "timing closure",
+      "sta",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Clock Domain Crossing",
+    "difficulty": "hard",
+    "question_text": "Why can transferring a signal between unrelated clock domains cause metastability?",
+    "options": [
+      "The receiving flip-flop may sample the signal near its active clock edge",
+      "The clocks always have identical frequencies",
+      "The signal becomes permanently analog",
+      "Routing automatically removes all timing constraints"
+    ],
+    "correct_answer": "The receiving flip-flop may sample the signal near its active clock edge",
+    "resource_link": "[https://www.geeksforgeeks.org/clock-domain-crossing-cdc/](https://www.geeksforgeeks.org/clock-domain-crossing-cdc/)",
+    "tags": [
+      "cdc",
+      "metastability",
+      "timing",
+      "rtl"
+    ]
+  },
+  {
+    "topic": "Power Gating",
+    "difficulty": "hard",
+    "question_text": "What is power gating primarily used for in low-power VLSI?",
+    "options": [
+      "Reducing leakage power by disconnecting power from inactive blocks",
+      "Increasing transistor leakage",
+      "Increasing clock skew",
+      "Replacing logic synthesis"
+    ],
+    "correct_answer": "Reducing leakage power by disconnecting power from inactive blocks",
+    "resource_link": "[https://www.geeksforgeeks.org/power-gating-in-vlsi/](https://www.geeksforgeeks.org/power-gating-in-vlsi/)",
+    "tags": [
+      "power gating",
+      "low power",
+      "cmos",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Multi-Threshold CMOS",
+    "difficulty": "hard",
+    "question_text": "What is a common purpose of using high-threshold-voltage transistors in low-power CMOS design?",
+    "options": [
+      "Reduce leakage current",
+      "Increase leakage current",
+      "Eliminate all dynamic power",
+      "Increase chip area to maximum"
+    ],
+    "correct_answer": "Reduce leakage current",
+    "resource_link": "[https://www.geeksforgeeks.org/multi-threshold-cmos-mtcmos/](https://www.geeksforgeeks.org/multi-threshold-cmos-mtcmos/)",
+    "tags": [
+      "mtcmos",
+      "low power",
+      "threshold voltage",
+      "cmos"
+    ]
+  },
+  {
+    "topic": "Signal Integrity",
+    "difficulty": "hard",
+    "question_text": "Which phenomenon can cause unwanted voltage fluctuations on high-speed interconnects?",
+    "options": [
+      "Crosstalk",
+      "Logic synthesis",
+      "Floorplanning",
+      "Transistor counting"
+    ],
+    "correct_answer": "Crosstalk",
+    "resource_link": "[https://www.geeksforgeeks.org/crosstalk-in-vlsi/](https://www.geeksforgeeks.org/crosstalk-in-vlsi/)",
+    "tags": [
+      "crosstalk",
+      "signal integrity",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "IR Drop",
+    "difficulty": "hard",
+    "question_text": "What does IR drop refer to in VLSI power networks?",
+    "options": [
+      "Voltage drop caused by current flowing through resistance",
+      "Increase in clock frequency",
+      "Reduction in transistor count",
+      "Change in HDL syntax"
+    ],
+    "correct_answer": "Voltage drop caused by current flowing through resistance",
+    "resource_link": "[https://www.geeksforgeeks.org/ir-drop-in-vlsi/](https://www.geeksforgeeks.org/ir-drop-in-vlsi/)",
+    "tags": [
+      "ir drop",
+      "power integrity",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Electromigration",
+    "difficulty": "hard",
+    "question_text": "What is electromigration in integrated circuits?",
+    "options": [
+      "Movement of metal atoms caused by high current density",
+      "Movement of software instructions",
+      "Charging of a capacitor during switching",
+      "Clock signal synchronization"
+    ],
+    "correct_answer": "Movement of metal atoms caused by high current density",
+    "resource_link": "[https://www.geeksforgeeks.org/electromigration-in-vlsi/](https://www.geeksforgeeks.org/electromigration-in-vlsi/)",
+    "tags": [
+      "electromigration",
+      "reliability",
+      "physical design",
+      "vlsi"
+    ]
+  },
+  {
+    "topic": "Logical Effort",
+    "difficulty": "hard",
+    "question_text": "What is the main use of logical effort in digital circuit design?",
+    "options": [
+      "Estimate and optimize the delay of logic paths",
+      "Determine wafer doping concentration",
+      "Verify software requirements",
+      "Choose an operating system"
+    ],
+    "resource_link": "[https://www.geeksforgeeks.org/logical-effort-in-vlsi/](https://www.geeksforgeeks.org/logical-effort-in-vlsi/)",
+    "tags": [
+      "logical effort",
+      "timing",
+      "optimization",
+      "digital design"
+    ],
+    "correct_answer": "Estimate and optimize the delay of logic paths"
+  }
 ]
