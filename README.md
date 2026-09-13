@@ -50,7 +50,7 @@ The curated question bank currently covers:
 ### 1. Pull a local model
 
 ```bash
-ollama pull llama3.1:8b
+ollama pull llama3.2
 ```
 
 This is a one-time step requiring internet. Once downloaded, the model runs fully offline.
