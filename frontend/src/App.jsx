@@ -191,6 +191,7 @@ export default function App() {
         body:    JSON.stringify({
           topics: scoreData.topics,
           ranked: rankData?.ranked ?? [],
+          seed_file: rankData?.ranked?.[0]?.seed_file,
           days,
           tasks_per_day,
         }),

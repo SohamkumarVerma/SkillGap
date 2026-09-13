@@ -36,11 +36,11 @@ const OLLAMA_TIMEOUT = 120_000;
 
 // ── DB helpers ────────────────────────────────────────────────────────────────
 
-function buildTagResourceMap(allowedTags) {
+function buildTagResourceMap(allowedTags, seedFile) {
   const db   = getDb();
   const rows = db.prepare(
-    "SELECT tags, resource_link FROM questions WHERE resource_link IS NOT NULL"
-  ).all();
+    "SELECT tags, resource_link FROM questions WHERE resource_link IS NOT NULL AND seed_file = ?"
+  ).all(seedFile);
   const map = {};
   for (const row of rows) {
     let tags;
@@ -56,23 +56,26 @@ function buildTagResourceMap(allowedTags) {
   );
 }
 
-function getAllDbTags() {
-  const db   = getDb();
-  const rows = db.prepare("SELECT tags FROM questions WHERE tags IS NOT NULL").all();
-  const set  = new Set();
+function getAllowedTopicsAndLinks(seedFile) {
+  const db = getDb();
+  const rows = db.prepare(
+    "SELECT tags, resource_link FROM questions WHERE seed_file = ? AND tags IS NOT NULL"
+  ).all(seedFile);
+
+  const allowedTags = new Set();
+  const allowedLinks = new Set();
+
   for (const row of rows) {
-    try { JSON.parse(row.tags).forEach((t) => set.add(t)); } catch { /* skip */ }
+    try {
+      JSON.parse(row.tags).forEach((t) => allowedTags.add(t));
+    } catch { /* skip */ }
+    if (row.resource_link) {
+      allowedLinks.add(row.resource_link);
+    }
   }
-  return set;
+  return { allowedTags, allowedLinks };
 }
 
-function getAllDbLinks() {
-  const db   = getDb();
-  const rows = db.prepare(
-    "SELECT DISTINCT resource_link FROM questions WHERE resource_link IS NOT NULL"
-  ).all();
-  return new Set(rows.map((r) => r.resource_link));
-}
 
 // ── Ollama call ───────────────────────────────────────────────────────────────
 
@@ -298,6 +301,7 @@ router.post("/", async (req, res) => {
   const {
     topics        = {},
     ranked        = [],
+    seed_file: requestedSeedFile,
     days:    rawDays,
     tasks_per_day: rawTpd,
   } = req.body;
@@ -305,15 +309,22 @@ router.post("/", async (req, res) => {
   const days        = Math.min(MAX_DAYS, Math.max(1, parseInt(rawDays, 10)  || DEFAULT_DAYS));
   const tasksPerDay = Math.min(MAX_TPD,  Math.max(1, parseInt(rawTpd,  10)  || DEFAULT_TPD));
 
-  const allDbTags  = getAllDbTags();
-  const allDbLinks = getAllDbLinks();
+  const seedFile = requestedSeedFile || ranked.find((entry) => entry.seed_file)?.seed_file;
+  if (!seedFile) {
+    return res.status(422).json({ error: "No source question bank was selected for this roadmap." });
+  }
+
+  const { allowedTags, allowedLinks } = getAllowedTopicsAndLinks(seedFile);
+  if (allowedTags.size === 0) {
+    return res.status(422).json({ error: "The selected question bank has no usable roadmap topics." });
+  }
 
   // ── Resolve fine-grained topic names → tag slugs ─────────────────────────
   function resolveTag(topicName) {
     const lower = topicName.toLowerCase().replace(/\s+/g, "-");
-    if (allDbTags.has(lower)) return lower;
+    if (allowedTags.has(lower)) return lower;
     let best = null;
-    for (const tag of allDbTags) {
+    for (const tag of allowedTags) {
       if (lower.includes(tag) || topicName.toLowerCase().includes(tag.replace(/-/g, " "))) {
         if (!best || tag.length > best.length) best = tag;
       }
@@ -338,7 +349,7 @@ router.post("/", async (req, res) => {
   weakEntries.sort((a, b) => a.score_pct - b.score_pct);
 
   for (const { topic, weight } of ranked) {
-    if (weight >= 0.6 && !weakSet.has(topic) && allDbTags.has(topic)) {
+    if (weight >= 0.6 && !weakSet.has(topic) && allowedTags.has(topic)) {
       weakSet.add(topic);
       fillEntries.push({ tag: topic });
     }
@@ -355,7 +366,7 @@ router.post("/", async (req, res) => {
     return res.status(422).json({ error: "No weak or relevant topics found to build a roadmap." });
   }
 
-  const tagResourceMap = buildTagResourceMap(new Set(weakTopics));
+  const tagResourceMap = buildTagResourceMap(new Set(weakTopics), seedFile);
 
   // ── Call Ollama (with one retry) ──────────────────────────────────────────
   let roadmapEntries = null;
@@ -374,7 +385,7 @@ router.post("/", async (req, res) => {
 
     if (parsed && Array.isArray(parsed.roadmap)) {
       const renumbered = parsed.roadmap.map((e, i) => ({ ...e, day: i + 1 }));
-      const validated  = validateRoadmap(renumbered, allDbTags, allDbLinks);
+      const validated  = validateRoadmap(renumbered, allowedTags, allowedLinks);
       if (validated.length > 0) {
         roadmapEntries = validated;
       } else {

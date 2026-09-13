@@ -1,0 +1,54 @@
+# Job Description — VLSI Design Engineer
+
+**Job Title:** VLSI Design Engineer
+**Experience:** 0–3 years
+**Location:** Pune, Bengaluru, Hyderabad / Hybrid
+**Employment Type:** Full-time
+
+### About the Role
+
+We are looking for a **VLSI Design Engineer** to design, implement, and verify digital integrated circuits for high-performance semiconductor products. The ideal candidate should have a strong understanding of digital logic, computer architecture, RTL design, and hardware description languages.
+
+### Key Responsibilities
+
+* Design and develop digital circuits at the **RTL level**.
+* Write synthesizable **Verilog/SystemVerilog** code.
+* Develop and optimize RTL for performance, power, and area.
+* Understand design specifications and translate them into hardware implementations.
+* Perform functional simulation and debug RTL issues.
+* Develop testbenches and work with verification teams to validate designs.
+* Analyze synthesis results and timing reports.
+* Assist with **static timing analysis (STA)** and timing closure.
+* Identify and resolve design issues related to setup and hold timing.
+* Collaborate with verification, physical design, and architecture teams.
+* Follow RTL coding standards and maintain proper design documentation.
+* Participate in design reviews and contribute to improving design quality.
+
+### Required Qualifications
+
+* Bachelor's degree in **Electronics, Electrical Engineering, Computer Engineering**, or a related field.
+* Strong understanding of **digital logic and digital circuit design**.
+* Knowledge of **VLSI design flow**.
+* Proficiency in **Verilog or SystemVerilog**.
+* Understanding of RTL design and synthesis.
+* Knowledge of combinational and sequential logic.
+* Understanding of flip-flops, registers, counters, multiplexers, and finite-state machines.
+* Basic understanding of timing concepts such as **setup time, hold time, and clock skew**.
+* Strong debugging and problem-solving skills.
+
+### Preferred Skills
+
+* Experience with **SystemVerilog, UVM, or RTL verification**.
+* Knowledge of **ASIC and FPGA design flows**.
+* Familiarity with synthesis and **static timing analysis** tools.
+* Understanding of **floorplanning, placement, and routing**.
+* Knowledge of **clock-tree synthesis (CTS)**.
+* Familiarity with Design Rule Checking (DRC) and Layout Versus Schematic (LVS).
+* Understanding of low-power design techniques.
+* Knowledge of **CMOS technology and semiconductor fundamentals**.
+* Experience with simulation tools such as QuestaSim, ModelSim, or equivalent.
+* Familiarity with Linux, Git, and scripting languages such as Python or Tcl.
+
+### Key Skills / Keywords
+
+**VLSI, RTL Design, Verilog, SystemVerilog, Digital Logic, ASIC, FPGA, RTL Verification, Synthesis, Static Timing Analysis, STA, CMOS, Semiconductor, Physical Design, Timing Closure, Clock Tree Synthesis, UVM, DRC, LVS, Low Power Design**

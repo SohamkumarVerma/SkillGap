@@ -41,7 +41,7 @@ function extractKeywords(text) {
   const lower = text.toLowerCase();
   const results = [];
 
-  for (const { canonical, variants, excludePattern, wordBoundary } of KEYWORDS) {
+  for (const { canonical, variants, excludePattern, wordBoundary = true } of KEYWORDS) {
     let freq = 0;
 
     for (const variant of variants) {

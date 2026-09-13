@@ -27,7 +27,7 @@ const KEYWORDS = [
   // ── JavaScript ────────────────────────────────────────────────────────────
   { canonical: "javascript",        variants: ["javascript", "js "] },
   { canonical: "es6",               variants: ["es6", "es2015", "ecmascript"] },
-  { canonical: "closures",          variants: ["closure"] },
+  { canonical: "closures",          variants: ["closure"], excludePattern: /timing\s+closure/i },
   { canonical: "promises",          variants: ["promise"] },
   { canonical: "async",             variants: ["async/await", "async ", "await"] },
   { canonical: "event-loop",        variants: ["event loop", "event-loop"] },
