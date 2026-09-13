@@ -6,8 +6,8 @@
  *   Used by the heatmap to paint the full year.
  *
  * POST /api/daily-activity
- *   Body: { tasks_delta?: number } or { tasks_completed?: number }
- *   Upserts today's row and adjusts tasks_completed without going below zero.
+ *   Body: { tasks_delta?: number, date?: 'YYYY-MM-DD' } or { tasks_completed?: number }
+ *   Upserts the supplied date (or today) and adjusts tasks_completed.
  *   Returns the updated row.
  */
 
@@ -25,6 +25,10 @@ function today() {
   return `${y}-${m}-${day}`;
 }
 
+function isDate(value) {
+  return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
 // ── GET — full activity history ───────────────────────────────────────────────
 router.get("/", (_req, res) => {
   const db   = getDb();
@@ -37,14 +41,14 @@ router.get("/", (_req, res) => {
 // ── POST — mark today active, increment task count ───────────────────────────
 router.post("/", (req, res) => {
   const db        = getDb();
-  const date      = today();
+  const date      = req.body?.date || today();
   const hasDelta  = req.body?.tasks_delta !== undefined;
   const delta     = hasDelta
     ? parseInt(req.body.tasks_delta, 10)
     : Math.max(1, parseInt(req.body?.tasks_completed, 10) || 1);
 
-  if (!Number.isInteger(delta) || (hasDelta && delta === 0)) {
-    return res.status(400).json({ error: "tasks_delta must be a non-zero integer." });
+  if (!isDate(date) || !Number.isInteger(delta) || (hasDelta && delta === 0)) {
+    return res.status(400).json({ error: "date must be YYYY-MM-DD and tasks_delta must be a non-zero integer." });
   }
 
   // INSERT new row or UPDATE existing one atomically

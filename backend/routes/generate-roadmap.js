@@ -26,7 +26,7 @@ const router = express.Router();
 // ── Config ────────────────────────────────────────────────────────────────────
 const OLLAMA_HOST    = "localhost";
 const OLLAMA_PORT    = 11434;
-const OLLAMA_MODEL   = process.env.OLLAMA_MODEL || "llama3.1:8b";
+const OLLAMA_MODEL   = process.env.OLLAMA_MODEL || "llama3.2";
 const WEAK_THRESHOLD = 70;
 const DEFAULT_DAYS   = 7;
 const MAX_DAYS       = 30;

@@ -9,6 +9,14 @@ const PORT = process.env.PORT || 5000;
 // ── DB init (creates file + tables if needed) ─────────────────────────────────
 const db = initDb();
 
+function localDate(value = new Date()) {
+  const date = value instanceof Date ? value : new Date(value);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 // ── Middleware ────────────────────────────────────────────────────────────────
 app.use(cors());
 app.use(express.json({ limit: "1mb" }));
@@ -60,6 +68,53 @@ app.patch("/api/roadmap/:day", (req, res) => {
   }
 
   res.json({ day, completed: Boolean(completed) });
+});
+
+// ── PATCH /api/roadmap/:day/task/:index — persist task completion timestamp ──
+app.patch("/api/roadmap/:day/task/:index", (req, res) => {
+  const day = Number.parseInt(req.params.day, 10);
+  const index = Number.parseInt(req.params.index, 10);
+  const completed = req.body?.completed === true;
+
+  if (!Number.isInteger(day) || day < 1 || !Number.isInteger(index) || index < 0) {
+    return res.status(400).json({ error: "Day and task index must be valid non-negative integers." });
+  }
+
+  const row = db
+    .prepare("SELECT tasks, description, resource_link FROM roadmap WHERE day_number = ?")
+    .get(day);
+  if (!row) return res.status(404).json({ error: `Roadmap day ${day} not found.` });
+
+  let tasks;
+  try { tasks = row.tasks ? JSON.parse(row.tasks) : null; } catch { tasks = null; }
+  if (!Array.isArray(tasks) || tasks.length === 0) {
+    tasks = [{ description: row.description ?? "", resource_link: row.resource_link }];
+  }
+  if (index >= tasks.length) {
+    return res.status(404).json({ error: `Task ${index} not found on roadmap day ${day}.` });
+  }
+
+  const previousCompletedAt = tasks[index].completed_at ?? null;
+  tasks[index] = {
+    ...tasks[index],
+    completed_at: completed ? new Date().toISOString() : null,
+  };
+  const dayCompleted = tasks.every((task) => Boolean(task.completed_at));
+
+  db.prepare("UPDATE roadmap SET tasks = ?, completed = ? WHERE day_number = ?")
+    .run(JSON.stringify(tasks), dayCompleted ? 1 : 0, day);
+
+  res.json({
+    day,
+    index,
+    completed,
+    completed_at: tasks[index].completed_at,
+    previous_completed_at: previousCompletedAt,
+    activity_date: completed
+      ? localDate()
+      : previousCompletedAt ? localDate(previousCompletedAt) : null,
+    day_completed: dayCompleted,
+  });
 });
 
 // ── DELETE /api/roadmap — wipe roadmap so user can start fresh ────────────────

@@ -203,10 +203,10 @@ export default function App() {
     }
   }, [scoreData, rankData, health]);
 
-  // ── Step 5: mark day done → /daily-activity ───────────────────────────────
-  const handleMarkDone = useCallback(async (day, completed) => {
+  // ── Step 5: persist task completion and attribute it to its completion date
+  const handleTaskToggle = useCallback(async (day, taskIndex, completed) => {
     try {
-      const roadmapRes = await fetch(`/api/roadmap/${day}`, {
+      const roadmapRes = await fetch(`/api/roadmap/${day}/task/${taskIndex}`, {
         method:  "PATCH",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify({ completed }),
@@ -214,19 +214,24 @@ export default function App() {
       const roadmapData = await roadmapRes.json();
       if (!roadmapRes.ok) throw new Error(roadmapData.error || "Could not save roadmap progress");
 
+      const activityDate = roadmapData.activity_date;
+
       const activityRes = await fetch("/api/daily-activity", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ tasks_delta: completed ? 1 : -1 }),
+        body:    JSON.stringify({
+          tasks_delta: completed ? 1 : -1,
+          date: activityDate,
+        }),
       });
       if (!activityRes.ok) throw new Error("Could not save activity progress");
 
-      dispatch({ type: "SET_DAY_COMPLETED", day, completed });
+      dispatch({ type: "SET_DAY_COMPLETED", day, completed: roadmapData.day_completed });
       fetchActivity();
     } catch (err) {
       dispatch({ type: "ERROR", payload: err.message });
     }
-  }, [fetchActivity]);
+  }, [fetchActivity, roadmapData]);
 
   // ── "Start New Roadmap" — clears DB roadmap then resets UI ───────────────
   const handleStartNew = useCallback(async () => {
@@ -375,7 +380,7 @@ export default function App() {
           <Dashboard
             roadmapData={roadmapData}
             completedDays={completedDays}
-            onMarkDone={handleMarkDone}
+            onTaskToggle={handleTaskToggle}
             activity={activity}
             onReset={handleStartNew}
           />

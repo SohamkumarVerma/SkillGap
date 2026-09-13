@@ -4,9 +4,7 @@
  * Props:
  *   roadmapData   — response from /api/generate-roadmap (or restored)
  *   completedDays — Set<number>   days already marked done (persisted)
- *   onMarkDone    — (day, completed: boolean) => void
- *                   Called when a day transitions fully done ↔ undone.
- *                   Per-task state is frontend-only (no DB call per task).
+ *   onTaskToggle — (day, taskIndex, completed) => void
  */
 
 import { useState, useEffect } from "react";
@@ -23,7 +21,7 @@ const DIFF_DOT = {
   hard:   "bg-red-500",
 };
 
-export default function RoadmapView({ roadmapData, onMarkDone, completedDays = new Set() }) {
+export default function RoadmapView({ roadmapData, onTaskToggle, completedDays = new Set() }) {
   if (!roadmapData) return null;
   const { source, days, roadmap } = roadmapData;
   const badge = SOURCE_BADGE[source] ?? SOURCE_BADGE.fallback;
@@ -47,7 +45,7 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
             key={entry.day}
             entry={entry}
             isDayDone={completedDays.has(entry.day)}
-            onMarkDone={onMarkDone}
+            onTaskToggle={onTaskToggle}
           />
         ))}
       </ol>
@@ -57,18 +55,20 @@ export default function RoadmapView({ roadmapData, onMarkDone, completedDays = n
 
 // ── DayCard ───────────────────────────────────────────────────────────────────
 
-function DayCard({ entry, isDayDone, onMarkDone }) {
+function DayCard({ entry, isDayDone, onTaskToggle }) {
   const tasks = normaliseTasks(entry);
 
-  // Per-task checked state — frontend only, initialised from day-level completion
   const [checked, setChecked] = useState(() =>
-    isDayDone ? new Set(tasks.map((_, i) => i)) : new Set()
+    new Set(tasks.map((task, i) => task.completed_at || (isDayDone && !tasks.some((item) => item.completed_at)) ? i : null).filter((i) => i !== null))
+  );
+  const [completionTimes, setCompletionTimes] = useState(() =>
+    Object.fromEntries(tasks.map((task, i) => [i, task.completed_at]).filter(([, value]) => value))
   );
 
   // If the parent marks the day done externally (e.g. restored from DB), sync
   useEffect(() => {
     if (isDayDone) {
-      setChecked(new Set(tasks.map((_, i) => i)));
+      setChecked(new Set(tasks.map((task, i) => task.completed_at || !tasks.some((item) => item.completed_at) ? i : null).filter((i) => i !== null)));
     }
     // We intentionally don't clear checked when isDayDone goes false (undo)
     // because the user may have partially checked tasks.
@@ -76,20 +76,20 @@ function DayCard({ entry, isDayDone, onMarkDone }) {
   }, [isDayDone]);
 
   function toggleTask(idx) {
+    const willBeChecked = !checked.has(idx);
     setChecked((prev) => {
       const next = new Set(prev);
       if (next.has(idx)) next.delete(idx);
       else next.add(idx);
 
-      const allDone = next.size === tasks.length;
-      const wasDone = isDayDone;
-
-      // Only call onMarkDone when the all-done state changes
-      if (allDone && !wasDone)  onMarkDone?.(entry.day, true);
-      if (!allDone && wasDone)  onMarkDone?.(entry.day, false);
+      onTaskToggle?.(entry.day, idx, willBeChecked);
 
       return next;
     });
+    setCompletionTimes((prev) => ({
+      ...prev,
+      [idx]: willBeChecked ? new Date().toISOString() : null,
+    }));
   }
 
   const allChecked  = checked.size === tasks.length;
@@ -134,7 +134,8 @@ function DayCard({ entry, isDayDone, onMarkDone }) {
           <button
             onClick={() => {
               setChecked(new Set());
-              onMarkDone?.(entry.day, false);
+              setCompletionTimes({});
+              tasks.forEach((_, idx) => onTaskToggle?.(entry.day, idx, false));
             }}
             className="shrink-0 text-xs px-3 py-1 rounded-lg border
                        border-green-800/60 text-green-500
@@ -193,6 +194,11 @@ function DayCard({ entry, isDayDone, onMarkDone }) {
                     {task.resource_link}
                   </a>
                 )}
+                {isChecked && completionTimes[idx] && (
+                  <p className="text-xs text-gray-600">
+                    Completed {formatCompletionTime(completionTimes[idx])}
+                  </p>
+                )}
               </div>
             </li>
           );
@@ -232,4 +238,10 @@ function normaliseTasks(entry) {
     description:   entry.description ?? "",
     resource_link: entry.resource_link ?? "",
   }];
+}
+
+function formatCompletionTime(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "recently";
+  return date.toLocaleString([], { dateStyle: "medium", timeStyle: "short" });
 }

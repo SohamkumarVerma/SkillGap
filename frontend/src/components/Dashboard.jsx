@@ -5,7 +5,7 @@
  * Props:
  *   roadmapData    — from /api/generate-roadmap
  *   completedDays  — Set<number>
- *   onMarkDone     — async (day) => void  (already calls /daily-activity in App)
+ *   onTaskToggle   — async (day, taskIndex, completed) => void
  *   activity       — array from GET /api/daily-activity
  *   onReset        — () => void
  */
@@ -16,7 +16,7 @@ import ActivityHeatmap from "./ActivityHeatmap";
 export default function Dashboard({
   roadmapData,
   completedDays,
-  onMarkDone,
+  onTaskToggle,
   activity,
   onReset,
 }) {
@@ -38,7 +38,7 @@ export default function Dashboard({
         <RoadmapView
           roadmapData={roadmapData}
           completedDays={completedDays}
-          onMarkDone={onMarkDone}
+          onTaskToggle={onTaskToggle}
         />
       </section>
 
