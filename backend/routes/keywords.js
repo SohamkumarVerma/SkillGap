@@ -10,6 +10,8 @@
  *                (lowercased, order matters: longer/more-specific first)
  */
 
+const { getSeedKeywords } = require("../seed/loader");
+
 const KEYWORDS = [
   // ── Frontend / HTML / CSS ──────────────────────────────────────────────────
   { canonical: "html",              variants: ["html"] },
@@ -146,5 +148,26 @@ const KEYWORDS = [
   { canonical: "systems",           variants: ["system design", "distributed system", "microservice"] },
   { canonical: "security",          variants: ["security", "encryption", "cryptography", "https"] },
 ];
+
+// Every question bank contributes its tags, so adding a JSON file also adds
+// its job-description vocabulary without another route change.
+const keywordByCanonical = new Map(KEYWORDS.map((entry) => [entry.canonical, entry]));
+for (const tag of getSeedKeywords()) {
+  const canonical = tag.trim();
+  if (!canonical) continue;
+
+  const variants = [canonical.toLowerCase()];
+  const spaced = canonical.toLowerCase().replace(/[-_]+/g, " ");
+  if (spaced !== variants[0]) variants.push(spaced);
+
+  const existing = keywordByCanonical.get(canonical);
+  if (existing) {
+    existing.variants = [...new Set([...existing.variants, ...variants])];
+  } else {
+    const entry = { canonical, variants, wordBoundary: true };
+    keywordByCanonical.set(canonical, entry);
+    KEYWORDS.push(entry);
+  }
+}
 
 module.exports = KEYWORDS;

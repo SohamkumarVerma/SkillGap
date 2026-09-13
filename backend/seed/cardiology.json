@@ -1,0 +1,389 @@
+[
+{
+"topic": "Cardiac Anatomy",
+"difficulty": "easy",
+"question_text": "Which chamber of the heart pumps oxygenated blood into the systemic circulation?",
+"options": ["Left ventricle", "Right ventricle", "Left atrium", "Right atrium"],
+"correct_answer": "Left ventricle",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heart+anatomy](https://www.geeksforgeeks.org/?s=heart+anatomy)",
+"tags": ["cardiology", "anatomy", "heart", "medicine"]
+},
+{
+"topic": "Cardiac Anatomy",
+"difficulty": "easy",
+"question_text": "Which chamber receives deoxygenated blood from the systemic circulation?",
+"options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+"correct_answer": "Right atrium",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heart+chambers+anatomy](https://www.geeksforgeeks.org/?s=heart+chambers+anatomy)",
+"tags": ["cardiology", "anatomy", "heart", "clinical"]
+},
+{
+"topic": "Cardiac Anatomy",
+"difficulty": "easy",
+"question_text": "Which valve is located between the left atrium and left ventricle?",
+"options": ["Mitral valve", "Tricuspid valve", "Pulmonary valve", "Aortic valve"],
+"correct_answer": "Mitral valve",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heart+valves+mitral](https://www.geeksforgeeks.org/?s=heart+valves+mitral)",
+"tags": ["cardiology", "heart-valves", "anatomy", "medicine"]
+},
+{
+"topic": "Cardiac Anatomy",
+"difficulty": "easy",
+"question_text": "Which valve prevents backflow from the right ventricle into the right atrium?",
+"options": ["Tricuspid valve", "Mitral valve", "Aortic valve", "Pulmonary valve"],
+"correct_answer": "Tricuspid valve",
+"resource_link": "[https://www.geeksforgeeks.org/?s=tricuspid+valve](https://www.geeksforgeeks.org/?s=tricuspid+valve)",
+"tags": ["cardiology", "heart-valves", "anatomy", "clinical"]
+},
+{
+"topic": "Cardiac Anatomy",
+"difficulty": "easy",
+"question_text": "Which artery carries oxygenated blood from the heart to the body?",
+"options": ["Aorta", "Pulmonary artery", "Vena cava", "Pulmonary vein"],
+"correct_answer": "Aorta",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aorta+heart](https://www.geeksforgeeks.org/?s=aorta+heart)",
+"tags": ["cardiology", "vascular", "anatomy", "circulation"]
+},
+{
+"topic": "Cardiac Physiology",
+"difficulty": "easy",
+"question_text": "What is heart rate?",
+"options": ["Number of heartbeats per minute", "Amount of blood pumped per day", "Pressure inside the lungs", "Volume of blood in the veins"],
+"correct_answer": "Number of heartbeats per minute",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heart+rate](https://www.geeksforgeeks.org/?s=heart+rate)",
+"tags": ["cardiology", "physiology", "vital-signs", "clinical"]
+},
+{
+"topic": "Blood Pressure",
+"difficulty": "easy",
+"question_text": "Which value represents systolic blood pressure?",
+"options": ["Pressure during ventricular contraction", "Pressure during ventricular relaxation", "Pressure inside the lungs", "Pressure inside the veins only"],
+"correct_answer": "Pressure during ventricular contraction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=systolic+diastolic+blood+pressure](https://www.geeksforgeeks.org/?s=systolic+diastolic+blood+pressure)",
+"tags": ["cardiology", "blood-pressure", "hypertension", "clinical"]
+},
+{
+"topic": "Blood Pressure",
+"difficulty": "easy",
+"question_text": "Which value represents diastolic blood pressure?",
+"options": ["Pressure during ventricular relaxation", "Pressure during ventricular contraction", "Pressure during atrial contraction only", "Pressure inside the lungs"],
+"correct_answer": "Pressure during ventricular relaxation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=diastolic+blood+pressure](https://www.geeksforgeeks.org/?s=diastolic+blood+pressure)",
+"tags": ["cardiology", "blood-pressure", "hypertension", "clinical"]
+},
+{
+"topic": "Electrocardiography",
+"difficulty": "easy",
+"question_text": "What does an ECG primarily record?",
+"options": ["Electrical activity of the heart", "Blood glucose", "Blood oxygen content", "Heart valve structure"],
+"correct_answer": "Electrical activity of the heart",
+"resource_link": "[https://www.geeksforgeeks.org/?s=electrocardiogram+ECG](https://www.geeksforgeeks.org/?s=electrocardiogram+ECG)",
+"tags": ["cardiology", "ecg", "diagnostics", "clinical"]
+},
+{
+"topic": "Cardiac Rhythm",
+"difficulty": "easy",
+"question_text": "Which structure normally acts as the natural pacemaker of the heart?",
+"options": ["Sinoatrial node", "Atrioventricular node", "Bundle of His", "Purkinje fibers"],
+"correct_answer": "Sinoatrial node",
+"resource_link": "[https://www.geeksforgeeks.org/?s=sinoatrial+node+pacemaker](https://www.geeksforgeeks.org/?s=sinoatrial+node+pacemaker)",
+"tags": ["cardiology", "ecg", "arrhythmia", "physiology"]
+},
+{
+"topic": "Coronary Circulation",
+"difficulty": "easy",
+"question_text": "The coronary arteries primarily supply blood to the:",
+"options": ["Heart muscle", "Lungs", "Liver", "Kidneys"],
+"correct_answer": "Heart muscle",
+"resource_link": "[https://www.geeksforgeeks.org/?s=coronary+arteries](https://www.geeksforgeeks.org/?s=coronary+arteries)",
+"tags": ["cardiology", "coronary", "circulation", "anatomy"]
+},
+{
+"topic": "Cardiovascular Disease",
+"difficulty": "easy",
+"question_text": "What is hypertension?",
+"options": ["Persistently elevated blood pressure", "Abnormally low blood pressure", "Irregular heartbeat only", "Reduced blood oxygen"],
+"correct_answer": "Persistently elevated blood pressure",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hypertension](https://www.geeksforgeeks.org/?s=hypertension)",
+"tags": ["cardiology", "hypertension", "cardiovascular", "clinical"]
+},
+{
+"topic": "Cardiac Symptoms",
+"difficulty": "easy",
+"question_text": "Which symptom is commonly associated with angina?",
+"options": ["Chest discomfort or pain", "Skin rash", "Ear pain", "Tooth decay"],
+"correct_answer": "Chest discomfort or pain",
+"resource_link": "[https://www.geeksforgeeks.org/?s=angina+chest+pain](https://www.geeksforgeeks.org/?s=angina+chest+pain)",
+"tags": ["cardiology", "angina", "chest-pain", "clinical"]
+},
+{
+"topic": "Heart Failure",
+"difficulty": "easy",
+"question_text": "Heart failure means that the heart:",
+"options": ["Cannot pump blood adequately to meet the body's needs", "Has completely stopped in every case", "Always beats too fast", "Always has a valve infection"],
+"correct_answer": "Cannot pump blood adequately to meet the body's needs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heart+failure](https://www.geeksforgeeks.org/?s=heart+failure)",
+"tags": ["cardiology", "heart-failure", "clinical", "medicine"]
+},
+{
+"topic": "Cardiac Risk Factors",
+"difficulty": "easy",
+"question_text": "Which is a major modifiable risk factor for cardiovascular disease?",
+"options": ["Smoking", "Age", "Family history", "Genetic inheritance"],
+"correct_answer": "Smoking",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cardiovascular+disease+risk+factors](https://www.geeksforgeeks.org/?s=cardiovascular+disease+risk+factors)",
+"tags": ["cardiology", "risk-factors", "prevention", "public-health"]
+},
+{
+"topic": "Electrocardiography",
+"difficulty": "medium",
+"question_text": "What does the P wave on an ECG represent?",
+"options": ["Atrial depolarization", "Ventricular depolarization", "Ventricular repolarization", "Atrial repolarization only"],
+"correct_answer": "Atrial depolarization",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ECG+P+wave+QRS+T+wave](https://www.geeksforgeeks.org/?s=ECG+P+wave+QRS+T+wave)",
+"tags": ["cardiology", "ecg", "electrophysiology", "diagnostics"]
+},
+{
+"topic": "Electrocardiography",
+"difficulty": "medium",
+"question_text": "What does the QRS complex primarily represent?",
+"options": ["Ventricular depolarization", "Atrial depolarization", "Ventricular repolarization", "Atrial contraction"],
+"correct_answer": "Ventricular depolarization",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ECG+QRS+complex](https://www.geeksforgeeks.org/?s=ECG+QRS+complex)",
+"tags": ["cardiology", "ecg", "electrophysiology", "diagnostics"]
+},
+{
+"topic": "Electrocardiography",
+"difficulty": "medium",
+"question_text": "What does the T wave primarily represent?",
+"options": ["Ventricular repolarization", "Atrial depolarization", "Ventricular depolarization", "Atrial contraction"],
+"correct_answer": "Ventricular repolarization",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ECG+T+wave](https://www.geeksforgeeks.org/?s=ECG+T+wave)",
+"tags": ["cardiology", "ecg", "electrophysiology", "diagnostics"]
+},
+{
+"topic": "Cardiac Conduction",
+"difficulty": "medium",
+"question_text": "Which structure normally delays electrical conduction between the atria and ventricles?",
+"options": ["Atrioventricular node", "Sinoatrial node", "Aorta", "Purkinje fibers"],
+"correct_answer": "Atrioventricular node",
+"resource_link": "[https://www.geeksforgeeks.org/?s=atrioventricular+node+heart](https://www.geeksforgeeks.org/?s=atrioventricular+node+heart)",
+"tags": ["cardiology", "conduction", "ecg", "arrhythmia"]
+},
+{
+"topic": "Coronary Artery Disease",
+"difficulty": "medium",
+"question_text": "Atherosclerosis of the coronary arteries can reduce blood flow to the:",
+"options": ["Myocardium", "Brain only", "Kidneys only", "Skin only"],
+"correct_answer": "Myocardium",
+"resource_link": "[https://www.geeksforgeeks.org/?s=coronary+artery+disease+atherosclerosis](https://www.geeksforgeeks.org/?s=coronary+artery+disease+atherosclerosis)",
+"tags": ["cardiology", "coronary", "atherosclerosis", "cardiovascular"]
+},
+{
+"topic": "Myocardial Infarction",
+"difficulty": "medium",
+"question_text": "A myocardial infarction most commonly results from:",
+"options": ["Prolonged interruption of coronary blood flow", "Excessive oxygen delivery to the heart", "Increased kidney filtration", "Low body temperature"],
+"correct_answer": "Prolonged interruption of coronary blood flow",
+"resource_link": "[https://www.geeksforgeeks.org/?s=myocardial+infarction+coronary+blood+flow](https://www.geeksforgeeks.org/?s=myocardial+infarction+coronary+blood+flow)",
+"tags": ["cardiology", "myocardial-infarction", "coronary", "emergency"]
+},
+{
+"topic": "Cardiac Biomarkers",
+"difficulty": "medium",
+"question_text": "Which biomarker is commonly used to detect myocardial injury?",
+"options": ["Cardiac troponin", "Hemoglobin A1c", "Bilirubin", "Creatinine"],
+"correct_answer": "Cardiac troponin",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cardiac+troponin](https://www.geeksforgeeks.org/?s=cardiac+troponin)",
+"tags": ["cardiology", "troponin", "biomarkers", "diagnostics"]
+},
+{
+"topic": "Arrhythmia",
+"difficulty": "medium",
+"question_text": "Atrial fibrillation is primarily characterized by:",
+"options": ["Irregular atrial electrical activity", "Complete absence of ventricular activity", "Permanent closure of the aorta", "Increased red blood cell production"],
+"correct_answer": "Irregular atrial electrical activity",
+"resource_link": "[https://www.geeksforgeeks.org/?s=atrial+fibrillation](https://www.geeksforgeeks.org/?s=atrial+fibrillation)",
+"tags": ["cardiology", "arrhythmia", "atrial-fibrillation", "ecg"]
+},
+{
+"topic": "Heart Failure",
+"difficulty": "medium",
+"question_text": "Which symptom commonly occurs in congestive heart failure?",
+"options": ["Shortness of breath", "Improved exercise tolerance", "Increased visual acuity", "Tooth sensitivity"],
+"correct_answer": "Shortness of breath",
+"resource_link": "[https://www.geeksforgeeks.org/?s=congestive+heart+failure+symptoms](https://www.geeksforgeeks.org/?s=congestive+heart+failure+symptoms)",
+"tags": ["cardiology", "heart-failure", "dyspnea", "clinical"]
+},
+{
+"topic": "Valvular Heart Disease",
+"difficulty": "medium",
+"question_text": "Aortic stenosis refers to narrowing of the:",
+"options": ["Aortic valve", "Mitral valve", "Tricuspid valve", "Pulmonary artery"],
+"correct_answer": "Aortic valve",
+"resource_link": "[https://www.geeksforgeeks.org/?s=aortic+stenosis](https://www.geeksforgeeks.org/?s=aortic+stenosis)",
+"tags": ["cardiology", "valvular-disease", "aortic-stenosis", "clinical"]
+},
+{
+"topic": "Cardiac Imaging",
+"difficulty": "medium",
+"question_text": "Which test uses ultrasound to visualize the heart and assess its structure and function?",
+"options": ["Echocardiogram", "Electrocardiogram", "Complete blood count", "Urinalysis"],
+"correct_answer": "Echocardiogram",
+"resource_link": "[https://www.geeksforgeeks.org/?s=echocardiography](https://www.geeksforgeeks.org/?s=echocardiography)",
+"tags": ["cardiology", "echocardiography", "imaging", "diagnostics"]
+},
+{
+"topic": "Cardiac Physiology",
+"difficulty": "medium",
+"question_text": "Cardiac output is calculated as:",
+"options": ["Heart rate × stroke volume", "Blood pressure × heart rate", "Stroke volume ÷ heart rate", "Heart rate ÷ stroke volume"],
+"correct_answer": "Heart rate × stroke volume",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cardiac+output+stroke+volume](https://www.geeksforgeeks.org/?s=cardiac+output+stroke+volume)",
+"tags": ["cardiology", "cardiac-output", "physiology", "hemodynamics"]
+},
+{
+"topic": "Cardiac Physiology",
+"difficulty": "medium",
+"question_text": "Stroke volume is the amount of blood:",
+"options": ["Ejected by one ventricle with each heartbeat", "Present in the entire circulatory system", "Filtered by the kidney per minute", "Entering the lungs per day"],
+"correct_answer": "Ejected by one ventricle with each heartbeat",
+"resource_link": "[https://www.geeksforgeeks.org/?s=stroke+volume+cardiac](https://www.geeksforgeeks.org/?s=stroke+volume+cardiac)",
+"tags": ["cardiology", "stroke-volume", "physiology", "hemodynamics"]
+},
+{
+"topic": "Hypertension",
+"difficulty": "medium",
+"question_text": "Long-standing uncontrolled hypertension can increase the risk of:",
+"options": ["Stroke", "Improved cardiovascular function", "Stronger coronary arteries", "Reduced vascular damage"],
+"correct_answer": "Stroke",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hypertension+stroke+cardiovascular](https://www.geeksforgeeks.org/?s=hypertension+stroke+cardiovascular)",
+"tags": ["cardiology", "hypertension", "stroke", "risk-factors"]
+},
+{
+"topic": "Cardiac Risk Assessment",
+"difficulty": "medium",
+"question_text": "Which blood lipid is commonly considered a major contributor to atherosclerotic cardiovascular risk when elevated?",
+"options": ["LDL cholesterol", "HDL cholesterol", "Albumin", "Hemoglobin"],
+"correct_answer": "LDL cholesterol",
+"resource_link": "[https://www.geeksforgeeks.org/?s=LDL+cholesterol+atherosclerosis](https://www.geeksforgeeks.org/?s=LDL+cholesterol+atherosclerosis)",
+"tags": ["cardiology", "lipids", "ldl", "atherosclerosis"]
+},
+{
+"topic": "Cardiac Electrophysiology",
+"difficulty": "hard",
+"question_text": "The PR interval on an ECG primarily reflects conduction from the:",
+"options": ["Atria through the AV node to the ventricles", "Ventricles to the atria only", "Aorta to the ventricles", "Pulmonary artery to the atria"],
+"correct_answer": "Atria through the AV node to the ventricles",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ECG+PR+interval](https://www.geeksforgeeks.org/?s=ECG+PR+interval)",
+"tags": ["cardiology", "ecg", "electrophysiology", "conduction"]
+},
+{
+"topic": "Cardiac Electrophysiology",
+"difficulty": "hard",
+"question_text": "A prolonged QT interval is clinically important because it can increase the risk of:",
+"options": ["Ventricular arrhythmias", "Improved cardiac output", "Increased bone density", "Reduced blood glucose"],
+"correct_answer": "Ventricular arrhythmias",
+"resource_link": "[https://www.geeksforgeeks.org/?s=prolonged+QT+interval](https://www.geeksforgeeks.org/?s=prolonged+QT+interval)",
+"tags": ["cardiology", "ecg", "qt-interval", "arrhythmia"]
+},
+{
+"topic": "Heart Failure",
+"difficulty": "hard",
+"question_text": "Left ventricular ejection fraction is used primarily to assess:",
+"options": ["Left ventricular systolic function", "Coronary artery diameter", "Blood glucose regulation", "Kidney filtration"],
+"correct_answer": "Left ventricular systolic function",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ejection+fraction+heart+failure](https://www.geeksforgeeks.org/?s=ejection+fraction+heart+failure)",
+"tags": ["cardiology", "heart-failure", "ejection-fraction", "echocardiography"]
+},
+{
+"topic": "Heart Failure",
+"difficulty": "hard",
+"question_text": "Which peptide is commonly measured as a biomarker in the evaluation of heart failure?",
+"options": ["BNP", "Insulin", "Thyroxine", "Bilirubin"],
+"correct_answer": "BNP",
+"resource_link": "[https://www.geeksforgeeks.org/?s=BNP+heart+failure](https://www.geeksforgeeks.org/?s=BNP+heart+failure)",
+"tags": ["cardiology", "heart-failure", "biomarkers", "diagnostics"]
+},
+{
+"topic": "Hemodynamics",
+"difficulty": "hard",
+"question_text": "According to the Frank-Starling mechanism, increased ventricular filling generally leads to:",
+"options": ["Increased force of contraction", "Complete cessation of contraction", "Reduced venous return", "Immediate valve closure without contraction"],
+"correct_answer": "Increased force of contraction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=Frank+Starling+law+heart](https://www.geeksforgeeks.org/?s=Frank+Starling+law+heart)",
+"tags": ["cardiology", "frank-starling", "hemodynamics", "physiology"]
+},
+{
+"topic": "Coronary Artery Disease",
+"difficulty": "hard",
+"question_text": "Stable angina is typically caused by myocardial ischemia that occurs when:",
+"options": ["Myocardial oxygen demand exceeds coronary oxygen supply", "Oxygen supply permanently exceeds demand", "The heart completely stops beating", "Blood glucose becomes zero"],
+"correct_answer": "Myocardial oxygen demand exceeds coronary oxygen supply",
+"resource_link": "[https://www.geeksforgeeks.org/?s=stable+angina+myocardial+ischemia](https://www.geeksforgeeks.org/?s=stable+angina+myocardial+ischemia)",
+"tags": ["cardiology", "angina", "ischemia", "coronary"]
+},
+{
+"topic": "Myocardial Infarction",
+"difficulty": "hard",
+"question_text": "ST-segment elevation on an ECG in an appropriate clinical context can indicate:",
+"options": ["Acute myocardial injury due to coronary occlusion", "Normal kidney function", "Low blood glucose", "Chronic anemia alone"],
+"correct_answer": "Acute myocardial injury due to coronary occlusion",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ST+elevation+myocardial+infarction](https://www.geeksforgeeks.org/?s=ST+elevation+myocardial+infarction)",
+"tags": ["cardiology", "ecg", "stemi", "myocardial-infarction"]
+},
+{
+"topic": "Valvular Heart Disease",
+"difficulty": "hard",
+"question_text": "Mitral regurgitation occurs when blood flows backward from the:",
+"options": ["Left ventricle into the left atrium", "Left atrium into the left ventricle", "Right ventricle into the right atrium", "Aorta into the left atrium"],
+"correct_answer": "Left ventricle into the left atrium",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mitral+regurgitation](https://www.geeksforgeeks.org/?s=mitral+regurgitation)",
+"tags": ["cardiology", "mitral-regurgitation", "valvular-disease", "hemodynamics"]
+},
+{
+"topic": "Arrhythmia",
+"difficulty": "hard",
+"question_text": "Ventricular fibrillation is dangerous primarily because it:",
+"options": ["Prevents effective ventricular pumping", "Increases effective cardiac output", "Improves coronary perfusion", "Causes normal synchronized contraction"],
+"correct_answer": "Prevents effective ventricular pumping",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ventricular+fibrillation](https://www.geeksforgeeks.org/?s=ventricular+fibrillation)",
+"tags": ["cardiology", "arrhythmia", "ventricular-fibrillation", "emergency"]
+},
+{
+"topic": "Cardiac Resuscitation",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of an automated external defibrillator (AED) in a shockable cardiac arrest rhythm?",
+"options": ["Deliver an electrical shock to help restore an organized rhythm", "Measure blood glucose continuously", "Increase body temperature", "Replace chest compressions"],
+"correct_answer": "Deliver an electrical shock to help restore an organized rhythm",
+"resource_link": "[https://www.geeksforgeeks.org/?s=automated+external+defibrillator+AED](https://www.geeksforgeeks.org/?s=automated+external+defibrillator+AED)",
+"tags": ["cardiology", "defibrillation", "aed", "emergency"]
+},
+{
+"topic": "Cardiac Pharmacology",
+"difficulty": "hard",
+"question_text": "Beta-blockers generally reduce cardiac workload by:",
+"options": ["Reducing heart rate and contractility", "Increasing heart rate and contractility", "Increasing blood glucose directly", "Increasing sodium intake"],
+"correct_answer": "Reducing heart rate and contractility",
+"resource_link": "[https://www.geeksforgeeks.org/?s=beta+blockers+cardiology](https://www.geeksforgeeks.org/?s=beta+blockers+cardiology)",
+"tags": ["cardiology", "pharmacology", "beta-blockers", "heart-failure"]
+},
+{
+"topic": "Cardiac Pharmacology",
+"difficulty": "hard",
+"question_text": "ACE inhibitors can lower blood pressure partly by reducing the formation of:",
+"options": ["Angiotensin II", "Insulin", "Troponin", "Hemoglobin"],
+"correct_answer": "Angiotensin II",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ACE+inhibitors+angiotensin+II](https://www.geeksforgeeks.org/?s=ACE+inhibitors+angiotensin+II)",
+"tags": ["cardiology", "pharmacology", "ace-inhibitors", "hypertension"]
+},
+{
+"topic": "Cardiac Pharmacology",
+"difficulty": "hard",
+"question_text": "Statins primarily reduce cardiovascular risk by lowering:",
+"options": ["LDL cholesterol", "Hemoglobin", "Blood oxygen", "Troponin"],
+"correct_answer": "LDL cholesterol",
+"resource_link": "[https://www.geeksforgeeks.org/?s=statins+LDL+cholesterol](https://www.geeksforgeeks.org/?s=statins+LDL+cholesterol)",
+"tags": ["cardiology", "statins", "lipids", "prevention"]
+}
+]

@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS questions (
   correct_answer  TEXT    NOT NULL,
   resource_link   TEXT,
   tags            TEXT,               -- JSON array of keywords for JD matching
+  seed_file       TEXT,               -- source JSON bank for domain isolation
   UNIQUE (topic, question_text)       -- prevents duplicate seeding
 );
 

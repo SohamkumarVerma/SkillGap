@@ -119,6 +119,28 @@ function questionCountForTag(tag) {
   return count;
 }
 
+function getSourceCountsForTag(tag) {
+  const db = getDb();
+  const rows = db
+    .prepare(
+      `SELECT seed_file, COUNT(*) AS count FROM questions
+       WHERE tags LIKE ? AND seed_file IS NOT NULL
+       GROUP BY seed_file`
+    )
+    .all(`%"${tag}"%`);
+  return Object.fromEntries(rows.map((row) => [row.seed_file, row.count]));
+}
+
+function selectDominantSource(ranked) {
+  const sourceScores = new Map();
+  for (const skill of ranked) {
+    for (const [source, count] of Object.entries(skill.source_counts || {})) {
+      sourceScores.set(source, (sourceScores.get(source) || 0) + skill.weight * count);
+    }
+  }
+  return [...sourceScores.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || null;
+}
+
 // ── Core ranking function (exported so tests / other routes can reuse it) ─────
 
 /**
@@ -133,7 +155,7 @@ function rankSkills(skills, rawText = "") {
   const coveredTags = getCoveredTags();
   const maxFreq = Math.max(...skills.map((s) => s.frequency), 1);
 
-  const ranked = [];
+  let ranked = [];
   const uncovered = [];
 
   for (const { skill, frequency } of skills) {
@@ -153,7 +175,15 @@ function rankSkills(skills, rawText = "") {
     const question_count = covered ? questionCountForTag(skill) : 0;
 
     if (covered) {
-      ranked.push({ topic: skill, weight, frequency, position_bonus: posBonus, covered, question_count });
+      ranked.push({
+        topic: skill,
+        weight,
+        frequency,
+        position_bonus: posBonus,
+        covered,
+        question_count,
+        source_counts: getSourceCountsForTag(skill),
+      });
     } else {
       uncovered.push(skill);
     }
@@ -161,6 +191,16 @@ function rankSkills(skills, rawText = "") {
 
   // Sort by weight desc, break ties by question_count desc (more coverage = more useful)
   ranked.sort((a, b) => b.weight - a.weight || b.question_count - a.question_count);
+
+  const selectedSource = selectDominantSource(ranked);
+  if (selectedSource) {
+    ranked = ranked.filter((skill) => (skill.source_counts?.[selectedSource] || 0) > 0);
+    for (const skill of ranked) {
+      skill.seed_file = selectedSource;
+      skill.question_count = skill.source_counts[selectedSource];
+      delete skill.source_counts;
+    }
+  }
 
   return { ranked, uncovered };
 }

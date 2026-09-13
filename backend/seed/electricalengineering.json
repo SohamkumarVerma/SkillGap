@@ -1,0 +1,416 @@
+[
+{
+"topic": "Basic Electrical Concepts",
+"difficulty": "easy",
+"question_text": "What is the SI unit of electrical resistance?",
+"options": ["Volt", "Ampere", "Ohm", "Watt"],
+"correct_answer": "Ohm",
+"resource_link": "[https://www.geeksforgeeks.org/?s=electrical+resistance](https://www.geeksforgeeks.org/?s=electrical+resistance)",
+"tags": ["electrical", "circuits", "resistance", "ohms-law"]
+},
+{
+"topic": "Ohm's Law",
+"difficulty": "easy",
+"question_text": "According to Ohm's law, voltage across a resistor is equal to:",
+"options": ["I/R", "IR", "R/I", "I+R"],
+"correct_answer": "IR",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ohms+law](https://www.geeksforgeeks.org/?s=ohms+law)",
+"tags": ["electrical", "circuits", "ohms-law", "voltage"]
+},
+{
+"topic": "Electrical Power",
+"difficulty": "easy",
+"question_text": "Which formula represents electrical power in a DC circuit?",
+"options": ["P = VI", "P = V/I", "P = I/V", "P = V+I"],
+"correct_answer": "P = VI",
+"resource_link": "[https://www.geeksforgeeks.org/?s=electrical+power](https://www.geeksforgeeks.org/?s=electrical+power)",
+"tags": ["electrical", "power", "circuits", "dc"]
+},
+{
+"topic": "Kirchhoff's Current Law",
+"difficulty": "easy",
+"question_text": "Kirchhoff's Current Law is based on conservation of:",
+"options": ["Energy", "Charge", "Power", "Momentum"],
+"correct_answer": "Charge",
+"resource_link": "[https://www.geeksforgeeks.org/?s=kirchhoff+current+law](https://www.geeksforgeeks.org/?s=kirchhoff+current+law)",
+"tags": ["electrical", "circuits", "kcl", "network-analysis"]
+},
+{
+"topic": "Kirchhoff's Voltage Law",
+"difficulty": "easy",
+"question_text": "According to Kirchhoff's Voltage Law, the algebraic sum of voltages around a closed loop is:",
+"options": ["Zero", "One", "Maximum", "Infinite"],
+"correct_answer": "Zero",
+"resource_link": "[https://www.geeksforgeeks.org/?s=kirchhoff+voltage+law](https://www.geeksforgeeks.org/?s=kirchhoff+voltage+law)",
+"tags": ["electrical", "circuits", "kvl", "network-analysis"]
+},
+{
+"topic": "Series Circuits",
+"difficulty": "easy",
+"question_text": "In a series circuit, the same quantity flows through every component.",
+"options": ["Voltage", "Current", "Power", "Resistance"],
+"correct_answer": "Current",
+"resource_link": "[https://www.geeksforgeeks.org/?s=series+circuit](https://www.geeksforgeeks.org/?s=series+circuit)",
+"tags": ["electrical", "circuits", "series", "current"]
+},
+{
+"topic": "Parallel Circuits",
+"difficulty": "easy",
+"question_text": "In a parallel circuit, the voltage across each branch is:",
+"options": ["Always zero", "The same", "Always different", "Infinite"],
+"correct_answer": "The same",
+"resource_link": "[https://www.geeksforgeeks.org/?s=parallel+circuit](https://www.geeksforgeeks.org/?s=parallel+circuit)",
+"tags": ["electrical", "circuits", "parallel", "voltage"]
+},
+{
+"topic": "Capacitors",
+"difficulty": "easy",
+"question_text": "The SI unit of capacitance is:",
+"options": ["Henry", "Farad", "Tesla", "Weber"],
+"correct_answer": "Farad",
+"resource_link": "[https://www.geeksforgeeks.org/?s=capacitor+capacitance](https://www.geeksforgeeks.org/?s=capacitor+capacitance)",
+"tags": ["electrical", "capacitors", "circuits", "capacitance"]
+},
+{
+"topic": "Inductors",
+"difficulty": "easy",
+"question_text": "The SI unit of inductance is:",
+"options": ["Farad", "Ohm", "Henry", "Coulomb"],
+"correct_answer": "Henry",
+"resource_link": "[https://www.geeksforgeeks.org/?s=inductor+inductance](https://www.geeksforgeeks.org/?s=inductor+inductance)",
+"tags": ["electrical", "inductors", "circuits", "inductance"]
+},
+{
+"topic": "AC Fundamentals",
+"difficulty": "easy",
+"question_text": "The frequency of standard AC supply in India is:",
+"options": ["25 Hz", "50 Hz", "60 Hz", "100 Hz"],
+"correct_answer": "50 Hz",
+"resource_link": "[https://www.geeksforgeeks.org/?s=alternating+current+ac](https://www.geeksforgeeks.org/?s=alternating+current+ac)",
+"tags": ["electrical", "ac", "power-systems", "frequency"]
+},
+{
+"topic": "Transformers",
+"difficulty": "easy",
+"question_text": "A transformer operates primarily on the principle of:",
+"options": ["Electrolysis", "Mutual induction", "Photoelectric effect", "Thermionic emission"],
+"correct_answer": "Mutual induction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=transformer+mutual+induction](https://www.geeksforgeeks.org/?s=transformer+mutual+induction)",
+"tags": ["electrical", "transformers", "ac", "power"]
+},
+{
+"topic": "DC Motors",
+"difficulty": "easy",
+"question_text": "A DC motor converts:",
+"options": ["Mechanical energy to electrical energy", "Electrical energy to mechanical energy", "Heat to electrical energy", "Chemical energy to mechanical energy"],
+"correct_answer": "Electrical energy to mechanical energy",
+"resource_link": "[https://www.geeksforgeeks.org/?s=dc+motor](https://www.geeksforgeeks.org/?s=dc+motor)",
+"tags": ["electrical", "motors", "dc", "machines"]
+},
+{
+"topic": "Generators",
+"difficulty": "easy",
+"question_text": "An electrical generator converts:",
+"options": ["Electrical energy to mechanical energy", "Mechanical energy to electrical energy", "Electrical energy to heat", "Heat to mechanical energy"],
+"correct_answer": "Mechanical energy to electrical energy",
+"resource_link": "[https://www.geeksforgeeks.org/?s=electrical+generator](https://www.geeksforgeeks.org/?s=electrical+generator)",
+"tags": ["electrical", "generators", "machines", "power"]
+},
+{
+"topic": "Diodes",
+"difficulty": "easy",
+"question_text": "An ideal diode conducts current primarily in:",
+"options": ["Both directions equally", "One direction", "No direction", "Only at zero voltage"],
+"correct_answer": "One direction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=diode](https://www.geeksforgeeks.org/?s=diode)",
+"tags": ["electronics", "diodes", "semiconductors", "circuits"]
+},
+{
+"topic": "Transistors",
+"difficulty": "easy",
+"question_text": "A transistor can commonly be used as a:",
+"options": ["Switch and amplifier", "Transformer only", "Fuse only", "Battery only"],
+"correct_answer": "Switch and amplifier",
+"resource_link": "[https://www.geeksforgeeks.org/?s=transistor](https://www.geeksforgeeks.org/?s=transistor)",
+"tags": ["electronics", "transistors", "amplifiers", "switching"]
+},
+{
+"topic": "Thevenin's Theorem",
+"difficulty": "medium",
+"question_text": "A linear two-terminal network can be replaced by an equivalent:",
+"options": ["Voltage source in series with resistance", "Current source in series with resistance", "Voltage source in parallel with capacitance only", "Resistor only"],
+"correct_answer": "Voltage source in series with resistance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=thevenin+theorem](https://www.geeksforgeeks.org/?s=thevenin+theorem)",
+"tags": ["electrical", "network-analysis", "thevenin", "circuits"]
+},
+{
+"topic": "Norton's Theorem",
+"difficulty": "medium",
+"question_text": "Norton's equivalent circuit consists of:",
+"options": ["Voltage source in series with resistance", "Current source in parallel with resistance", "Voltage source in parallel with resistance", "Current source in series with capacitance"],
+"correct_answer": "Current source in parallel with resistance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=norton+theorem](https://www.geeksforgeeks.org/?s=norton+theorem)",
+"tags": ["electrical", "network-analysis", "norton", "circuits"]
+},
+{
+"topic": "Superposition Theorem",
+"difficulty": "medium",
+"question_text": "The superposition theorem applies to:",
+"options": ["Linear circuits", "Only nonlinear circuits", "Only magnetic circuits", "Only digital circuits"],
+"correct_answer": "Linear circuits",
+"resource_link": "[https://www.geeksforgeeks.org/?s=superposition+theorem+circuit](https://www.geeksforgeeks.org/?s=superposition+theorem+circuit)",
+"tags": ["electrical", "network-analysis", "superposition", "linear-circuits"]
+},
+{
+"topic": "Maximum Power Transfer",
+"difficulty": "medium",
+"question_text": "For a DC resistive network, maximum power is transferred to the load when load resistance equals:",
+"options": ["Zero", "The source resistance", "Twice the source resistance", "Half the source resistance"],
+"correct_answer": "The source resistance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=maximum+power+transfer+theorem](https://www.geeksforgeeks.org/?s=maximum+power+transfer+theorem)",
+"tags": ["electrical", "network-analysis", "power-transfer", "circuits"]
+},
+{
+"topic": "RLC Circuits",
+"difficulty": "medium",
+"question_text": "In a series RLC circuit at resonance, the impedance is:",
+"options": ["Maximum", "Minimum", "Infinite", "Always zero"],
+"correct_answer": "Minimum",
+"resource_link": "[https://www.geeksforgeeks.org/?s=series+rlc+resonance](https://www.geeksforgeeks.org/?s=series+rlc+resonance)",
+"tags": ["electrical", "ac", "rlc", "resonance"]
+},
+{
+"topic": "Power Factor",
+"difficulty": "medium",
+"question_text": "Power factor of an AC circuit is equal to:",
+"options": ["sin phi", "cos phi", "tan phi", "1/cos phi"],
+"correct_answer": "cos phi",
+"resource_link": "[https://www.geeksforgeeks.org/?s=power+factor+ac](https://www.geeksforgeeks.org/?s=power+factor+ac)",
+"tags": ["electrical", "ac", "power-factor", "power-systems"]
+},
+{
+"topic": "Three-Phase Systems",
+"difficulty": "medium",
+"question_text": "In a balanced three-phase system, the phase difference between any two phases is:",
+"options": ["30 degrees", "60 degrees", "90 degrees", "120 degrees"],
+"correct_answer": "120 degrees",
+"resource_link": "[https://www.geeksforgeeks.org/?s=three+phase+system](https://www.geeksforgeeks.org/?s=three+phase+system)",
+"tags": ["electrical", "three-phase", "ac", "power-systems"]
+},
+{
+"topic": "Star Connection",
+"difficulty": "medium",
+"question_text": "For a balanced star-connected three-phase load, line voltage is equal to:",
+"options": ["Phase voltage", "sqrt(3) times phase voltage", "Phase voltage divided by sqrt(3)", "Three times phase voltage"],
+"correct_answer": "sqrt(3) times phase voltage",
+"resource_link": "[https://www.geeksforgeeks.org/?s=star+delta+connection](https://www.geeksforgeeks.org/?s=star+delta+connection)",
+"tags": ["electrical", "three-phase", "star-connection", "ac"]
+},
+{
+"topic": "Delta Connection",
+"difficulty": "medium",
+"question_text": "For a balanced delta-connected load, line voltage is equal to:",
+"options": ["Phase voltage", "sqrt(3) times phase voltage", "Phase voltage divided by sqrt(3)", "Three times phase voltage"],
+"correct_answer": "Phase voltage",
+"resource_link": "[https://www.geeksforgeeks.org/?s=star+delta+connection](https://www.geeksforgeeks.org/?s=star+delta+connection)",
+"tags": ["electrical", "three-phase", "delta-connection", "ac"]
+},
+{
+"topic": "Transformer EMF",
+"difficulty": "medium",
+"question_text": "A transformer requires AC rather than steady DC mainly because:",
+"options": ["AC creates changing magnetic flux", "DC has no voltage", "AC has no current", "DC always has high frequency"],
+"correct_answer": "AC creates changing magnetic flux",
+"resource_link": "[https://www.geeksforgeeks.org/?s=transformer+working+principle](https://www.geeksforgeeks.org/?s=transformer+working+principle)",
+"tags": ["electrical", "transformers", "ac", "electromagnetism"]
+},
+{
+"topic": "Transformer Efficiency",
+"difficulty": "medium",
+"question_text": "Transformer efficiency is the ratio of:",
+"options": ["Input power to output power", "Output power to input power", "Losses to output power", "Voltage to current"],
+"correct_answer": "Output power to input power",
+"resource_link": "[https://www.geeksforgeeks.org/?s=transformer+efficiency](https://www.geeksforgeeks.org/?s=transformer+efficiency)",
+"tags": ["electrical", "transformers", "efficiency", "power"]
+},
+{
+"topic": "Induction Motors",
+"difficulty": "medium",
+"question_text": "The rotor of a squirrel-cage induction motor normally has:",
+"options": ["Slip rings and brushes", "Conducting bars short-circuited by end rings", "Permanent magnets only", "A commutator"],
+"correct_answer": "Conducting bars short-circuited by end rings",
+"resource_link": "[https://www.geeksforgeeks.org/?s=squirrel+cage+induction+motor](https://www.geeksforgeeks.org/?s=squirrel+cage+induction+motor)",
+"tags": ["electrical", "motors", "induction", "machines"]
+},
+{
+"topic": "Synchronous Speed",
+"difficulty": "medium",
+"question_text": "The synchronous speed of an AC machine depends on:",
+"options": ["Voltage and resistance", "Frequency and number of poles", "Current and resistance", "Power factor only"],
+"correct_answer": "Frequency and number of poles",
+"resource_link": "[https://www.geeksforgeeks.org/?s=synchronous+speed+induction+motor](https://www.geeksforgeeks.org/?s=synchronous+speed+induction+motor)",
+"tags": ["electrical", "motors", "synchronous", "machines"]
+},
+{
+"topic": "Induction Motor Slip",
+"difficulty": "medium",
+"question_text": "In an induction motor operating as a motor, rotor speed is normally:",
+"options": ["Greater than synchronous speed", "Equal to synchronous speed", "Less than synchronous speed", "Always zero"],
+"correct_answer": "Less than synchronous speed",
+"resource_link": "[https://www.geeksforgeeks.org/?s=induction+motor+slip](https://www.geeksforgeeks.org/?s=induction+motor+slip)",
+"tags": ["electrical", "motors", "induction", "slip"]
+},
+{
+"topic": "Rectifiers",
+"difficulty": "medium",
+"question_text": "A bridge rectifier commonly uses how many diodes for single-phase full-wave rectification?",
+"options": ["One", "Two", "Four", "Six"],
+"correct_answer": "Four",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bridge+rectifier](https://www.geeksforgeeks.org/?s=bridge+rectifier)",
+"tags": ["electronics", "rectifiers", "power-electronics", "diodes"]
+},
+{
+"topic": "Zener Diode",
+"difficulty": "medium",
+"question_text": "A Zener diode is commonly used for:",
+"options": ["Voltage regulation", "Mechanical switching", "Increasing resistance indefinitely", "Generating mechanical power"],
+"correct_answer": "Voltage regulation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=zener+diode+voltage+regulator](https://www.geeksforgeeks.org/?s=zener+diode+voltage+regulator)",
+"tags": ["electronics", "zener", "voltage-regulation", "semiconductors"]
+},
+{
+"topic": "Operational Amplifiers",
+"difficulty": "medium",
+"question_text": "An ideal operational amplifier has approximately:",
+"options": ["Zero input impedance", "Infinite input impedance", "Infinite output current only", "Zero voltage gain"],
+"correct_answer": "Infinite input impedance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=operational+amplifier](https://www.geeksforgeeks.org/?s=operational+amplifier)",
+"tags": ["electronics", "op-amp", "amplifiers", "analog"]
+},
+{
+"topic": "Digital Logic",
+"difficulty": "medium",
+"question_text": "Which logic gate produces a HIGH output only when all its inputs are HIGH?",
+"options": ["OR", "AND", "XOR", "NOR"],
+"correct_answer": "AND",
+"resource_link": "[https://www.geeksforgeeks.org/?s=logic+gates](https://www.geeksforgeeks.org/?s=logic+gates)",
+"tags": ["electronics", "digital", "logic-gates", "digital-logic"]
+},
+{
+"topic": "Power Electronics",
+"difficulty": "medium",
+"question_text": "A thyristor is commonly represented by the device:",
+"options": ["SCR", "LED", "LDR", "JFET"],
+"correct_answer": "SCR",
+"resource_link": "[https://www.geeksforgeeks.org/?s=scr+thyristor](https://www.geeksforgeeks.org/?s=scr+thyristor)",
+"tags": ["electrical", "power-electronics", "scr", "thyristor"]
+},
+{
+"topic": "Control Systems",
+"difficulty": "hard",
+"question_text": "A system is generally considered stable in the BIBO sense if every bounded input produces:",
+"options": ["An unbounded output", "A bounded output", "A zero output", "An infinite output"],
+"correct_answer": "A bounded output",
+"resource_link": "[https://www.geeksforgeeks.org/?s=control+system+stability](https://www.geeksforgeeks.org/?s=control+system+stability)",
+"tags": ["electrical", "control-systems", "stability", "automation"]
+},
+{
+"topic": "Power Systems",
+"difficulty": "hard",
+"question_text": "Why is electrical power transmitted at high voltage?",
+"options": ["To increase transmission current", "To reduce I²R losses for a given power", "To increase conductor resistance", "To eliminate transformers"],
+"correct_answer": "To reduce I²R losses for a given power",
+"resource_link": "[https://www.geeksforgeeks.org/?s=power+transmission+high+voltage](https://www.geeksforgeeks.org/?s=power+transmission+high+voltage)",
+"tags": ["electrical", "power-systems", "transmission", "grid"]
+},
+{
+"topic": "Power Factor Correction",
+"difficulty": "hard",
+"question_text": "For an inductive load, power factor can commonly be improved by connecting a:",
+"options": ["Capacitor", "Resistor in series only", "Fuse", "Transformer with open secondary"],
+"correct_answer": "Capacitor",
+"resource_link": "[https://www.geeksforgeeks.org/?s=power+factor+correction+capacitor](https://www.geeksforgeeks.org/?s=power+factor+correction+capacitor)",
+"tags": ["electrical", "power-factor", "capacitors", "power-systems"]
+},
+{
+"topic": "Fault Analysis",
+"difficulty": "hard",
+"question_text": "Which of the following is a symmetrical fault in a three-phase power system?",
+"options": ["Single line-to-ground fault", "Line-to-line fault", "Double line-to-ground fault", "Three-phase fault"],
+"correct_answer": "Three-phase fault",
+"resource_link": "[https://www.geeksforgeeks.org/?s=power+system+faults](https://www.geeksforgeeks.org/?s=power+system+faults)",
+"tags": ["electrical", "power-systems", "fault-analysis", "protection"]
+},
+{
+"topic": "Electrical Protection",
+"difficulty": "hard",
+"question_text": "The primary purpose of a circuit breaker in a power system is to:",
+"options": ["Generate power", "Interrupt fault current", "Increase voltage", "Improve frequency"],
+"correct_answer": "Interrupt fault current",
+"resource_link": "[https://www.geeksforgeeks.org/?s=circuit+breaker+power+system](https://www.geeksforgeeks.org/?s=circuit+breaker+power+system)",
+"tags": ["electrical", "protection", "circuit-breakers", "power-systems"]
+},
+{
+"topic": "Per Unit System",
+"difficulty": "hard",
+"question_text": "The per-unit value of a quantity is generally calculated as:",
+"options": ["Actual value × base value", "Actual value / base value", "Base value / actual value", "Actual value + base value"],
+"correct_answer": "Actual value / base value",
+"resource_link": "[https://www.geeksforgeeks.org/?s=per+unit+system+power+system](https://www.geeksforgeeks.org/?s=per+unit+system+power+system)",
+"tags": ["electrical", "power-systems", "per-unit", "analysis"]
+},
+{
+"topic": "Synchronous Machines",
+"difficulty": "hard",
+"question_text": "A synchronous motor operates at:",
+"options": ["A speed below synchronous speed", "Exactly synchronous speed under steady operation", "A speed continuously changing with load", "Zero speed"],
+"correct_answer": "Exactly synchronous speed under steady operation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=synchronous+motor](https://www.geeksforgeeks.org/?s=synchronous+motor)",
+"tags": ["electrical", "motors", "synchronous", "machines"]
+},
+{
+"topic": "DC Machine Back EMF",
+"difficulty": "hard",
+"question_text": "The back EMF in a DC motor primarily acts to:",
+"options": ["Increase armature current", "Oppose the applied voltage", "Stop magnetic flux", "Reverse the supply frequency"],
+"correct_answer": "Oppose the applied voltage",
+"resource_link": "[https://www.geeksforgeeks.org/?s=dc+motor+back+emf](https://www.geeksforgeeks.org/?s=dc+motor+back+emf)",
+"tags": ["electrical", "dc-motors", "back-emf", "machines"]
+},
+{
+"topic": "Electrical Drives",
+"difficulty": "hard",
+"question_text": "The main purpose of an electrical drive is to control:",
+"options": ["Only conductor temperature", "Speed and torque of a motor", "Only wire resistance", "Only supply frequency"],
+"correct_answer": "Speed and torque of a motor",
+"resource_link": "[https://www.geeksforgeeks.org/?s=electrical+drives](https://www.geeksforgeeks.org/?s=electrical+drives)",
+"tags": ["electrical", "drives", "motors", "automation"]
+},
+{
+"topic": "Power Electronics Converters",
+"difficulty": "hard",
+"question_text": "A DC-DC converter is primarily used to:",
+"options": ["Convert one DC voltage level to another", "Convert AC to mechanical energy", "Convert light to sound", "Measure resistance only"],
+"correct_answer": "Convert one DC voltage level to another",
+"resource_link": "[https://www.geeksforgeeks.org/?s=dc+dc+converter](https://www.geeksforgeeks.org/?s=dc+dc+converter)",
+"tags": ["electrical", "power-electronics", "dc-dc", "converters"]
+},
+{
+"topic": "Control Systems Feedback",
+"difficulty": "hard",
+"question_text": "Negative feedback in a control system generally tends to:",
+"options": ["Increase sensitivity to parameter variations", "Improve stability and reduce sensitivity", "Always make the system unstable", "Eliminate the need for a controller"],
+"correct_answer": "Improve stability and reduce sensitivity",
+"resource_link": "[https://www.geeksforgeeks.org/?s=negative+feedback+control+system](https://www.geeksforgeeks.org/?s=negative+feedback+control+system)",
+"tags": ["electrical", "control-systems", "feedback", "automation"]
+},
+{
+"topic": "Electrical Measurements",
+"difficulty": "hard",
+"question_text": "An instrument transformer used to measure very high currents is called a:",
+"options": ["Potential transformer", "Current transformer", "Isolation transformer", "Autotransformer"],
+"correct_answer": "Current transformer",
+"resource_link": "[https://www.geeksforgeeks.org/?s=current+transformer+instrumentation](https://www.geeksforgeeks.org/?s=current+transformer+instrumentation)",
+"tags": ["electrical", "measurements", "current-transformer", "instrumentation"]
+}
+]

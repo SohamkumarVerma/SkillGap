@@ -1,0 +1,371 @@
+[
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "What is the primary function of a microprocessor?",
+"options": ["Execute instructions and perform computations", "Store files permanently", "Generate network signals", "Provide electrical power"],
+"correct_answer": "Execute instructions and perform computations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microprocessor](https://www.geeksforgeeks.org/?s=microprocessor)",
+"tags": ["microprocessor", "cpu", "computer-architecture", "embedded"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "Which component performs arithmetic and logical operations in a microprocessor?",
+"options": ["ALU", "RAM", "Cache", "Clock generator"],
+"correct_answer": "ALU",
+"resource_link": "[https://www.geeksforgeeks.org/?s=arithmetic+logic+unit+ALU](https://www.geeksforgeeks.org/?s=arithmetic+logic+unit+ALU)",
+"tags": ["microprocessor", "alu", "digital-logic", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "What is the purpose of the program counter in a microprocessor?",
+"options": ["Store the address of the next instruction", "Store arithmetic results only", "Store input data permanently", "Control power consumption"],
+"correct_answer": "Store the address of the next instruction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=program+counter](https://www.geeksforgeeks.org/?s=program+counter)",
+"tags": ["microprocessor", "program-counter", "cpu", "registers"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "Which register normally stores the result of an arithmetic operation in a basic processor architecture?",
+"options": ["Accumulator", "Program Counter", "Stack Pointer", "Instruction Register"],
+"correct_answer": "Accumulator",
+"resource_link": "[https://www.geeksforgeeks.org/?s=accumulator+microprocessor](https://www.geeksforgeeks.org/?s=accumulator+microprocessor)",
+"tags": ["microprocessor", "accumulator", "registers", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "Which bus carries the address of a memory location?",
+"options": ["Address bus", "Data bus", "Control bus", "Power bus"],
+"correct_answer": "Address bus",
+"resource_link": "[https://www.geeksforgeeks.org/?s=address+bus+data+bus+control+bus](https://www.geeksforgeeks.org/?s=address+bus+data+bus+control+bus)",
+"tags": ["microprocessor", "address-bus", "computer-architecture", "hardware"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "Which bus transfers data between the processor and other components?",
+"options": ["Data bus", "Address bus", "Clock bus", "Power bus"],
+"correct_answer": "Data bus",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+bus+microprocessor](https://www.geeksforgeeks.org/?s=data+bus+microprocessor)",
+"tags": ["microprocessor", "data-bus", "hardware", "computer-architecture"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "easy",
+"question_text": "What does the instruction register store?",
+"options": ["The instruction currently being decoded or executed", "The address of the next instruction only", "The power supply voltage", "The contents of external storage"],
+"correct_answer": "The instruction currently being decoded or executed",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+register](https://www.geeksforgeeks.org/?s=instruction+register)",
+"tags": ["microprocessor", "instruction-register", "cpu", "registers"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "What distinguishes a microcontroller from a typical microprocessor?",
+"options": ["A microcontroller integrates CPU, memory, and peripherals on one chip", "A microcontroller contains only an ALU", "A microcontroller cannot execute programs", "A microcontroller requires no clock"],
+"correct_answer": "A microcontroller integrates CPU, memory, and peripherals on one chip",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microcontroller+vs+microprocessor](https://www.geeksforgeeks.org/?s=microcontroller+vs+microprocessor)",
+"tags": ["microcontroller", "microprocessor", "embedded-systems", "hardware"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "Which memory typically stores the program in a microcontroller?",
+"options": ["Flash memory", "Cache only", "CPU register", "GPU memory"],
+"correct_answer": "Flash memory",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microcontroller+flash+memory](https://www.geeksforgeeks.org/?s=microcontroller+flash+memory)",
+"tags": ["microcontroller", "flash", "embedded-systems", "memory"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "What is GPIO used for in a microcontroller?",
+"options": ["General-purpose digital input and output", "Permanent program storage", "CPU instruction decoding", "Analog computation only"],
+"correct_answer": "General-purpose digital input and output",
+"resource_link": "[https://www.geeksforgeeks.org/?s=GPIO+microcontroller](https://www.geeksforgeeks.org/?s=GPIO+microcontroller)",
+"tags": ["microcontroller", "gpio", "embedded", "digital-io"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "What is an interrupt in a microcontroller?",
+"options": ["A signal that requests the processor to handle an event", "A permanent hardware failure", "A type of memory", "A method of increasing clock speed"],
+"correct_answer": "A signal that requests the processor to handle an event",
+"resource_link": "[https://www.geeksforgeeks.org/?s=interrupt+microcontroller](https://www.geeksforgeeks.org/?s=interrupt+microcontroller)",
+"tags": ["microcontroller", "interrupts", "embedded", "cpu"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "Which peripheral is commonly used to generate accurate time delays or periodic events?",
+"options": ["Timer", "GPIO", "UART", "ADC"],
+"correct_answer": "Timer",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microcontroller+timer](https://www.geeksforgeeks.org/?s=microcontroller+timer)",
+"tags": ["microcontroller", "timers", "embedded", "peripherals"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "What does ADC stand for in a microcontroller?",
+"options": ["Analog-to-Digital Converter", "Automatic Data Controller", "Advanced Digital Clock", "Analog Data Counter"],
+"correct_answer": "Analog-to-Digital Converter",
+"resource_link": "[https://www.geeksforgeeks.org/?s=analog+to+digital+converter+ADC](https://www.geeksforgeeks.org/?s=analog+to+digital+converter+ADC)",
+"tags": ["microcontroller", "adc", "embedded", "analog"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "Which communication interface is commonly used for asynchronous serial communication?",
+"options": ["UART", "ALU", "GPIO", "PWM"],
+"correct_answer": "UART",
+"resource_link": "[https://www.geeksforgeeks.org/?s=UART](https://www.geeksforgeeks.org/?s=UART)",
+"tags": ["microcontroller", "uart", "serial-communication", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "easy",
+"question_text": "What does PWM commonly control in embedded systems?",
+"options": ["Average power delivered to a load", "Instruction addresses", "Program counter values", "RAM capacity"],
+"correct_answer": "Average power delivered to a load",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pulse+width+modulation+PWM](https://www.geeksforgeeks.org/?s=pulse+width+modulation+PWM)",
+"tags": ["microcontroller", "pwm", "embedded", "control"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is pipelining in a processor?",
+"options": ["Overlapping different instruction stages to improve throughput", "Executing only one instruction per program", "Increasing RAM capacity", "Removing the control unit"],
+"correct_answer": "Overlapping different instruction stages to improve throughput",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+pipelining](https://www.geeksforgeeks.org/?s=instruction+pipelining)",
+"tags": ["microprocessor", "pipelining", "cpu", "performance"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is a control unit responsible for?",
+"options": ["Generating control signals that coordinate processor operations", "Performing all arithmetic operations", "Storing programs permanently", "Converting analog signals"],
+"correct_answer": "Generating control signals that coordinate processor operations",
+"resource_link": "[https://www.geeksforgeeks.org/?s=control+unit+cpu](https://www.geeksforgeeks.org/?s=control+unit+cpu)",
+"tags": ["microprocessor", "control-unit", "cpu", "digital-logic"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is the role of the stack pointer?",
+"options": ["Point to the current top of the stack", "Point to the next instruction", "Store the current instruction", "Store the ALU result permanently"],
+"correct_answer": "Point to the current top of the stack",
+"resource_link": "[https://www.geeksforgeeks.org/?s=stack+pointer+cpu](https://www.geeksforgeeks.org/?s=stack+pointer+cpu)",
+"tags": ["microprocessor", "stack-pointer", "registers", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is a hardware interrupt typically used for?",
+"options": ["Allowing external hardware to request processor attention", "Increasing memory size", "Changing source code", "Replacing the ALU"],
+"correct_answer": "Allowing external hardware to request processor attention",
+"resource_link": "[https://www.geeksforgeeks.org/?s=hardware+interrupt](https://www.geeksforgeeks.org/?s=hardware+interrupt)",
+"tags": ["microprocessor", "interrupts", "hardware", "embedded"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is the main purpose of cache memory?",
+"options": ["Reduce average memory access time", "Provide permanent file storage", "Generate clock signals", "Convert analog signals"],
+"correct_answer": "Reduce average memory access time",
+"resource_link": "[https://www.geeksforgeeks.org/?s=cache+memory+computer+architecture](https://www.geeksforgeeks.org/?s=cache+memory+computer+architecture)",
+"tags": ["microprocessor", "cache", "memory", "performance"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What happens during the instruction fetch stage?",
+"options": ["The processor obtains an instruction from memory", "The processor permanently stores the result", "The ALU converts analog signals", "The processor powers off"],
+"correct_answer": "The processor obtains an instruction from memory",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+cycle+fetch+decode+execute](https://www.geeksforgeeks.org/?s=instruction+cycle+fetch+decode+execute)",
+"tags": ["microprocessor", "instruction-cycle", "fetch", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "Which addressing mode places the operand value directly in the instruction?",
+"options": ["Immediate addressing", "Indirect addressing", "Register indirect addressing", "Indexed addressing"],
+"correct_answer": "Immediate addressing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=addressing+modes+microprocessor](https://www.geeksforgeeks.org/?s=addressing+modes+microprocessor)",
+"tags": ["microprocessor", "addressing-modes", "instruction-set", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is an instruction set architecture (ISA)?",
+"options": ["The interface defining instructions and programmer-visible processor behavior", "The physical layout of a PCB", "A type of RAM", "A compiler optimization only"],
+"correct_answer": "The interface defining instructions and programmer-visible processor behavior",
+"resource_link": "[https://www.geeksforgeeks.org/?s=instruction+set+architecture+ISA](https://www.geeksforgeeks.org/?s=instruction+set+architecture+ISA)",
+"tags": ["microprocessor", "isa", "instruction-set", "cpu"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "Why are microcontrollers widely used in embedded systems?",
+"options": ["They integrate processing, memory, and peripherals in a compact low-cost device", "They require a separate computer for every instruction", "They are designed only for desktop applications", "They cannot interact with sensors"],
+"correct_answer": "They integrate processing, memory, and peripherals in a compact low-cost device",
+"resource_link": "[https://www.geeksforgeeks.org/?s=microcontroller+embedded+systems](https://www.geeksforgeeks.org/?s=microcontroller+embedded+systems)",
+"tags": ["microcontroller", "embedded-systems", "iot", "hardware"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "What is the main purpose of a watchdog timer?",
+"options": ["Reset the system if software becomes unresponsive", "Increase RAM capacity", "Perform floating-point calculations", "Store application files"],
+"correct_answer": "Reset the system if software becomes unresponsive",
+"resource_link": "[https://www.geeksforgeeks.org/?s=watchdog+timer+microcontroller](https://www.geeksforgeeks.org/?s=watchdog+timer+microcontroller)",
+"tags": ["microcontroller", "watchdog", "embedded", "reliability"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "Which protocol commonly supports communication between multiple devices using two wires, SDA and SCL?",
+"options": ["I2C", "UART", "USB", "Ethernet"],
+"correct_answer": "I2C",
+"resource_link": "[https://www.geeksforgeeks.org/?s=I2C+protocol](https://www.geeksforgeeks.org/?s=I2C+protocol)",
+"tags": ["microcontroller", "i2c", "communication", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "Which protocol commonly uses MOSI, MISO, SCLK, and chip-select signals?",
+"options": ["SPI", "I2C", "UART", "CAN"],
+"correct_answer": "SPI",
+"resource_link": "[https://www.geeksforgeeks.org/?s=SPI+protocol](https://www.geeksforgeeks.org/?s=SPI+protocol)",
+"tags": ["microcontroller", "spi", "communication", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "What is the purpose of an embedded system's real-time constraint?",
+"options": ["Ensure responses occur within specified timing requirements", "Maximize storage capacity", "Eliminate interrupts", "Prevent peripheral communication"],
+"correct_answer": "Ensure responses occur within specified timing requirements",
+"resource_link": "[https://www.geeksforgeeks.org/?s=real+time+embedded+systems](https://www.geeksforgeeks.org/?s=real+time+embedded+systems)",
+"tags": ["microcontroller", "embedded-systems", "real-time", "firmware"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "medium",
+"question_text": "What is a microprocessor's clock frequency primarily related to?",
+"options": ["The rate at which processor clock cycles occur", "The physical RAM capacity", "The number of USB ports", "The size of the hard drive"],
+"correct_answer": "The rate at which processor clock cycles occur",
+"resource_link": "[https://www.geeksforgeeks.org/?s=clock+speed+processor](https://www.geeksforgeeks.org/?s=clock+speed+processor)",
+"tags": ["microprocessor", "clock-frequency", "cpu", "performance"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "medium",
+"question_text": "What is firmware?",
+"options": ["Software stored in or closely associated with hardware that controls its operation", "A type of processor cache", "A physical circuit board", "A database query language"],
+"correct_answer": "Software stored in or closely associated with hardware that controls its operation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=firmware](https://www.geeksforgeeks.org/?s=firmware)",
+"tags": ["microcontroller", "firmware", "embedded", "hardware"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "What is a pipeline hazard?",
+"options": ["A condition that prevents the next instruction from executing normally in a pipeline", "A type of memory chip", "A processor power connector", "A method for increasing RAM"],
+"correct_answer": "A condition that prevents the next instruction from executing normally in a pipeline",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pipeline+hazards](https://www.geeksforgeeks.org/?s=pipeline+hazards)",
+"tags": ["microprocessor", "pipeline-hazards", "cpu", "architecture"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "Which hazard occurs when an instruction depends on the result of an earlier instruction that has not completed?",
+"options": ["Data hazard", "Structural hazard", "Control hazard", "Power hazard"],
+"correct_answer": "Data hazard",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+hazards+pipeline](https://www.geeksforgeeks.org/?s=data+hazards+pipeline)",
+"tags": ["microprocessor", "data-hazard", "pipelining", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "What is branch prediction used for in a pipelined processor?",
+"options": ["Predict the outcome or target of a branch to reduce control stalls", "Increase physical RAM", "Convert instructions into analog signals", "Replace the instruction decoder"],
+"correct_answer": "Predict the outcome or target of a branch to reduce control stalls",
+"resource_link": "[https://www.geeksforgeeks.org/?s=branch+prediction](https://www.geeksforgeeks.org/?s=branch+prediction)",
+"tags": ["microprocessor", "branch-prediction", "pipelining", "performance"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "What is the purpose of a memory management unit (MMU)?",
+"options": ["Translate virtual addresses to physical addresses and enforce memory protection", "Perform arithmetic operations", "Generate PWM signals", "Decode audio data"],
+"correct_answer": "Translate virtual addresses to physical addresses and enforce memory protection",
+"resource_link": "[https://www.geeksforgeeks.org/?s=memory+management+unit+MMU](https://www.geeksforgeeks.org/?s=memory+management+unit+MMU)",
+"tags": ["microprocessor", "mmu", "memory-management", "cpu"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "What is out-of-order execution?",
+"options": ["Executing independent instructions when their operands are ready rather than strictly following program order", "Executing instructions only after program termination", "Running instructions without a CPU", "Executing only branch instructions"],
+"correct_answer": "Executing independent instructions when their operands are ready rather than strictly following program order",
+"resource_link": "[https://www.geeksforgeeks.org/?s=out+of+order+execution](https://www.geeksforgeeks.org/?s=out+of+order+execution)",
+"tags": ["microprocessor", "out-of-order", "cpu", "performance"]
+},
+{
+"topic": "Microprocessors",
+"difficulty": "hard",
+"question_text": "What is superscalar execution?",
+"options": ["Executing multiple instructions per clock cycle using multiple execution units", "Executing instructions only sequentially", "Increasing the number of memory addresses", "Using only one ALU for every processor"],
+"correct_answer": "Executing multiple instructions per clock cycle using multiple execution units",
+"resource_link": "[https://www.geeksforgeeks.org/?s=superscalar+processor](https://www.geeksforgeeks.org/?s=superscalar+processor)",
+"tags": ["microprocessor", "superscalar", "cpu", "performance"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "hard",
+"question_text": "What is interrupt latency?",
+"options": ["The time between an interrupt request and the start of its servicing", "The time required to erase flash memory", "The duration of a clock cycle only", "The time required to compile firmware"],
+"correct_answer": "The time between an interrupt request and the start of its servicing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=interrupt+latency](https://www.geeksforgeeks.org/?s=interrupt+latency)",
+"tags": ["microcontroller", "interrupt-latency", "real-time", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "hard",
+"question_text": "Why is DMA useful in microcontroller-based systems?",
+"options": ["It allows peripherals to transfer data to or from memory with minimal CPU involvement", "It increases CPU clock frequency", "It replaces flash memory", "It removes all interrupts"],
+"correct_answer": "It allows peripherals to transfer data to or from memory with minimal CPU involvement",
+"resource_link": "[https://www.geeksforgeeks.org/?s=direct+memory+access+DMA](https://www.geeksforgeeks.org/?s=direct+memory+access+DMA)",
+"tags": ["microcontroller", "dma", "memory", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "hard",
+"question_text": "What is a real-time operating system (RTOS) primarily designed to provide?",
+"options": ["Predictable task scheduling and timing behavior", "Unlimited memory", "Faster internet access", "Permanent data storage"],
+"correct_answer": "Predictable task scheduling and timing behavior",
+"resource_link": "[https://www.geeksforgeeks.org/?s=real+time+operating+system+RTOS](https://www.geeksforgeeks.org/?s=real+time+operating+system+RTOS)",
+"tags": ["microcontroller", "rtos", "embedded", "real-time"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "hard",
+"question_text": "What is debouncing required for when interfacing a mechanical push button with a microcontroller?",
+"options": ["Preventing multiple unintended transitions caused by mechanical contact bounce", "Increasing processor frequency", "Converting analog voltage to digital data", "Encrypting button input"],
+"correct_answer": "Preventing multiple unintended transitions caused by mechanical contact bounce",
+"resource_link": "[https://www.geeksforgeeks.org/?s=switch+debouncing](https://www.geeksforgeeks.org/?s=switch+debouncing)",
+"tags": ["microcontroller", "debouncing", "gpio", "embedded"]
+},
+{
+"topic": "Microcontrollers",
+"difficulty": "hard",
+"question_text": "What is the main advantage of using memory-mapped I/O?",
+"options": ["Hardware peripherals can be accessed using normal memory-addressing instructions", "It eliminates all memory", "It prevents peripheral access", "It requires a separate CPU for every peripheral"],
+"correct_answer": "Hardware peripherals can be accessed using normal memory-addressing instructions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=memory+mapped+io](https://www.geeksforgeeks.org/?s=memory+mapped+io)",
+"tags": ["microcontroller", "memory-mapped-io", "embedded", "hardware"]
+}
+]

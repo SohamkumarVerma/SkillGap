@@ -1,0 +1,362 @@
+[
+{
+"topic": "Business Analytics Fundamentals",
+"difficulty": "easy",
+"question_text": "What is the primary purpose of business analytics?",
+"options": ["Use data to support business decision-making", "Replace all business processes with automation", "Store unlimited amounts of data", "Eliminate the need for managers"],
+"correct_answer": "Use data to support business decision-making",
+"resource_link": "[https://www.geeksforgeeks.org/?s=business+analytics](https://www.geeksforgeeks.org/?s=business+analytics)",
+"tags": ["business-analytics", "data-analysis", "decision-making", "business-intelligence"]
+},
+{
+"topic": "Descriptive Analytics",
+"difficulty": "easy",
+"question_text": "Which type of analytics answers the question 'What happened?'",
+"options": ["Descriptive analytics", "Predictive analytics", "Prescriptive analytics", "Diagnostic analytics"],
+"correct_answer": "Descriptive analytics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=descriptive+analytics](https://www.geeksforgeeks.org/?s=descriptive+analytics)",
+"tags": ["business-analytics", "descriptive-analytics", "data-analysis", "reporting"]
+},
+{
+"topic": "Diagnostic Analytics",
+"difficulty": "easy",
+"question_text": "Which type of analytics focuses on understanding why something happened?",
+"options": ["Diagnostic analytics", "Descriptive analytics", "Predictive analytics", "Prescriptive analytics"],
+"correct_answer": "Diagnostic analytics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=diagnostic+analytics](https://www.geeksforgeeks.org/?s=diagnostic+analytics)",
+"tags": ["business-analytics", "diagnostic-analytics", "data-analysis", "business-intelligence"]
+},
+{
+"topic": "Predictive Analytics",
+"difficulty": "easy",
+"question_text": "What is the main goal of predictive analytics?",
+"options": ["Predict future outcomes using data", "Summarize past transactions only", "Delete inaccurate records", "Create database tables"],
+"correct_answer": "Predict future outcomes using data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=predictive+analytics](https://www.geeksforgeeks.org/?s=predictive+analytics)",
+"tags": ["business-analytics", "predictive-analytics", "forecasting", "data-analysis"]
+},
+{
+"topic": "Prescriptive Analytics",
+"difficulty": "easy",
+"question_text": "Which type of analytics recommends actions based on data and predictions?",
+"options": ["Prescriptive analytics", "Descriptive analytics", "Diagnostic analytics", "Exploratory analytics"],
+"correct_answer": "Prescriptive analytics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=prescriptive+analytics](https://www.geeksforgeeks.org/?s=prescriptive+analytics)",
+"tags": ["business-analytics", "prescriptive-analytics", "decision-making", "optimization"]
+},
+{
+"topic": "Data Visualization",
+"difficulty": "easy",
+"question_text": "Which chart is generally most suitable for showing trends over time?",
+"options": ["Line chart", "Pie chart", "Histogram", "Scatter plot"],
+"correct_answer": "Line chart",
+"resource_link": "[https://www.geeksforgeeks.org/?s=data+visualization+line+chart](https://www.geeksforgeeks.org/?s=data+visualization+line+chart)",
+"tags": ["business-analytics", "data-visualization", "charts", "reporting"]
+},
+{
+"topic": "Data Visualization",
+"difficulty": "easy",
+"question_text": "Which chart is commonly used to compare values across categories?",
+"options": ["Bar chart", "Line chart", "Scatter plot", "Box plot"],
+"correct_answer": "Bar chart",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bar+chart+data+visualization](https://www.geeksforgeeks.org/?s=bar+chart+data+visualization)",
+"tags": ["business-analytics", "data-visualization", "charts", "reporting"]
+},
+{
+"topic": "Statistics",
+"difficulty": "easy",
+"question_text": "What does the mean represent?",
+"options": ["The arithmetic average", "The most frequent value", "The middle value after sorting", "The largest value"],
+"correct_answer": "The arithmetic average",
+"resource_link": "[https://www.geeksforgeeks.org/mean-median-mode/](https://www.geeksforgeeks.org/mean-median-mode/)",
+"tags": ["business-analytics", "statistics", "mean", "data-analysis"]
+},
+{
+"topic": "Statistics",
+"difficulty": "easy",
+"question_text": "What is the median?",
+"options": ["The middle value of an ordered dataset", "The arithmetic average", "The most frequent value", "The difference between maximum and minimum"],
+"correct_answer": "The middle value of an ordered dataset",
+"resource_link": "[https://www.geeksforgeeks.org/mean-median-mode/](https://www.geeksforgeeks.org/mean-median-mode/)",
+"tags": ["business-analytics", "statistics", "median", "data-analysis"]
+},
+{
+"topic": "Statistics",
+"difficulty": "easy",
+"question_text": "What does the mode identify in a dataset?",
+"options": ["The most frequently occurring value", "The middle value", "The average value", "The range of values"],
+"correct_answer": "The most frequently occurring value",
+"resource_link": "[https://www.geeksforgeeks.org/mean-median-mode/](https://www.geeksforgeeks.org/mean-median-mode/)",
+"tags": ["business-analytics", "statistics", "mode", "data-analysis"]
+},
+{
+"topic": "SQL for Analytics",
+"difficulty": "easy",
+"question_text": "Which SQL clause is used to group rows for aggregate calculations?",
+"options": ["GROUP BY", "ORDER BY", "WHERE", "LIMIT"],
+"correct_answer": "GROUP BY",
+"resource_link": "[https://www.geeksforgeeks.org/sql-group-by/](https://www.geeksforgeeks.org/sql-group-by/)",
+"tags": ["business-analytics", "sql", "data-analysis", "databases"]
+},
+{
+"topic": "SQL for Analytics",
+"difficulty": "easy",
+"question_text": "Which SQL function calculates the average of a numeric column?",
+"options": ["AVG()", "SUM()", "COUNT()", "MAX()"],
+"correct_answer": "AVG()",
+"resource_link": "[https://www.geeksforgeeks.org/sql-aggregate-functions/](https://www.geeksforgeeks.org/sql-aggregate-functions/)",
+"tags": ["business-analytics", "sql", "aggregation", "data-analysis"]
+},
+{
+"topic": "Data Cleaning",
+"difficulty": "easy",
+"question_text": "What is a missing value in a dataset?",
+"options": ["A data field with no recorded value", "A duplicated row", "An extremely large value", "A calculated field"],
+"correct_answer": "A data field with no recorded value",
+"resource_link": "[https://www.geeksforgeeks.org/handling-missing-values-in-pandas/](https://www.geeksforgeeks.org/handling-missing-values-in-pandas/)",
+"tags": ["business-analytics", "data-cleaning", "missing-data", "data-analysis"]
+},
+{
+"topic": "Excel Analytics",
+"difficulty": "easy",
+"question_text": "Which Excel feature is commonly used to summarize and analyze large datasets interactively?",
+"options": ["PivotTable", "WordArt", "Page Break", "Header and Footer"],
+"correct_answer": "PivotTable",
+"resource_link": "[https://www.geeksforgeeks.org/excel-pivot-table/](https://www.geeksforgeeks.org/excel-pivot-table/)",
+"tags": ["business-analytics", "excel", "pivot-tables", "data-analysis"]
+},
+{
+"topic": "Correlation",
+"difficulty": "easy",
+"question_text": "What does correlation measure?",
+"options": ["The strength and direction of association between variables", "The exact cause of an outcome", "The number of missing values", "The average of a dataset"],
+"correct_answer": "The strength and direction of association between variables",
+"resource_link": "[https://www.geeksforgeeks.org/correlation-in-statistics/](https://www.geeksforgeeks.org/correlation-in-statistics/)",
+"tags": ["business-analytics", "statistics", "correlation", "data-analysis"]
+},
+{
+"topic": "Statistics",
+"difficulty": "medium",
+"question_text": "What does standard deviation measure?",
+"options": ["The dispersion of values around the mean", "The number of observations", "The middle value", "The most frequent value"],
+"correct_answer": "The dispersion of values around the mean",
+"resource_link": "[https://www.geeksforgeeks.org/standard-deviation-formula/](https://www.geeksforgeeks.org/standard-deviation-formula/)",
+"tags": ["business-analytics", "statistics", "standard-deviation", "data-analysis"]
+},
+{
+"topic": "Statistics",
+"difficulty": "medium",
+"question_text": "A dataset has values 2, 4, 6, 8, and 10. What is its mean?",
+"options": ["6", "5", "7", "8"],
+"correct_answer": "6",
+"resource_link": "[https://www.geeksforgeeks.org/mean-median-mode/](https://www.geeksforgeeks.org/mean-median-mode/)",
+"tags": ["business-analytics", "statistics", "mean", "data-analysis"]
+},
+{
+"topic": "Data Cleaning",
+"difficulty": "medium",
+"question_text": "Which technique can be used to handle missing numerical values?",
+"options": ["Imputation using the mean or median", "Deleting the database", "Sorting the column", "Changing all values to zero without analysis"],
+"correct_answer": "Imputation using the mean or median",
+"resource_link": "[https://www.geeksforgeeks.org/handling-missing-values-in-pandas/](https://www.geeksforgeeks.org/handling-missing-values-in-pandas/)",
+"tags": ["business-analytics", "data-cleaning", "imputation", "data-analysis"]
+},
+{
+"topic": "Data Preprocessing",
+"difficulty": "medium",
+"question_text": "Why is data normalization commonly used before some machine learning algorithms?",
+"options": ["To put numerical features on comparable scales", "To remove all categorical variables", "To increase the number of rows", "To guarantee perfect predictions"],
+"correct_answer": "To put numerical features on comparable scales",
+"resource_link": "[https://www.geeksforgeeks.org/standardscaler-minmaxscaler-and-robustscaler-techniques-ml/](https://www.geeksforgeeks.org/standardscaler-minmaxscaler-and-robustscaler-techniques-ml/)",
+"tags": ["business-analytics", "data-preprocessing", "normalization", "machine-learning"]
+},
+{
+"topic": "SQL for Analytics",
+"difficulty": "medium",
+"question_text": "Which SQL clause filters individual rows before grouping?",
+"options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+"correct_answer": "WHERE",
+"resource_link": "[https://www.geeksforgeeks.org/sql-where-clause/](https://www.geeksforgeeks.org/sql-where-clause/)",
+"tags": ["business-analytics", "sql", "data-filtering", "queries"]
+},
+{
+"topic": "SQL for Analytics",
+"difficulty": "medium",
+"question_text": "Which SQL clause filters groups after aggregation?",
+"options": ["HAVING", "WHERE", "GROUP BY", "FROM"],
+"correct_answer": "HAVING",
+"resource_link": "[https://www.geeksforgeeks.org/sql-having-clause-with-examples/](https://www.geeksforgeeks.org/sql-having-clause-with-examples/)",
+"tags": ["business-analytics", "sql", "aggregation", "data-analysis"]
+},
+{
+"topic": "SQL for Analytics",
+"difficulty": "medium",
+"question_text": "Which SQL function counts the number of rows that satisfy a query?",
+"options": ["COUNT()", "SUM()", "AVG()", "ROUND()"],
+"correct_answer": "COUNT()",
+"resource_link": "[https://www.geeksforgeeks.org/sql-aggregate-functions/](https://www.geeksforgeeks.org/sql-aggregate-functions/)",
+"tags": ["business-analytics", "sql", "aggregation", "databases"]
+},
+{
+"topic": "Data Visualization",
+"difficulty": "medium",
+"question_text": "Which visualization is most appropriate for examining the relationship between two numerical variables?",
+"options": ["Scatter plot", "Pie chart", "Bar chart", "Stacked area chart"],
+"correct_answer": "Scatter plot",
+"resource_link": "[https://www.geeksforgeeks.org/data-visualization-with-python-using-scatter-plot/](https://www.geeksforgeeks.org/data-visualization-with-python-using-scatter-plot/)",
+"tags": ["business-analytics", "data-visualization", "scatter-plot", "statistics"]
+},
+{
+"topic": "Data Visualization",
+"difficulty": "medium",
+"question_text": "What is the main purpose of a dashboard in business analytics?",
+"options": ["Present key metrics and insights in an accessible visual format", "Store raw data permanently", "Replace the database", "Perform encryption"],
+"correct_answer": "Present key metrics and insights in an accessible visual format",
+"resource_link": "[https://www.geeksforgeeks.org/?s=business+intelligence+dashboard](https://www.geeksforgeeks.org/?s=business+intelligence+dashboard)",
+"tags": ["business-analytics", "dashboards", "business-intelligence", "reporting"]
+},
+{
+"topic": "Probability",
+"difficulty": "medium",
+"question_text": "If two events are independent, what is the probability that both occur?",
+"options": ["P(A) × P(B)", "P(A) + P(B)", "P(A) − P(B)", "P(A) / P(B)"],
+"correct_answer": "P(A) × P(B)",
+"resource_link": "[https://www.geeksforgeeks.org/probability-of-independent-events/](https://www.geeksforgeeks.org/probability-of-independent-events/)",
+"tags": ["business-analytics", "probability", "statistics", "data-analysis"]
+},
+{
+"topic": "Hypothesis Testing",
+"difficulty": "medium",
+"question_text": "What does a p-value help determine in hypothesis testing?",
+"options": ["How compatible the observed data is with the null hypothesis", "The size of the dataset", "The mean of the population", "The number of independent variables"],
+"correct_answer": "How compatible the observed data is with the null hypothesis",
+"resource_link": "[https://www.geeksforgeeks.org/p-value/](https://www.geeksforgeeks.org/p-value/)",
+"tags": ["business-analytics", "hypothesis-testing", "statistics", "p-value"]
+},
+{
+"topic": "Regression Analysis",
+"difficulty": "medium",
+"question_text": "What is the main purpose of linear regression?",
+"options": ["Model the relationship between a dependent variable and one or more predictors", "Sort a dataset", "Remove duplicate records", "Create database indexes"],
+"correct_answer": "Model the relationship between a dependent variable and one or more predictors",
+"resource_link": "[https://www.geeksforgeeks.org/linear-regression-python-implementation/](https://www.geeksforgeeks.org/linear-regression-python-implementation/)",
+"tags": ["business-analytics", "regression", "statistics", "predictive-analytics"]
+},
+{
+"topic": "Machine Learning for Analytics",
+"difficulty": "medium",
+"question_text": "Which type of machine learning uses labeled training data?",
+"options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Random search"],
+"correct_answer": "Supervised learning",
+"resource_link": "[https://www.geeksforgeeks.org/supervised-unsupervised-and-reinforcement-learning/](https://www.geeksforgeeks.org/supervised-unsupervised-and-reinforcement-learning/)",
+"tags": ["business-analytics", "machine-learning", "supervised-learning", "predictive-analytics"]
+},
+{
+"topic": "Clustering",
+"difficulty": "medium",
+"question_text": "What is the primary goal of clustering?",
+"options": ["Group similar observations together", "Predict a labeled target", "Calculate database joins", "Remove every outlier"],
+"correct_answer": "Group similar observations together",
+"resource_link": "[https://www.geeksforgeeks.org/clustering-in-machine-learning/](https://www.geeksforgeeks.org/clustering-in-machine-learning/)",
+"tags": ["business-analytics", "clustering", "machine-learning", "segmentation"]
+},
+{
+"topic": "Business Intelligence",
+"difficulty": "medium",
+"question_text": "What is a KPI?",
+"options": ["A measurable value used to evaluate performance against an objective", "A database encryption method", "A programming language", "A type of operating system"],
+"correct_answer": "A measurable value used to evaluate performance against an objective",
+"resource_link": "[https://www.geeksforgeeks.org/?s=key+performance+indicator+kpi](https://www.geeksforgeeks.org/?s=key+performance+indicator+kpi)",
+"tags": ["business-analytics", "kpi", "business-intelligence", "performance"]
+},
+{
+"topic": "Time Series Analysis",
+"difficulty": "hard",
+"question_text": "What is seasonality in a time series?",
+"options": ["A recurring pattern at regular intervals", "A permanent change in the average", "Random measurement error", "A missing observation"],
+"correct_answer": "A recurring pattern at regular intervals",
+"resource_link": "[https://www.geeksforgeeks.org/time-series-analysis-and-forecasting/](https://www.geeksforgeeks.org/time-series-analysis-and-forecasting/)",
+"tags": ["business-analytics", "time-series", "forecasting", "seasonality"]
+},
+{
+"topic": "Regression Analysis",
+"difficulty": "hard",
+"question_text": "In linear regression, what does R-squared measure?",
+"options": ["The proportion of variance in the dependent variable explained by the model", "The probability that the model is correct", "The number of predictors", "The average prediction error only"],
+"correct_answer": "The proportion of variance in the dependent variable explained by the model",
+"resource_link": "[https://www.geeksforgeeks.org/ml-r-squared-in-regression-analysis/](https://www.geeksforgeeks.org/ml-r-squared-in-regression-analysis/)",
+"tags": ["business-analytics", "regression", "r-squared", "predictive-analytics"]
+},
+{
+"topic": "Machine Learning Evaluation",
+"difficulty": "hard",
+"question_text": "Why is a separate test set used when evaluating a predictive model?",
+"options": ["To estimate performance on unseen data", "To increase the training sample", "To guarantee no overfitting", "To remove all categorical features"],
+"correct_answer": "To estimate performance on unseen data",
+"resource_link": "[https://www.geeksforgeeks.org/train-test-split/](https://www.geeksforgeeks.org/train-test-split/)",
+"tags": ["business-analytics", "machine-learning", "model-evaluation", "predictive-analytics"]
+},
+{
+"topic": "Classification Metrics",
+"difficulty": "hard",
+"question_text": "If false positives are particularly costly, which metric is especially important to monitor?",
+"options": ["Precision", "Recall", "Mean squared error", "R-squared"],
+"correct_answer": "Precision",
+"resource_link": "[https://www.geeksforgeeks.org/precision-recall-and-f1-score-for-classification/](https://www.geeksforgeeks.org/precision-recall-and-f1-score-for-classification/)",
+"tags": ["business-analytics", "classification", "precision", "machine-learning"]
+},
+{
+"topic": "Classification Metrics",
+"difficulty": "hard",
+"question_text": "Which metric is the harmonic mean of precision and recall?",
+"options": ["F1-score", "Accuracy", "Specificity", "Mean absolute error"],
+"correct_answer": "F1-score",
+"resource_link": "[https://www.geeksforgeeks.org/precision-recall-and-f1-score-for-classification/](https://www.geeksforgeeks.org/precision-recall-and-f1-score-for-classification/)",
+"tags": ["business-analytics", "classification", "f1-score", "machine-learning"]
+},
+{
+"topic": "Data Preprocessing",
+"difficulty": "hard",
+"question_text": "What problem can occur when a predictive model is trained on highly correlated input features?",
+"options": ["Multicollinearity", "Underflow", "Data serialization", "Normalization"],
+"correct_answer": "Multicollinearity",
+"resource_link": "[https://www.geeksforgeeks.org/multicollinearity-in-data-analysis/](https://www.geeksforgeeks.org/multicollinearity-in-data-analysis/)",
+"tags": ["business-analytics", "multicollinearity", "regression", "data-analysis"]
+},
+{
+"topic": "Machine Learning",
+"difficulty": "hard",
+"question_text": "What is overfitting?",
+"options": ["A model learns training data too closely and performs poorly on unseen data", "A model performs equally well on every dataset", "A model has no parameters", "A dataset contains missing values"],
+"correct_answer": "A model learns training data too closely and performs poorly on unseen data",
+"resource_link": "[https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)",
+"tags": ["business-analytics", "machine-learning", "overfitting", "model-evaluation"]
+},
+{
+"topic": "A/B Testing",
+"difficulty": "hard",
+"question_text": "What is the primary purpose of an A/B test?",
+"options": ["Compare two variants to determine whether one produces a better outcome", "Increase the size of a database", "Remove missing values", "Visualize a single variable"],
+"correct_answer": "Compare two variants to determine whether one produces a better outcome",
+"resource_link": "[https://www.geeksforgeeks.org/?s=a%2Fb+testing](https://www.geeksforgeeks.org/?s=a%2Fb+testing)",
+"tags": ["business-analytics", "ab-testing", "experimentation", "data-analysis"]
+},
+{
+"topic": "Forecasting",
+"difficulty": "hard",
+"question_text": "Why is a moving average useful in time-series analysis?",
+"options": ["It smooths short-term fluctuations to reveal underlying trends", "It guarantees accurate future predictions", "It removes all seasonal effects automatically", "It converts categorical variables into numbers"],
+"correct_answer": "It smooths short-term fluctuations to reveal underlying trends",
+"resource_link": "[https://www.geeksforgeeks.org/moving-average/](https://www.geeksforgeeks.org/moving-average/)",
+"tags": ["business-analytics", "forecasting", "time-series", "moving-average"]
+},
+{
+"topic": "Business Analytics Strategy",
+"difficulty": "hard",
+"question_text": "A model has 99% accuracy on a dataset where only 1% of cases belong to the positive class. What is the main concern?",
+"options": ["Accuracy may be misleading because of class imbalance", "The model must be perfectly calibrated", "The dataset cannot contain numerical variables", "Accuracy is always the best metric"],
+"correct_answer": "Accuracy may be misleading because of class imbalance",
+"resource_link": "[https://www.geeksforgeeks.org/handling-imbalanced-data-for-classification/](https://www.geeksforgeeks.org/handling-imbalanced-data-for-classification/)",
+"tags": ["business-analytics", "class-imbalance", "model-evaluation", "machine-learning"]
+}
+]

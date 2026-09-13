@@ -1,0 +1,344 @@
+[
+{
+"topic": "Unreal Engine Fundamentals",
+"difficulty": "easy",
+"question_text": "Which programming language is primarily used for native gameplay programming in Unreal Engine?",
+"options": ["C++", "Java", "Python", "C#"],
+"correct_answer": "C++",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+c%2B%2B](https://www.geeksforgeeks.org/?s=unreal+engine+c%2B%2B)",
+"tags": ["unreal engine", "c++", "game development", "game programming"]
+},
+{
+"topic": "Unreal Engine Blueprints",
+"difficulty": "easy",
+"question_text": "What are Blueprints in Unreal Engine?",
+"options": ["A visual scripting system", "A 3D modeling format", "A texture compression method", "A version control system"],
+"correct_answer": "A visual scripting system",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+blueprints](https://www.geeksforgeeks.org/?s=unreal+engine+blueprints)",
+"tags": ["blueprints", "visual scripting", "unreal engine", "game development"]
+},
+{
+"topic": "Unreal Engine Actors",
+"difficulty": "easy",
+"question_text": "What is an Actor in Unreal Engine?",
+"options": ["An object that can be placed in a level", "A C++ compiler", "A texture file", "A sound compression format"],
+"correct_answer": "An object that can be placed in a level",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+actor](https://www.geeksforgeeks.org/?s=unreal+engine+actor)",
+"tags": ["actors", "unreal engine", "game objects", "level design"]
+},
+{
+"topic": "Unreal Engine Components",
+"difficulty": "easy",
+"question_text": "What is the purpose of an Actor Component?",
+"options": ["To add reusable functionality to an Actor", "To compile shaders only", "To store game executables", "To create operating systems"],
+"correct_answer": "To add reusable functionality to an Actor",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+actor+components](https://www.geeksforgeeks.org/?s=unreal+engine+actor+components)",
+"tags": ["components", "actors", "unreal engine", "game architecture"]
+},
+{
+"topic": "Unreal Engine Levels",
+"difficulty": "easy",
+"question_text": "What is a Level in Unreal Engine?",
+"options": ["A game environment containing Actors and other world data", "A C++ header file", "A texture type", "A CPU instruction"],
+"correct_answer": "A game environment containing Actors and other world data",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+levels](https://www.geeksforgeeks.org/?s=unreal+engine+levels)",
+"tags": ["levels", "worlds", "unreal engine", "level design"]
+},
+{
+"topic": "Unreal Engine GameMode",
+"difficulty": "easy",
+"question_text": "What does GameMode primarily define?",
+"options": ["Rules and structure of a game mode", "Texture resolution", "GPU clock speed", "Audio compression"],
+"correct_answer": "Rules and structure of a game mode",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+gamemode](https://www.geeksforgeeks.org/?s=unreal+engine+gamemode)",
+"tags": ["gamemode", "game logic", "unreal engine", "game development"]
+},
+{
+"topic": "Unreal Engine Pawn",
+"difficulty": "easy",
+"question_text": "What is a Pawn in Unreal Engine?",
+"options": ["An Actor designed to be controlled by a player or AI", "A texture asset", "A lighting system", "A physics material"],
+"correct_answer": "An Actor designed to be controlled by a player or AI",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+pawn](https://www.geeksforgeeks.org/?s=unreal+engine+pawn)",
+"tags": ["pawn", "player controller", "ai", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Character",
+"difficulty": "easy",
+"question_text": "What is a Character class in Unreal Engine primarily intended for?",
+"options": ["Humanoid or bipedal controllable characters", "Texture processing", "Audio mixing", "Level packaging"],
+"correct_answer": "Humanoid or bipedal controllable characters",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+character+class](https://www.geeksforgeeks.org/?s=unreal+engine+character+class)",
+"tags": ["character", "pawn", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine PlayerController",
+"difficulty": "easy",
+"question_text": "What is the main role of a PlayerController?",
+"options": ["Handle player input and control a Pawn", "Render textures", "Compile shaders", "Generate meshes"],
+"correct_answer": "Handle player input and control a Pawn",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+playercontroller](https://www.geeksforgeeks.org/?s=unreal+engine+playercontroller)",
+"tags": ["player controller", "input", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine UMG",
+"difficulty": "easy",
+"question_text": "What is UMG primarily used for in Unreal Engine?",
+"options": ["Creating user interfaces and HUDs", "Creating physics simulations", "Compiling C++", "Building 3D meshes"],
+"correct_answer": "Creating user interfaces and HUDs",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+umg](https://www.geeksforgeeks.org/?s=unreal+engine+umg)",
+"tags": ["umg", "ui", "hud", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Physics",
+"difficulty": "easy",
+"question_text": "Which system is used to simulate physical interactions between objects?",
+"options": ["Physics simulation", "UMG", "GameMode", "Material Editor"],
+"correct_answer": "Physics simulation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+physics](https://www.geeksforgeeks.org/?s=unreal+engine+physics)",
+"tags": ["physics", "collision", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Collision",
+"difficulty": "easy",
+"question_text": "What is collision detection used for in a game?",
+"options": ["Determining when objects interact or overlap", "Increasing texture resolution", "Writing C++ headers", "Compressing audio"],
+"correct_answer": "Determining when objects interact or overlap",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+collision](https://www.geeksforgeeks.org/?s=unreal+engine+collision)",
+"tags": ["collision", "physics", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Materials",
+"difficulty": "easy",
+"question_text": "What does a material primarily define on a rendered surface?",
+"options": ["Its visual appearance and shading properties", "Its player input", "Its network connection", "Its game rules"],
+"correct_answer": "Its visual appearance and shading properties",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+materials](https://www.geeksforgeeks.org/?s=unreal+engine+materials)",
+"tags": ["materials", "shaders", "rendering", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Lighting",
+"difficulty": "easy",
+"question_text": "What is the purpose of a light Actor?",
+"options": ["Illuminate objects in the game world", "Control player input", "Store animation data", "Compile gameplay code"],
+"correct_answer": "Illuminate objects in the game world",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+lighting](https://www.geeksforgeeks.org/?s=unreal+engine+lighting)",
+"tags": ["lighting", "rendering", "graphics", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Assets",
+"difficulty": "easy",
+"question_text": "Which of the following is an example of an Unreal Engine asset?",
+"options": ["Texture", "CPU register", "SQL table", "HTML element"],
+"correct_answer": "Texture",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+assets](https://www.geeksforgeeks.org/?s=unreal+engine+assets)",
+"tags": ["assets", "textures", "game development", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Event Lifecycle",
+"difficulty": "medium",
+"question_text": "Which Unreal Engine event is commonly used for initialization when an Actor is spawned?",
+"options": ["BeginPlay", "Tick", "EndPlay", "Destroyed"],
+"correct_answer": "BeginPlay",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+beginplay](https://www.geeksforgeeks.org/?s=unreal+engine+beginplay)",
+"tags": ["beginplay", "lifecycle", "actors", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Tick",
+"difficulty": "medium",
+"question_text": "What does the Tick function generally do?",
+"options": ["Runs gameplay logic periodically each frame when enabled", "Creates a new level", "Compiles shaders only", "Saves the project"],
+"correct_answer": "Runs gameplay logic periodically each frame when enabled",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+tick](https://www.geeksforgeeks.org/?s=unreal+engine+tick)",
+"tags": ["tick", "game loop", "performance", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Input",
+"difficulty": "medium",
+"question_text": "What is the purpose of Unreal Engine's input system?",
+"options": ["Map player actions and controls to gameplay behavior", "Generate 3D meshes", "Compress textures", "Compile materials"],
+"correct_answer": "Map player actions and controls to gameplay behavior",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+input](https://www.geeksforgeeks.org/?s=unreal+engine+input)",
+"tags": ["input", "gameplay", "controls", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Interfaces",
+"difficulty": "medium",
+"question_text": "What is an Unreal Engine Interface useful for?",
+"options": ["Defining functionality that different classes can implement", "Creating textures", "Rendering shadows", "Managing GPU memory"],
+"correct_answer": "Defining functionality that different classes can implement",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+interfaces](https://www.geeksforgeeks.org/?s=unreal+engine+interfaces)",
+"tags": ["interfaces", "oop", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Delegates",
+"difficulty": "medium",
+"question_text": "What are delegates commonly used for in Unreal Engine?",
+"options": ["Event-driven communication between objects", "Texture compression", "Mesh generation only", "Level packaging"],
+"correct_answer": "Event-driven communication between objects",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+delegates](https://www.geeksforgeeks.org/?s=unreal+engine+delegates)",
+"tags": ["delegates", "events", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Animation",
+"difficulty": "medium",
+"question_text": "What is an Animation Blueprint primarily used for?",
+"options": ["Controlling character animation logic", "Creating UI widgets", "Managing network packets", "Compiling C++"],
+"correct_answer": "Controlling character animation logic",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+animation+blueprint](https://www.geeksforgeeks.org/?s=unreal+engine+animation+blueprint)",
+"tags": ["animation", "animation blueprint", "characters", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Animation State Machines",
+"difficulty": "medium",
+"question_text": "What is an animation state machine used for?",
+"options": ["Managing transitions between animation states", "Managing database records", "Rendering textures", "Compiling shaders"],
+"correct_answer": "Managing transitions between animation states",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+animation+state+machine](https://www.geeksforgeeks.org/?s=unreal+engine+animation+state+machine)",
+"tags": ["animation", "state machine", "characters", "gameplay"]
+},
+{
+"topic": "Unreal Engine AI",
+"difficulty": "medium",
+"question_text": "Which Unreal Engine system is commonly used to control AI decision-making?",
+"options": ["Behavior Tree", "Material Editor", "UMG", "Sequencer"],
+"correct_answer": "Behavior Tree",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+behavior+tree](https://www.geeksforgeeks.org/?s=unreal+engine+behavior+tree)",
+"tags": ["ai", "behavior tree", "gameplay", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Navigation",
+"difficulty": "medium",
+"question_text": "What is a NavMesh primarily used for?",
+"options": ["Defining areas where AI agents can navigate", "Rendering materials", "Storing animations", "Creating UI layouts"],
+"correct_answer": "Defining areas where AI agents can navigate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+navmesh](https://www.geeksforgeeks.org/?s=unreal+engine+navmesh)",
+"tags": ["ai", "navmesh", "pathfinding", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Blueprints Communication",
+"difficulty": "medium",
+"question_text": "Which Blueprint feature is useful for calling functionality defined by another object without tightly coupling the classes?",
+"options": ["Blueprint Interface", "Texture Parameter", "Material Instance", "Level Sequence"],
+"correct_answer": "Blueprint Interface",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+blueprint+interface](https://www.geeksforgeeks.org/?s=unreal+engine+blueprint+interface)",
+"tags": ["blueprints", "interfaces", "game architecture", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Replication",
+"difficulty": "medium",
+"question_text": "What does replication primarily provide in Unreal Engine multiplayer games?",
+"options": ["Synchronization of relevant game state between networked machines", "Higher texture resolution", "Offline save compression", "Faster shader compilation"],
+"correct_answer": "Synchronization of relevant game state between networked machines",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+replication](https://www.geeksforgeeks.org/?s=unreal+engine+replication)",
+"tags": ["multiplayer", "networking", "replication", "unreal engine"]
+},
+{
+"topic": "Unreal Engine RPC",
+"difficulty": "medium",
+"question_text": "What is an RPC in Unreal Engine networking?",
+"options": ["A remote procedure call between networked instances", "A texture format", "A rendering pipeline", "A physics constraint"],
+"correct_answer": "A remote procedure call between networked instances",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+rpc](https://www.geeksforgeeks.org/?s=unreal+engine+rpc)",
+"tags": ["rpc", "networking", "multiplayer", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Optimization",
+"difficulty": "medium",
+"question_text": "Why should expensive logic generally not be placed unnecessarily in Tick?",
+"options": ["It may execute every frame and waste CPU time", "Tick cannot access variables", "Tick only runs during loading", "Tick automatically deletes Actors"],
+"correct_answer": "It may execute every frame and waste CPU time",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+optimization+tick](https://www.geeksforgeeks.org/?s=unreal+engine+optimization+tick)",
+"tags": ["optimization", "performance", "tick", "game development"]
+},
+{
+"topic": "Unreal Engine Garbage Collection",
+"difficulty": "hard",
+"question_text": "What is the primary role of Unreal Engine's garbage collection system?",
+"options": ["Identify and clean up objects that are no longer referenced by the engine's object system", "Compile C++ every frame", "Render all meshes", "Synchronize network packets"],
+"correct_answer": "Identify and clean up objects that are no longer referenced by the engine's object system",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+garbage+collection](https://www.geeksforgeeks.org/?s=unreal+engine+garbage+collection)",
+"tags": ["garbage collection", "memory management", "optimization", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Smart Pointers",
+"difficulty": "hard",
+"question_text": "Why should UObject-based objects generally be managed using Unreal's object system rather than ordinary C++ ownership alone?",
+"options": ["The engine's reflection and garbage collection systems track UObjects", "UObjects cannot contain data", "C++ pointers cannot store addresses", "Unreal Engine does not support C++"],
+"correct_answer": "The engine's reflection and garbage collection systems track UObjects",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+uobject+garbage+collection](https://www.geeksforgeeks.org/?s=unreal+engine+uobject+garbage+collection)",
+"tags": ["uobject", "memory management", "reflection", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Replication Authority",
+"difficulty": "hard",
+"question_text": "In a typical authoritative multiplayer architecture, which machine should validate important gameplay state changes?",
+"options": ["The server", "Every client independently", "The GPU", "The audio system"],
+"correct_answer": "The server",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+server+authority+replication](https://www.geeksforgeeks.org/?s=unreal+engine+server+authority+replication)",
+"tags": ["multiplayer", "server authority", "networking", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Network Replication",
+"difficulty": "hard",
+"question_text": "Why is client-side prediction commonly used in networked character movement?",
+"options": ["To reduce the perceived effect of network latency", "To increase texture resolution", "To eliminate server processing", "To disable replication"],
+"correct_answer": "To reduce the perceived effect of network latency",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+client+side+prediction](https://www.geeksforgeeks.org/?s=unreal+engine+client+side+prediction)",
+"tags": ["networking", "multiplayer", "prediction", "game development"]
+},
+{
+"topic": "Unreal Engine Rendering Optimization",
+"difficulty": "hard",
+"question_text": "What is occlusion culling used for?",
+"options": ["Avoiding rendering of objects that are not visible to the camera", "Increasing network bandwidth", "Improving AI decision trees", "Reducing audio file size"],
+"correct_answer": "Avoiding rendering of objects that are not visible to the camera",
+"resource_link": "[https://www.geeksforgeeks.org/?s=occlusion+culling+game+development](https://www.geeksforgeeks.org/?s=occlusion+culling+game+development)",
+"tags": ["rendering", "optimization", "graphics", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Level of Detail",
+"difficulty": "hard",
+"question_text": "What is Level of Detail (LOD) primarily used for?",
+"options": ["Using simpler representations of distant objects to improve performance", "Synchronizing multiplayer state", "Controlling player input", "Managing save files"],
+"correct_answer": "Using simpler representations of distant objects to improve performance",
+"resource_link": "[https://www.geeksforgeeks.org/?s=level+of+detail+lod+game+development](https://www.geeksforgeeks.org/?s=level+of+detail+lod+game+development)",
+"tags": ["lod", "optimization", "rendering", "graphics"]
+},
+{
+"topic": "Unreal Engine World Partition",
+"difficulty": "hard",
+"question_text": "What is World Partition designed to help manage?",
+"options": ["Large open worlds by streaming world regions as needed", "C++ memory allocation only", "Audio effects only", "Character animation states"],
+"correct_answer": "Large open worlds by streaming world regions as needed",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+world+partition](https://www.geeksforgeeks.org/?s=unreal+engine+world+partition)",
+"tags": ["world partition", "open world", "streaming", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Gameplay Framework",
+"difficulty": "hard",
+"question_text": "Which class is primarily responsible for representing a player's persistent control and input state?",
+"options": ["PlayerController", "StaticMeshActor", "MaterialInstance", "LightComponent"],
+"correct_answer": "PlayerController",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+gameplay+framework+playercontroller](https://www.geeksforgeeks.org/?s=unreal+engine+gameplay+framework+playercontroller)",
+"tags": ["gameplay framework", "player controller", "architecture", "unreal engine"]
+},
+{
+"topic": "Unreal Engine Rendering Pipeline",
+"difficulty": "hard",
+"question_text": "What is a major advantage of using Nanite in Unreal Engine?",
+"options": ["Efficient rendering of extremely detailed virtualized geometry", "Automatic multiplayer synchronization", "Automatic gameplay AI", "Replacing all animation systems"],
+"correct_answer": "Efficient rendering of extremely detailed virtualized geometry",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+nanite](https://www.geeksforgeeks.org/?s=unreal+engine+nanite)",
+"tags": ["nanite", "rendering", "graphics", "optimization"]
+},
+{
+"topic": "Unreal Engine Global Illumination",
+"difficulty": "hard",
+"question_text": "What is Lumen primarily used for in Unreal Engine?",
+"options": ["Dynamic global illumination and reflections", "Character input processing", "Network replication", "Audio compression"],
+"correct_answer": "Dynamic global illumination and reflections",
+"resource_link": "[https://www.geeksforgeeks.org/?s=unreal+engine+lumen](https://www.geeksforgeeks.org/?s=unreal+engine+lumen)",
+"tags": ["lumen", "lighting", "rendering", "graphics"]
+}
+]

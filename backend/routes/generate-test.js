@@ -71,13 +71,13 @@ function allocateSlots(ranked, total) {
  * Fetch up to `limit` questions for a given tag from the DB.
  * Ordered easy→medium→hard, random within tier.
  */
-function fetchForTag(tag, limit) {
+function fetchForTag(tag, seedFile, limit) {
   const db = getDb();
   return db
     .prepare(
       `SELECT id, topic, difficulty, question_text, options, resource_link, tags
        FROM questions
-       WHERE tags LIKE ?
+       WHERE seed_file = ? AND tags LIKE ?
        ORDER BY
          CASE difficulty
            WHEN 'easy'   THEN 1
@@ -88,7 +88,7 @@ function fetchForTag(tag, limit) {
          RANDOM()
        LIMIT ?`
     )
-    .all(`%"${tag}"%`, limit);
+    .all(seedFile, `%"${tag}"%`, limit);
 }
 
 // ── Route ─────────────────────────────────────────────────────────────────────
@@ -108,7 +108,7 @@ router.post("/", (req, res) => {
   );
 
   // Only use topics that have at least 1 question in the DB
-  const coveredTopics = ranked.filter((r) => r.covered && r.question_count > 0);
+  const coveredTopics = ranked.filter((r) => r.covered && r.question_count > 0 && r.seed_file);
   if (coveredTopics.length === 0) {
     return res.status(422).json({ error: "No ranked topics have matching questions in the DB." });
   }
@@ -119,11 +119,11 @@ router.post("/", (req, res) => {
   const questions = [];
 
   // Pull questions in weight order (highest priority first)
-  for (const { topic } of coveredTopics) {
+  for (const { topic, seed_file } of coveredTopics) {
     const need = alloc.get(topic) || 0;
     if (need === 0) continue;
 
-    const candidates = fetchForTag(topic, need * 3); // fetch 3× to have dedup headroom
+    const candidates = fetchForTag(topic, seed_file, need * 3); // fetch 3× to have dedup headroom
     let taken = 0;
 
     for (const q of candidates) {

@@ -1,0 +1,344 @@
+[
+{
+"topic": "Chemical Engineering Fundamentals",
+"difficulty": "easy",
+"question_text": "What is the primary focus of chemical engineering?",
+"options": ["Design and operation of processes that transform matter", "Only designing electrical circuits", "Only studying biological organisms", "Only designing mechanical gears"],
+"correct_answer": "Design and operation of processes that transform matter",
+"resource_link": "[https://www.geeksforgeeks.org/?s=chemical+engineering+basics](https://www.geeksforgeeks.org/?s=chemical+engineering+basics)",
+"tags": ["chemical-engineering", "process-engineering", "manufacturing", "engineering"]
+},
+{
+"topic": "Material Balances",
+"difficulty": "easy",
+"question_text": "A material balance is primarily based on the law of conservation of:",
+"options": ["Mass", "Temperature", "Pressure", "Velocity"],
+"correct_answer": "Mass",
+"resource_link": "[https://www.geeksforgeeks.org/?s=material+balance+chemical+engineering](https://www.geeksforgeeks.org/?s=material+balance+chemical+engineering)",
+"tags": ["chemical-engineering", "material-balance", "mass-balance", "process"]
+},
+{
+"topic": "Energy Balances",
+"difficulty": "easy",
+"question_text": "Energy balances are primarily based on the first law of:",
+"options": ["Thermodynamics", "Kinetics", "Diffusion", "Electrochemistry"],
+"correct_answer": "Thermodynamics",
+"resource_link": "[https://www.geeksforgeeks.org/?s=energy+balance+thermodynamics](https://www.geeksforgeeks.org/?s=energy+balance+thermodynamics)",
+"tags": ["chemical-engineering", "energy-balance", "thermodynamics", "process"]
+},
+{
+"topic": "Chemical Process Variables",
+"difficulty": "easy",
+"question_text": "Which unit is commonly used for pressure in SI units?",
+"options": ["Pascal", "Joule", "Watt", "Newton-meter"],
+"correct_answer": "Pascal",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pressure+si+unit](https://www.geeksforgeeks.org/?s=pressure+si+unit)",
+"tags": ["chemical-engineering", "process-variables", "pressure", "si-units"]
+},
+{
+"topic": "Density",
+"difficulty": "easy",
+"question_text": "Density is defined as:",
+"options": ["Mass per unit volume", "Volume per unit mass", "Mass times volume", "Pressure per unit area"],
+"correct_answer": "Mass per unit volume",
+"resource_link": "[https://www.geeksforgeeks.org/?s=density+mass+volume](https://www.geeksforgeeks.org/?s=density+mass+volume)",
+"tags": ["chemical-engineering", "fluid-properties", "density", "process"]
+},
+{
+"topic": "Viscosity",
+"difficulty": "easy",
+"question_text": "Viscosity is a measure of a fluid's resistance to:",
+"options": ["Flow", "Compression only", "Heating", "Evaporation"],
+"correct_answer": "Flow",
+"resource_link": "[https://www.geeksforgeeks.org/?s=viscosity+fluid](https://www.geeksforgeeks.org/?s=viscosity+fluid)",
+"tags": ["chemical-engineering", "fluid-mechanics", "viscosity", "fluids"]
+},
+{
+"topic": "Fluid Mechanics",
+"difficulty": "easy",
+"question_text": "Which equation expresses conservation of mass for steady incompressible flow?",
+"options": ["A1V1 = A2V2", "P1V1 = P2V2", "Q = mcΔT", "PV = nRT"],
+"correct_answer": "A1V1 = A2V2",
+"resource_link": "[https://www.geeksforgeeks.org/?s=continuity+equation+fluid+mechanics](https://www.geeksforgeeks.org/?s=continuity+equation+fluid+mechanics)",
+"tags": ["chemical-engineering", "fluid-mechanics", "continuity", "flow"]
+},
+{
+"topic": "Bernoulli Equation",
+"difficulty": "easy",
+"question_text": "Bernoulli's equation relates pressure, velocity and:",
+"options": ["Elevation", "Molecular weight", "Viscosity only", "Boiling point"],
+"correct_answer": "Elevation",
+"resource_link": "[https://www.geeksforgeeks.org/?s=bernoulli+equation](https://www.geeksforgeeks.org/?s=bernoulli+equation)",
+"tags": ["chemical-engineering", "fluid-mechanics", "bernoulli", "flow"]
+},
+{
+"topic": "Heat Transfer",
+"difficulty": "easy",
+"question_text": "Heat transfer through direct molecular interaction within a material is called:",
+"options": ["Conduction", "Convection", "Radiation", "Distillation"],
+"correct_answer": "Conduction",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heat+transfer+conduction+convection+radiation](https://www.geeksforgeeks.org/?s=heat+transfer+conduction+convection+radiation)",
+"tags": ["chemical-engineering", "heat-transfer", "conduction", "thermodynamics"]
+},
+{
+"topic": "Convection",
+"difficulty": "easy",
+"question_text": "Heat transfer between a surface and a moving fluid is called:",
+"options": ["Conduction", "Convection", "Radiation", "Diffusion"],
+"correct_answer": "Convection",
+"resource_link": "[https://www.geeksforgeeks.org/?s=convection+heat+transfer](https://www.geeksforgeeks.org/?s=convection+heat+transfer)",
+"tags": ["chemical-engineering", "heat-transfer", "convection", "fluids"]
+},
+{
+"topic": "Thermodynamics",
+"difficulty": "easy",
+"question_text": "The zeroth law of thermodynamics provides the basis for defining:",
+"options": ["Temperature", "Entropy", "Enthalpy", "Pressure"],
+"correct_answer": "Temperature",
+"resource_link": "[https://www.geeksforgeeks.org/?s=laws+of+thermodynamics](https://www.geeksforgeeks.org/?s=laws+of+thermodynamics)",
+"tags": ["chemical-engineering", "thermodynamics", "temperature", "engineering"]
+},
+{
+"topic": "Phase Equilibrium",
+"difficulty": "easy",
+"question_text": "At vapor-liquid equilibrium, the vapor and liquid phases are:",
+"options": ["In equilibrium with each other", "Always at different temperatures", "Always at different pressures", "Chemically identical"],
+"correct_answer": "In equilibrium with each other",
+"resource_link": "[https://www.geeksforgeeks.org/?s=phase+equilibrium](https://www.geeksforgeeks.org/?s=phase+equilibrium)",
+"tags": ["chemical-engineering", "phase-equilibrium", "thermodynamics", "vle"]
+},
+{
+"topic": "Distillation",
+"difficulty": "easy",
+"question_text": "Distillation primarily separates components based on differences in:",
+"options": ["Volatility", "Color", "Electrical resistance", "Particle shape"],
+"correct_answer": "Volatility",
+"resource_link": "[https://www.geeksforgeeks.org/?s=distillation+chemical+engineering](https://www.geeksforgeeks.org/?s=distillation+chemical+engineering)",
+"tags": ["chemical-engineering", "distillation", "separation", "process"]
+},
+{
+"topic": "Filtration",
+"difficulty": "easy",
+"question_text": "Filtration is primarily used to separate:",
+"options": ["Solid particles from a fluid", "Two gases with identical properties", "Atoms from nuclei", "Heat from work"],
+"correct_answer": "Solid particles from a fluid",
+"resource_link": "[https://www.geeksforgeeks.org/?s=filtration+separation+process](https://www.geeksforgeeks.org/?s=filtration+separation+process)",
+"tags": ["chemical-engineering", "filtration", "separation", "process"]
+},
+{
+"topic": "Reaction Engineering",
+"difficulty": "medium",
+"question_text": "The rate of a chemical reaction describes the rate of change of:",
+"options": ["Reactant or product concentration", "Pressure only", "Temperature only", "Equipment size"],
+"correct_answer": "Reactant or product concentration",
+"resource_link": "[https://www.geeksforgeeks.org/?s=chemical+reaction+rate](https://www.geeksforgeeks.org/?s=chemical+reaction+rate)",
+"tags": ["chemical-engineering", "reaction-engineering", "kinetics", "process"]
+},
+{
+"topic": "Reaction Kinetics",
+"difficulty": "medium",
+"question_text": "In a first-order reaction, the reaction rate is proportional to:",
+"options": ["The first power of reactant concentration", "The square of reactant concentration", "The inverse of concentration", "Temperature only"],
+"correct_answer": "The first power of reactant concentration",
+"resource_link": "[https://www.geeksforgeeks.org/?s=first+order+reaction+kinetics](https://www.geeksforgeeks.org/?s=first+order+reaction+kinetics)",
+"tags": ["chemical-engineering", "reaction-kinetics", "first-order", "process"]
+},
+{
+"topic": "Arrhenius Equation",
+"difficulty": "medium",
+"question_text": "The Arrhenius equation primarily relates reaction rate constant to:",
+"options": ["Temperature", "Pressure only", "Density only", "Pipe diameter"],
+"correct_answer": "Temperature",
+"resource_link": "[https://www.geeksforgeeks.org/?s=arrhenius+equation](https://www.geeksforgeeks.org/?s=arrhenius+equation)",
+"tags": ["chemical-engineering", "reaction-kinetics", "arrhenius", "temperature"]
+},
+{
+"topic": "Catalysis",
+"difficulty": "medium",
+"question_text": "A catalyst generally changes the reaction rate by:",
+"options": ["Providing an alternative pathway with lower activation energy", "Changing the equilibrium constant", "Increasing the molecular weight", "Being completely consumed"],
+"correct_answer": "Providing an alternative pathway with lower activation energy",
+"resource_link": "[https://www.geeksforgeeks.org/?s=catalyst+activation+energy](https://www.geeksforgeeks.org/?s=catalyst+activation+energy)",
+"tags": ["chemical-engineering", "catalysis", "reaction-engineering", "kinetics"]
+},
+{
+"topic": "Heat Exchangers",
+"difficulty": "medium",
+"question_text": "The main purpose of a heat exchanger is to transfer heat between:",
+"options": ["Two fluids", "Two electrical circuits", "Two solid catalysts only", "Two vacuum chambers"],
+"correct_answer": "Two fluids",
+"resource_link": "[https://www.geeksforgeeks.org/?s=heat+exchanger](https://www.geeksforgeeks.org/?s=heat+exchanger)",
+"tags": ["chemical-engineering", "heat-exchangers", "heat-transfer", "process"]
+},
+{
+"topic": "Heat Exchanger Flow",
+"difficulty": "medium",
+"question_text": "In a counter-current heat exchanger, the two fluids flow:",
+"options": ["In opposite directions", "In exactly the same direction", "Only vertically upward", "Without exchanging heat"],
+"correct_answer": "In opposite directions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=counter+flow+heat+exchanger](https://www.geeksforgeeks.org/?s=counter+flow+heat+exchanger)",
+"tags": ["chemical-engineering", "heat-exchangers", "counter-current", "heat-transfer"]
+},
+{
+"topic": "Mass Transfer",
+"difficulty": "medium",
+"question_text": "Mass transfer is primarily caused by differences in:",
+"options": ["Concentration", "Color", "Electrical voltage", "Equipment weight"],
+"correct_answer": "Concentration",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mass+transfer+diffusion](https://www.geeksforgeeks.org/?s=mass+transfer+diffusion)",
+"tags": ["chemical-engineering", "mass-transfer", "diffusion", "separation"]
+},
+{
+"topic": "Fick's Law",
+"difficulty": "medium",
+"question_text": "Fick's law describes molecular diffusion caused by a gradient in:",
+"options": ["Concentration", "Temperature only", "Pressure only", "Velocity only"],
+"correct_answer": "Concentration",
+"resource_link": "[https://www.geeksforgeeks.org/?s=ficks+law+diffusion](https://www.geeksforgeeks.org/?s=ficks+law+diffusion)",
+"tags": ["chemical-engineering", "mass-transfer", "ficks-law", "diffusion"]
+},
+{
+"topic": "Absorption",
+"difficulty": "medium",
+"question_text": "Gas absorption involves transferring a component from a gas phase into a:",
+"options": ["Liquid phase", "Solid metal only", "Vacuum", "Plasma"],
+"correct_answer": "Liquid phase",
+"resource_link": "[https://www.geeksforgeeks.org/?s=gas+absorption+mass+transfer](https://www.geeksforgeeks.org/?s=gas+absorption+mass+transfer)",
+"tags": ["chemical-engineering", "absorption", "mass-transfer", "separation"]
+},
+{
+"topic": "Adsorption",
+"difficulty": "medium",
+"question_text": "Adsorption is the accumulation of a substance primarily on the:",
+"options": ["Surface of another material", "Center of a liquid", "Entire volume uniformly", "Inside a vacuum"],
+"correct_answer": "Surface of another material",
+"resource_link": "[https://www.geeksforgeeks.org/?s=adsorption](https://www.geeksforgeeks.org/?s=adsorption)",
+"tags": ["chemical-engineering", "adsorption", "separation", "surface-processes"]
+},
+{
+"topic": "Evaporation",
+"difficulty": "medium",
+"question_text": "An evaporator is primarily used to:",
+"options": ["Remove solvent by vaporization", "Separate gases by electrical charge", "Increase solid particle size", "Measure viscosity"],
+"correct_answer": "Remove solvent by vaporization",
+"resource_link": "[https://www.geeksforgeeks.org/?s=evaporation+chemical+engineering](https://www.geeksforgeeks.org/?s=evaporation+chemical+engineering)",
+"tags": ["chemical-engineering", "evaporation", "separation", "process"]
+},
+{
+"topic": "Crystallization",
+"difficulty": "medium",
+"question_text": "Crystallization is commonly used to recover:",
+"options": ["A solid crystalline product from a solution", "A gas from a vacuum", "Heat from a reactor", "Electricity from a fluid"],
+"correct_answer": "A solid crystalline product from a solution",
+"resource_link": "[https://www.geeksforgeeks.org/?s=crystallization+chemical+engineering](https://www.geeksforgeeks.org/?s=crystallization+chemical+engineering)",
+"tags": ["chemical-engineering", "crystallization", "separation", "process"]
+},
+{
+"topic": "Process Control",
+"difficulty": "medium",
+"question_text": "A PID controller consists of proportional, integral and:",
+"options": ["Derivative actions", "Diffusion actions", "Density actions", "Distillation actions"],
+"correct_answer": "Derivative actions",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pid+controller](https://www.geeksforgeeks.org/?s=pid+controller)",
+"tags": ["chemical-engineering", "process-control", "pid", "automation"]
+},
+{
+"topic": "Process Instrumentation",
+"difficulty": "medium",
+"question_text": "Which instrument is commonly used to measure temperature in industrial processes?",
+"options": ["Thermocouple", "Rotameter", "Orifice plate", "Centrifuge"],
+"correct_answer": "Thermocouple",
+"resource_link": "[https://www.geeksforgeeks.org/?s=thermocouple](https://www.geeksforgeeks.org/?s=thermocouple)",
+"tags": ["chemical-engineering", "instrumentation", "temperature", "process-control"]
+},
+{
+"topic": "Process Safety",
+"difficulty": "medium",
+"question_text": "A pressure relief valve is primarily used to:",
+"options": ["Prevent excessive pressure buildup", "Increase reactor pressure", "Measure fluid viscosity", "Increase temperature"],
+"correct_answer": "Prevent excessive pressure buildup",
+"resource_link": "[https://www.geeksforgeeks.org/?s=pressure+relief+valve](https://www.geeksforgeeks.org/?s=pressure+relief+valve)",
+"tags": ["chemical-engineering", "process-safety", "pressure", "industrial-safety"]
+},
+{
+"topic": "Reactor Design",
+"difficulty": "hard",
+"question_text": "In an ideal plug flow reactor, fluid elements move through the reactor with:",
+"options": ["No axial mixing", "Complete back-mixing", "Zero velocity", "Infinite residence time"],
+"correct_answer": "No axial mixing",
+"resource_link": "[https://www.geeksforgeeks.org/?s=plug+flow+reactor](https://www.geeksforgeeks.org/?s=plug+flow+reactor)",
+"tags": ["chemical-engineering", "reactor-design", "pfr", "reaction-engineering"]
+},
+{
+"topic": "Continuous Stirred Tank Reactor",
+"difficulty": "hard",
+"question_text": "In an ideal continuous stirred tank reactor, the reactor contents are assumed to be:",
+"options": ["Perfectly mixed", "Completely unmixed", "At zero temperature", "Without any reaction"],
+"correct_answer": "Perfectly mixed",
+"resource_link": "[https://www.geeksforgeeks.org/?s=continuous+stirred+tank+reactor](https://www.geeksforgeeks.org/?s=continuous+stirred+tank+reactor)",
+"tags": ["chemical-engineering", "reactor-design", "cstr", "reaction-engineering"]
+},
+{
+"topic": "Residence Time",
+"difficulty": "hard",
+"question_text": "For a steady ideal continuous reactor, space time is generally defined as reactor volume divided by:",
+"options": ["Volumetric flow rate", "Pressure", "Temperature", "Density"],
+"correct_answer": "Volumetric flow rate",
+"resource_link": "[https://www.geeksforgeeks.org/?s=space+time+reactor](https://www.geeksforgeeks.org/?s=space+time+reactor)",
+"tags": ["chemical-engineering", "reactor-design", "residence-time", "process"]
+},
+{
+"topic": "Distillation Design",
+"difficulty": "hard",
+"question_text": "The McCabe-Thiele method is primarily used for the design or analysis of:",
+"options": ["Binary distillation columns", "Heat exchangers", "Centrifugal pumps", "Electrical transformers"],
+"correct_answer": "Binary distillation columns",
+"resource_link": "[https://www.geeksforgeeks.org/?s=mccabe+thiele+method](https://www.geeksforgeeks.org/?s=mccabe+thiele+method)",
+"tags": ["chemical-engineering", "distillation", "mccabe-thiele", "separation"]
+},
+{
+"topic": "Relative Volatility",
+"difficulty": "hard",
+"question_text": "For binary distillation, higher relative volatility generally makes separation:",
+"options": ["Easier", "More difficult", "Impossible", "Independent of composition"],
+"correct_answer": "Easier",
+"resource_link": "[https://www.geeksforgeeks.org/?s=relative+volatility+distillation](https://www.geeksforgeeks.org/?s=relative+volatility+distillation)",
+"tags": ["chemical-engineering", "distillation", "relative-volatility", "separation"]
+},
+{
+"topic": "Thermodynamic Entropy",
+"difficulty": "hard",
+"question_text": "For an isolated system, the entropy change during a spontaneous process is generally:",
+"options": ["Greater than or equal to zero", "Always negative", "Always zero", "Always infinite"],
+"correct_answer": "Greater than or equal to zero",
+"resource_link": "[https://www.geeksforgeeks.org/?s=entropy+second+law+thermodynamics](https://www.geeksforgeeks.org/?s=entropy+second+law+thermodynamics)",
+"tags": ["chemical-engineering", "thermodynamics", "entropy", "process"]
+},
+{
+"topic": "Gibbs Free Energy",
+"difficulty": "hard",
+"question_text": "At constant temperature and pressure, a process is thermodynamically spontaneous when the change in Gibbs free energy is:",
+"options": ["Negative", "Positive", "Always zero", "Infinite"],
+"correct_answer": "Negative",
+"resource_link": "[https://www.geeksforgeeks.org/?s=gibbs+free+energy+spontaneous](https://www.geeksforgeeks.org/?s=gibbs+free+energy+spontaneous)",
+"tags": ["chemical-engineering", "thermodynamics", "gibbs-energy", "equilibrium"]
+},
+{
+"topic": "Chemical Equilibrium",
+"difficulty": "hard",
+"question_text": "At chemical equilibrium, the forward and reverse reaction rates are:",
+"options": ["Equal", "Both zero", "Always different", "Infinite"],
+"correct_answer": "Equal",
+"resource_link": "[https://www.geeksforgeeks.org/?s=chemical+equilibrium](https://www.geeksforgeeks.org/?s=chemical+equilibrium)",
+"tags": ["chemical-engineering", "chemical-equilibrium", "reaction-engineering", "thermodynamics"]
+},
+{
+"topic": "Process Optimization",
+"difficulty": "hard",
+"question_text": "The primary goal of process optimization in chemical industries is generally to:",
+"options": ["Improve performance while satisfying operational constraints", "Maximize waste production", "Eliminate all process measurements", "Always maximize operating temperature"],
+"correct_answer": "Improve performance while satisfying operational constraints",
+"resource_link": "[https://www.geeksforgeeks.org/?s=process+optimization+chemical+engineering](https://www.geeksforgeeks.org/?s=process+optimization+chemical+engineering)",
+"tags": ["chemical-engineering", "process-optimization", "operations", "manufacturing"]
+}
+]
